@@ -1,0 +1,5 @@
+{
+    "dbUri": "mongodb+srv://phot0x:welcomesm14@skynet-mgkby.mongodb.net/hookie?retryWrites=true&w=majority",
+    "secret": "blackandyellow",
+    "port": "3000"
+}
