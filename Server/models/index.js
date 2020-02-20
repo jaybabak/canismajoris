@@ -26,4 +26,5 @@ module.exports.connect = () => {
 
     //Load Models
     require('./user');
+    require('./restaurant');
 }
