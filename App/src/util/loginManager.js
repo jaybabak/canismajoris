@@ -17,37 +17,13 @@ const prod = "http://darpa.monster";
  * @param {string} client The current voximplant instance
  * @param {string} that The current state object from the higher order component (App.js?)
  */
-const loginVox = async function(client, that) {
+const authenticate = async function(that) {
   try {
-    //destroy any existing voximplant session that might have been hanging around
-    await client.disconnect();
-    //Grabs the current client state (If disconnected than connect to voximplant service)
-    let state = await client.getClientState();
-    if (state === Voximplant.ClientState.DISCONNECTED) {
-      await client.connect();
-    }
-
-    //Login to voximplant service
-    let authResult = await client.login(
-      `${that.state.user._id}@hookie.janu101.voximplant.com`,
-      `${that.state.user._id}`
-    );
-
     //If successful login to voximplant service than proceed to set the accesstoken, refresh etc..
-    const accessToken = ["@access_token", authResult.tokens.accessToken];
-    const accessExpire = ["@access_expire", authResult.tokens.accessExpire];
-    const refreshExpire = ["@refresh_expire", authResult.tokens.refreshExpire];
-    const refreshToken = ["@refresh_token", authResult.tokens.refreshToken];
     const userName = ["@id", that.state.user._id];
 
     //Asyncronoushly set all the above values to the AsyncStorage
-    await AsyncStorage.multiSet([
-      accessToken,
-      accessExpire,
-      refreshExpire,
-      refreshToken,
-      userName
-    ]);
+    await AsyncStorage.multiSet([userName]);
 
     //Update the state and the UI to show the authenticated screens
     that.setState({
@@ -63,79 +39,6 @@ const loginVox = async function(client, that) {
     Alert.alert(
       "Oops!",
       "Error connecting to the P2P service provider. Please try again later.",
-      [
-        {
-          text: "Cancel",
-          onPress: () => console.log("Cancel Pressed"),
-          style: "cancel"
-        },
-        { text: "OK", onPress: () => console.log("OK Pressed") }
-      ],
-      { cancelable: false }
-    );
-
-    that.setState({
-      authenticated: false,
-      isReady: true
-    });
-
-    return false;
-  }
-};
-
-/**
- * LOGIN TO THE VOXIMPLANT API [BASIC]- Registers the user and creates a new user in the database
- * @param {string} client The current voximplant instance
- * @param {string} that The current state object from the higher order component (App.js?)
- */
-const loginVoxBasic = async function(client, that) {
-  try {
-    //destroy any existing voximplant session that might have been hanging around
-    await client.disconnect();
-    //Grabs the current client state (If disconnected than connect to voximplant service)
-    let state = await client.getClientState();
-    if (state === Voximplant.ClientState.DISCONNECTED) {
-      await client.connect();
-    }
-
-    //Grabs the user ID since it's the voximplant username
-    const username = await AsyncStorage.getItem("@id");
-
-    //Login to voximplant
-    let authResult = await client.login(
-      `${username}@hookie.janu101.voximplant.com`,
-      `${username}`
-    );
-
-    //If successful login to voximplant service than proceed to set the accesstoken, refresh etc..
-    const accessToken = ["@access_token", authResult.tokens.accessToken];
-    const accessExpire = ["@access_expire", authResult.tokens.accessExpire];
-    const refreshExpire = ["@refresh_expire", authResult.tokens.refreshExpire];
-    const refreshToken = ["@refresh_token", authResult.tokens.refreshToken];
-
-    //Asyncronoushly set all the above values to the AsyncStorage
-    await AsyncStorage.multiSet([
-      accessToken,
-      accessExpire,
-      refreshExpire,
-      refreshToken
-    ]);
-
-    //Update the state and the UI to show the authenticated screens
-    that.setState({
-      tokens: true,
-      authenticated: true,
-      isReady: true
-    });
-
-    return true;
-  } catch (e) {
-    console.log(e.name + e.message);
-    console.log(e);
-
-    Alert.alert(
-      "Oops!",
-      "Error connecting to the server. Please try again later.",
       [
         {
           text: "Cancel",
@@ -401,8 +304,7 @@ const updateUser = async function(email, field, value) {
   }
 };
 
-module.exports.loginVox = loginVox;
-module.exports.loginVoxBasic = loginVoxBasic;
+module.exports.authenticate = authenticate;
 module.exports.getUser = getUser;
 module.exports.loginUser = loginUser;
 module.exports.addUser = addUser;

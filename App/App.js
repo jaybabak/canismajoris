@@ -7,18 +7,10 @@
  */
 
 import React, { Component } from "react";
-import {
-  Animated,
-  Alert,
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from "react-native";
+import { Alert, Text, View } from "react-native";
 import AsyncStorage from "@react-native-community/async-storage";
 import {
   Container,
-  Content,
   Header,
   Left,
   Body,
@@ -35,7 +27,6 @@ import {
   createAppContainer,
   createBottomTabNavigator
 } from "react-navigation";
-import { Voximplant } from "react-native-voximplant";
 import ChatScreen from "./src/containers/ChatScreen/ChatScreen";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import styles from "./styles.js";
@@ -66,7 +57,6 @@ class App extends Component {
     this.setStorageData = this.setStorageData.bind(this);
     this.changeUsername = this.changeUsername.bind(this);
     this.changePassword = this.changePassword.bind(this);
-    this.navigateToChatScreen = this.navigateToChatScreen.bind(this);
     this.navigateToRegisterScreen = this.navigateToRegisterScreen.bind(this);
   }
 
@@ -74,50 +64,35 @@ class App extends Component {
     this.getLocation();
     const userLoggedIn = await this.getStorageData("@id");
     const accessToken = await this.getStorageData("@app_access_token");
-
-    //check if user is returning and attemps to login to voximplant
-    // + the back-end to Mongodb
+    // check if user is returning and attemps to login
     if (userLoggedIn && accessToken) {
       let that = this;
-      let clientConfig = {};
-      let client = Voximplant.getInstance(clientConfig);
-      clientConfig.enableVideo = true;
-
-      const tryLoggingIn = await loginManager.loginVoxBasic(client, that);
       const getTheUser = await loginManager.getUser(accessToken);
-
-      const updateUserLocation = await loginManager.updateUser(
-        getTheUser.data.user.email,
-        "location",
-        [this.state.location.lon, this.state.location.lat]
-      );
-
-      //If user is logged into the voximplant api and the back-end Mongodb
-      if (tryLoggingIn && getTheUser) {
-        console.log("Succesfully logged in!", getTheUser);
-      } else {
-        console.log("Failure to login to hookie service.");
-      }
-
-      console.log(updateUserLocation);
-
-      if (tryLoggingIn) {
+      // If user is logged into the voximplant api and the back-end Mongodb
+      if (getTheUser) {
         this.setState({
           authenticated: true,
           isReady: true,
           textHeading: "Welcome back, " + getTheUser.data.user.name
         });
+
+        const updateUserLocation = await loginManager.updateUser(
+          getTheUser.data.user.email,
+          "location",
+          [this.state.location.lon, this.state.location.lat]
+        );
+
         return;
       }
 
       this.setState({
         isReady: true
       });
+
       return;
     }
 
-    console.log("No App or ID token found");
-
+    // Disable the loading screen.
     this.setState({
       isReady: true
     });
@@ -129,10 +104,8 @@ class App extends Component {
 
   async login() {
     let that = this;
-    let clientConfig = {};
-    let client = Voximplant.getInstance(clientConfig);
-    clientConfig.enableVideo = true;
 
+    // Show the loading screen.
     this.setState({
       isReady: false
     });
@@ -151,21 +124,18 @@ class App extends Component {
         });
 
         var getUserData = await loginManager.getUser(this.state.accessToken);
-        console.log(getUserData);
         this.setState({
           user: getUserData.data.user
         });
 
-        //try to login to vox
-        var voxLogin = await loginManager.loginVox(client, that);
         const updateUserLocation = await loginManager.updateUser(
           getUserData.data.user.email,
           "location",
           [this.state.location.lon, this.state.location.lat]
         );
-        console.log(updateUserLocation);
 
-        if (voxLogin) {
+        var authenticated = await loginManager.authenticate(that);
+        if (authenticated) {
           this.setState({
             textHeading: "Hello " + getUserData.data.user.name,
             authenticated: true,
@@ -178,7 +148,7 @@ class App extends Component {
           isReady: true,
           password: ""
         });
-        // console.log('Failed login results!', loginResults);
+        console.log("Failed login results!", loginResults);
       }
     } catch (err) {
       this.setState({
@@ -204,11 +174,7 @@ class App extends Component {
 
   //CURRENTLY THE LOG OUT FUNCTION
   async onLogout() {
-    let clientConfig = {};
-    let client = Voximplant.getInstance(clientConfig);
-
     try {
-      await client.disconnect();
       this.clearAsyncStorage();
       this.setState({
         authenticated: false,
@@ -270,10 +236,6 @@ class App extends Component {
     );
   }
 
-  navigateToChatScreen() {
-    this.props.navigation.navigate("Start Date", this.state.location); //pass params to this object to pass current vixomplant instance
-  }
-
   navigateToRegisterScreen() {
     this.props.navigation.navigate("Register"); //pass params to this object to pass current vixomplant instance
   }
@@ -298,7 +260,6 @@ class App extends Component {
     try {
       const value = await AsyncStorage.getItem(key);
       if (value !== null) {
-        // value previously stored
         return value;
       } else {
         return null;
@@ -318,7 +279,7 @@ class App extends Component {
         return null;
       }
     } catch (e) {
-      console.error(e);
+      console.log(e);
       return null;
     }
   }
@@ -375,9 +336,6 @@ class App extends Component {
     var authenticatedView = (
       <View style={styles.containerBody}>
         <Text style={styles.introText}>{this.state.textHeading}</Text>
-        <Button block dark onPress={this.navigateToChatScreen}>
-          <Text style={styles.buttonSubmit}>Start my date!</Text>
-        </Button>
       </View>
     );
 
@@ -409,7 +367,7 @@ class App extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>BlindDatee</Title>
+            <Title>Canis Majoris</Title>
           </Body>
           <Right>
             <Button onPress={this.getLocation} transparent>
