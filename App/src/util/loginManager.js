@@ -93,7 +93,7 @@ const getUser = async function(accessToken) {
   const settings = {
     headers: { Authorization: `Bearer ${accessToken}` },
     method: "get",
-    url: "http://localhost:3000/api/find-match"
+    url: "http://localhost:3000/api/home"
   };
 
   //Make the requst

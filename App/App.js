@@ -27,8 +27,8 @@ import {
   createAppContainer,
   createBottomTabNavigator
 } from "react-navigation";
-import ChatScreen from "./src/containers/ChatScreen/ChatScreen";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
+import Dashboard from "./src/containers/Dashboard/Dashboard";
 import styles from "./styles.js";
 import loginManager from "./src/util/loginManager";
 
@@ -58,10 +58,12 @@ class App extends Component {
     this.changeUsername = this.changeUsername.bind(this);
     this.changePassword = this.changePassword.bind(this);
     this.navigateToRegisterScreen = this.navigateToRegisterScreen.bind(this);
+    this.navigateToDashboard = this.navigateToDashboard.bind(this);
   }
 
   async componentDidMount() {
     this.getLocation();
+
     const userLoggedIn = await this.getStorageData("@id");
     const accessToken = await this.getStorageData("@app_access_token");
     // check if user is returning and attemps to login
@@ -202,9 +204,9 @@ class App extends Component {
     }
   }
 
-  async getLocation() {
+  getLocation() {
     navigator.geolocation.getCurrentPosition(
-      async position => {
+      position => {
         this.setState({
           location: {
             lat: position.coords.latitude,
@@ -238,6 +240,9 @@ class App extends Component {
 
   navigateToRegisterScreen() {
     this.props.navigation.navigate("Register"); //pass params to this object to pass current vixomplant instance
+  }
+  navigateToDashboard() {
+    this.props.navigation.navigate("Dashboard"); //pass params to this object to pass current vixomplant instance
   }
 
   changeUsername(e) {
@@ -336,6 +341,16 @@ class App extends Component {
     var authenticatedView = (
       <View style={styles.containerBody}>
         <Text style={styles.introText}>{this.state.textHeading}</Text>
+        <Button
+          style={styles.buttonSubmitBtn}
+          block
+          success
+          onPress={this.navigateToDashboard}
+        >
+          <Text style={styles.buttonSubmit}>
+            Find Halal Restaurants Nearby...
+          </Text>
+        </Button>
       </View>
     );
 
@@ -388,8 +403,8 @@ class App extends Component {
 const HomeStack = createStackNavigator(
   {
     Home: App,
-    "Start Date": ChatScreen,
-    Register: RegisterScreen
+    Register: RegisterScreen,
+    Dashboard: Dashboard
   },
   {
     headerMode: "none"

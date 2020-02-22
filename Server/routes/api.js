@@ -1,19 +1,20 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const authMiddleware = require('../middleware/auth');
-const findMatch = require('./authenticated/findMatch');
-const updateUserWithEmail = require('./authenticated/updateUserWithEmail');
+const authMiddleware = require("../middleware/auth");
+const getRestaurants = require("./authenticated/getRestaurants");
+const home = require("./authenticated/home");
+const updateUserWithEmail = require("./authenticated/updateUserWithEmail");
 
 // middleware that is specific to this router
 router.use(authMiddleware);
 
 /* Authenticated Routes
-*  - all routes for users that have already been authenticated (token)
-*/
-router.get('/find-match', findMatch);
+ *  - all routes for users that have already been authenticated (token)
+ */
+router.get("/get-restaurants", getRestaurants);
 
-router.post('/update', updateUserWithEmail);
+router.get("/home", home);
 
+router.post("/update", updateUserWithEmail);
 
-
-module.exports = router
+module.exports = router;

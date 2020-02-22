@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   },
   linearGradient: {
     flex: 1,
-    paddingLeft: 15,
-    paddingRight: 15,
-    borderRadius: 5
+    paddingLeft: 10,
+    paddingRight: 10,
+    borderRadius: 0
   },
   buttonText: {
     fontSize: 18,
@@ -48,18 +48,50 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "stretch",
     // justifyContent: "",
-    alignContent: "flex-start"
+    alignContent: "flex-start",
+    padding: 5
     // borderRadius: 4,
     // borderWidth: 0.5,
     // borderColor: 'red'
   },
   btnAction: {
-    backgroundColor: "black",
-    color: "white",
-    borderTopColor: "black"
+    backgroundColor: "red",
+    color: "white"
   },
   btnActionText: {
     color: "white"
+  },
+  buttonSubmitBtn: {
+    marginTop: 10,
+    backgroundColor: "red",
+    color: "white"
+  },
+  iconQuestion: {
+    fontSize: 20,
+    color: "red"
+  },
+  formWrapper: {
+    marginTop: 0
+  },
+  formItem: {
+    // backgroundColor: 'white',
+  },
+  spinner: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    // backgroundColor: '#E2E2E2',
+    textAlign: "center"
+  },
+  thumbnail: {
+    // justifyContent: 'center',
+    alignSelf: "center"
+  },
+  near: {
+    color: "green"
+  },
+  far: {
+    color: "blue"
   }
 });
 
