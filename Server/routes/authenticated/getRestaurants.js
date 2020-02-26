@@ -7,7 +7,7 @@ module.exports = async function getRestaurants(req, res) {
     req.user.location.coordinates[0],
     req.user.location.coordinates[1]
   );
-  console.log(results);
+  // console.log(results);
 
   res.json({
     message: "Contains list of restaurants!",
