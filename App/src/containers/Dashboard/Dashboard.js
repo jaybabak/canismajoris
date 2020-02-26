@@ -73,7 +73,7 @@ class Dashboard extends React.Component {
         console.log(restaurants.data);
         this.setState({
           isReady: true,
-          restaurants: restaurants.data.results.query,
+          restaurants: restaurants.data.results.sorted,
           loadedRestaurants: true
         });
       }
@@ -130,10 +130,10 @@ class Dashboard extends React.Component {
             </Left>
             <Body>
               <Text>{value.name}</Text>
-              <Text note>Category: {value.category}</Text>
+              <Text note>{value.address[0].address}</Text>
             </Body>
             <Right>
-              <NearOrFar indexNumber={index} />
+              <NearOrFar category={value.category} />
             </Right>
           </ListItem>
         );
@@ -185,19 +185,10 @@ class Dashboard extends React.Component {
 }
 
 function NearOrFar(prop) {
-  if (prop.indexNumber <= 7) {
+  if (prop.category) {
     return (
       <Text style={styles.near} note>
-        CLOSE BY
-      </Text>
-    );
-  } else {
-    return (
-      // <Text style={styles.far} note>
-      //   FAR
-      // </Text>
-      <Text style={styles.near} note>
-        CLOSE BY
+        {prop.category}
       </Text>
     );
   }

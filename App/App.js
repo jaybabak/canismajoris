@@ -78,11 +78,11 @@ class App extends Component {
           textHeading: "Welcome back, " + getTheUser.data.user.name
         });
 
-        const updateUserLocation = await loginManager.updateUser(
-          getTheUser.data.user.email,
-          "location",
-          [this.state.location.lon, this.state.location.lat]
-        );
+        // const updateUserLocation = await loginManager.updateUser(
+        //   getTheUser.data.user.email,
+        //   "location",
+        //   [this.state.location.lon, this.state.location.lat]
+        // );
 
         return;
       }
@@ -130,11 +130,12 @@ class App extends Component {
           user: getUserData.data.user
         });
 
-        const updateUserLocation = await loginManager.updateUser(
-          getUserData.data.user.email,
-          "location",
-          [this.state.location.lon, this.state.location.lat]
-        );
+        // console.log(this.state.location);
+        // const updateUserLocation = await loginManager.updateUser(
+        //   getUserData.data.user.email,
+        //   "location",
+        //   [this.state.location.lon, this.state.location.lat]
+        // );
 
         var authenticated = await loginManager.authenticate(that);
         if (authenticated) {

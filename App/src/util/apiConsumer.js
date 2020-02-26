@@ -23,7 +23,7 @@ const getStorageData = async function(key) {
  */
 const getRestaurants = async function() {
   const accessToken = await getStorageData("@app_access_token");
-  console.log(accessToken);
+  // console.log(accessToken);
 
   //HTTP Request object
   const settings = {
