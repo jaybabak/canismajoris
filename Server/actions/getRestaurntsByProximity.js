@@ -30,11 +30,12 @@ module.exports = async function getByLatLong(long, lat) {
   });
   console.log("Find within city unsorted: ", restaurantsWithinDistance);
 
+  // in Miles
   var restaurantsWithinCircle = await Restaurants.find({
-    location: { $geoWithin: { $centerSphere: [[long, lat], 10 / 3963.2] } }
+    location: { $geoWithin: { $centerSphere: [[long, lat], 1 / 3963.2] } }
   });
 
-  console.log("Find within 10 miles: ", restaurantsWithinCircle);
+  console.log("Find within 1 miles: ", restaurantsWithinCircle);
 
   //works but max-distance is messed up why 6000???
   var KILOMETERS_PER_MILE = 1000;
@@ -42,24 +43,23 @@ module.exports = async function getByLatLong(long, lat) {
     location: {
       $nearSphere: {
         $geometry: { type: "Point", coordinates: [long, lat] },
-        $maxDistance: 20 * KILOMETERS_PER_MILE
+        $maxDistance: 1.6 * KILOMETERS_PER_MILE
       }
     }
   });
 
-  console.log("Restaraunts sorted by 20KM: ", restaurantsSorted);
+  console.log("Restaraunts sorted by 1KM: ", restaurantsSorted);
 
   var nearQuery = await Restaurants.find({
     location: {
       $near: {
         $geometry: { type: "Point", coordinates: [long, lat] },
         $minDistance: 500,
-        $maxDistance: 5000
+        $maxDistance: 1600
       }
     }
   });
-
-  console.log("NEAR QUERY min 500m and max 5000m: ", nearQuery);
+  console.log("NEAR QUERY min 500m and max 1000m: ", nearQuery);
 
   var near = await Restaurants.find({
     location: { $nearSphere: [long, lat], $maxDistance: 6587 / 3963.192 }
@@ -72,30 +72,8 @@ module.exports = async function getByLatLong(long, lat) {
   results.city = city;
   results.circle = restaurantsWithinCircle;
   results.sorted = restaurantsSorted;
+  results.unsorted = restaurantsWithinCircle;
   // results.nearQuery = nearQuery;
-
-  // var KILOMETERS_PER_MILE = 1609.34;
-
-  // console.log(
-  //   await Restaurants.find({
-  //     location: {
-  //       geoNear: {
-  //         $geometry: {
-  //           type: "Point",
-  //           coordinates: [long, lat]
-  //         },
-  //         $maxDistance: 1000000,
-  //         $minDistance: 1
-  //       }
-  //     }
-  //   })
-  // );
-
-  // console.log(
-  //   await Restaurants.find({
-  //     location: { $nearSphere: [long, lat], $maxDistance: 6587 / 3963.192 }
-  //   })
-  // );
 
   return results;
 };

@@ -78,11 +78,13 @@ class App extends Component {
           textHeading: "Welcome back, " + getTheUser.data.user.name
         });
 
-        // const updateUserLocation = await loginManager.updateUser(
-        //   getTheUser.data.user.email,
-        //   "location",
-        //   [this.state.location.lon, this.state.location.lat]
-        // );
+        console.log("longitude: ", this.state.location.lon);
+        console.log("latitude: ", this.state.location.lat);
+        const updateUserLocation = await loginManager.updateUser(
+          getTheUser.data.user.email,
+          "location",
+          [this.state.location.lon, this.state.location.lat]
+        );
 
         return;
       }
