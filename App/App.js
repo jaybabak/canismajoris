@@ -10,6 +10,7 @@ import React, { Component } from "react";
 import { Alert, Text, View } from "react-native";
 import AsyncStorage from "@react-native-community/async-storage";
 import {
+  Root,
   Container,
   Header,
   Left,

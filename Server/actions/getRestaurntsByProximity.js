@@ -39,41 +39,22 @@ module.exports = async function getByLatLong(long, lat) {
 
   //works but max-distance is messed up why 6000???
   var KILOMETERS_PER_MILE = 1000;
-  var restaurantsSorted = await Restaurants.find({
+  var restaurantsSortedByDistance = await Restaurants.find({
     location: {
       $nearSphere: {
         $geometry: { type: "Point", coordinates: [long, lat] },
-        $maxDistance: 1.6 * KILOMETERS_PER_MILE
+        $maxDistance: 50 * KILOMETERS_PER_MILE
       }
     }
   });
 
-  console.log("Restaraunts sorted by 1KM: ", restaurantsSorted);
-
-  var nearQuery = await Restaurants.find({
-    location: {
-      $near: {
-        $geometry: { type: "Point", coordinates: [long, lat] },
-        $minDistance: 500,
-        $maxDistance: 1600
-      }
-    }
-  });
-  console.log("NEAR QUERY min 500m and max 1000m: ", nearQuery);
-
-  var near = await Restaurants.find({
-    location: { $nearSphere: [long, lat], $maxDistance: 6587 / 3963.192 }
-  });
+  console.log("Restaraunts sorted by 3KM: ", restaurantsSortedByDistance);
 
   results = {};
   results.lat = lat;
   results.long = long;
-  results.query = near;
   results.city = city;
-  results.circle = restaurantsWithinCircle;
-  results.sorted = restaurantsSorted;
-  results.unsorted = restaurantsWithinCircle;
-  // results.nearQuery = nearQuery;
+  results.sorted = restaurantsSortedByDistance;
 
   return results;
 };

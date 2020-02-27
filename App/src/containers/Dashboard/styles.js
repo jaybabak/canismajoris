@@ -92,6 +92,22 @@ const styles = StyleSheet.create({
   },
   far: {
     color: "blue"
+  },
+  modalStyles: {
+    backgroundColor: "black",
+    opacity: 0.7,
+    marginTop: 22
+  },
+  modalContainer: {
+    height: 400,
+    width: 400,
+    justifyContent: "flex-end",
+    alignItems: "center"
+  },
+  buttonSubmitCloseBtn: {
+    marginTop: 10,
+    backgroundColor: "red",
+    color: "white"
   }
 });
 

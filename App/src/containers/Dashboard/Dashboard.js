@@ -5,7 +5,8 @@ import {
   Platform,
   StyleSheet,
   View,
-  DeviceEventEmitter
+  DeviceEventEmitter,
+  Modal
 } from "react-native";
 import {
   Container,
@@ -28,6 +29,7 @@ import {
   List,
   ListItem
 } from "native-base";
+import MapView from "react-native-maps";
 import apiConsumer from "../../util/apiConsumer";
 import AsyncStorage from "@react-native-community/async-storage";
 import styles from "./styles.js";
@@ -45,10 +47,13 @@ class Dashboard extends React.Component {
       errorRetrievingLocation: false,
       errors: {},
       restaurants: [],
-      loadedRestaurants: false
+      loadedRestaurants: false,
+      mapMode: false,
+      user: null
     };
 
     this.goBack = this.goBack.bind(this);
+    this.switchToMapMode = this.switchToMapMode.bind(this);
     this.changeField = this.changeField.bind(this);
     this.retrieveRestaurantsByLatLong = this.retrieveRestaurantsByLatLong.bind(
       this
@@ -74,7 +79,8 @@ class Dashboard extends React.Component {
         this.setState({
           isReady: true,
           restaurants: restaurants.data.results.sorted,
-          loadedRestaurants: true
+          loadedRestaurants: true,
+          user: restaurants.data.user
         });
       }
 
@@ -100,6 +106,26 @@ class Dashboard extends React.Component {
       }
     } catch (e) {
       console.log(e);
+
+      this.setState({
+        isReady: true
+      });
+
+      Alert.alert(
+        "Sorry!",
+        "Could not reach the server, check your connection.",
+        [
+          {
+            text: "Cancel",
+            onPress: () => console.log("Cancel Pressed"),
+            style: "cancel"
+          },
+          { text: "OK", onPress: () => console.log("OK Pressed") }
+        ],
+        { cancelable: false }
+      );
+
+      this.goBack();
     }
   }
 
@@ -111,6 +137,12 @@ class Dashboard extends React.Component {
 
   goBack() {
     this.props.navigation.goBack();
+  }
+
+  switchToMapMode() {
+    this.setState({
+      mapMode: !this.state.mapMode
+    });
   }
 
   render() {
@@ -155,7 +187,17 @@ class Dashboard extends React.Component {
           <Body>
             <Title>Dashboard</Title>
           </Body>
-          <Right></Right>
+          <Right>
+            {this.state.loadedRestaurants ? (
+              <Button transparent onPress={this.switchToMapMode}>
+                <Icon
+                  style={styles.iconQuestion}
+                  type="FontAwesome"
+                  name="map"
+                />
+              </Button>
+            ) : null}
+          </Right>
         </Header>
         <Content>
           <Thumbnail
@@ -179,6 +221,70 @@ class Dashboard extends React.Component {
           </View>
           <List>{listView}</List>
         </Content>
+
+        {/* Map Mode Modal Window
+         *
+         * - This window provides the modal for the map
+         * - mode listing view mode/
+         *
+         */}
+        <Modal
+          animationType="slide"
+          transparent={false}
+          visible={this.state.mapMode}
+          style={styles.modalStyles}
+        >
+          <View style={{ marginTop: 30, width: 400, height: 400 }}>
+            <View style={{ marginTop: 30, width: 400, height: 400 }}>
+              <View style={styles.modalContainer}>
+                {this.state.loadedRestaurants ? (
+                  <MapView
+                    style={{
+                      flex: 1,
+                      height: 400,
+                      width: 400,
+                      marginBottom: 30
+                    }}
+                    showsUserLocation
+                    initialRegion={{
+                      latitude: this.state.user.location.coordinates[1],
+                      longitude: this.state.user.location.coordinates[0],
+                      latitudeDelta: 0.0922,
+                      longitudeDelta: 0.0421
+                    }}
+                  >
+                    {this.state.restaurants.map((marker, index) => (
+                      <MapView.Marker
+                        key={index}
+                        coordinate={{
+                          latitude: marker.location.coordinates[1],
+                          longitude: marker.location.coordinates[0]
+                        }}
+                        title={marker.name}
+                      />
+                    ))}
+                  </MapView>
+                ) : null}
+              </View>
+            </View>
+          </View>
+          {/* <Content> */}
+          <View style={styles.view}>
+            <View style={styles.container}>
+              <Button
+                rounded
+                style={styles.buttonSubmitCloseBtn}
+                block
+                onPress={() => {
+                  this.switchToMapMode();
+                }}
+              >
+                <Text>Hide Map</Text>
+              </Button>
+            </View>
+          </View>
+          {/* </Content> */}
+        </Modal>
       </Container>
     );
   }

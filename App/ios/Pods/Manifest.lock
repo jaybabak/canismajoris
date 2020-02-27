@@ -10,6 +10,8 @@ PODS:
   - glog (0.3.5)
   - React (0.59.9):
     - React/Core (= 0.59.9)
+  - react-native-maps (0.26.1):
+    - React
   - react-native-notifications (2.0.2):
     - React
   - react-native-voximplant (1.9.0):
@@ -43,6 +45,8 @@ PODS:
     - React/cxxreact
     - React/jsi
   - React/jsinspector (0.59.9)
+  - React/RCTActionSheet (0.59.9):
+    - React/Core
   - React/RCTAnimation (0.59.9):
     - React/Core
   - React/RCTBlob (0.59.9):
@@ -56,7 +60,11 @@ PODS:
     - React/Core
   - React/RCTNetwork (0.59.9):
     - React/Core
+  - React/RCTSettings (0.59.9):
+    - React/Core
   - React/RCTText (0.59.9):
+    - React/Core
+  - React/RCTVibration (0.59.9):
     - React/Core
   - React/RCTWebSocket (0.59.9):
     - React/Core
@@ -80,17 +88,21 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
   - react-native-notifications (from `../node_modules/react-native-notifications`)
   - react-native-voximplant (from `../node_modules/react-native-voximplant`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
   - React/RCTAnimation (from `../node_modules/react-native`)
   - React/RCTGeolocation (from `../node_modules/react-native`)
   - React/RCTImage (from `../node_modules/react-native`)
   - React/RCTLinkingIOS (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNCallKit (from `../node_modules/react-native-callkit`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage/`)"
@@ -98,7 +110,7 @@ DEPENDENCIES:
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - boost-for-react-native
     - VoxImplantSDK
     - VoxImplantWebRTC
@@ -114,6 +126,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/GLog.podspec"
   React:
     :path: "../node_modules/react-native"
+  react-native-maps:
+    :path: "../node_modules/react-native-maps"
   react-native-notifications:
     :path: "../node_modules/react-native-notifications"
   react-native-voximplant:
@@ -134,6 +148,7 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
+  react-native-maps: 6e499eee4eabf422ba8b6f94e993cc768bf35153
   react-native-notifications: 9becbb88cca62ebec6f542c54ceed30c8d128978
   react-native-voximplant: a2ec8eb170d9c87c5b7cb02b156375ef886bddff
   RNCallKit: 9e9b151af7a33edcb50c353eadfe350f9095dd92
@@ -143,6 +158,6 @@ SPEC CHECKSUMS:
   VoxImplantWebRTC: 25b4d834b77e42285b11822b5d885431c3411a2b
   yoga: 03ff42a6f223fb88deeaed60249020d80c3091ee
 
-PODFILE CHECKSUM: 8a146e37ddce3f36433dfb31ab7f713856aecaac
+PODFILE CHECKSUM: 1c7f8579991eda68a3b99bb258c3e936ebec0414
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.8.4

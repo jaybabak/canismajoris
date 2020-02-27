@@ -1,7 +1,8 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+# platform :ios, '9.0'
 
 target 'App' do
+    rn_maps_path = '../node_modules/react-native-maps'
     # Pods for VoximplantDemo
     pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
@@ -13,7 +14,11 @@ target 'App' do
     'DevSupport',
     'RCTAnimation',
     'RCTLinkingIOS',
-    'RCTGeolocation'
+    'RCTGeolocation',
+    'RCTActionSheet',
+    'RCTSettings',
+    'RCTVibration',
+    'DevSupport',
     # Add any other subspecs you want to use in your project
     ]
 
@@ -34,6 +39,8 @@ target 'App' do
     pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
     pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+    pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
