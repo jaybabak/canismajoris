@@ -6,7 +6,8 @@ import {
   StyleSheet,
   View,
   DeviceEventEmitter,
-  Modal
+  Modal,
+  Dimensions
 } from "react-native";
 import {
   Container,
@@ -234,14 +235,14 @@ class Dashboard extends React.Component {
           visible={this.state.mapMode}
           style={styles.modalStyles}
         >
-          <View style={{ marginTop: 30, width: 400, height: 400 }}>
-            <View style={{ marginTop: 30, width: 400, height: 400 }}>
+          <View style={{ marginTop: 30, width: 400, height: 700 }}>
+            <View style={{ marginTop: 30, width: 400, height: 700 }}>
               <View style={styles.modalContainer}>
                 {this.state.loadedRestaurants ? (
                   <MapView
                     style={{
                       flex: 1,
-                      height: 400,
+                      height: 700,
                       width: 400,
                       marginBottom: 30
                     }}
