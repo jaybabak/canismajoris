@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     backgroundColor: "white"
     // backgroundColor: "black",
   },
+  label: {
+    color: "red"
+  },
   linearGradient: {
     flex: 1,
     paddingLeft: 10,
@@ -54,6 +57,18 @@ const styles = StyleSheet.create({
     // borderWidth: 0.5,
     // borderColor: 'red'
   },
+  title: {
+    marginTop: 10,
+    marginBottom: 10
+  },
+  subTitle: {
+    color: "grey",
+    marginBottom: 10
+  },
+  defaulText: {
+    marginTop: 20,
+    marginTop: 10
+  },
   btnAction: {
     backgroundColor: "red",
     color: "white"
@@ -63,6 +78,7 @@ const styles = StyleSheet.create({
   },
   buttonSubmitBtn: {
     marginTop: 10,
+    marginBottom: 20,
     backgroundColor: "red",
     color: "white"
   },
@@ -87,22 +103,8 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
     alignSelf: "center"
   },
-  near: {
-    color: "green"
-  },
-  far: {
-    color: "blue"
-  },
-  modalStyles: {
-    backgroundColor: "black",
-    opacity: 0.7,
-    marginTop: 22
-  },
-  modalContainer: {
-    height: 700,
-    width: 400,
-    justifyContent: "flex-end",
-    alignItems: "center"
+  container: {
+    padding: 10
   },
   buttonSubmitCloseBtn: {
     marginTop: 10,
@@ -110,11 +112,13 @@ const styles = StyleSheet.create({
     color: "white"
   },
   imageWrapper: {
-    flex: 1,
-    alignItems: "stretch"
+    // flex: 1,
+    // alignItems: "stretch"
   },
   image: {
-    flex: 1
+    // flex: 1,
+    width: "100%",
+    height: 200
   }
 });
 

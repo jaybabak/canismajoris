@@ -1,6 +1,10 @@
 import AsyncStorage from "@react-native-community/async-storage";
 const axios = require("axios");
 
+/**
+ * Grabs nearby restaurants
+ * @param {string} key Pass the key value to retrieve a config object from session storage.
+ */
 const getStorageData = async function(key) {
   try {
     const value = await AsyncStorage.getItem(key);
@@ -23,8 +27,6 @@ const getStorageData = async function(key) {
  */
 const getRestaurants = async function() {
   const accessToken = await getStorageData("@app_access_token");
-  // console.log(accessToken);
-
   //HTTP Request object
   const settings = {
     headers: { Authorization: `Bearer ${accessToken}` },
@@ -44,4 +46,31 @@ const getRestaurants = async function() {
   return items;
 };
 
+/**
+ * Grabs nearby restaurants
+ * @param {string} restaurantId Pass a valid id to retieve information about a restaurant.
+ */
+const getRestaurantById = async function(restaurantId) {
+  const accessToken = await getStorageData("@app_access_token");
+
+  //HTTP Request object
+  const settings = {
+    headers: { Authorization: `Bearer ${accessToken}` },
+    method: "get",
+    url: `http://localhost:3000/api/restaurant/${restaurantId}`
+  };
+
+  //Make the requst
+  const item = await axios(settings);
+
+  if (item.status !== 200) {
+    items.errors = {
+      status: "Something unexpected occured" + items.status + "."
+    };
+  }
+  //Return the user object returned from server
+  return item;
+};
+
 module.exports.getRestaurants = getRestaurants;
+module.exports.getRestaurantById = getRestaurantById;

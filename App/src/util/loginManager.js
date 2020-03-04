@@ -60,7 +60,7 @@ const authenticate = async function(that) {
 };
 
 /**
- * CREATE USER METHOD - Registers the user and creates a new user in the database
+ * Create user method - Registers the user and creates a new user in the database
  * @param {string} user This is the user object being passed
  */
 const addUser = async function(user) {
@@ -85,7 +85,7 @@ const addUser = async function(user) {
 };
 
 /**
- * AUTHENTICATED USER ROUTE - Grabs current user and all non-sensitive fields
+ * Authenticated User Route - Grabs current user and all non-sensitive fields
  * @param {string} accesstoken Pass a valid accesstokent to retieve the current user
  */
 const getUser = async function(accessToken) {
@@ -103,7 +103,7 @@ const getUser = async function(accessToken) {
 };
 
 /**
- * VALIDATE REGISTRATION FORM - Validates the user fields such as email, password, number etc..
+ * Validate registration form - Validates the user fields such as email, password, number etc..
  * @param {string} user This is the user object being passed to the validate function
  */
 const validateUser = async function(user) {
@@ -156,7 +156,7 @@ const validateUser = async function(user) {
 };
 
 /**
- * VALIDATE LOGIN FORM - Validates the user login form
+ * Validate login form - Validates the user login form
  * @param {string} user This is the user object being passed to the validate function
  */
 const validateLoginForm = async function(user) {
@@ -184,7 +184,7 @@ const validateLoginForm = async function(user) {
 };
 
 /**
- * LOGIN USER METHOD - Logs the user into the app:
+ * Login user method - Logs the user into the app:
  * @param {string} email This is the id/email of the user currently logging in.
  * @param {string} password The users existing password to succesfully login
  * @param {string} that The current state object from the higher order component (App.js?)
@@ -258,7 +258,7 @@ const loginUser = async function(email, password, that) {
 };
 
 /**
- * UPDATE USER METHOD - Update the user value input:
+ * Update user method - Update the user value input:
  * @param {string} email This is the id/email of the user you would like to update.
  * @param {string} field This is the field that you would like to be updated: location, email, etc...
  * @param {string} value The value that you will like to replace the existing field value with.

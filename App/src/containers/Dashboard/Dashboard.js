@@ -7,7 +7,8 @@ import {
   View,
   DeviceEventEmitter,
   Modal,
-  Dimensions
+  Dimensions,
+  Image
 } from "react-native";
 import {
   Container,
@@ -54,6 +55,7 @@ class Dashboard extends React.Component {
     };
 
     this.goBack = this.goBack.bind(this);
+    this.goToDetailsPage = this.goToDetailsPage.bind(this);
     this.switchToMapMode = this.switchToMapMode.bind(this);
     this.changeField = this.changeField.bind(this);
     this.retrieveRestaurantsByLatLong = this.retrieveRestaurantsByLatLong.bind(
@@ -140,6 +142,10 @@ class Dashboard extends React.Component {
     this.props.navigation.goBack();
   }
 
+  goToDetailsPage(theRestaurantId) {
+    this.props.navigation.navigate("Details", { rid: theRestaurantId });
+  }
+
   switchToMapMode() {
     this.setState({
       mapMode: !this.state.mapMode
@@ -155,7 +161,11 @@ class Dashboard extends React.Component {
     if (this.state.loadedRestaurants == true) {
       listView = this.state.restaurants.map((value, index) => {
         return (
-          <ListItem avatar key={index}>
+          <ListItem
+            avatar
+            key={index}
+            onPress={() => this.goToDetailsPage(value._id)}
+          >
             <Left>
               <Thumbnail
                 source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
@@ -201,12 +211,14 @@ class Dashboard extends React.Component {
           </Right>
         </Header>
         <Content>
-          <Thumbnail
-            style={styles.thumbnail}
-            square
-            large
-            source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
-          />
+          {this.state.loadedRestaurants ? null : (
+            <Thumbnail
+              style={styles.thumbnail}
+              square
+              large
+              source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
+            />
+          )}
 
           <View style={styles.view}>
             <View style={styles.container}>

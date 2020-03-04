@@ -30,6 +30,7 @@ import {
 } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
+import Details from "./src/containers/Details/Details";
 import styles from "./styles.js";
 import loginManager from "./src/util/loginManager";
 
@@ -408,7 +409,8 @@ const HomeStack = createStackNavigator(
   {
     Home: App,
     Register: RegisterScreen,
-    Dashboard: Dashboard
+    Dashboard: Dashboard,
+    Details: Details
   },
   {
     headerMode: "none"
