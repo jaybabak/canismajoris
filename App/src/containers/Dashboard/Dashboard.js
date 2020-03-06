@@ -36,6 +36,8 @@ import apiConsumer from "../../util/apiConsumer";
 import AsyncStorage from "@react-native-community/async-storage";
 import styles from "./styles.js";
 
+const imageUrlLocation = require("./static/halallocation3.png");
+
 class Dashboard extends React.Component {
   constructor(props) {
     super(props);
@@ -171,7 +173,7 @@ class Dashboard extends React.Component {
           >
             <Left>
               <Thumbnail
-                source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
+                source={{ uri: "https://i.lensdump.com/i/jILOUm.png" }}
               />
             </Left>
             <Body>
@@ -276,6 +278,7 @@ class Dashboard extends React.Component {
                           latitude: marker.location.coordinates[1],
                           longitude: marker.location.coordinates[0]
                         }}
+                        image={imageUrlLocation}
                         tracksViewChanges={false}
                         title={marker.name}
                       />

@@ -23,6 +23,7 @@ import { Col, Row, Grid } from "react-native-easy-grid";
 import apiConsumer from "../../util/apiConsumer";
 const dimensions = Dimensions.get("window");
 const imageWidth = dimensions.width;
+const imageUrlLocation = require("./static/halallocation.png");
 import styles from "./styles.js";
 
 class Details extends React.Component {
@@ -175,13 +176,7 @@ class Details extends React.Component {
               >
                 <Text style={styles.buttonSubmit}>Call</Text>
               </Button>
-              <Button
-                style={styles.buttonSubmitBtn}
-                block
-                onPress={this.getDirectionsOpenGoogleMaps}
-              >
-                <Text style={styles.buttonSubmit}>Directions</Text>
-              </Button>
+
               <Text style={styles.defaulText}>
                 NativeBase has now made it easy for developers, to access the
                 any of its components using ref, along with its associated React
@@ -246,15 +241,23 @@ class Details extends React.Component {
                   }}
                   tracksViewChanges={false}
                   title={this.state.restaurant.name}
+                  image={imageUrlLocation}
                 />
                 <MapViewDirections
                   origin={origin}
                   destination={destination}
                   apikey={GOOGLE_MAPS_APIKEY}
                   strokeWidth={3}
-                  strokeColor="green"
+                  strokeColor="hotpink"
                 />
               </MapView>
+              <Button
+                style={styles.buttonSubmitBtn}
+                block
+                onPress={this.getDirectionsOpenGoogleMaps}
+              >
+                <Text style={styles.buttonSubmit}>Directions</Text>
+              </Button>
             </View>
           </View>
         </Content>
