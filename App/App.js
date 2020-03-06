@@ -7,10 +7,8 @@
  */
 
 import React, { Component } from "react";
-import { Alert, Text, View } from "react-native";
-import AsyncStorage from "@react-native-community/async-storage";
+import { Alert } from "react-native";
 import {
-  Root,
   Container,
   Header,
   Left,
@@ -19,19 +17,17 @@ import {
   Title,
   Button,
   Icon,
-  Input,
-  Item,
   Spinner
 } from "native-base";
-import {
-  createStackNavigator,
-  createAppContainer,
-  createBottomTabNavigator
-} from "react-navigation";
+import { createStackNavigator, createAppContainer } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
 import Details from "./src/containers/Details/Details";
+import Welcome from "./src/components/Authenticated/Welcome/Welcome";
+import Login from "./src/components/Forms/Login/Login";
 import styles from "./styles.js";
+
+// Utility manager
 import loginManager from "./src/util/loginManager";
 
 class App extends Component {
@@ -55,8 +51,6 @@ class App extends Component {
     this.getLocation = this.getLocation.bind(this);
     this.onLogout = this.onLogout.bind(this);
     this.login = this.login.bind(this);
-    this.getStorageData = this.getStorageData.bind(this);
-    this.setStorageData = this.setStorageData.bind(this);
     this.changeUsername = this.changeUsername.bind(this);
     this.changePassword = this.changePassword.bind(this);
     this.navigateToRegisterScreen = this.navigateToRegisterScreen.bind(this);
@@ -66,13 +60,13 @@ class App extends Component {
   async componentDidMount() {
     this.getLocation();
 
-    const userLoggedIn = await this.getStorageData("@id");
-    const accessToken = await this.getStorageData("@app_access_token");
+    const userLoggedIn = await loginManager.getStorageData("@id");
+    const accessToken = await loginManager.getStorageData("@app_access_token");
     // check if user is returning and attemps to login
     if (userLoggedIn && accessToken) {
       let that = this;
       const getTheUser = await loginManager.getUser(accessToken);
-      // If user is logged into the voximplant api and the back-end Mongodb
+
       if (getTheUser) {
         this.setState({
           authenticated: true,
@@ -82,6 +76,7 @@ class App extends Component {
 
         console.log("longitude: ", this.state.location.lon);
         console.log("latitude: ", this.state.location.lat);
+
         const updateUserLocation = await loginManager.updateUser(
           getTheUser.data.user.email,
           "location",
@@ -102,10 +97,6 @@ class App extends Component {
     this.setState({
       isReady: true
     });
-  }
-
-  componentWillUnmount() {
-    console.log("component unmounted main APP");
   }
 
   async login() {
@@ -134,12 +125,12 @@ class App extends Component {
           user: getUserData.data.user
         });
 
-        // console.log(this.state.location);
-        // const updateUserLocation = await loginManager.updateUser(
-        //   getUserData.data.user.email,
-        //   "location",
-        //   [this.state.location.lon, this.state.location.lat]
-        // );
+        this.getLocation();
+
+        await loginManager.updateUser(getUserData.data.user.email, "location", [
+          this.state.location.lon,
+          this.state.location.lat
+        ]);
 
         var authenticated = await loginManager.authenticate(that);
         if (authenticated) {
@@ -179,10 +170,9 @@ class App extends Component {
     }
   }
 
-  //CURRENTLY THE LOG OUT FUNCTION
   async onLogout() {
     try {
-      this.clearAsyncStorage();
+      loginManager.clearAsyncStorage();
       this.setState({
         authenticated: false,
         tokens: false,
@@ -262,113 +252,11 @@ class App extends Component {
     });
   }
 
-  async clearAsyncStorage() {
-    AsyncStorage.clear();
-  }
-
-  async getStorageData(key) {
-    try {
-      const value = await AsyncStorage.getItem(key);
-      if (value !== null) {
-        return value;
-      } else {
-        return null;
-      }
-    } catch (e) {
-      console.log(e);
-      return null;
-    }
-  }
-
-  async setStorageData(key, storeValue) {
-    try {
-      const value = await AsyncStorage.setItem(key, storeValue);
-      if (value !== null) {
-        return value;
-      } else {
-        return null;
-      }
-    } catch (e) {
-      console.log(e);
-      return null;
-    }
-  }
-
   render() {
     var loadingIcon = <Spinner style={styles.spinner} color="#F39034" />;
 
     if (this.state.isReady !== true) {
       return loadingIcon;
-    }
-
-    var loginForm = (
-      <View style={styles.containerBody}>
-        <Text style={styles.introText}>
-          Hello there, please sign-in or register now!
-        </Text>
-        <Item error={this.state.errors.email ? true : false} regular>
-          <Input
-            autoCapitalize="none"
-            value={this.state.email}
-            placeholder="user@example.com"
-            onChangeText={this.changeUsername}
-          />
-        </Item>
-        <Item error={this.state.errors.password ? true : false} regular>
-          <Input
-            secureTextEntry={true}
-            placeholder="Your password"
-            onChangeText={this.changePassword}
-          />
-        </Item>
-        <Button style={styles.buttonSubmit} block dark onPress={this.login}>
-          <Text style={styles.whiteText}>Login</Text>
-        </Button>
-        <Button
-          onPress={this.navigateToRegisterScreen}
-          style={styles.buttonRegister}
-          block
-          bordered
-          danger
-        >
-          <Text style={styles.whiteText}>Sign-up with a new account!</Text>
-        </Button>
-      </View>
-    );
-
-    var loginFormNoTextInput = (
-      <View style={styles.containerCenter}>
-        {loadingIcon}
-        <Text style={styles.introText}>...logging you in!</Text>
-      </View>
-    );
-
-    var authenticatedView = (
-      <View style={styles.containerBody}>
-        <Text style={styles.introText}>{this.state.textHeading}</Text>
-        <Button
-          style={styles.buttonSubmitBtn}
-          block
-          success
-          onPress={this.navigateToDashboard}
-        >
-          <Text style={styles.buttonSubmit}>
-            Find Halal Restaurants Nearby...
-          </Text>
-        </Button>
-      </View>
-    );
-
-    // console.log(this.state.authenticated);
-    if (this.state.authenticated == true) {
-      mainContentView = authenticatedView;
-    } else {
-      if (this.state.tokens) {
-        // mainContentView = loginFormNoTextInput;
-        mainContentView = loginFormNoTextInput;
-      } else {
-        mainContentView = loginForm;
-      }
     }
 
     return (
@@ -399,7 +287,22 @@ class App extends Component {
             </Button>
           </Right>
         </Header>
-        {mainContentView}
+        {/* Rengder either the login form or welcome screen */}
+        {this.state.authenticated ? (
+          <Welcome
+            navigateToDashboard={this.navigateToDashboard}
+            textHeading={this.state.textHeading}
+          />
+        ) : (
+          <Login
+            errors={this.state.errors}
+            email={this.state.email}
+            navigateToRegisterScreen={this.navigateToRegisterScreen}
+            changePassword={this.changePassword}
+            changeUsername={this.changeUsername}
+            login={this.login}
+          />
+        )}
       </Container>
     );
   }

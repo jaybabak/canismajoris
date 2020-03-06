@@ -1,20 +1,13 @@
 import { Alert } from "react-native";
-import { Voximplant } from "react-native-voximplant";
 import AsyncStorage from "@react-native-community/async-storage";
 import isEmpty from "validator/lib/isEmpty";
 import isEmail from "validator/lib/isEmail";
-import isByteLength from "validator/lib/isByteLength";
 import isLength from "validator/lib/isLength";
 import isAlpha from "validator/lib/isAlpha";
-import isMobilePhone from "validator/lib/isMobilePhone";
 const axios = require("axios");
 
-const dev = "http://localhost:3000";
-const prod = "http://darpa.monster";
-
 /**
- * LOGIN TO VOX API/SDK [DEFAULT] - Registers the user and creates a new user in the database
- * @param {string} client The current voximplant instance
+ * Login and set tokem to local storage
  * @param {string} that The current state object from the higher order component (App.js?)
  */
 const authenticate = async function(that) {
@@ -38,7 +31,7 @@ const authenticate = async function(that) {
 
     Alert.alert(
       "Oops!",
-      "Error connecting to the P2P service provider. Please try again later.",
+      "Error connecting to the service provider. Please try again later.",
       [
         {
           text: "Cancel",
@@ -304,9 +297,44 @@ const updateUser = async function(email, field, value) {
   }
 };
 
+const getStorageData = async function(key) {
+  try {
+    const value = await AsyncStorage.getItem(key);
+    if (value !== null) {
+      return value;
+    } else {
+      return null;
+    }
+  } catch (e) {
+    console.log(e);
+    return null;
+  }
+};
+
+const setStorageData = async function(key, storeValue) {
+  try {
+    const value = await AsyncStorage.setItem(key, storeValue);
+    if (value !== null) {
+      return value;
+    } else {
+      return null;
+    }
+  } catch (e) {
+    console.log(e);
+    return null;
+  }
+};
+
+const clearAsyncStorage = async function() {
+  AsyncStorage.clear();
+};
+
 module.exports.authenticate = authenticate;
 module.exports.getUser = getUser;
 module.exports.loginUser = loginUser;
 module.exports.addUser = addUser;
 module.exports.validateUser = validateUser;
 module.exports.updateUser = updateUser;
+module.exports.getStorageData = getStorageData;
+module.exports.setStorageData = setStorageData;
+module.exports.clearAsyncStorage = clearAsyncStorage;

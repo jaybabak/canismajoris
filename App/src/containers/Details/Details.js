@@ -124,10 +124,6 @@ class Details extends React.Component {
   render() {
     let imageUrl = require("./static/restaurantdemo.jpeg");
 
-    // if (this.state.error == true) {
-    //   return <ErrorScreen />;
-    // }
-
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="#000000" />;
     }
