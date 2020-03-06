@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
     // backgroundColor: "black",
   },
   label: {
-    color: "red"
+    color: "black",
+    fontWeight: "700"
   },
   linearGradient: {
     flex: 1,
@@ -59,15 +60,18 @@ const styles = StyleSheet.create({
   },
   title: {
     marginTop: 10,
-    marginBottom: 10
+    marginBottom: 0
   },
   subTitle: {
     color: "grey",
+    marginTop: 20,
     marginBottom: 10
   },
   defaulText: {
-    marginTop: 20,
-    marginTop: 10
+    marginTop: 10,
+    marginBottom: 10,
+    color: "grey"
+    // marginTop: 10
   },
   btnAction: {
     backgroundColor: "red",
@@ -80,6 +84,12 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 20,
     backgroundColor: "red",
+    color: "white"
+  },
+  buttonCallBtn: {
+    marginTop: 10,
+    marginBottom: 5,
+    backgroundColor: "green",
     color: "white"
   },
   iconQuestion: {

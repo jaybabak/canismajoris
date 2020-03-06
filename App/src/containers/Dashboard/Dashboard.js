@@ -143,7 +143,10 @@ class Dashboard extends React.Component {
   }
 
   goToDetailsPage(theRestaurantId) {
-    this.props.navigation.navigate("Details", { rid: theRestaurantId });
+    this.props.navigation.navigate("Details", {
+      rid: theRestaurantId,
+      user: this.state.user
+    });
   }
 
   switchToMapMode() {
@@ -273,6 +276,7 @@ class Dashboard extends React.Component {
                           latitude: marker.location.coordinates[1],
                           longitude: marker.location.coordinates[0]
                         }}
+                        tracksViewChanges={false}
                         title={marker.name}
                       />
                     ))}

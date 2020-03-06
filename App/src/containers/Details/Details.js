@@ -1,15 +1,5 @@
 import React, { Component } from "react";
-import {
-  Animated,
-  Alert,
-  Platform,
-  StyleSheet,
-  View,
-  DeviceEventEmitter,
-  Modal,
-  Dimensions,
-  Image
-} from "react-native";
+import { Alert, View, Dimensions, Image } from "react-native";
 import {
   Container,
   Content,
@@ -24,20 +14,13 @@ import {
   Icon,
   Text,
   Spinner,
-  Footer,
-  FooterTab,
-  Item,
-  Input,
-  Toast,
-  Thumbnail,
-  List,
-  ListItem,
   H1,
   H3
 } from "native-base";
 import MapView from "react-native-maps";
+import MapViewDirections from "react-native-maps-directions";
+import { Col, Row, Grid } from "react-native-easy-grid";
 import apiConsumer from "../../util/apiConsumer";
-import AsyncStorage from "@react-native-community/async-storage";
 const dimensions = Dimensions.get("window");
 const imageWidth = dimensions.width;
 import styles from "./styles.js";
@@ -66,6 +49,10 @@ class Details extends React.Component {
 
   componentDidMount() {
     this.getRestaurantDetails();
+
+    const currentUser = this.props.navigation.getParam("user");
+
+    this.setState({ user: currentUser });
   }
 
   async getRestaurantDetails() {
@@ -128,6 +115,16 @@ class Details extends React.Component {
       return <Spinner style={styles.spinner} color="#000000" />;
     }
 
+    const origin = {
+      latitude: this.state.restaurant.location.coordinates[1],
+      longitude: this.state.restaurant.location.coordinates[0]
+    };
+    const destination = {
+      latitude: this.state.user.location.coordinates[1],
+      longitude: this.state.user.location.coordinates[0]
+    };
+    const GOOGLE_MAPS_APIKEY = "AIzaSyAsuWCY1t7MYV7fvlwO3G6AtPADDYuWrvs";
+
     return (
       <Container style={{ backgroundColor: "white" }}>
         <Header noLeft>
@@ -153,7 +150,7 @@ class Details extends React.Component {
             </Button>
           </Right>
         </Header>
-        <Content>
+        <Content scrollIndicatorInsets={{ right: 1 }}>
           {/* <View style={styles.imageWrapper}> */}
           <Image style={styles.image} source={imageUrl} />
           {/* </View> */}
@@ -171,6 +168,14 @@ class Details extends React.Component {
                 </CardItem>
               </Card>
               <Button
+                style={styles.buttonCallBtn}
+                block
+                success
+                onPress={this.getDirectionsOpenGoogleMaps}
+              >
+                <Text style={styles.buttonSubmit}>Call</Text>
+              </Button>
+              <Button
                 style={styles.buttonSubmitBtn}
                 block
                 onPress={this.getDirectionsOpenGoogleMaps}
@@ -181,11 +186,75 @@ class Details extends React.Component {
                 NativeBase has now made it easy for developers, to access the
                 any of its components using ref, along with its associated React
                 Native elements. NativeBase has now made it easy for developers,
-                to access the any of its components using ref, along with its
-                associated React Native elements. NativeBase has now made it
-                easy for developers, to access the any of its components using
-                ref, along with its associated React Native elements.
+                to access the any of its components using ref.
               </Text>
+              <H3 style={styles.subTitle}>Business Hours</H3>
+              <Grid>
+                <Col style={{ width: 100 }}>
+                  <Text>Monday</Text>
+                  <Text>Tuesday</Text>
+                  <Text>Wednesday</Text>
+                  <Text>Thursday</Text>
+                  <Text>Friday</Text>
+                  <Text>Saturday</Text>
+                  <Text>Sunday</Text>
+                </Col>
+                <Col>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[0].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[1].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[2].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[3].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[4].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[5].time}
+                  </Text>
+                  <Text style={{ textAlign: "right" }}>
+                    {this.state.restaurant.hours[6].time}
+                  </Text>
+                </Col>
+              </Grid>
+              <H3 style={styles.subTitle}>Location</H3>
+              <MapView
+                style={{
+                  flex: 1,
+                  height: 250,
+                  // width: 00,
+                  marginTop: 20
+                }}
+                showsUserLocation
+                initialRegion={{
+                  latitude: this.state.restaurant.location.coordinates[1],
+                  longitude: this.state.restaurant.location.coordinates[0],
+                  latitudeDelta: 0.0922,
+                  longitudeDelta: 0.0421
+                }}
+              >
+                <MapView.Marker
+                  coordinate={{
+                    latitude: this.state.restaurant.location.coordinates[1],
+                    longitude: this.state.restaurant.location.coordinates[0]
+                  }}
+                  tracksViewChanges={false}
+                  title={this.state.restaurant.name}
+                />
+                <MapViewDirections
+                  origin={origin}
+                  destination={destination}
+                  apikey={GOOGLE_MAPS_APIKEY}
+                  strokeWidth={3}
+                  strokeColor="green"
+                />
+              </MapView>
             </View>
           </View>
         </Content>
