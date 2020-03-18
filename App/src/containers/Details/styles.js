@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     // borderColor: 'red'
   },
   title: {
-    marginTop: 10,
+    marginTop: 0,
     marginBottom: 0
   },
   subTitle: {

@@ -19,9 +19,11 @@ import {
 } from "native-base";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
-import { Col, Grid } from "react-native-easy-grid";
+import Slider from "../../components/Slider/Slider";
 import apiConsumer from "../../util/apiConsumer";
 import styles from "./styles.js";
+
+// Image which appears at the to (restaurant photo).
 const imageUrl = require("./static/restaurantdemo.jpeg");
 
 class Details extends Component {
@@ -137,7 +139,8 @@ class Details extends Component {
         </Header>
         <Content scrollIndicatorInsets={{ right: 1 }}>
           {/* <View style={styles.imageWrapper}> */}
-          <Image style={styles.image} source={imageUrl} />
+          {/* <Image style={styles.image} source={imageUrl} /> */}
+          <Slider />
           {/* </View> */}
 
           <View style={styles.view}>
