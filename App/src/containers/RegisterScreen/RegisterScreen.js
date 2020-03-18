@@ -1,15 +1,7 @@
 import React, { Component } from "react";
-import {
-  Animated,
-  Alert,
-  Platform,
-  StyleSheet,
-  View,
-  DeviceEventEmitter
-} from "react-native";
+import { Alert, View } from "react-native";
 import {
   Container,
-  Content,
   Header,
   Left,
   Body,
@@ -19,14 +11,10 @@ import {
   Icon,
   Text,
   Spinner,
-  Footer,
-  FooterTab,
   Item,
   Input,
-  Toast,
   Thumbnail
 } from "native-base";
-import LinearGradient from "react-native-linear-gradient";
 import loginManager from "../../util/loginManager";
 import styles from "./styles.js";
 
@@ -180,14 +168,12 @@ class RegisterScreen extends React.Component {
           </Body>
           <Right></Right>
         </Header>
-        {/* <LinearGradient colors={['#FFFFFF', '#FFFFFF', '#E6E6E6']} style={styles.linearGradient}> */}
         <Thumbnail
           style={styles.thumbnail}
           square
           large
           source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
         />
-        {/* <Content> */}
         <View style={styles.view}>
           <View style={styles.container}>
             <Item
@@ -265,15 +251,6 @@ class RegisterScreen extends React.Component {
             </Button>
           </View>
         </View>
-        {/* <Footer>
-                        <FooterTab>
-                            <Button style={styles.btnAction} full>
-                                <Text style={styles.btnActionText}>Register Now</Text>
-                                </Button>
-                            </FooterTab>
-                    </Footer> */}
-        {/* </Content> */}
-        {/* </LinearGradient> */}
       </Container>
     );
   }
