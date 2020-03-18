@@ -26,7 +26,7 @@ import styles from "./styles.js";
 // Image which appears at the to (restaurant photo).
 const imageUrl = require("./static/restaurantdemo.jpeg");
 
-class Details extends Component {
+class Details extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

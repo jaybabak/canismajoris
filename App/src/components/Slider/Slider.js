@@ -23,22 +23,36 @@ class Slider extends Component {
       images: [
         {
           id: "WpIAc9by5iU",
-          thumbnail:
-            "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
+          thumbnail: "https://picsum.photos/650/650",
           title: "Led Zeppelin - Stairway To Heaven"
         },
         {
           id: "sNPnbI1arSE",
-          thumbnail:
-            "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          thumbnail: "https://picsum.photos/650/650",
           title: "Eminem - My Name Is"
         },
         {
           id: "VOgFZfRVaww",
-          thumbnail:
-            "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+          thumbnail: "https://picsum.photos/650/650",
           title: ""
         }
+        //   id: "WpIAc9by5iU",
+        //   thumbnail:
+        //     "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
+        //   title: "Led Zeppelin - Stairway To Heaven"
+        // },
+        // {
+        //   id: "sNPnbI1arSE",
+        //   thumbnail:
+        //     "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+        //   title: "Eminem - My Name Is"
+        // },
+        // {
+        //   id: "VOgFZfRVaww",
+        //   thumbnail:
+        //     "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+        //   title: ""
+        // }
       ],
       activeSlide: 0
     };
@@ -69,7 +83,7 @@ class Slider extends Component {
       <Pagination
         dotsLength={images.length}
         activeDotIndex={activeSlide}
-        // containerStyle={{ backgroundColor: "rgba(0, 0, 0, 0.75)" }}
+        // containerStyle={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
         dotStyle={{
           width: 10,
           height: 10,
@@ -88,7 +102,10 @@ class Slider extends Component {
     );
   }
 
-  shouldComponentUpdate() {
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state.activeSlide !== nextState.activeSlide) {
+      return true;
+    }
     return false;
   }
 
