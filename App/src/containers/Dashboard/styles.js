@@ -43,6 +43,10 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
     color: "white"
   },
+  btnActionMarker: {
+    backgroundColor: "red",
+    color: "white"
+  },
   btnActionText: {
     color: "white"
   },
@@ -110,7 +114,12 @@ const styles = StyleSheet.create({
     borderRadius: 10
   },
   label: {
-    marginBottom: 5
+    marginBottom: 7
+  },
+  iconMarker: {
+    marginBottom: 7,
+    color: "red",
+    fontSize: 36
   }
 });
 

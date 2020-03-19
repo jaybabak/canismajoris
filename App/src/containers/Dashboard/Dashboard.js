@@ -270,19 +270,29 @@ class Dashboard extends React.Component {
                       tracksViewChanges={false}
                       title={marker.name}
                     >
-                      <MapView.Callout tooltip style={styles.toolTip}>
-                        <Text style={styles.label}>{marker.name}</Text>
-                        <Button
-                          onPress={() => {
-                            this.switchToMapMode();
-                            this.goToDetailsPage(marker._id);
-                          }}
-                          style={styles.btnAction}
-                        >
-                          <View>
+                      {/* <MapView.Callout tooltip style={styles.toolTip}> */}
+                      <MapView.Callout style={{ flex: 1 }}>
+                        <View style={{ alignItems: "center" }}>
+                          <Icon
+                            style={styles.iconMarker}
+                            type="FontAwesome"
+                            name="map-marker"
+                          />
+                          <Text style={styles.label}>{marker.name}</Text>
+                          <Button
+                            small
+                            block
+                            iconLeft
+                            onPress={() => {
+                              this.switchToMapMode();
+                              this.goToDetailsPage(marker._id);
+                            }}
+                            style={styles.btnActionMarker}
+                          >
+                            <Icon name="arrow-forward" />
                             <Text>View</Text>
-                          </View>
-                        </Button>
+                          </Button>
+                        </View>
                       </MapView.Callout>
                     </MapView.Marker>
                   ))}
