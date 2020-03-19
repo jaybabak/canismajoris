@@ -17,6 +17,7 @@ import {
   H1,
   H3
 } from "native-base";
+import { OpenMapDirections } from "react-native-navigation-directions";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
@@ -46,6 +47,7 @@ class Details extends React.PureComponent {
     this.goBack = this.goBack.bind(this);
     this.changeField = this.changeField.bind(this);
     this.getRestaurantDetails = this.getRestaurantDetails.bind(this);
+    this.getDirectionsOpenMapsApp = this.getDirectionsOpenMapsApp.bind(this);
   }
 
   componentDidMount() {
@@ -107,6 +109,28 @@ class Details extends React.PureComponent {
     this.props.navigation.goBack();
   }
 
+  getDirectionsOpenMapsApp() {
+    // Set d for car or w for walk -> none for user's default preference
+    const transportPlan = "d";
+
+    // Location of user
+    const startPoint = {
+      longitude: this.state.user.location.coordinates[0],
+      latitude: this.state.user.location.coordinates[1]
+    };
+
+    // Location of restaurant
+    const endPoint = {
+      longitude: this.state.restaurant.location.coordinates[0],
+      latitude: this.state.restaurant.location.coordinates[1]
+    };
+
+    // Open the default maps application available on users device
+    OpenMapDirections(startPoint, endPoint, transportPlan).then(res => {
+      console.log(res);
+    });
+  }
+
   render() {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="#000000" />;
@@ -141,15 +165,13 @@ class Details extends React.PureComponent {
           style={{ paddingTop: 10 }}
           scrollIndicatorInsets={{ right: 1 }}
         >
-          {/* <View style={styles.imageWrapper}> */}
-          {/* <Image style={styles.image} source={imageUrl} /> */}
+          {/* Start Slider/Carousel */}
           <Slider />
-          {/* </View> */}
+          {/* Start Slider/Carousel */}
 
           <View style={styles.view}>
             <View style={styles.container}>
               {/* Start Header */}
-
               <H1 style={styles.title}>{this.state.restaurant.name}</H1>
               <H3 style={styles.subTitle}>{this.state.restaurant.category}</H3>
               <Card>
@@ -164,7 +186,7 @@ class Details extends React.PureComponent {
                 style={styles.buttonCallBtn}
                 block
                 success
-                onPress={this.getDirectionsOpenGoogleMaps}
+                onPress={this.getDirectionsOpenMapsApp}
               >
                 <Text style={styles.buttonSubmit}>Call</Text>
               </Button>
@@ -196,7 +218,7 @@ class Details extends React.PureComponent {
               <Button
                 style={styles.buttonSubmitBtn}
                 block
-                onPress={this.getDirectionsOpenGoogleMaps}
+                onPress={this.getDirectionsOpenMapsApp}
               >
                 <Text style={styles.buttonSubmit}>Directions</Text>
               </Button>
