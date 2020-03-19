@@ -176,7 +176,7 @@ class Dashboard extends React.Component {
     }
     var listView = null;
 
-    if (this.state.loadedRestaurants == true) {
+    if (this.state.loadedRestaurants == true && this.state.restaurants.length > 0) {
       listView = this.state.restaurants.map((value, index) => {
         return (
           <ListItem
@@ -199,6 +199,9 @@ class Dashboard extends React.Component {
           </ListItem>
         );
       });
+    }
+    else if(this.state.loadedRestaurants == true && this.state.restaurants.length == 0) {
+      listView = (<Text note>No halal restauarants found nearby.</Text>);
     }
 
     return (

@@ -17,23 +17,23 @@ module.exports = async function getByLatLong(long, lat) {
   console.log(lat, long);
 
   // Get the user's neighborhood/city
-  var city = await City.findOne({
-    geometry: {
-      $geoIntersects: {
-        $geometry: { type: "Point", coordinates: [long, lat] }
-      }
-    }
-  });
+  // var city = await City.findOne({
+    // geometry: {
+      // $geoIntersects: {
+        // $geometry: { type: "Point", coordinates: [long, lat] }
+      // }
+    // }
+  // });
 
-  var restaurantsWithinDistance = await Restaurants.find({
-    location: { $geoWithin: { $geometry: city.geometry } }
-  });
+  // var restaurantsWithinDistance = await Restaurants.find({
+    // location: { $geoWithin: { $geometry: city.geometry } }
+  // });
   // console.log("Find within city unsorted: ", restaurantsWithinDistance);
 
   // in Miles
-  var restaurantsWithinCircle = await Restaurants.find({
-    location: { $geoWithin: { $centerSphere: [[long, lat], 1 / 3963.2] } }
-  });
+  // var restaurantsWithinCircle = await Restaurants.find({
+    // location: { $geoWithin: { $centerSphere: [[long, lat], 1 / 3963.2] } }
+  // });
 
   // console.log("Find within 1 miles: ", restaurantsWithinCircle);
 
@@ -48,12 +48,12 @@ module.exports = async function getByLatLong(long, lat) {
     }
   });
 
-  // console.log("Restaraunts sorted by 3KM: ", restaurantsSortedByDistance);
+  console.log("Restaraunts sorted by 50KM: ", restaurantsSortedByDistance);
 
   results = {};
   results.lat = lat;
   results.long = long;
-  results.city = city;
+  // results.city = city;
   results.sorted = restaurantsSortedByDistance;
 
   return results;
