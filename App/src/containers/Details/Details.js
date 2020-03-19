@@ -137,7 +137,10 @@ class Details extends React.PureComponent {
             </Button>
           </Right>
         </Header>
-        <Content scrollIndicatorInsets={{ right: 1 }}>
+        <Content
+          style={{ paddingTop: 10 }}
+          scrollIndicatorInsets={{ right: 1 }}
+        >
           {/* <View style={styles.imageWrapper}> */}
           {/* <Image style={styles.image} source={imageUrl} /> */}
           <Slider />

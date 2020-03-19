@@ -23,6 +23,24 @@ class Slider extends Component {
       images: [
         {
           id: "WpIAc9by5iU",
+          thumbnail:
+            "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
+          title: "Led Zeppelin - Stairway To Heaven"
+        },
+        {
+          id: "sNPnbI1arSE",
+          thumbnail:
+            "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          title: "Eminem - My Name Is"
+        },
+        {
+          id: "VOgFZfRVaww",
+          thumbnail:
+            "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+          title: ""
+        },
+        {
+          id: "WpIAc9by5iU",
           thumbnail: "https://picsum.photos/650/650",
           title: "Led Zeppelin - Stairway To Heaven"
         },
@@ -36,23 +54,6 @@ class Slider extends Component {
           thumbnail: "https://picsum.photos/650/650",
           title: ""
         }
-        //   id: "WpIAc9by5iU",
-        //   thumbnail:
-        //     "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
-        //   title: "Led Zeppelin - Stairway To Heaven"
-        // },
-        // {
-        //   id: "sNPnbI1arSE",
-        //   thumbnail:
-        //     "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-        //   title: "Eminem - My Name Is"
-        // },
-        // {
-        //   id: "VOgFZfRVaww",
-        //   thumbnail:
-        //     "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
-        //   title: ""
-        // }
       ],
       activeSlide: 0
     };
