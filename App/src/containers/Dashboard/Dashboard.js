@@ -16,6 +16,7 @@ import {
   List,
   ListItem
 } from "native-base";
+import { OpenMapDirections } from "react-native-navigation-directions";
 import MapView from "react-native-maps";
 import apiConsumer from "../../util/apiConsumer";
 import styles from "./styles.js";
@@ -50,6 +51,7 @@ class Dashboard extends React.Component {
     this.retrieveRestaurantsByLatLong = this.retrieveRestaurantsByLatLong.bind(
       this
     );
+    this.getDirectionsOpenMapsApp = this.getDirectionsOpenMapsApp.bind(this);
   }
 
   componentDidMount() {
@@ -143,6 +145,28 @@ class Dashboard extends React.Component {
   switchToMapMode() {
     this.setState({
       mapMode: !this.state.mapMode
+    });
+  }
+
+  getDirectionsOpenMapsApp(restaurant) {
+    // Set d for car or w for walk -> none for user's default preference
+    const transportPlan = "d";
+
+    // Location of user
+    const startPoint = {
+      longitude: this.state.user.location.coordinates[0],
+      latitude: this.state.user.location.coordinates[1]
+    };
+
+    // Location of restaurant
+    const endPoint = {
+      longitude: restaurant.location.coordinates[0],
+      latitude: restaurant.location.coordinates[1]
+    };
+
+    // Open the default maps application available on users device
+    OpenMapDirections(startPoint, endPoint, transportPlan).then(res => {
+      console.log(res);
     });
   }
 
@@ -291,6 +315,18 @@ class Dashboard extends React.Component {
                           >
                             <Icon name="arrow-forward" />
                             <Text>View</Text>
+                          </Button>
+                          <Button
+                            small
+                            block
+                            iconLeft
+                            onPress={() => {
+                              this.getDirectionsOpenMapsApp(marker);
+                            }}
+                            style={styles.btnActionMarkerDirections}
+                          >
+                            <Icon name="map-marker" type="FontAwesome" />
+                            <Text>Navigate</Text>
                           </Button>
                         </View>
                       </MapView.Callout>

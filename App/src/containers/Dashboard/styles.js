@@ -47,6 +47,11 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
     color: "white"
   },
+  btnActionMarkerDirections: {
+    backgroundColor: "black",
+    color: "white",
+    marginTop: 7
+  },
   btnActionText: {
     color: "white"
   },
