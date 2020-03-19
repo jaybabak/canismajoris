@@ -103,6 +103,14 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1
+  },
+  toolTip: {
+    backgroundColor: "white",
+    padding: 10,
+    borderRadius: 10
+  },
+  label: {
+    marginBottom: 5
   }
 });
 

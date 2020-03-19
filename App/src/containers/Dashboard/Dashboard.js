@@ -46,6 +46,7 @@ class Dashboard extends React.Component {
     this.goToDetailsPage = this.goToDetailsPage.bind(this);
     this.switchToMapMode = this.switchToMapMode.bind(this);
     this.changeField = this.changeField.bind(this);
+    this.clickMarker = this.clickMarker.bind(this);
     this.retrieveRestaurantsByLatLong = this.retrieveRestaurantsByLatLong.bind(
       this
     );
@@ -56,6 +57,8 @@ class Dashboard extends React.Component {
       isReady: true
     });
   }
+
+  clickMarker() {}
 
   async retrieveRestaurantsByLatLong() {
     this.setState({
@@ -266,7 +269,22 @@ class Dashboard extends React.Component {
                       image={imageUrlLocation}
                       tracksViewChanges={false}
                       title={marker.name}
-                    />
+                    >
+                      <MapView.Callout tooltip style={styles.toolTip}>
+                        <Text style={styles.label}>{marker.name}</Text>
+                        <Button
+                          onPress={() => {
+                            this.switchToMapMode();
+                            this.goToDetailsPage(marker._id);
+                          }}
+                          style={styles.btnAction}
+                        >
+                          <View>
+                            <Text>View</Text>
+                          </View>
+                        </Button>
+                      </MapView.Callout>
+                    </MapView.Marker>
                   ))}
                 </MapView>
               ) : null}
