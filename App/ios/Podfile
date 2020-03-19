@@ -26,7 +26,6 @@ target 'App' do
     pod 'react-native-voximplant', path: '../node_modules/react-native-voximplant'
     pod 'RNCAsyncStorage', path: '../node_modules/@react-native-community/async-storage/'
     pod 'react-native-notifications', path: '../node_modules/react-native-notifications'
-    pod 'RNCallKit', path: '../node_modules/react-native-callkit'
 
     # Explicitly include Yoga if you are using RN >= 0.42.0
     pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
