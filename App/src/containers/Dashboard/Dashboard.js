@@ -1,15 +1,5 @@
 import React, { Component } from "react";
-import {
-  Animated,
-  Alert,
-  Platform,
-  StyleSheet,
-  View,
-  DeviceEventEmitter,
-  Modal,
-  Dimensions,
-  Image
-} from "react-native";
+import { Alert, View, Modal, Dimensions } from "react-native";
 import {
   Container,
   Content,
@@ -22,20 +12,16 @@ import {
   Icon,
   Text,
   Spinner,
-  Footer,
-  FooterTab,
-  Item,
-  Input,
-  Toast,
   Thumbnail,
   List,
   ListItem
 } from "native-base";
 import MapView from "react-native-maps";
 import apiConsumer from "../../util/apiConsumer";
-import AsyncStorage from "@react-native-community/async-storage";
 import styles from "./styles.js";
 
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
 const imageUrlLocation = require("./static/halallocation3.png");
 
 class Dashboard extends React.Component {
@@ -227,14 +213,15 @@ class Dashboard extends React.Component {
 
           <View style={styles.view}>
             <View style={styles.container}>
-              {/* <Text>{this.state.locationNow}</Text> */}
-              <Button
-                style={styles.buttonSubmitBtn}
-                block
-                onPress={this.retrieveRestaurantsByLatLong}
-              >
-                <Text style={styles.buttonSubmit}>Search</Text>
-              </Button>
+              {this.state.loadedRestaurants ? null : (
+                <Button
+                  style={styles.buttonSubmitBtn}
+                  block
+                  onPress={this.retrieveRestaurantsByLatLong}
+                >
+                  <Text style={styles.buttonSubmit}>Search</Text>
+                </Button>
+              )}
             </View>
           </View>
           <List>{listView}</List>
@@ -252,45 +239,37 @@ class Dashboard extends React.Component {
           visible={this.state.mapMode}
           style={styles.modalStyles}
         >
-          <View style={{ marginTop: 30, width: 400, height: 700 }}>
-            <View style={{ marginTop: 30, width: 400, height: 700 }}>
-              <View style={styles.modalContainer}>
-                {this.state.loadedRestaurants ? (
-                  <MapView
-                    style={{
-                      flex: 1,
-                      height: 700,
-                      width: 400,
-                      marginBottom: 30
-                    }}
-                    showsUserLocation
-                    initialRegion={{
-                      latitude: this.state.user.location.coordinates[1],
-                      longitude: this.state.user.location.coordinates[0],
-                      latitudeDelta: 0.0922,
-                      longitudeDelta: 0.0421
-                    }}
-                  >
-                    {this.state.restaurants.map((marker, index) => (
-                      <MapView.Marker
-                        key={index}
-                        coordinate={{
-                          latitude: marker.location.coordinates[1],
-                          longitude: marker.location.coordinates[0]
-                        }}
-                        image={imageUrlLocation}
-                        tracksViewChanges={false}
-                        title={marker.name}
-                      />
-                    ))}
-                  </MapView>
-                ) : null}
-              </View>
-            </View>
-          </View>
-          {/* <Content> */}
-          <View style={styles.view}>
-            <View style={styles.container}>
+          <View>
+            <View style={styles.modalContainer}>
+              {this.state.loadedRestaurants ? (
+                <MapView
+                  style={{
+                    flex: 1,
+                    height: screenHeight,
+                    width: screenWidth
+                  }}
+                  showsUserLocation
+                  initialRegion={{
+                    latitude: this.state.user.location.coordinates[1],
+                    longitude: this.state.user.location.coordinates[0],
+                    latitudeDelta: 0.0922,
+                    longitudeDelta: 0.0421
+                  }}
+                >
+                  {this.state.restaurants.map((marker, index) => (
+                    <MapView.Marker
+                      key={index}
+                      coordinate={{
+                        latitude: marker.location.coordinates[1],
+                        longitude: marker.location.coordinates[0]
+                      }}
+                      image={imageUrlLocation}
+                      tracksViewChanges={false}
+                      title={marker.name}
+                    />
+                  ))}
+                </MapView>
+              ) : null}
               <Button
                 rounded
                 style={styles.buttonSubmitCloseBtn}
@@ -303,7 +282,6 @@ class Dashboard extends React.Component {
               </Button>
             </View>
           </View>
-          {/* </Content> */}
         </Modal>
       </Container>
     );
