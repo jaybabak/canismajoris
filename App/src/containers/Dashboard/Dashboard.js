@@ -164,7 +164,7 @@ class Dashboard extends React.Component {
 
   render() {
     if (this.state.isReady !== true) {
-      return <Spinner style={styles.spinner} color="#000000" />;
+      return <Spinner style={styles.spinner} color="red" />;
     }
 
     return (

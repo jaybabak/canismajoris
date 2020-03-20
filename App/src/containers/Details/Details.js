@@ -133,7 +133,7 @@ class Details extends React.PureComponent {
 
   render() {
     if (this.state.isReady !== true) {
-      return <Spinner style={styles.spinner} color="#000000" />;
+      return <Spinner style={styles.spinner} color="red" />;
     }
 
     return (

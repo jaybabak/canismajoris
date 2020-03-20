@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   thumbnail: {
     // justifyContent: 'center',
     width: screenWidth,
-    height: 500,
+    height: screenHeight - 300,
     alignSelf: "center"
   }
 });
