@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Alert, View, Modal, Dimensions } from "react-native";
+import React from "react";
+import { Alert, View, Modal } from "react-native";
 import {
   Container,
   Content,
@@ -15,14 +15,10 @@ import {
   Thumbnail
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
-import MapView from "react-native-maps";
 import apiConsumer from "../../util/apiConsumer";
-import styles from "./styles.js";
 import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
-
-const screenWidth = Dimensions.get("window").width;
-const screenHeight = Dimensions.get("window").height;
-const imageUrlLocation = require("./static/halallocation3.png");
+import MapOverview from "../../components/MapOverview/MapOverview";
+import styles from "./styles.js";
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -225,6 +221,7 @@ class Dashboard extends React.Component {
             loadedRestaurants={this.state.loadedRestaurants}
             restaurants={this.state.restaurants}
             goToDetailsPage={this.goToDetailsPage}
+            switchToMapMode={this.switchToMapMode}
           />
         </Content>
 
@@ -232,7 +229,6 @@ class Dashboard extends React.Component {
          *
          * - This window provides the modal for the map
          * - mode listing view mode/
-         *
          */}
         <Modal
           animationType="slide"
@@ -242,72 +238,16 @@ class Dashboard extends React.Component {
         >
           <View>
             <View style={styles.modalContainer}>
-              {this.state.loadedRestaurants ? (
-                <MapView
-                  style={{
-                    flex: 1,
-                    height: screenHeight,
-                    width: screenWidth
-                  }}
-                  showsUserLocation
-                  initialRegion={{
-                    latitude: this.state.user.location.coordinates[1],
-                    longitude: this.state.user.location.coordinates[0],
-                    latitudeDelta: 0.0922,
-                    longitudeDelta: 0.0421
-                  }}
-                >
-                  {this.state.restaurants.map((marker, index) => (
-                    <MapView.Marker
-                      key={index}
-                      coordinate={{
-                        latitude: marker.location.coordinates[1],
-                        longitude: marker.location.coordinates[0]
-                      }}
-                      image={imageUrlLocation}
-                      tracksViewChanges={false}
-                      title={marker.name}
-                    >
-                      {/* <MapView.Callout tooltip style={styles.toolTip}> */}
-                      <MapView.Callout style={{ flex: 1 }}>
-                        <View style={{ alignItems: "center" }}>
-                          <Icon
-                            style={styles.iconMarker}
-                            type="FontAwesome"
-                            name="map-marker"
-                          />
-                          <Text style={styles.label}>{marker.name}</Text>
-                          <Button
-                            small
-                            block
-                            iconLeft
-                            onPress={() => {
-                              this.switchToMapMode();
-                              this.goToDetailsPage(marker._id);
-                            }}
-                            style={styles.btnActionMarker}
-                          >
-                            <Icon name="arrow-forward" />
-                            <Text>View</Text>
-                          </Button>
-                          <Button
-                            small
-                            block
-                            iconLeft
-                            onPress={() => {
-                              this.getDirectionsOpenMapsApp(marker);
-                            }}
-                            style={styles.btnActionMarkerDirections}
-                          >
-                            <Icon name="map-marker" type="FontAwesome" />
-                            <Text>Navigate</Text>
-                          </Button>
-                        </View>
-                      </MapView.Callout>
-                    </MapView.Marker>
-                  ))}
-                </MapView>
-              ) : null}
+              {/* Full screen map overlay */}
+              <MapOverview
+                loadedRestaurants={this.state.loadedRestaurants}
+                user={this.state.user}
+                restaurants={this.state.restaurants}
+                switchToMapMode={this.switchToMapMode}
+                getDirectionsOpenMapsApp={this.getDirectionsOpenMapsApp}
+                goToDetailsPage={this.goToDetailsPage}
+              />
+              {/* Hide map button */}
               <Button
                 rounded
                 style={styles.buttonSubmitCloseBtn}
@@ -321,6 +261,7 @@ class Dashboard extends React.Component {
             </View>
           </View>
         </Modal>
+        {/* End Modal section */}
       </Container>
     );
   }

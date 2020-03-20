@@ -7,10 +7,13 @@
  */
 
 import React, { Component } from "react";
+import { View, Dimensions } from "react-native";
+import { Button, Icon, Text } from "native-base";
 import MapView from "react-native-maps";
-import MapViewDirections from "react-native-maps-directions";
-const GOOGLE_MAPS_APIKEY = "AIzaSyAsuWCY1t7MYV7fvlwO3G6AtPADDYuWrvs";
-const imageUrlLocation = require("./static/halallocation.png");
+import styles from "./styles.js";
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
+const imageUrlLocation = require("./static/halallocation3.png");
 
 class MapOverview extends Component {
   constructor(props) {
@@ -25,48 +28,72 @@ class MapOverview extends Component {
   }
 
   render() {
-    const origin = {
-      latitude: this.state.userLat,
-      longitude: this.state.userLong
-    };
-    const destination = {
-      latitude: this.state.lat,
-      longitude: this.state.long
-    };
-
-    return (
+    return this.state.loadedRestaurants ? (
       <MapView
         style={{
           flex: 1,
-          height: 250,
-          marginTop: 20
+          height: screenHeight,
+          width: screenWidth
         }}
         showsUserLocation
         initialRegion={{
-          latitude: this.state.lat,
-          longitude: this.state.long,
+          latitude: this.state.user.location.coordinates[1],
+          longitude: this.state.user.location.coordinates[0],
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421
         }}
       >
-        <MapView.Marker
-          coordinate={{
-            latitude: this.state.lat,
-            longitude: this.state.long
-          }}
-          tracksViewChanges={false}
-          title={this.state.restaurantName}
-          image={imageUrlLocation}
-        />
-        <MapViewDirections
-          origin={origin}
-          destination={destination}
-          apikey={GOOGLE_MAPS_APIKEY}
-          strokeWidth={3}
-          strokeColor="hotpink"
-        />
+        {this.state.restaurants.map((marker, index) => (
+          <MapView.Marker
+            key={index}
+            coordinate={{
+              latitude: marker.location.coordinates[1],
+              longitude: marker.location.coordinates[0]
+            }}
+            image={imageUrlLocation}
+            tracksViewChanges={false}
+            title={marker.name}
+          >
+            {/* <MapView.Callout tooltip style={styles.toolTip}> */}
+            <MapView.Callout style={{ flex: 1 }}>
+              <View style={{ alignItems: "center" }}>
+                <Icon
+                  style={styles.iconMarker}
+                  type="FontAwesome"
+                  name="map-marker"
+                />
+                <Text style={styles.label}>{marker.name}</Text>
+                <Button
+                  small
+                  block
+                  iconLeft
+                  onPress={() => {
+                    this.props.switchToMapMode();
+                    this.props.goToDetailsPage(marker._id);
+                  }}
+                  style={styles.btnActionMarker}
+                >
+                  <Icon name="arrow-forward" />
+                  <Text>View</Text>
+                </Button>
+                <Button
+                  small
+                  block
+                  iconLeft
+                  onPress={() => {
+                    this.props.getDirectionsOpenMapsApp(marker);
+                  }}
+                  style={styles.btnActionMarkerDirections}
+                >
+                  <Icon name="map-marker" type="FontAwesome" />
+                  <Text>Navigate</Text>
+                </Button>
+              </View>
+            </MapView.Callout>
+          </MapView.Marker>
+        ))}
       </MapView>
-    );
+    ) : null;
   }
 }
 

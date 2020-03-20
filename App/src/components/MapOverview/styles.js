@@ -1,38 +1,8 @@
 import { StyleSheet, Dimensions } from "react-native";
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
 
 const styles = StyleSheet.create({
-  videoStyles: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'flex-start',
-    // padding: 5,
-    width: Dimensions.get("window").width,
-    height: Dimensions.get("window").height,
-    // backgroundColor: "black",
-    flex: 1
-    // paddingLeft: 15,
-    // paddingRight: 15,
-    // borderRadius: 5
-  },
-  videoStylesLocal: {
-    position: "absolute",
-    right: 20,
-    bottom: 20,
-    width: 100,
-    height: 150,
-    zIndex: 100,
-    //remove the white border top and bottom
-    borderRadius: 6,
-    borderRadius: 4,
-    borderWidth: 2.5,
-    borderColor: "white",
-    backgroundColor: "white"
-    // backgroundColor: "black",
-  },
-  label: {
-    color: "black",
-    fontWeight: "700"
-  },
   linearGradient: {
     flex: 1,
     paddingLeft: 10,
@@ -58,38 +28,36 @@ const styles = StyleSheet.create({
     // borderWidth: 0.5,
     // borderColor: 'red'
   },
-  title: {
-    marginTop: 10,
-    marginBottom: 0
-  },
-  subTitle: {
-    color: "grey",
-    marginTop: 20,
-    marginBottom: 10
-  },
-  defaulText: {
-    marginTop: 10,
-    marginBottom: 10,
-    color: "grey"
-    // marginTop: 10
+  viewBottom: {
+    position: "relative",
+    flex: 1,
+    alignItems: "stretch",
+    // justifyContent: "",
+    alignContent: "flex-start",
+    padding: 5
+    // borderRadius: 4,
+    // borderWidth: 0.5,
+    // borderColor: 'red'
   },
   btnAction: {
     backgroundColor: "red",
     color: "white"
+  },
+  btnActionMarker: {
+    backgroundColor: "red",
+    color: "white"
+  },
+  btnActionMarkerDirections: {
+    backgroundColor: "black",
+    color: "white",
+    marginTop: 7
   },
   btnActionText: {
     color: "white"
   },
   buttonSubmitBtn: {
     marginTop: 10,
-    marginBottom: 20,
     backgroundColor: "red",
-    color: "white"
-  },
-  buttonCallBtn: {
-    marginTop: 10,
-    marginBottom: 5,
-    backgroundColor: "green",
     color: "white"
   },
   iconQuestion: {
@@ -113,22 +81,50 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
     alignSelf: "center"
   },
-  container: {
-    padding: 10
+  near: {
+    color: "green"
+  },
+  far: {
+    color: "blue"
+  },
+  modalStyles: {
+    backgroundColor: "black",
+    opacity: 0.7,
+    marginTop: 22
+  },
+  modalContainer: {
+    height: screenHeight,
+    width: screenWidth,
+    justifyContent: "flex-end",
+    alignItems: "stretch"
   },
   buttonSubmitCloseBtn: {
     marginTop: 10,
     backgroundColor: "red",
-    color: "white"
+    color: "white",
+    position: "absolute",
+    bottom: 30,
+    right: 30
   },
   imageWrapper: {
-    // flex: 1,
-    // alignItems: "stretch"
+    flex: 1,
+    alignItems: "stretch"
   },
   image: {
-    // flex: 1,
-    width: "100%",
-    height: 200
+    flex: 1
+  },
+  toolTip: {
+    backgroundColor: "white",
+    padding: 10,
+    borderRadius: 10
+  },
+  label: {
+    marginBottom: 7
+  },
+  iconMarker: {
+    marginBottom: 7,
+    color: "red",
+    fontSize: 36
   }
 });
 
