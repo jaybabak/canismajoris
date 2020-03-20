@@ -24,8 +24,6 @@ class RestaurantListView extends Component {
     this.state = { ...props };
   }
 
-  async componentDidMount() {}
-
   render() {
     // If no restaurants loaded.
     if (!this.state.loadedRestaurants) {

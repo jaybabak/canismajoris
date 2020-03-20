@@ -21,14 +21,21 @@ class MapOverview extends Component {
     this.state = { ...props };
   }
 
-  async componentDidMount() {}
-
   shouldComponentUpdate() {
     return false;
   }
 
   render() {
-    return this.state.loadedRestaurants ? (
+    // Return null of restaurants aren't loaded
+    if (!this.state.loadedRestaurants) {
+      return null;
+    }
+    // Return null of no restaurants found
+    if (this.state.restaurants.length == 0) {
+      return null;
+    }
+
+    return (
       <MapView
         style={{
           flex: 1,
@@ -93,7 +100,7 @@ class MapOverview extends Component {
           </MapView.Marker>
         ))}
       </MapView>
-    ) : null;
+    );
   }
 }
 
