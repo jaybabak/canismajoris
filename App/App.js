@@ -19,6 +19,11 @@ import {
   Icon,
   Spinner
 } from "native-base";
+// import Geolocation from '@react-native-community/geolocation';
+// var config = {};
+// Geolocation.setRNConfiguration(config);
+
+navigator.geolocation = require('@react-native-community/geolocation');
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
@@ -202,6 +207,7 @@ class App extends Component {
   getLocation() {
     navigator.geolocation.getCurrentPosition(
       position => {
+        console.log(position);
         this.setState({
           location: {
             lat: position.coords.latitude,

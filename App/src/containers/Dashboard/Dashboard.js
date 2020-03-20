@@ -165,6 +165,11 @@ class Dashboard extends React.Component {
   render() {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="red" />;
+    } else if (
+      this.state.loadedRestaurants == true &&
+      this.state.restaurants.length == 0
+    ) {
+      listView = <Text note>No halal restauarants found nearby.</Text>;
     }
 
     return (
