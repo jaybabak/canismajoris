@@ -58,7 +58,9 @@ const styles = StyleSheet.create({
   buttonSubmitBtn: {
     marginTop: 10,
     backgroundColor: "red",
-    color: "white"
+    color: "white",
+    justifyContent: "center",
+    alignSelf: "center"
   },
   iconQuestion: {
     fontSize: 20,

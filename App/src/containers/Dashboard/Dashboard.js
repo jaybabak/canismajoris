@@ -209,7 +209,6 @@ class Dashboard extends React.Component {
               {this.state.loadedRestaurants ? null : (
                 <Button
                   style={styles.buttonSubmitBtn}
-                  block
                   onPress={this.retrieveRestaurantsByLatLong}
                 >
                   <Text style={styles.buttonSubmit}>
