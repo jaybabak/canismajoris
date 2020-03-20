@@ -200,7 +200,7 @@ class Dashboard extends React.Component {
               style={styles.thumbnail}
               square
               large
-              source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
+              source={{ uri: "https://i.lensdump.com/i/j13Rmv.png" }}
             />
           )}
 
@@ -212,7 +212,9 @@ class Dashboard extends React.Component {
                   block
                   onPress={this.retrieveRestaurantsByLatLong}
                 >
-                  <Text style={styles.buttonSubmit}>Search</Text>
+                  <Text style={styles.buttonSubmit}>
+                    Find Halal Restaurants Nearby
+                  </Text>
                 </Button>
               )}
             </View>

@@ -85,6 +85,8 @@ const styles = StyleSheet.create({
   },
   thumbnail: {
     // justifyContent: 'center',
+    // width: screenWidth,
+    // height: 500,
     alignSelf: "center"
   }
 });
