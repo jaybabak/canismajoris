@@ -12,14 +12,13 @@ import {
   Icon,
   Text,
   Spinner,
-  Thumbnail,
-  List,
-  ListItem
+  Thumbnail
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
 import MapView from "react-native-maps";
 import apiConsumer from "../../util/apiConsumer";
 import styles from "./styles.js";
+import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
 
 const screenWidth = Dimensions.get("window").width;
 const screenHeight = Dimensions.get("window").height;
@@ -47,7 +46,6 @@ class Dashboard extends React.Component {
     this.goToDetailsPage = this.goToDetailsPage.bind(this);
     this.switchToMapMode = this.switchToMapMode.bind(this);
     this.changeField = this.changeField.bind(this);
-    this.clickMarker = this.clickMarker.bind(this);
     this.retrieveRestaurantsByLatLong = this.retrieveRestaurantsByLatLong.bind(
       this
     );
@@ -59,8 +57,6 @@ class Dashboard extends React.Component {
       isReady: true
     });
   }
-
-  clickMarker() {}
 
   async retrieveRestaurantsByLatLong() {
     this.setState({
@@ -174,32 +170,6 @@ class Dashboard extends React.Component {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="#000000" />;
     }
-    var listView = null;
-
-    if (this.state.loadedRestaurants == true) {
-      listView = this.state.restaurants.map((value, index) => {
-        return (
-          <ListItem
-            avatar
-            key={index}
-            onPress={() => this.goToDetailsPage(value._id)}
-          >
-            <Left>
-              <Thumbnail
-                source={{ uri: "https://i.lensdump.com/i/jILOUm.png" }}
-              />
-            </Left>
-            <Body>
-              <Text>{value.name}</Text>
-              <Text note>{value.address[0].address}</Text>
-            </Body>
-            <Right>
-              <NearOrFar category={value.category} />
-            </Right>
-          </ListItem>
-        );
-      });
-    }
 
     return (
       <Container style={{ backgroundColor: "white" }}>
@@ -251,7 +221,11 @@ class Dashboard extends React.Component {
               )}
             </View>
           </View>
-          <List>{listView}</List>
+          <RestaurantListView
+            loadedRestaurants={this.state.loadedRestaurants}
+            restaurants={this.state.restaurants}
+            goToDetailsPage={this.goToDetailsPage}
+          />
         </Content>
 
         {/* Map Mode Modal Window
@@ -348,16 +322,6 @@ class Dashboard extends React.Component {
           </View>
         </Modal>
       </Container>
-    );
-  }
-}
-
-function NearOrFar(prop) {
-  if (prop.category) {
-    return (
-      <Text style={styles.near} note>
-        {prop.category}
-      </Text>
     );
   }
 }
