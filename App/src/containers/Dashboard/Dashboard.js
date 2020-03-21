@@ -63,10 +63,10 @@ class Dashboard extends React.Component {
       const restaurants = await apiConsumer.getRestaurants();
 
       if (restaurants.data.success == true) {
-        console.log(restaurants.data);
+        // console.log(restaurants.data);
         this.setState({
           isReady: true,
-          restaurants: restaurants.data.results.sorted,
+          restaurants: restaurants.data.results.restaurants,
           loadedRestaurants: true,
           user: restaurants.data.user
         });

@@ -1863,6 +1863,7 @@
 		2ED54493CC4F3281510CE2F4885B178C /* AIRMapOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRMapOverlayRenderer.h; path = lib/ios/AirMaps/AIRMapOverlayRenderer.h; sourceTree = "<group>"; };
 		2F955107B98F1B5213C3C9F4CAB1EDB5 /* libreact-native-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libreact-native-maps.a"; path = "libreact-native-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE9A7AE58971C952AD4E6C3D65ADFC3 /* raw_logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = raw_logging.cc; path = src/raw_logging.cc; sourceTree = "<group>"; };
+		3003B4748077EC734DAC627A4DECD5ED /* Yoga.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Yoga.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3024C82C85174F7C5EBFA179BF91E216 /* RCTCxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTCxxModule.h; sourceTree = "<group>"; };
 		308FC8249CC5DFB70C7CF88FF03D7AD3 /* RCTErrorCustomizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTErrorCustomizer.h; sourceTree = "<group>"; };
 		30A93EFFD42F335BD564EF23B0498D11 /* AIRMapUrlTileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRMapUrlTileManager.h; path = lib/ios/AirMaps/AIRMapUrlTileManager.h; sourceTree = "<group>"; };
@@ -2362,7 +2363,6 @@
 		AAD774EA105AC87B88F18AE47DB49E18 /* RCTTouchHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTouchHandler.m; sourceTree = "<group>"; };
 		AB902133C5BA4741A7384521C4A0BA94 /* RCTFPSGraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFPSGraph.m; sourceTree = "<group>"; };
 		ABFEEA82A6C346B22843FBE0B0582182 /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBReactNativeSpec.a; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC624FFD08C2D952ABBED243D6164BEF /* yoga.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = yoga.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC8075C8CE28152A4C0B5D6C7E1111A8 /* React-jsiexecutor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-jsiexecutor.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD47401A4A2A62FC27F2659799CEC0A6 /* RCTPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerformanceLogger.m; sourceTree = "<group>"; };
 		AE00352EF4DC877D54D9BB90DC2F3A29 /* AIRMapOverlayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRMapOverlayManager.m; path = lib/ios/AirMaps/AIRMapOverlayManager.m; sourceTree = "<group>"; };
@@ -3738,7 +3738,7 @@
 				C16503681A3FA00BB1C6B10B764D7C5F /* Yoga-internal.h */,
 				4322B74A005974CBAE045A4825AF735C /* event */,
 				B7F73695BD7970285AA3D87CDB8FA769 /* internal */,
-				A71F6DEAB90E5F7A3AF9A2E9B76C99BB /* Pod */,
+				6AF2D9DE40CB7F3F359F99130C3A3D8E /* Pod */,
 				8F568E0FF0A845CAA3FDAF088ECDB7AD /* Support Files */,
 			);
 			name = Yoga;
@@ -3975,6 +3975,14 @@
 			);
 			name = RawText;
 			path = Libraries/Text/RawText;
+			sourceTree = "<group>";
+		};
+		6AF2D9DE40CB7F3F359F99130C3A3D8E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3003B4748077EC734DAC627A4DECD5ED /* Yoga.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6B5995A31C92E4B4FA249144D8B503AB /* Support Files */ = {
@@ -4527,14 +4535,6 @@
 			);
 			name = "React-RCTSettings";
 			path = "../../node_modules/react-native/Libraries/Settings";
-			sourceTree = "<group>";
-		};
-		A71F6DEAB90E5F7A3AF9A2E9B76C99BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AC624FFD08C2D952ABBED243D6164BEF /* yoga.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A79635B449B14FE141B90F2FA4A8BC7F /* Pod */ = {

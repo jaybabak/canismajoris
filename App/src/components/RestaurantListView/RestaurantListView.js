@@ -18,10 +18,14 @@ import {
 } from "native-base";
 import styles from "./styles.js";
 
-class RestaurantListView extends Component {
+class RestaurantListView extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = { ...props };
+  }
+
+  componentDidMount() {
+    // console.log(this.state);
   }
 
   render() {
@@ -38,24 +42,29 @@ class RestaurantListView extends Component {
     // Return all the rstaurants found nearby sorted by distance.
     return (
       <List>
-        {this.state.restaurants.map((value, index) => {
+        {this.state.restaurants.map((restaurant, index) => {
+          console.log(restaurant);
+
           return (
             <ListItem
               avatar
               key={index}
-              onPress={() => this.props.goToDetailsPage(value._id)}
+              onPress={() => this.props.goToDetailsPage(restaurant._id)}
             >
               <Left>
-                <Thumbnail
-                  source={{ uri: "https://i.lensdump.com/i/jILOUm.png" }}
-                />
+                <Text style={styles.distanceField}>
+                  {(
+                    Math.round((restaurant.dist.calculated / 1000) * 10) / 10
+                  ).toFixed(1)}
+                </Text>
+                <Text style={styles.distanceField}>KM</Text>
               </Left>
               <Body>
-                <Text>{value.name}</Text>
-                <Text note>{value.address[0].address}</Text>
+                <Text>{restaurant.name}</Text>
+                <Text note>{restaurant.address[0].address}</Text>
               </Body>
               <Right>
-                <NearOrFar category={value.category} />
+                <NearOrFar category={restaurant.category} />
               </Right>
             </ListItem>
           );

@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
     alignSelf: "center"
   },
   near: {
-    color: "green"
+    color: "black"
+    // width: 80
   },
   far: {
     color: "blue"
@@ -125,6 +126,11 @@ const styles = StyleSheet.create({
     marginBottom: 7,
     color: "red",
     fontSize: 36
+  },
+  distanceField: {
+    fontSize: 10,
+    color: "red",
+    fontWeight: "600"
   }
 });
 
