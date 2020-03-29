@@ -43,8 +43,6 @@ class RestaurantListView extends React.PureComponent {
     return (
       <List>
         {this.state.restaurants.map((restaurant, index) => {
-          console.log(restaurant);
-
           return (
             <ListItem
               avatar

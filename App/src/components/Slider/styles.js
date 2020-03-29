@@ -4,7 +4,7 @@ const { width: screenWidth } = Dimensions.get("window");
 const styles = StyleSheet.create({
   item: {
     width: screenWidth - 30,
-    height: screenWidth - 30
+    height: screenWidth
   },
   imageContainer: {
     flex: 1,

@@ -24,7 +24,7 @@ class BusinessHours extends Component {
 
   render() {
     return (
-      <Grid>
+      <Grid style={{ marginBottom: 20 }}>
         <Col style={{ width: 100 }}>
           <Text>Monday</Text>
           <Text>Tuesday</Text>

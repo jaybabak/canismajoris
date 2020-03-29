@@ -89,8 +89,8 @@ class Slider extends Component {
           width: 10,
           height: 10,
           borderRadius: 5,
-          marginHorizontal: 8
-          // backgroundColor: "rgba(255, 255, 255, 0.92)"
+          marginHorizontal: 8,
+          backgroundColor: "rgba(0,0,0,1)"
         }}
         inactiveDotStyle={
           {
@@ -114,9 +114,9 @@ class Slider extends Component {
     return (
       <React.Fragment>
         <Carousel
-          sliderWidth={screenWidth}
+          sliderWidth={screenWidth - 30}
           sliderHeight={screenWidth}
-          itemWidth={screenWidth - 30}
+          itemWidth={screenWidth}
           data={this.state.images}
           renderItem={this._renderItem}
           hasParallaxImages={true}

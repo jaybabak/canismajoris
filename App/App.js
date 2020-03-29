@@ -6,6 +6,9 @@
  * @flow
  */
 
+// DISABLE YELLOW BOX WARNING!!!
+console.ignoredYellowBox = false;
+
 import React, { Component } from "react";
 import { Alert } from "react-native";
 import {
@@ -23,7 +26,7 @@ import {
 // var config = {};
 // Geolocation.setRNConfiguration(config);
 
-navigator.geolocation = require('@react-native-community/geolocation');
+navigator.geolocation = require("@react-native-community/geolocation");
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";

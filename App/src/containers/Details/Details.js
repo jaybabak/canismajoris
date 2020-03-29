@@ -15,13 +15,15 @@ import {
   Text,
   Spinner,
   H1,
-  H3
+  H3,
+  Badge
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
 import apiConsumer from "../../util/apiConsumer";
+import serviceContainer from "../../util/serviceContainer";
 import styles from "./styles.js";
 
 // Image which appears at the to (restaurant photo).
@@ -162,18 +164,71 @@ class Details extends React.PureComponent {
           </Right>
         </Header>
         <Content
-          style={{ paddingTop: 10 }}
+          // style={{ paddingTop: 10 }}
           scrollIndicatorInsets={{ right: 1 }}
         >
-          {/* Start Slider/Carousel */}
-          <Slider />
-          {/* Start Slider/Carousel */}
+          <MapDetails
+            lat={this.state.restaurant.location.coordinates[1]}
+            long={this.state.restaurant.location.coordinates[0]}
+            restaurantName={this.state.restaurant.name}
+            userLat={this.state.user.location.coordinates[1]}
+            userLong={this.state.user.location.coordinates[0]}
+          />
 
           <View style={styles.view}>
             <View style={styles.container}>
+              <View
+                style={{
+                  flexDirection: "row",
+                  justifyContent: "flex-start",
+                  marginTop: 5,
+                  marginBottom: 10
+                }}
+              >
+                <Badge success>
+                  <Text style={{ alignSelf: "flex-end" }}>OPEN</Text>
+                </Badge>
+                <Badge>
+                  <Text style={{ alignSelf: "flex-end" }}>CLOSED</Text>
+                </Badge>
+              </View>
               {/* Start Header */}
               <H1 style={styles.title}>{this.state.restaurant.name}</H1>
               <H3 style={styles.subTitle}>{this.state.restaurant.category}</H3>
+              <Button
+                style={styles.buttonSubmitBtn}
+                block
+                bordered
+                success
+                onPress={this.getDirectionsOpenMapsApp}
+              >
+                <Text style={styles.buttonSubmit}>Call</Text>
+              </Button>
+
+              {/* Directions button */}
+              <Button
+                style={styles.buttonSubmitBtn}
+                bordered
+                danger
+                block
+                onPress={this.getDirectionsOpenMapsApp}
+              >
+                <Text style={styles.buttonSubmit}>Directions</Text>
+              </Button>
+              {/* Directions button */}
+
+              {/* Website button */}
+              <Button
+                style={styles.buttonSubmitBtn}
+                bordered
+                block
+                onPress={this.getDirectionsOpenMapsApp}
+              >
+                <Text style={styles.buttonSubmit}>Website</Text>
+              </Button>
+              {/* Directions button */}
+
+              {/* Address card/label */}
               <Card>
                 <CardItem>
                   <Body>
@@ -182,15 +237,7 @@ class Details extends React.PureComponent {
                   </Body>
                 </CardItem>
               </Card>
-              <Button
-                style={styles.buttonCallBtn}
-                block
-                success
-                onPress={this.getDirectionsOpenMapsApp}
-              >
-                <Text style={styles.buttonSubmit}>Call</Text>
-              </Button>
-
+              {/* Address card/label */}
               {/* End Header Component */}
 
               <Text style={styles.defaulText}>
@@ -205,23 +252,10 @@ class Details extends React.PureComponent {
               <BusinessHours restaurant={this.state.restaurant} />
 
               {/* Location Map Component */}
-              <H3 style={styles.subTitle}>Location</H3>
-              <MapDetails
-                lat={this.state.restaurant.location.coordinates[1]}
-                long={this.state.restaurant.location.coordinates[0]}
-                restaurantName={this.state.restaurant.name}
-                userLat={this.state.user.location.coordinates[1]}
-                userLong={this.state.user.location.coordinates[0]}
-              />
-
-              {/* Directions button */}
-              <Button
-                style={styles.buttonSubmitBtn}
-                block
-                onPress={this.getDirectionsOpenMapsApp}
-              >
-                <Text style={styles.buttonSubmit}>Directions</Text>
-              </Button>
+              <H3 style={styles.subTitle}>Photos</H3>
+              {/* Start Slider/Carousel */}
+              <Slider />
+              {/* Start Slider/Carousel */}
             </View>
           </View>
         </Content>

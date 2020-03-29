@@ -39,7 +39,7 @@ class MapDetails extends Component {
         style={{
           flex: 1,
           height: 250,
-          marginTop: 20
+          marginTop: 0
         }}
         showsUserLocation
         initialRegion={{

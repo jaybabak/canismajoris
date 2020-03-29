@@ -1,34 +1,6 @@
 import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
-  videoStyles: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'flex-start',
-    // padding: 5,
-    width: Dimensions.get("window").width,
-    height: Dimensions.get("window").height,
-    // backgroundColor: "black",
-    flex: 1
-    // paddingLeft: 15,
-    // paddingRight: 15,
-    // borderRadius: 5
-  },
-  videoStylesLocal: {
-    position: "absolute",
-    right: 20,
-    bottom: 20,
-    width: 100,
-    height: 150,
-    zIndex: 100,
-    //remove the white border top and bottom
-    borderRadius: 6,
-    borderRadius: 4,
-    borderWidth: 2.5,
-    borderColor: "white",
-    backgroundColor: "white"
-    // backgroundColor: "black",
-  },
   label: {
     color: "black",
     fontWeight: "700"
@@ -64,7 +36,7 @@ const styles = StyleSheet.create({
   },
   subTitle: {
     color: "grey",
-    marginTop: 20,
+    marginTop: 10,
     marginBottom: 10
   },
   defaulText: {
@@ -82,9 +54,9 @@ const styles = StyleSheet.create({
   },
   buttonSubmitBtn: {
     marginTop: 10,
-    marginBottom: 20,
-    backgroundColor: "red",
-    color: "white"
+    marginBottom: 10
+    // backgroundColor: "red",
+    // color: "white"
   },
   buttonCallBtn: {
     marginTop: 10,
