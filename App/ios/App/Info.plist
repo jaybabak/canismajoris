@@ -40,9 +40,9 @@
 	<key>NSCameraUsageDescription</key>
 	<string>${PRODUCT_NAME} Uses camera for video calls</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>${PRODUCT_NAME} Uses mic for audio calls</string>
 	<key>UIAppFonts</key>

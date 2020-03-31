@@ -10,7 +10,7 @@
 console.ignoredYellowBox = false;
 
 import React, { Component } from "react";
-import { Alert } from "react-native";
+import { Alert, Animated } from "react-native";
 import {
   Container,
   Header,
@@ -20,7 +20,9 @@ import {
   Title,
   Button,
   Icon,
-  Spinner
+  Spinner,
+  Text,
+  View
 } from "native-base";
 // import Geolocation from '@react-native-community/geolocation';
 // var config = {};
@@ -70,11 +72,14 @@ class App extends Component {
 
     const userLoggedIn = await loginManager.getStorageData("@id");
     const accessToken = await loginManager.getStorageData("@app_access_token");
-    // check if user is returning and attemps to login
+
+    console.log(userLoggedIn, accessToken);
+    // Check if user is returning and attemps to login.
     if (userLoggedIn && accessToken) {
       let that = this;
       const getTheUser = await loginManager.getUser(accessToken);
 
+      // If server and user info is retrieved = success.
       if (getTheUser) {
         this.setState({
           authenticated: true,
@@ -95,9 +100,12 @@ class App extends Component {
       }
 
       this.setState({
+        errors: {
+          serverError: true
+        },
         isReady: true
       });
-
+      console.log(this.state);
       return;
     }
 
@@ -296,6 +304,17 @@ class App extends Component {
             </Button>
           </Right>
         </Header>
+
+        {/* Error incase server is unreachable */}
+        {this.state.errors.serverError ? (
+          <View style={styles.defaultMessageContainer}>
+            <Text style={styles.defaultMessage}>
+              Looks like we're are experiencing some issues, try again later.
+            </Text>
+          </View>
+        ) : null}
+        {/* END Error incase server is unreachable */}
+
         {/* Rengder either the login form or welcome screen */}
         {this.state.authenticated ? (
           <Welcome

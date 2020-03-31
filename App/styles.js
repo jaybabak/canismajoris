@@ -78,7 +78,23 @@ const styles = StyleSheet.create({
   },
   thumbnail: {
     // justifyContent: 'center',
+    // width: 10,
+    // height: 10,
     alignSelf: "center"
+  },
+  defaultMessageContainer: {
+    backgroundColor: "#3c3c3c",
+    height: 50
+  },
+  defaultMessage: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    color: "white",
+    fontSize: 14,
+    padding: 10,
+    paddingTop: 15
   }
 });
 

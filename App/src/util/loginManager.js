@@ -89,10 +89,15 @@ const getUser = async function(accessToken) {
     url: "http://localhost:3000/api/home"
   };
 
-  //Make the requst
-  const submitGetUser = await axios(settings);
-  //Return the user object returned from server
-  return submitGetUser;
+  try {
+    //Make the requst
+    const submitGetUser = await axios(settings);
+    //Return the user object returned from server
+    return submitGetUser;
+  } catch (e) {
+    console.log("Unable to reach server.", e);
+    return false;
+  }
 };
 
 /**

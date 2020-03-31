@@ -22,6 +22,7 @@ import { OpenMapDirections } from "react-native-navigation-directions";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
+import OpenOrClosedStatus from "../../components/OpenOrClosedStatus/OpenOrClosedStatus";
 import apiConsumer from "../../util/apiConsumer";
 import serviceContainer from "../../util/serviceContainer";
 import styles from "./styles.js";
@@ -185,12 +186,12 @@ class Details extends React.PureComponent {
                   marginBottom: 10
                 }}
               >
-                <Badge success>
-                  <Text style={{ alignSelf: "flex-end" }}>OPEN</Text>
-                </Badge>
-                <Badge>
-                  <Text style={{ alignSelf: "flex-end" }}>CLOSED</Text>
-                </Badge>
+                {/* Restaurant open or closed
+                 * commented out for now due to data in database not being consistent
+                 * (all strings and some are closed instead of propery formatted times)
+                 */}
+                {/* <OpenOrClosedStatus isOpen={true} /> */}
+                {/* Restaurant open or closed */}
               </View>
               {/* Start Header */}
               <H1 style={styles.title}>{this.state.restaurant.name}</H1>
