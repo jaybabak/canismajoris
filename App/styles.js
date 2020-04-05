@@ -86,6 +86,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#3c3c3c",
     height: 50
   },
+  iconLeft: {
+    flex: 1
+  },
   defaultMessage: {
     flex: 1,
     justifyContent: "center",

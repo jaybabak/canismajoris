@@ -12,7 +12,8 @@ import {
   Icon,
   Text,
   Spinner,
-  Thumbnail
+  Thumbnail,
+  Fab
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
 import apiConsumer from "../../util/apiConsumer";

@@ -12,9 +12,12 @@ import {
   Body,
   Right,
   Text,
-  Thumbnail,
   List,
-  ListItem
+  ListItem,
+  Fab,
+  Icon,
+  Button,
+  View
 } from "native-base";
 import styles from "./styles.js";
 
