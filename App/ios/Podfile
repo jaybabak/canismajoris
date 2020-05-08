@@ -64,7 +64,7 @@ target 'App' do
 
     pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 
-
+    pod 'react-native-google-maps', :path => '../node_modules/react-native-maps'
 
 
     pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
