@@ -12,8 +12,7 @@ import { Button, Icon, Text } from "native-base";
 import MapView from "react-native-maps";
 import styles from "./styles.js";
 // Device dimentions.
-const screenWidth = Dimensions.get("window").width;
-const screenHeight = Dimensions.get("window").height;
+const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 // Map marker PNG icon.
 const mapMarkerImage = require("./static/marker.png");
 
