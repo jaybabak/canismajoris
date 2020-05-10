@@ -10,7 +10,7 @@ import React, { Component } from "react";
 import { Text, View } from "react-native";
 import Carousel, {
   ParallaxImage,
-  Pagination
+  Pagination,
 } from "react-native-snap-carousel";
 import { Dimensions } from "react-native";
 import styles from "./styles.js";
@@ -25,41 +25,43 @@ class Slider extends Component {
           id: "WpIAc9by5iU",
           thumbnail:
             "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
-          title: "Led Zeppelin - Stairway To Heaven"
+          title: "Led Zeppelin - Stairway To Heaven",
         },
         {
           id: "sNPnbI1arSE",
           thumbnail:
             "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-          title: "Eminem - My Name Is"
+          title: "Eminem - My Name Is",
         },
         {
           id: "VOgFZfRVaww",
           thumbnail:
             "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
-          title: ""
+          title: "",
         },
         {
           id: "WpIAc9by5iU",
           thumbnail: "https://picsum.photos/650/650",
-          title: "Led Zeppelin - Stairway To Heaven"
+          title: "Led Zeppelin - Stairway To Heaven",
         },
         {
           id: "sNPnbI1arSE",
           thumbnail: "https://picsum.photos/650/650",
-          title: "Eminem - My Name Is"
+          title: "Eminem - My Name Is",
         },
         {
           id: "VOgFZfRVaww",
           thumbnail: "https://picsum.photos/650/650",
-          title: ""
-        }
+          title: "",
+        },
       ],
-      activeSlide: 0
+      activeSlide: 0,
     };
   }
 
-  async componentDidMount() {}
+  async componentDidMount() {
+    // Void. No state modifications.
+  }
 
   _renderItem({ item, index }, parallaxProps) {
     return (
@@ -90,7 +92,7 @@ class Slider extends Component {
           height: 10,
           borderRadius: 5,
           marginHorizontal: 8,
-          backgroundColor: "rgba(0,0,0,1)"
+          backgroundColor: "rgba(0,0,0,1)",
         }}
         inactiveDotStyle={
           {
@@ -120,7 +122,7 @@ class Slider extends Component {
           data={this.state.images}
           renderItem={this._renderItem}
           hasParallaxImages={true}
-          onSnapToItem={index => this.setState({ activeSlide: index })}
+          onSnapToItem={(index) => this.setState({ activeSlide: index })}
         />
         {this.pagination}
       </React.Fragment>

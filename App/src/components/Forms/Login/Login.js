@@ -16,7 +16,9 @@ class Login extends Component {
     super(props);
   }
 
-  async componentDidMount() {}
+  async componentDidMount() {
+    // Void. No state modifications.
+  }
 
   render() {
     return (

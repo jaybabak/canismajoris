@@ -16,7 +16,9 @@ class BusinessHours extends Component {
     this.state = { ...props };
   }
 
-  async componentDidMount() {}
+  componentDidMount() {
+    // Void. No state modifications.
+  }
 
   shouldComponentUpdate() {
     return false;

@@ -17,7 +17,9 @@ class Home extends Component {
     this.state = {};
   }
 
-  async componentDidMount() {}
+  async componentDidMount() {
+    // Void. No state modifications.
+  }
 
   render() {
     return (

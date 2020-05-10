@@ -15,7 +15,9 @@ class OpenOrClosedStatus extends Component {
     this.state = { ...props };
   }
 
-  async componentDidMount() {}
+  async componentDidMount() {
+    // Void. No state modifications.
+  }
 
   shouldComponentUpdate() {
     return false;

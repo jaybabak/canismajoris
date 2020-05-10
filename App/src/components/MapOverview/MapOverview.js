@@ -11,9 +11,11 @@ import { View, Dimensions } from "react-native";
 import { Button, Icon, Text } from "native-base";
 import MapView from "react-native-maps";
 import styles from "./styles.js";
+// Device dimentions.
 const screenWidth = Dimensions.get("window").width;
 const screenHeight = Dimensions.get("window").height;
-const imageUrlLocation = require("./static/halallocation3.png");
+// Map marker PNG icon.
+const mapMarkerImage = require("./static/marker.png");
 
 class MapOverview extends Component {
   constructor(props) {
@@ -40,14 +42,14 @@ class MapOverview extends Component {
         style={{
           flex: 1,
           height: screenHeight,
-          width: screenWidth
+          width: screenWidth,
         }}
         showsUserLocation
         initialRegion={{
           latitude: this.state.user.location.coordinates[1],
           longitude: this.state.user.location.coordinates[0],
           latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421
+          longitudeDelta: 0.0421,
         }}
       >
         {this.state.restaurants.map((marker, index) => (
@@ -55,9 +57,9 @@ class MapOverview extends Component {
             key={index}
             coordinate={{
               latitude: marker.location.coordinates[1],
-              longitude: marker.location.coordinates[0]
+              longitude: marker.location.coordinates[0],
             }}
-            image={imageUrlLocation}
+            image={mapMarkerImage}
             tracksViewChanges={false}
             title={marker.name}
           >

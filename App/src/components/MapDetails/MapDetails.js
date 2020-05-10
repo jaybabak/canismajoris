@@ -18,7 +18,9 @@ class MapDetails extends Component {
     this.state = { ...props };
   }
 
-  async componentDidMount() {}
+  async componentDidMount() {
+    // Void. No state modifications.
+  }
 
   shouldComponentUpdate() {
     return false;
@@ -27,11 +29,11 @@ class MapDetails extends Component {
   render() {
     const origin = {
       latitude: this.state.userLat,
-      longitude: this.state.userLong
+      longitude: this.state.userLong,
     };
     const destination = {
       latitude: this.state.lat,
-      longitude: this.state.long
+      longitude: this.state.long,
     };
 
     return (
@@ -39,20 +41,20 @@ class MapDetails extends Component {
         style={{
           flex: 1,
           height: 250,
-          marginTop: 0
+          marginTop: 0,
         }}
         showsUserLocation
         initialRegion={{
           latitude: this.state.lat,
           longitude: this.state.long,
           latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421
+          longitudeDelta: 0.0421,
         }}
       >
         <MapView.Marker
           coordinate={{
             latitude: this.state.lat,
-            longitude: this.state.long
+            longitude: this.state.long,
           }}
           tracksViewChanges={false}
           title={this.state.restaurantName}

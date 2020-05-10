@@ -6,19 +6,8 @@
  * @flow
  */
 
-import React, { Component } from "react";
-import {
-  Left,
-  Body,
-  Right,
-  Text,
-  List,
-  ListItem,
-  Fab,
-  Icon,
-  Button,
-  View
-} from "native-base";
+import React from "react";
+import { Left, Body, Right, Text, List, ListItem } from "native-base";
 import styles from "./styles.js";
 
 class RestaurantListView extends React.PureComponent {
@@ -28,7 +17,7 @@ class RestaurantListView extends React.PureComponent {
   }
 
   componentDidMount() {
-    // console.log(this.state);
+    // Void. No state modifications.
   }
 
   render() {

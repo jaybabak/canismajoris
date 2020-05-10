@@ -13,20 +13,20 @@ import {
   Text,
   Spinner,
   Thumbnail,
-  Fab
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
 import apiConsumer from "../../util/apiConsumer";
 import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
 import MapOverview from "../../components/MapOverview/MapOverview";
 import styles from "./styles.js";
+// Finder image -> magnifying glass.
+const splashImage = require("../../../assets/images/splash_1.png");
 
 class Dashboard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isReady: false,
-      avatar: "https://i.ibb.co/7J4pNLr/profilephoto.png",
       name: "",
       lastName: "",
       accessToken: "",
@@ -36,7 +36,7 @@ class Dashboard extends React.Component {
       restaurants: [],
       loadedRestaurants: false,
       mapMode: false,
-      user: null
+      user: null,
     };
 
     this.goBack = this.goBack.bind(this);
@@ -51,25 +51,24 @@ class Dashboard extends React.Component {
 
   componentDidMount() {
     this.setState({
-      isReady: true
+      isReady: true,
     });
   }
 
   async retrieveRestaurantsByLatLong() {
     this.setState({
-      isReady: false
+      isReady: false,
     });
 
     try {
       const restaurants = await apiConsumer.getRestaurants();
 
       if (restaurants.data.success == true) {
-        // console.log(restaurants.data);
         this.setState({
           isReady: true,
           restaurants: restaurants.data.results.restaurants,
           loadedRestaurants: true,
-          user: restaurants.data.user
+          user: restaurants.data.user,
         });
       }
 
@@ -77,7 +76,7 @@ class Dashboard extends React.Component {
 
       if (restaurants.hasOwnProperty("error")) {
         this.setState({
-          isReady: true
+          isReady: true,
         });
         Alert.alert(
           "Error Retrieving Location",
@@ -86,9 +85,9 @@ class Dashboard extends React.Component {
             {
               text: "Cancel",
               onPress: () => console.log("Cancel Pressed"),
-              style: "cancel"
+              style: "cancel",
             },
-            { text: "OK", onPress: () => console.log("OK Pressed") }
+            { text: "OK", onPress: () => console.log("OK Pressed") },
           ],
           { cancelable: false }
         );
@@ -97,7 +96,7 @@ class Dashboard extends React.Component {
       console.log(e);
 
       this.setState({
-        isReady: true
+        isReady: true,
       });
 
       Alert.alert(
@@ -107,9 +106,9 @@ class Dashboard extends React.Component {
           {
             text: "Cancel",
             onPress: () => console.log("Cancel Pressed"),
-            style: "cancel"
+            style: "cancel",
           },
-          { text: "OK", onPress: () => console.log("OK Pressed") }
+          { text: "OK", onPress: () => console.log("OK Pressed") },
         ],
         { cancelable: false }
       );
@@ -131,13 +130,13 @@ class Dashboard extends React.Component {
   goToDetailsPage(theRestaurantId) {
     this.props.navigation.navigate("Details", {
       rid: theRestaurantId,
-      user: this.state.user
+      user: this.state.user,
     });
   }
 
   switchToMapMode() {
     this.setState({
-      mapMode: !this.state.mapMode
+      mapMode: !this.state.mapMode,
     });
   }
 
@@ -148,17 +147,17 @@ class Dashboard extends React.Component {
     // Location of user
     const startPoint = {
       longitude: this.state.user.location.coordinates[0],
-      latitude: this.state.user.location.coordinates[1]
+      latitude: this.state.user.location.coordinates[1],
     };
 
     // Location of restaurant
     const endPoint = {
       longitude: restaurant.location.coordinates[0],
-      latitude: restaurant.location.coordinates[1]
+      latitude: restaurant.location.coordinates[1],
     };
 
     // Open the default maps application available on users device
-    OpenMapDirections(startPoint, endPoint, transportPlan).then(res => {
+    OpenMapDirections(startPoint, endPoint, transportPlan).then((res) => {
       console.log(res);
     });
   }
@@ -206,7 +205,7 @@ class Dashboard extends React.Component {
               style={styles.thumbnail}
               square
               large
-              source={{ uri: "https://i.lensdump.com/i/j13Rmv.png" }}
+              source={splashImage}
             />
           )}
 
