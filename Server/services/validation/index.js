@@ -6,11 +6,7 @@ const validator = require("validator");
  *   with the values: firtst/last name
  *   email, password and mobile #
  */
-
 async function validateNewUser(user) {
-  console.log(user);
-
-  //WORKING HERE TRYING TO VALIDATE INCASE KEYS ARE NOT FILLED OUT/
   if (
     !user.hasOwnProperty("email") ||
     !user.hasOwnProperty("password") ||
@@ -25,7 +21,7 @@ async function validateNewUser(user) {
     return {
       success: false,
       message:
-        "Unsuccessful operation request: CREATE NEW USER due to missing keys"
+        "Unsuccessful operation request: CREATE NEW USER due to missing keys",
     };
   }
 
@@ -39,8 +35,8 @@ async function validateNewUser(user) {
     status: validator.trim(user.status),
     location: {
       type: user.location.type,
-      coordinates: user.location.coordinates
-    }
+      coordinates: user.location.coordinates,
+    },
   };
 
   console.log(newUser);
@@ -48,7 +44,7 @@ async function validateNewUser(user) {
   var response = {
     success: true,
     message: "Validated successfully.",
-    user: newUser
+    user: newUser,
   };
 
   //Email Validation
@@ -104,12 +100,49 @@ async function validateNewUser(user) {
   //     return (response);
   // }
 
-  // //Point
-  // if (validator.isEmpty(newUser.location.type) || newUser.location.type !== 'Point') {
-  //     response.success = false;
-  //     response.message = 'Check status field, must be of type "Point"';
-  //     return (response);
-  // }
+  return response;
+}
+
+async function validateOptInForm(form) {
+  if (
+    !form.hasOwnProperty("email") ||
+    !form.hasOwnProperty("name") ||
+    !form.hasOwnProperty("city")
+  ) {
+    console.error("Missing keys: ", form);
+    return {
+      success: false,
+      message: "Unsuccessful operation request: missing fields.",
+    };
+  }
+
+  var response = {
+    success: true,
+    message: "Validated successfully.",
+    form: form,
+  };
+
+  //Email Validation
+  if (validator.isEmpty(form.email) || !validator.isEmail(form.email)) {
+    response.success = false;
+    response.message = "Email is either empty or invalid.";
+    return response;
+  }
+
+  //Name Validation
+  if (validator.isEmpty(form.name)) {
+    response.success = false;
+    response.message = "Name is empty.";
+    return response;
+  }
+
+  //City Validation
+  // @TODO Check for spaces only and letters
+  if (validator.isEmpty(form.city)) {
+    response.success = false;
+    response.message = "city is either empty or invalid.";
+    return response;
+  }
 
   return response;
 }
@@ -125,4 +158,5 @@ async function sanitizeField(field) {
 }
 
 module.exports.validateNewUser = validateNewUser;
+module.exports.validateOptInForm = validateOptInForm;
 module.exports.sanitizeField = sanitizeField;

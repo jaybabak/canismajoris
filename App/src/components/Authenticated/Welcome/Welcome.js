@@ -7,7 +7,7 @@
  */
 
 import React, { Component } from "react";
-import { Text, View } from "react-native";
+import { Alert, Text, View } from "react-native";
 import { Button, Thumbnail, Icon } from "native-base";
 import styles from "./styles.js";
 // Welcome image -> PNG assets.
@@ -19,7 +19,7 @@ class Welcome extends Component {
   }
 
   async componentDidMount() {
-    // Void. No state modifications.
+    // Void. Left blank.
   }
 
   render() {

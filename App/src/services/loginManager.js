@@ -10,7 +10,7 @@ const axios = require("axios");
  * Login and set tokem to local storage
  * @param {string} that The current state object from the higher order component (App.js?)
  */
-const authenticate = async function(that) {
+const authenticate = async function (that) {
   try {
     //If successful login to voximplant service than proceed to set the accesstoken, refresh etc..
     const userName = ["@id", that.state.user._id];
@@ -20,7 +20,7 @@ const authenticate = async function(that) {
 
     //Update the state and the UI to show the authenticated screens
     that.setState({
-      tokens: true
+      tokens: true,
     });
 
     return true;
@@ -36,16 +36,16 @@ const authenticate = async function(that) {
         {
           text: "Cancel",
           onPress: () => console.log("Cancel Pressed"),
-          style: "cancel"
+          style: "cancel",
         },
-        { text: "OK", onPress: () => console.log("OK Pressed") }
+        { text: "OK", onPress: () => console.log("OK Pressed") },
       ],
       { cancelable: false }
     );
 
     that.setState({
       authenticated: false,
-      isReady: true
+      isReady: true,
     });
 
     return false;
@@ -56,7 +56,7 @@ const authenticate = async function(that) {
  * Create user method - Registers the user and creates a new user in the database
  * @param {string} user This is the user object being passed
  */
-const addUser = async function(user) {
+const addUser = async function (user) {
   console.log(user);
   var submitUserForm;
   try {
@@ -65,8 +65,8 @@ const addUser = async function(user) {
       method: "post",
       url: "http://localhost:3000/register-user",
       data: {
-        user
-      }
+        user,
+      },
     };
     //Make the requst
     submitUserForm = await axios(settings);
@@ -81,12 +81,12 @@ const addUser = async function(user) {
  * Authenticated User Route - Grabs current user and all non-sensitive fields
  * @param {string} accesstoken Pass a valid accesstokent to retieve the current user
  */
-const getUser = async function(accessToken) {
+const getUser = async function (accessToken) {
   //HTTP Request object
   const settings = {
     headers: { Authorization: `Bearer ${accessToken}` },
     method: "get",
-    url: "http://localhost:3000/api/home"
+    url: "http://localhost:3000/api/home",
   };
 
   try {
@@ -104,14 +104,14 @@ const getUser = async function(accessToken) {
  * Validate registration form - Validates the user fields such as email, password, number etc..
  * @param {string} user This is the user object being passed to the validate function
  */
-const validateUser = async function(user) {
+const validateUser = async function (user) {
   var errors = {
     success: true,
     email: false,
     password: false,
     name: false,
     lastName: false,
-    mobileNumber: false
+    mobileNumber: false,
   };
 
   //Email Validation
@@ -157,11 +157,11 @@ const validateUser = async function(user) {
  * Validate login form - Validates the user login form
  * @param {string} user This is the user object being passed to the validate function
  */
-const validateLoginForm = async function(user) {
+const validateLoginForm = async function (user) {
   var errors = {
     success: true,
     email: false,
-    password: false
+    password: false,
   };
 
   //Email Validation
@@ -187,7 +187,7 @@ const validateLoginForm = async function(user) {
  * @param {string} password The users existing password to succesfully login
  * @param {string} that The current state object from the higher order component (App.js?)
  */
-const loginUser = async function(email, password, that) {
+const loginUser = async function (email, password, that) {
   //Validate the user email and password fields
   var form = await validateLoginForm(that.state);
 
@@ -200,9 +200,9 @@ const loginUser = async function(email, password, that) {
         {
           text: "Cancel",
           onPress: () => console.log("Cancel Pressed"),
-          style: "cancel"
+          style: "cancel",
         },
-        { text: "OK", onPress: () => console.log("OK Pressed") }
+        { text: "OK", onPress: () => console.log("OK Pressed") },
       ],
       { cancelable: false }
     );
@@ -215,8 +215,8 @@ const loginUser = async function(email, password, that) {
     url: "http://localhost:3000/login",
     data: {
       email: email,
-      password: password
-    }
+      password: password,
+    },
   };
 
   //Make the request
@@ -245,9 +245,9 @@ const loginUser = async function(email, password, that) {
         {
           text: "Cancel",
           onPress: () => console.log("Cancel Pressed"),
-          style: "cancel"
+          style: "cancel",
         },
-        { text: "OK", onPress: () => console.log("OK Pressed") }
+        { text: "OK", onPress: () => console.log("OK Pressed") },
       ],
       { cancelable: false }
     );
@@ -261,7 +261,7 @@ const loginUser = async function(email, password, that) {
  * @param {string} field This is the field that you would like to be updated: location, email, etc...
  * @param {string} value The value that you will like to replace the existing field value with.
  */
-const updateUser = async function(email, field, value) {
+const updateUser = async function (email, field, value) {
   try {
     //Must have a valid access-token to ensure client is logged in
     const accessToken = await AsyncStorage.getItem("@app_access_token");
@@ -274,8 +274,8 @@ const updateUser = async function(email, field, value) {
       data: {
         email: email,
         field: field,
-        value: value
-      }
+        value: value,
+      },
     };
 
     //Make the request
@@ -291,9 +291,9 @@ const updateUser = async function(email, field, value) {
         {
           text: "Cancel",
           onPress: () => console.log("Cancel Pressed"),
-          style: "cancel"
+          style: "cancel",
         },
-        { text: "OK", onPress: () => console.log("OK Pressed") }
+        { text: "OK", onPress: () => console.log("OK Pressed") },
       ],
       { cancelable: false }
     );
@@ -302,7 +302,7 @@ const updateUser = async function(email, field, value) {
   }
 };
 
-const getStorageData = async function(key) {
+const getStorageData = async function (key) {
   try {
     const value = await AsyncStorage.getItem(key);
     if (value !== null) {
@@ -316,7 +316,7 @@ const getStorageData = async function(key) {
   }
 };
 
-const setStorageData = async function(key, storeValue) {
+const setStorageData = async function (key, storeValue) {
   try {
     const value = await AsyncStorage.setItem(key, storeValue);
     if (value !== null) {
@@ -330,7 +330,7 @@ const setStorageData = async function(key, storeValue) {
   }
 };
 
-const clearAsyncStorage = async function() {
+const clearAsyncStorage = async function () {
   AsyncStorage.clear();
 };
 

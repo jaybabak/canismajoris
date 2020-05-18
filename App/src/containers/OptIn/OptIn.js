@@ -15,25 +15,21 @@ import {
   Input,
   Thumbnail,
 } from "native-base";
-import loginManager from "../../services/loginManager";
+import optInForm from "../../services/optInForm";
+// import optInForm from "../../services/optInForm";
 import styles from "./styles.js";
+// Welcome image -> PNG assets.
+const optInImage = require("../../../assets/images/splash_optin.png");
 
-class RegisterScreen extends React.Component {
+class OptIn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isReady: false,
       avatar: "https://i.ibb.co/7J4pNLr/profilephoto.png",
       name: "",
-      lastName: "",
-      password: "",
       email: "",
-      mobileNumber: "",
-      status: "OFFLINE",
-      location: {
-        type: "Point",
-        coordinates: [0, 0],
-      },
+      city: "",
       errors: {},
     };
 
@@ -55,11 +51,12 @@ class RegisterScreen extends React.Component {
   }
 
   async submitRegistrationForm() {
+    // Upon submission set state to false.
     this.setState({
       isReady: false,
     });
 
-    var form = await loginManager.validateUser(this.state);
+    var form = await optInForm.validate(this.state);
 
     this.setState({
       errors: form,
@@ -75,8 +72,8 @@ class RegisterScreen extends React.Component {
 
       //alert message for user if errors with form
       Alert.alert(
-        "Please check credentials!",
-        "Review the registration form.",
+        "Please check form again!",
+        "Review the form fields.",
         [
           {
             text: "Cancel",
@@ -90,7 +87,7 @@ class RegisterScreen extends React.Component {
       return;
     }
 
-    const formResult = await loginManager.addUser(this.state, this);
+    const formResult = await optInForm.submit(this.state, this);
 
     /*
      * USER SUCCESSFULLY SIGNED UP
@@ -100,9 +97,13 @@ class RegisterScreen extends React.Component {
         isReady: true,
       });
 
-      Alert.alert(
-        "Successfully Signed up!.",
-        "Proceed to login form now.",
+      return Alert.alert(
+        "Registered for BETA Launch",
+        "Thank you " +
+          this.state.name +
+          ", We will notify you when we launch in " +
+          this.state.city +
+          "!",
         [
           {
             text: "Cancel",
@@ -115,29 +116,28 @@ class RegisterScreen extends React.Component {
       );
     }
 
-    /*
-     * USER EMAIL IS NOT UNIQUE
-     */
+    // Form failed otherwise
+    this.setState({
+      isReady: true,
+    });
 
-    if (formResult.data.message.code == 11000) {
-      this.setState({
-        isReady: true,
-      });
-
-      Alert.alert(
-        "Sorry that email is taken.",
-        "Try a differnt email address.",
-        [
-          {
-            text: "Cancel",
-            onPress: () => console.log("Cancel Pressed"),
-            style: "cancel",
-          },
-          { text: "OK", onPress: () => console.log("OK Pressed") },
-        ],
-        { cancelable: false }
-      );
-    }
+    Alert.alert(
+      "Ooop!",
+      "Sorry it looks something isn't right, please try again.",
+      [
+        {
+          text: "Cancel",
+          onPress: () => console.log("Cancel pressed"),
+          style: "cancel",
+        },
+        {
+          text: "OK",
+          onPress: () => console.log("Ok pressed"),
+          style: "destructive",
+        },
+      ],
+      { cancelable: false }
+    );
   }
 
   changeField(e, ref) {
@@ -164,16 +164,11 @@ class RegisterScreen extends React.Component {
             </Button>
           </Left>
           <Body>
-            <Title>Register</Title>
+            <Title>BETA Opt-In</Title>
           </Body>
           <Right></Right>
         </Header>
-        <Thumbnail
-          style={styles.thumbnail}
-          square
-          large
-          source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
-        />
+        <Thumbnail style={styles.thumbnail} square large source={optInImage} />
         <View style={styles.view}>
           <View style={styles.container}>
             <Item
@@ -184,22 +179,8 @@ class RegisterScreen extends React.Component {
                 style={styles.formItem}
                 autoCapitalize="none"
                 value={this.state.name}
-                placeholder={this.state.name ? this.state.name : "First name"}
+                placeholder={this.state.name ? this.state.name : "Name"}
                 onChangeText={(value) => this.changeField("name", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.lastName ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.lastName}
-                placeholder={
-                  this.state.lastName ? this.state.lastName : "Last name"
-                }
-                onChangeText={(value) => this.changeField("lastName", value)}
               />
             </Item>
             <Item
@@ -217,31 +198,14 @@ class RegisterScreen extends React.Component {
               />
             </Item>
             <Item
-              error={this.state.errors.password ? true : false}
+              error={this.state.errors.city ? true : false}
               style={styles.formWrapper}
             >
               <Input
                 style={styles.formItem}
-                secureTextEntry={true}
-                placeholder="Password"
-                onChangeText={(value) => this.changeField("password", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.mobileNumber ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                value={this.state.mobileNumber}
-                placeholder={
-                  this.state.mobileNumber
-                    ? this.state.mobileNumber
-                    : "Phone number including country code"
-                }
-                onChangeText={(value) =>
-                  this.changeField("mobileNumber", value)
-                }
+                value={this.state.city}
+                placeholder={this.state.city ? this.state.city : "City"}
+                onChangeText={(value) => this.changeField("city", value)}
               />
             </Item>
             <Button
@@ -259,4 +223,4 @@ class RegisterScreen extends React.Component {
 }
 
 // Later on in your styles..
-export default RegisterScreen;
+export default OptIn;

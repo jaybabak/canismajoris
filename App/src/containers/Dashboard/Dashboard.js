@@ -15,7 +15,7 @@ import {
   Thumbnail,
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
-import apiConsumer from "../../util/apiConsumer";
+import apiConsumer from "../../services/apiConsumer";
 import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
 import MapOverview from "../../components/MapOverview/MapOverview";
 import styles from "./styles.js";

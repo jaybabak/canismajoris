@@ -22,7 +22,7 @@ import {
   Icon,
   Spinner,
   Text,
-  View
+  View,
 } from "native-base";
 // import Geolocation from '@react-native-community/geolocation';
 // var config = {};
@@ -33,12 +33,13 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
 import Details from "./src/containers/Details/Details";
+import OptIn from "./src/containers/OptIn/OptIn";
 import Welcome from "./src/components/Authenticated/Welcome/Welcome";
 import Login from "./src/components/Forms/Login/Login";
 import styles from "./styles.js";
 
 // Utility manager
-import loginManager from "./src/util/loginManager";
+import loginManager from "./src/services/loginManager";
 
 class App extends Component {
   constructor(props) {
@@ -46,7 +47,7 @@ class App extends Component {
     this.state = {
       location: {
         lat: null,
-        lon: null
+        lon: null,
       },
       locationNow: "",
       email: "",
@@ -56,7 +57,7 @@ class App extends Component {
       isReady: false,
       tokens: false,
       errors: {},
-      user: {}
+      user: {},
     };
     this.getLocation = this.getLocation.bind(this);
     this.onLogout = this.onLogout.bind(this);
@@ -73,10 +74,8 @@ class App extends Component {
     const userLoggedIn = await loginManager.getStorageData("@id");
     const accessToken = await loginManager.getStorageData("@app_access_token");
 
-    console.log(userLoggedIn, accessToken);
     // Check if user is returning and attemps to login.
     if (userLoggedIn && accessToken) {
-      let that = this;
       const getTheUser = await loginManager.getUser(accessToken);
 
       // If server and user info is retrieved = success.
@@ -84,34 +83,50 @@ class App extends Component {
         this.setState({
           authenticated: true,
           isReady: true,
-          textHeading: "Welcome back, " + getTheUser.data.user.name
+          textHeading: "Welcome back, " + getTheUser.data.user.name,
         });
 
         console.log("longitude: ", this.state.location.lon);
         console.log("latitude: ", this.state.location.lat);
 
-        const updateUserLocation = await loginManager.updateUser(
-          getTheUser.data.user.email,
-          "location",
-          [this.state.location.lon, this.state.location.lat]
-        );
+        await loginManager.updateUser(getTheUser.data.user.email, "location", [
+          this.state.location.lon,
+          this.state.location.lat,
+        ]);
 
         return;
       }
 
       this.setState({
         errors: {
-          serverError: true
+          serverError: true,
         },
-        isReady: true
+        isReady: true,
       });
-      console.log(this.state);
       return;
     }
 
+    // OPT-IN BETA RELEASE SIGN UP
+    Alert.alert(
+      "Operating in Ottawa Only",
+      "The service is currently only available to Ottawa and surrounding areas, however, you can opt-in to be notified when we begin to operate in your city!",
+      [
+        {
+          text: "Continue",
+          onPress: () => console.log("Canceled"),
+        },
+        {
+          text: "Opt-in ",
+          onPress: () => this.props.navigation.navigate("OptIn"),
+          style: "destructive",
+        },
+      ],
+      { cancelable: true }
+    );
+
     // Disable the loading screen.
     this.setState({
-      isReady: true
+      isReady: true,
     });
   }
 
@@ -120,7 +135,7 @@ class App extends Component {
 
     // Show the loading screen.
     this.setState({
-      isReady: false
+      isReady: false,
     });
 
     try {
@@ -133,19 +148,19 @@ class App extends Component {
       if (loginResults.success == true) {
         // console.log('Succesful login results!', loginResults);
         this.setState({
-          accessToken: loginResults.accessToken
+          accessToken: loginResults.accessToken,
         });
 
         var getUserData = await loginManager.getUser(this.state.accessToken);
         this.setState({
-          user: getUserData.data.user
+          user: getUserData.data.user,
         });
 
         this.getLocation();
 
         await loginManager.updateUser(getUserData.data.user.email, "location", [
           this.state.location.lon,
-          this.state.location.lat
+          this.state.location.lat,
         ]);
 
         var authenticated = await loginManager.authenticate(that);
@@ -153,20 +168,20 @@ class App extends Component {
           this.setState({
             textHeading: "Hello " + getUserData.data.user.name,
             authenticated: true,
-            isReady: true
+            isReady: true,
           });
         }
       } else {
         this.setState({
           errors: loginResults,
           isReady: true,
-          password: ""
+          password: "",
         });
         console.log("Failed login results!", loginResults);
       }
     } catch (err) {
       this.setState({
-        isReady: true
+        isReady: true,
       });
 
       Alert.alert(
@@ -176,9 +191,9 @@ class App extends Component {
           {
             text: "Cancel",
             onPress: () => console.log("Cancel Pressed"),
-            style: "cancel"
+            style: "cancel",
           },
-          { text: "OK", onPress: () => console.log("OK Pressed") }
+          { text: "OK", onPress: () => console.log("OK Pressed") },
         ],
         { cancelable: false }
       );
@@ -194,7 +209,7 @@ class App extends Component {
         tokens: false,
         email: "",
         password: "",
-        textHeading: "..."
+        textHeading: "...",
       });
 
       Alert.alert(
@@ -204,9 +219,9 @@ class App extends Component {
           {
             text: "Cancel",
             onPress: () => console.log("Cancel Pressed"),
-            style: "cancel"
+            style: "cancel",
           },
-          { text: "OK", onPress: () => console.log("OK Pressed") }
+          { text: "OK", onPress: () => console.log("OK Pressed") },
         ],
         { cancelable: false }
       );
@@ -217,17 +232,17 @@ class App extends Component {
 
   getLocation() {
     navigator.geolocation.getCurrentPosition(
-      position => {
+      (position) => {
         console.log(position);
         this.setState({
           location: {
             lat: position.coords.latitude,
-            lon: position.coords.longitude
+            lon: position.coords.longitude,
           },
-          locationNow: `Your location is: ${position.coords.latitude}/${position.coords.longitude}`
+          locationNow: `Your location is: ${position.coords.latitude}/${position.coords.longitude}`,
         });
       },
-      error => {
+      (error) => {
         Alert.alert(
           "Error Retrieving Location",
           "Could not determine your location, ensure location services are turned on.",
@@ -235,9 +250,9 @@ class App extends Component {
             {
               text: "Cancel",
               onPress: () => console.log("Cancel Pressed"),
-              style: "cancel"
+              style: "cancel",
             },
-            { text: "OK", onPress: () => console.log("OK Pressed") }
+            { text: "OK", onPress: () => console.log("OK Pressed") },
           ],
           { cancelable: false }
         );
@@ -245,7 +260,7 @@ class App extends Component {
       },
       {
         enableHighAccuracy: true,
-        timeout: 30000
+        timeout: 30000,
       }
     );
   }
@@ -259,13 +274,13 @@ class App extends Component {
 
   changeUsername(e) {
     this.setState({
-      email: e
+      email: e,
     });
   }
 
   changePassword(e) {
     this.setState({
-      password: e
+      password: e,
     });
   }
 
@@ -320,6 +335,7 @@ class App extends Component {
           <Welcome
             navigateToDashboard={this.navigateToDashboard}
             textHeading={this.state.textHeading}
+            navigation={this.props.navigation}
           />
         ) : (
           <Login
@@ -341,10 +357,11 @@ const HomeStack = createStackNavigator(
     Home: App,
     Register: RegisterScreen,
     Dashboard: Dashboard,
-    Details: Details
+    Details: Details,
+    OptIn: OptIn,
   },
   {
-    headerMode: "none"
+    headerMode: "none",
   }
 );
 

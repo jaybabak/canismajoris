@@ -18,21 +18,19 @@ module.exports = async function updateUserWithEmail(req, res) {
       return res.json({
         message:
           "Error updating user or a user cannot be found with that email.",
-        success: false
+        success: false,
       });
     } else {
-      console.log(userObject);
-      // console.log(`User with the email address [${req.body.email}], updated geolocation (lat/long).`);
       return res.json({
         message: `User with the email address [${req.body.email}], updated ${req.body.field} with values: ${req.body.value}.`,
-        success: true
+        success: true,
       });
     }
   } catch (e) {
     console.log(e);
     return res.json({
       message: "Unable to update user due to error.",
-      success: false
+      success: false,
     });
   }
 };

@@ -39,21 +39,6 @@ class Slider extends Component {
             "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
           title: "",
         },
-        {
-          id: "WpIAc9by5iU",
-          thumbnail: "https://picsum.photos/650/650",
-          title: "Led Zeppelin - Stairway To Heaven",
-        },
-        {
-          id: "sNPnbI1arSE",
-          thumbnail: "https://picsum.photos/650/650",
-          title: "Eminem - My Name Is",
-        },
-        {
-          id: "VOgFZfRVaww",
-          thumbnail: "https://picsum.photos/650/650",
-          title: "",
-        },
       ],
       activeSlide: 0,
     };

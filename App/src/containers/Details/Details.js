@@ -16,15 +16,15 @@ import {
   Spinner,
   H1,
   H3,
-  Badge
+  Badge,
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
 import OpenOrClosedStatus from "../../components/OpenOrClosedStatus/OpenOrClosedStatus";
-import apiConsumer from "../../util/apiConsumer";
-import serviceContainer from "../../util/serviceContainer";
+import apiConsumer from "../../services/apiConsumer";
+import serviceContainer from "../../services/serviceContainer";
 import styles from "./styles.js";
 
 // Image which appears at the to (restaurant photo).
@@ -44,13 +44,15 @@ class Details extends React.PureComponent {
       mapMode: false,
       user: null,
       restaurant: null,
-      error: false
+      error: false,
     };
 
     this.goBack = this.goBack.bind(this);
     this.changeField = this.changeField.bind(this);
     this.getRestaurantDetails = this.getRestaurantDetails.bind(this);
     this.getDirectionsOpenMapsApp = this.getDirectionsOpenMapsApp.bind(this);
+    this.makeCall = this.makeCall.bind(this);
+    this.openWebsite = this.openWebsite.bind(this);
   }
 
   componentDidMount() {
@@ -61,9 +63,21 @@ class Details extends React.PureComponent {
     this.setState({ user: currentUser });
   }
 
+  async makeCall() {
+    // Make call to provide parameter as phonumber to makeCall service.
+    await serviceContainer.makeCall("6132180587");
+  }
+
+  async openWebsite() {
+    // website URL on YELP
+    var restaurantWebsite = this.state.restaurant.url;
+    // Make call to provide parameter as phonumber to makeCall service.
+    await serviceContainer.openUrl(restaurantWebsite);
+  }
+
   async getRestaurantDetails() {
     this.setState({
-      isReady: false
+      isReady: false,
     });
 
     const rid = this.props.navigation.getParam("rid");
@@ -74,7 +88,7 @@ class Details extends React.PureComponent {
       if (restaurant.status == 200) {
         this.setState({
           isReady: true,
-          restaurant: restaurant.data.results
+          restaurant: restaurant.data.results,
         });
 
         console.log(this.state.restaurant);
@@ -83,7 +97,7 @@ class Details extends React.PureComponent {
       console.log(e);
 
       this.setState({
-        error: true
+        error: true,
       });
 
       Alert.alert(
@@ -93,9 +107,9 @@ class Details extends React.PureComponent {
           {
             text: "Cancel",
             onPress: () => console.log("Cancel Pressed"),
-            style: "cancel"
+            style: "cancel",
           },
-          { text: "OK", onPress: () => console.log("OK Pressed") }
+          { text: "OK", onPress: () => console.log("OK Pressed") },
         ],
         { cancelable: false }
       );
@@ -119,17 +133,17 @@ class Details extends React.PureComponent {
     // Location of user
     const startPoint = {
       longitude: this.state.user.location.coordinates[0],
-      latitude: this.state.user.location.coordinates[1]
+      latitude: this.state.user.location.coordinates[1],
     };
 
     // Location of restaurant
     const endPoint = {
       longitude: this.state.restaurant.location.coordinates[0],
-      latitude: this.state.restaurant.location.coordinates[1]
+      latitude: this.state.restaurant.location.coordinates[1],
     };
 
     // Open the default maps application available on users device
-    OpenMapDirections(startPoint, endPoint, transportPlan).then(res => {
+    OpenMapDirections(startPoint, endPoint, transportPlan).then((res) => {
       console.log(res);
     });
   }
@@ -183,7 +197,7 @@ class Details extends React.PureComponent {
                   flexDirection: "row",
                   justifyContent: "flex-start",
                   marginTop: 5,
-                  marginBottom: 10
+                  marginBottom: 10,
                 }}
               >
                 {/* Restaurant open or closed
@@ -201,7 +215,7 @@ class Details extends React.PureComponent {
                 block
                 bordered
                 success
-                onPress={this.getDirectionsOpenMapsApp}
+                onPress={this.makeCall}
               >
                 <Text style={styles.buttonSubmit}>Call</Text>
               </Button>
@@ -223,7 +237,7 @@ class Details extends React.PureComponent {
                 style={styles.buttonSubmitBtn}
                 bordered
                 block
-                onPress={this.getDirectionsOpenMapsApp}
+                onPress={this.openWebsite}
               >
                 <Text style={styles.buttonSubmit}>Website</Text>
               </Button>
@@ -241,20 +255,20 @@ class Details extends React.PureComponent {
               {/* Address card/label */}
               {/* End Header Component */}
 
-              <Text style={styles.defaulText}>
+              {/* <Text style={styles.defaulText}>
                 NativeBase has now made it easy for developers, to access the
                 any of its components using ref, along with its associated React
                 Native elements. NativeBase has now made it easy for developers,
                 to access the any of its components using ref.
-              </Text>
+              </Text> */}
 
               {/* Business Hours/Component */}
               <H3 style={styles.subTitle}>Business Hours</H3>
               <BusinessHours restaurant={this.state.restaurant} />
-
               {/* Location Map Component */}
-              <H3 style={styles.subTitle}>Photos</H3>
+
               {/* Start Slider/Carousel */}
+              <H3 style={styles.subTitle}>Photos</H3>
               <Slider />
               {/* Start Slider/Carousel */}
             </View>
