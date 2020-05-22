@@ -104,14 +104,7 @@ class OptIn extends React.Component {
           ", We will notify you when we launch in " +
           this.state.city +
           "!",
-        [
-          {
-            text: "Cancel",
-            onPress: () => this.props.navigation.navigate("Home"),
-            style: "cancel",
-          },
-          { text: "OK", onPress: () => this.props.navigation.navigate("Home") },
-        ],
+        [{ text: "OK", onPress: () => this.props.navigation.navigate("Home") }],
         { cancelable: false }
       );
     }
