@@ -65,11 +65,24 @@ class App extends Component {
     this.changePassword = this.changePassword.bind(this);
     this.navigateToRegisterScreen = this.navigateToRegisterScreen.bind(this);
     this.navigateToDashboard = this.navigateToDashboard.bind(this);
+    this.serverDownMessage = this.serverDownMessage.bind(this);
+    // In it's own function so that refresh/reload functioanlity works
+    // originally part of component did mount function.
+    this.authenticate = this.authenticate.bind(this);
   }
 
   async componentDidMount() {
-    this.getLocation();
+    // initally show loading screen.
+    this.setState({
+      isReady: false,
+    });
 
+    this.getLocation();
+    this.authenticate();
+  }
+
+  async authenticate() {
+    // Check if user data is stored.
     const userLoggedIn = await loginManager.getStorageData("@id");
     const accessToken = await loginManager.getStorageData("@app_access_token");
 
@@ -83,6 +96,9 @@ class App extends Component {
           authenticated: true,
           isReady: true,
           textHeading: "Welcome back, " + getTheUser.data.user.name + "!",
+          errors: {
+            serverError: false,
+          },
         });
 
         console.log("longitude: ", this.state.location.lon);
@@ -95,6 +111,8 @@ class App extends Component {
 
         return;
       }
+
+      this.serverDownMessage();
 
       this.setState({
         errors: {
@@ -178,25 +196,15 @@ class App extends Component {
           password: "",
         });
         console.log("Failed login results!", loginResults);
+        console.log("STATE", this.state);
       }
     } catch (err) {
       this.setState({
         isReady: true,
       });
 
-      Alert.alert(
-        "Sorry something is wrong",
-        "Please check your connection and try again.",
-        [
-          {
-            text: "Cancel",
-            onPress: () => console.log("Cancel Pressed"),
-            style: "cancel",
-          },
-          { text: "OK", onPress: () => console.log("OK Pressed") },
-        ],
-        { cancelable: false }
-      );
+      this.serverDownMessage();
+
       console.log(err);
     }
   }
@@ -299,6 +307,20 @@ class App extends Component {
     });
   }
 
+  serverDownMessage() {
+    Alert.alert(
+      "Things are still look wonky.",
+      "We really apoogize for this, please keep checking back in a short while. We'll be back up soon!",
+      [
+        {
+          text: "Okay",
+          onPress: () => console.log("Okay"),
+        },
+      ],
+      { cancelable: true }
+    );
+  }
+
   render() {
     var loadingIcon = <Spinner style={styles.spinner} color="#F39034" />;
 
@@ -341,6 +363,14 @@ class App extends Component {
               <Text style={styles.defaultMessage}>
                 Looks like we're are experiencing some issues, try again later.
               </Text>
+              <Button
+                style={styles.buttonSubmitBtn}
+                block
+                info
+                onPress={this.authenticate}
+              >
+                <Text>Retry</Text>
+              </Button>
             </View>
           ) : null}
           {/* END Error incase server is unreachable */}

@@ -115,7 +115,33 @@ class RegisterScreen extends React.Component {
         { cancelable: false }
       );
     }
-    // Error with form server side validation.
+
+    /*
+     * USER EMAIL IS NOT UNIQUE
+     */
+
+    if (formResult.data.message.code == 11000) {
+      this.setState({
+        isReady: true,
+        errors: {
+          email: true,
+        },
+      });
+
+      Alert.alert(
+        "Sorry that email is taken.",
+        "Try a differnt email address.",
+        [
+          {
+            text: "Cancel",
+            onPress: () => console.log("Cancel Pressed"),
+            style: "cancel",
+          },
+          { text: "OK", onPress: () => console.log("OK Pressed") },
+        ],
+        { cancelable: false }
+      );
+    } // Error with form server side validation.
     else {
       this.setState({
         isReady: true,
@@ -129,30 +155,6 @@ class RegisterScreen extends React.Component {
             text: "Okay",
             style: "detructive",
           },
-        ],
-        { cancelable: false }
-      );
-    }
-
-    /*
-     * USER EMAIL IS NOT UNIQUE
-     */
-
-    if (formResult.data.message.code == 11000) {
-      this.setState({
-        isReady: true,
-      });
-
-      Alert.alert(
-        "Sorry that email is taken.",
-        "Try a differnt email address.",
-        [
-          {
-            text: "Cancel",
-            onPress: () => console.log("Cancel Pressed"),
-            style: "cancel",
-          },
-          { text: "OK", onPress: () => console.log("OK Pressed") },
         ],
         { cancelable: false }
       );

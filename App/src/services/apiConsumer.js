@@ -77,7 +77,7 @@ const getRestaurantById = async function (restaurantId) {
   // HTTP request object.
   var settings = {};
   // Return this variable with all restaurant data.
-  var items = {};
+  var item = {};
 
   // If user is not logged in.
   if (accessToken === null) {
@@ -103,6 +103,8 @@ const getRestaurantById = async function (restaurantId) {
     //Make the requst
     item = await axios(settings);
   }
+
+  console.log(item);
 
   // If error occured.
   if (item.status !== 200) {

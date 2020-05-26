@@ -294,7 +294,7 @@ class Dashboard extends React.Component {
                   this.switchToMapMode();
                 }}
               >
-                <Text>Hide Map</Text>
+                <Text>Close Map</Text>
               </Button>
             </View>
           </View>

@@ -86,7 +86,7 @@ class MapOverview extends Component {
                   style={styles.btnActionMarker}
                 >
                   <Icon name="arrow-forward" />
-                  <Text>View</Text>
+                  <Text>Details</Text>
                 </Button>
                 <Button
                   small
@@ -98,7 +98,7 @@ class MapOverview extends Component {
                   style={styles.btnActionMarkerDirections}
                 >
                   <Icon name="map-marker" type="FontAwesome" />
-                  <Text>Navigate</Text>
+                  <Text>Go</Text>
                 </Button>
               </View>
             </MapView.Callout>
