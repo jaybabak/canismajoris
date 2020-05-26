@@ -334,17 +334,17 @@ class App extends Component {
           </Header>
         ) : null}
 
-        {/* Error incase server is unreachable */}
-        {this.state.errors.serverError ? (
-          <View style={styles.defaultMessageContainer}>
-            <Text style={styles.defaultMessage}>
-              Looks like we're are experiencing some issues, try again later.
-            </Text>
-          </View>
-        ) : null}
-        {/* END Error incase server is unreachable */}
+        <Content style={{ position: "relative" }}>
+          {/* Error incase server is unreachable */}
+          {this.state.errors.serverError ? (
+            <View style={styles.defaultMessageContainer}>
+              <Text style={styles.defaultMessage}>
+                Looks like we're are experiencing some issues, try again later.
+              </Text>
+            </View>
+          ) : null}
+          {/* END Error incase server is unreachable */}
 
-        <Content>
           {/* Rengder either the login form or welcome screen */}
           {this.state.authenticated ? (
             <Welcome

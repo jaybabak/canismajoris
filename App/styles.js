@@ -86,8 +86,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   defaultMessageContainer: {
-    backgroundColor: "#3c3c3c",
-    height: 50,
+    // marginLeft: 20,
+    // marginRight: 20,
+    backgroundColor: "#ffe300",
+    // height: 50,
   },
   iconLeft: {
     flex: 1,
@@ -98,9 +100,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
     textAlign: "center",
     color: "white",
+    color: "black",
     fontSize: 14,
     padding: 10,
     paddingTop: 15,
+    paddingTop: 50,
+    // marginTop: 200,
+    // marginTop: 0,
+    // zIndex: 7,
+    // position: "absolute",
+    // top: 20,
   },
 });
 
