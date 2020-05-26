@@ -8,8 +8,10 @@
 
 import React, { Component } from "react";
 import { Text, View } from "react-native";
-import { Button, Input, Item } from "native-base";
+import { Button, Input, Item, Thumbnail } from "native-base";
 import styles from "./styles.js";
+// Welcome background image -> PNG assets.
+const splashImage = require("../../../../assets/images/splash_6.png");
 
 class Login extends Component {
   constructor(props) {
@@ -23,18 +25,26 @@ class Login extends Component {
   render() {
     return (
       <View style={styles.containerBody}>
-        <Text style={styles.introText}>
-          Hello there, please sign-in or register now!
-        </Text>
-        <Item error={this.props.errors.email ? true : false} regular>
+        <Thumbnail style={styles.thumbnail} square large source={splashImage} />
+        <Text style={styles.introText}>Sign-in or register now!</Text>
+        <Item
+          style={styles.formField}
+          error={this.props.errors.email ? true : false}
+          regular
+        >
           <Input
+            style={styles.placeholder}
             autoCapitalize="none"
             value={this.props.email}
             placeholder="user@example.com"
             onChangeText={this.props.changeUsername}
           />
         </Item>
-        <Item error={this.props.errors.password ? true : false} regular>
+        <Item
+          style={styles.formField}
+          error={this.props.errors.password ? true : false}
+          regular
+        >
           <Input
             secureTextEntry={true}
             placeholder="Your password"
@@ -57,6 +67,15 @@ class Login extends Component {
           danger
         >
           <Text style={styles.whiteText}>Sign-up with a new account!</Text>
+        </Button>
+        <Button
+          onPress={() => this.props.navigateToDashboard(true)}
+          style={styles.skip}
+          block
+          bordered
+          light
+        >
+          <Text style={styles.skipText}>Skip</Text>
         </Button>
       </View>
     );

@@ -28,36 +28,18 @@ module.exports = async function addUser(req, res) {
   try {
     //save user object after validation has occurred in previous step
     userModel = await userModel.save();
-    //create the voximplant user account and password
-    var accountId = "3126587";
-    var apiKey = "8c7b1e30-29bf-4230-a00f-743ea324f3d5";
-    var applicationId = "4293142";
-    var userPassword = userModel.id;
-    var userId = userModel.id;
-    var displayName = encodeURIComponent(
-      `${userModel.name} ${userModel.lastName}`
-    );
 
-    const createVoxUser = await axios.get(
-      `https://api.voximplant.com/platform_api/AddUser/?account_id=${accountId}&api_key=${apiKey}&user_name=${userId}&user_display_name=${displayName}&user_password=${userPassword}&application_id=${applicationId}`
-    );
-
-    var update = await updateUser(
-      userModel.email,
-      "voximplantId",
-      createVoxUser.data.user_id
-    );
-
+    // Return new user object
     return res.json({
       success: true,
       message: "Registered user successfully !",
-      name: update.name + " " + update.lastName
+      name: `${userModel.name} ${userModel.lastName}`,
     });
   } catch (e) {
     console.error(e);
     res.json({
       success: false,
-      message: e
+      message: e,
     });
   }
   console.log("REQUEST: ", req);

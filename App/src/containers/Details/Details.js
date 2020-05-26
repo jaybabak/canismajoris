@@ -169,13 +169,13 @@ class Details extends React.PureComponent {
             <Title>{this.state.restaurant.name}</Title>
           </Body>
           <Right>
-            <Button transparent onPress={this.switchToMapMode}>
+            {/* <Button transparent onPress={this.switchToMapMode}>
               <Icon
                 style={styles.iconQuestion}
                 type="FontAwesome"
                 name="share"
               />
-            </Button>
+            </Button> */}
           </Right>
         </Header>
         <Content
@@ -255,22 +255,23 @@ class Details extends React.PureComponent {
               {/* Address card/label */}
               {/* End Header Component */}
 
-              {/* <Text style={styles.defaulText}>
-                NativeBase has now made it easy for developers, to access the
-                any of its components using ref, along with its associated React
-                Native elements. NativeBase has now made it easy for developers,
-                to access the any of its components using ref.
-              </Text> */}
-
               {/* Business Hours/Component */}
               <H3 style={styles.subTitle}>Business Hours</H3>
               <BusinessHours restaurant={this.state.restaurant} />
               {/* Location Map Component */}
 
               {/* Start Slider/Carousel */}
-              <H3 style={styles.subTitle}>Photos</H3>
-              <Slider />
+              {/* <H3 style={styles.subTitle}>Photos</H3> */}
+              {/* <Slider /> */}
               {/* Start Slider/Carousel */}
+
+              <Text style={styles.defaulText}>DISCLAIMER:</Text>
+              <Text style={styles.defaulText}>
+                We do our best to ensure the restaurants we list are halal and
+                carry a valid halal certification, however, we recommend you
+                check with the restaurant to ensure it is halal before placing
+                an order.
+              </Text>
             </View>
           </View>
         </Content>

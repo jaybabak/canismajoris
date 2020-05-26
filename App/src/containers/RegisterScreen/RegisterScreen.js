@@ -14,6 +14,7 @@ import {
   Item,
   Input,
   Thumbnail,
+  Content,
 } from "native-base";
 import loginManager from "../../services/loginManager";
 import styles from "./styles.js";
@@ -114,6 +115,24 @@ class RegisterScreen extends React.Component {
         { cancelable: false }
       );
     }
+    // Error with form server side validation.
+    else {
+      this.setState({
+        isReady: true,
+      });
+
+      Alert.alert(
+        "Sorry please review form!",
+        "Ensure all the fields meet the requirements.",
+        [
+          {
+            text: "Okay",
+            style: "detructive",
+          },
+        ],
+        { cancelable: false }
+      );
+    }
 
     /*
      * USER EMAIL IS NOT UNIQUE
@@ -168,91 +187,108 @@ class RegisterScreen extends React.Component {
           </Body>
           <Right></Right>
         </Header>
-        <Thumbnail
-          style={styles.thumbnail}
-          square
-          large
-          source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
-        />
-        <View style={styles.view}>
-          <View style={styles.container}>
-            <Item
-              error={this.state.errors.name ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.name}
-                placeholder={this.state.name ? this.state.name : "First name"}
-                onChangeText={(value) => this.changeField("name", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.lastName ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.lastName}
-                placeholder={
-                  this.state.lastName ? this.state.lastName : "Last name"
-                }
-                onChangeText={(value) => this.changeField("lastName", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.email ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.email}
-                placeholder={
-                  this.state.email ? this.state.email : "Email address"
-                }
-                onChangeText={(value) => this.changeField("email", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.password ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                secureTextEntry={true}
-                placeholder="Password"
-                onChangeText={(value) => this.changeField("password", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.mobileNumber ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                value={this.state.mobileNumber}
-                placeholder={
-                  this.state.mobileNumber
-                    ? this.state.mobileNumber
-                    : "Phone number including country code"
-                }
-                onChangeText={(value) =>
-                  this.changeField("mobileNumber", value)
-                }
-              />
-            </Item>
-            <Button
-              style={styles.buttonSubmitBtn}
-              block
-              onPress={this.submitRegistrationForm}
-            >
-              <Text style={styles.buttonSubmit}>Sign Up</Text>
-            </Button>
+        <Content>
+          <Thumbnail
+            style={styles.thumbnail}
+            square
+            large
+            source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
+          />
+          <View style={styles.view}>
+            <View style={styles.container}>
+              <Item
+                error={this.state.errors.name ? true : false}
+                style={styles.formWrapper}
+                regular
+              >
+                <Input
+                  style={styles.formItem}
+                  autoCapitalize="none"
+                  value={this.state.name}
+                  placeholder={this.state.name ? this.state.name : "First name"}
+                  onChangeText={(value) => this.changeField("name", value)}
+                />
+              </Item>
+              <Text style={styles.defaulText}>Enter your first name only.</Text>
+              <Item
+                error={this.state.errors.lastName ? true : false}
+                style={styles.formWrapper}
+                regular
+              >
+                <Input
+                  style={styles.formItem}
+                  autoCapitalize="none"
+                  value={this.state.lastName}
+                  placeholder={
+                    this.state.lastName ? this.state.lastName : "Last name"
+                  }
+                  onChangeText={(value) => this.changeField("lastName", value)}
+                />
+              </Item>
+              <Text style={styles.defaulText}>Enter your last name only.</Text>
+              <Item
+                error={this.state.errors.email ? true : false}
+                style={styles.formWrapper}
+                regular
+              >
+                <Input
+                  style={styles.formItem}
+                  autoCapitalize="none"
+                  value={this.state.email}
+                  placeholder={
+                    this.state.email ? this.state.email : "Email address"
+                  }
+                  onChangeText={(value) => this.changeField("email", value)}
+                />
+              </Item>
+              <Text style={styles.defaulText}>Enter your email address.</Text>
+              <Item
+                error={this.state.errors.password ? true : false}
+                style={styles.formWrapper}
+                regular
+              >
+                <Input
+                  style={styles.formItem}
+                  secureTextEntry={true}
+                  placeholder="Password"
+                  onChangeText={(value) => this.changeField("password", value)}
+                />
+              </Item>
+              <Text style={styles.defaulText}>
+                Password must be between 6 and 20 characters, and must include
+                numbers and letters.
+              </Text>
+              <Item
+                error={this.state.errors.mobileNumber ? true : false}
+                style={styles.formWrapper}
+                regular
+              >
+                <Input
+                  style={styles.formItem}
+                  value={this.state.mobileNumber}
+                  placeholder={
+                    this.state.mobileNumber
+                      ? this.state.mobileNumber
+                      : "Phone number including country code"
+                  }
+                  onChangeText={(value) =>
+                    this.changeField("mobileNumber", value)
+                  }
+                />
+              </Item>
+              <Text style={styles.defaulText}>
+                Your primary contact number.
+              </Text>
+              <Button
+                style={styles.buttonSubmitBtn}
+                block
+                onPress={this.submitRegistrationForm}
+              >
+                <Text style={styles.buttonSubmit}>Sign Up</Text>
+              </Button>
+            </View>
           </View>
-        </View>
+        </Content>
       </Container>
     );
   }

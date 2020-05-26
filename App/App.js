@@ -23,12 +23,9 @@ import {
   Spinner,
   Text,
   View,
+  Content,
 } from "native-base";
-// import Geolocation from '@react-native-community/geolocation';
-// var config = {};
-// Geolocation.setRNConfiguration(config);
 
-navigator.geolocation = require("@react-native-community/geolocation");
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
@@ -37,9 +34,10 @@ import OptIn from "./src/containers/OptIn/OptIn";
 import Welcome from "./src/components/Authenticated/Welcome/Welcome";
 import Login from "./src/components/Forms/Login/Login";
 import styles from "./styles.js";
-
 // Utility manager
 import loginManager from "./src/services/loginManager";
+// Location services.
+navigator.geolocation = require("@react-native-community/geolocation");
 
 class App extends Component {
   constructor(props) {
@@ -62,6 +60,7 @@ class App extends Component {
     this.getLocation = this.getLocation.bind(this);
     this.onLogout = this.onLogout.bind(this);
     this.login = this.login.bind(this);
+    this.logout = this.logout.bind(this);
     this.changeUsername = this.changeUsername.bind(this);
     this.changePassword = this.changePassword.bind(this);
     this.navigateToRegisterScreen = this.navigateToRegisterScreen.bind(this);
@@ -83,7 +82,7 @@ class App extends Component {
         this.setState({
           authenticated: true,
           isReady: true,
-          textHeading: "Welcome back, " + getTheUser.data.user.name,
+          textHeading: "Welcome back, " + getTheUser.data.user.name + "!",
         });
 
         console.log("longitude: ", this.state.location.lon);
@@ -146,7 +145,6 @@ class App extends Component {
       );
 
       if (loginResults.success == true) {
-        // console.log('Succesful login results!', loginResults);
         this.setState({
           accessToken: loginResults.accessToken,
         });
@@ -163,10 +161,12 @@ class App extends Component {
           this.state.location.lat,
         ]);
 
+        // Authenticate user.
         var authenticated = await loginManager.authenticate(that);
+        // If user is authenticated.
         if (authenticated) {
           this.setState({
-            textHeading: "Hello " + getUserData.data.user.name,
+            textHeading: "Hello " + getUserData.data.user.name + "!",
             authenticated: true,
             isReady: true,
           });
@@ -202,6 +202,21 @@ class App extends Component {
   }
 
   async onLogout() {
+    Alert.alert(
+      "Are you sure?",
+      "Would like to logout?",
+      [
+        {
+          text: "No",
+          style: "cancel",
+        },
+        { text: "Yes", onPress: () => this.logout(), style: "destructive" },
+      ],
+      { cancelable: false }
+    );
+  }
+
+  async logout() {
     try {
       loginManager.clearAsyncStorage();
       this.setState({
@@ -213,16 +228,9 @@ class App extends Component {
       });
 
       Alert.alert(
-        "Logged out!",
-        "Help screen will be available soon!",
-        [
-          {
-            text: "Cancel",
-            onPress: () => console.log("Cancel Pressed"),
-            style: "cancel",
-          },
-          { text: "OK", onPress: () => console.log("OK Pressed") },
-        ],
+        "Signed Out",
+        "You are now logged out",
+        [{ text: "OK", onPress: () => console.log("OK Pressed") }],
         { cancelable: false }
       );
     } catch (e) {
@@ -268,8 +276,15 @@ class App extends Component {
   navigateToRegisterScreen() {
     this.props.navigation.navigate("Register"); //pass params to this object to pass current vixomplant instance
   }
-  navigateToDashboard() {
-    this.props.navigation.navigate("Dashboard"); //pass params to this object to pass current vixomplant instance
+  navigateToDashboard(isGuest) {
+    if (!isGuest) {
+      return this.props.navigation.navigate("Dashboard"); //pass params to this object to pass current vixomplant instance
+    }
+
+    return this.props.navigation.navigate("Dashboard", {
+      guest: true,
+      location: this.state.location,
+    });
   }
 
   changeUsername(e) {
@@ -292,33 +307,32 @@ class App extends Component {
     }
 
     return (
-      <Container
-        backgroundColor="#E2E2E2"
-        style={styles.container.backgroundColor}
-      >
-        <Header noLeft>
-          <Left>
-            <Button onPress={this.onLogout} transparent>
-              <Icon
-                style={styles.iconQuestion}
-                type="FontAwesome"
-                name="question-circle"
-              />
-            </Button>
-          </Left>
-          <Body>
-            <Title>Canis Majoris</Title>
-          </Body>
-          <Right>
-            <Button onPress={this.getLocation} transparent>
-              <Icon
-                type="FontAwesome"
-                style={styles.iconLocation}
-                name="map-pin"
-              />
-            </Button>
-          </Right>
-        </Header>
+      <Container style={styles.backgroundColor}>
+        {this.state.authenticated ? (
+          <Header noLeft>
+            <Left>
+              <Button onPress={this.onLogout} transparent>
+                <Icon
+                  style={styles.iconQuestion}
+                  type="FontAwesome"
+                  name="sign-out"
+                />
+              </Button>
+            </Left>
+            <Body>
+              <Title>Jyze</Title>
+            </Body>
+            <Right>
+              {/* <Button onPress={this.getLocation} transparent>
+                <Icon
+                  type="FontAwesome"
+                  style={styles.iconLocation}
+                  name="map-pin"
+                />
+              </Button> */}
+            </Right>
+          </Header>
+        ) : null}
 
         {/* Error incase server is unreachable */}
         {this.state.errors.serverError ? (
@@ -330,23 +344,26 @@ class App extends Component {
         ) : null}
         {/* END Error incase server is unreachable */}
 
-        {/* Rengder either the login form or welcome screen */}
-        {this.state.authenticated ? (
-          <Welcome
-            navigateToDashboard={this.navigateToDashboard}
-            textHeading={this.state.textHeading}
-            navigation={this.props.navigation}
-          />
-        ) : (
-          <Login
-            errors={this.state.errors}
-            email={this.state.email}
-            navigateToRegisterScreen={this.navigateToRegisterScreen}
-            changePassword={this.changePassword}
-            changeUsername={this.changeUsername}
-            login={this.login}
-          />
-        )}
+        <Content>
+          {/* Rengder either the login form or welcome screen */}
+          {this.state.authenticated ? (
+            <Welcome
+              navigateToDashboard={this.navigateToDashboard}
+              textHeading={this.state.textHeading}
+              navigation={this.props.navigation}
+            />
+          ) : (
+            <Login
+              errors={this.state.errors}
+              email={this.state.email}
+              navigateToRegisterScreen={this.navigateToRegisterScreen}
+              navigateToDashboard={this.navigateToDashboard}
+              changePassword={this.changePassword}
+              changeUsername={this.changeUsername}
+              login={this.login}
+            />
+          )}
+        </Content>
       </Container>
     );
   }

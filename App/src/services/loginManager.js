@@ -4,6 +4,7 @@ import isEmpty from "validator/lib/isEmpty";
 import isEmail from "validator/lib/isEmail";
 import isLength from "validator/lib/isLength";
 import isAlpha from "validator/lib/isAlpha";
+import isNumeric from "validator/lib/isNumeric";
 const axios = require("axios");
 
 /**
@@ -57,7 +58,6 @@ const authenticate = async function (that) {
  * @param {string} user This is the user object being passed
  */
 const addUser = async function (user) {
-  console.log(user);
   var submitUserForm;
   try {
     //HTTP Request object
@@ -70,6 +70,8 @@ const addUser = async function (user) {
     };
     //Make the requst
     submitUserForm = await axios(settings);
+
+    console.log(submitUserForm);
     //Return the user object returned from server along with the access token
     return submitUserForm;
   } catch (e) {
@@ -122,7 +124,12 @@ const validateUser = async function (user) {
   }
 
   //Password Validation
-  if (isEmpty(user.password) || !isLength(user.password, { min: 6, max: 20 })) {
+  if (
+    isEmpty(user.password) ||
+    !isLength(user.password, { min: 6, max: 20 }) ||
+    isAlpha(user.password) ||
+    isNumeric(user.password, { no_symbols: true })
+  ) {
     console.log("incorrect password must be between 6 and 20 characters");
     errors.password = true;
     errors.success = false;

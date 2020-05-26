@@ -56,23 +56,48 @@ class Dashboard extends React.Component {
   }
 
   async retrieveRestaurantsByLatLong() {
+    var restaurants = {};
+
     this.setState({
       isReady: false,
     });
 
     try {
-      const restaurants = await apiConsumer.getRestaurants();
+      if (this.props.navigation.getParam("guest") == false) {
+        restaurants = await apiConsumer.getRestaurants();
+        if (restaurants.data.success == true) {
+          this.setState({
+            isReady: true,
+            restaurants: restaurants.data.results.restaurants,
+            loadedRestaurants: true,
+            user: restaurants.data.user,
+          });
+        }
+      } else {
+        restaurants = await apiConsumer.getRestaurants(
+          this.props.navigation.getParam("location")
+        );
 
-      if (restaurants.data.success == true) {
-        this.setState({
-          isReady: true,
-          restaurants: restaurants.data.results.restaurants,
-          loadedRestaurants: true,
-          user: restaurants.data.user,
-        });
+        if (restaurants.data.success == true) {
+          var user = {
+            location: {
+              coordinates: [
+                restaurants.data.results.long,
+                restaurants.data.results.lat,
+              ],
+            },
+          };
+
+          this.setState({
+            isReady: true,
+            restaurants: restaurants.data.results.restaurants,
+            loadedRestaurants: true,
+            user: user,
+          });
+        }
       }
 
-      console.log(this.state);
+      // console.log(this.state);
 
       if (restaurants.hasOwnProperty("error")) {
         this.setState({
@@ -185,7 +210,13 @@ class Dashboard extends React.Component {
             </Button>
           </Left>
           <Body>
-            <Title>Dashboard</Title>
+            <Title>
+              {this.state.loadedRestaurants ? (
+                <Text>Restaurants</Text>
+              ) : (
+                <Text>Search</Text>
+              )}
+            </Title>
           </Body>
           <Right>
             {this.state.loadedRestaurants ? (
@@ -193,7 +224,7 @@ class Dashboard extends React.Component {
                 <Icon
                   style={styles.iconQuestion}
                   type="FontAwesome"
-                  name="map"
+                  name="map-marker"
                 />
               </Button>
             ) : null}
@@ -252,6 +283,7 @@ class Dashboard extends React.Component {
                 switchToMapMode={this.switchToMapMode}
                 getDirectionsOpenMapsApp={this.getDirectionsOpenMapsApp}
                 goToDetailsPage={this.goToDetailsPage}
+                location={this.props.navigation.getParam("location")}
               />
               {/* Hide map button */}
               <Button

@@ -5,6 +5,13 @@ const app = express();
 const http = require("http");
 const httpServer = http.createServer(app);
 const bodyParser = require("body-parser");
+//MIDDLEWARE for adding the body property to req object
+app.use(
+  bodyParser.urlencoded({
+    extended: false,
+  })
+);
+app.use(bodyParser.json());
 
 // MONGOOSE/DATABASE CONFIG
 const mongoose = require("mongoose");
@@ -22,16 +29,12 @@ const addUser = require("./actions/addUser");
 const loginUser = require("./actions/loginUser");
 // Checks and compares the hashed passwords plus sends accesstoken back
 const optInUser = require("./actions/optInUser");
+// Public get restaurant controller
+const getRestaurants = require("./routes/public/getRestaurants");
+// Public restaurant details
+const restaurantDetails = require("./routes/public/restaurantDetails");
 // Authenrticated routes which require access token.
 const apiRouter = require("./routes/api");
-
-//MIDDLEWARE for adding the body property to req object
-app.use(
-  bodyParser.urlencoded({
-    extended: false,
-  })
-);
-app.use(bodyParser.json());
 
 //AUTHENTICATED ROUTES
 app.use("/api", apiRouter);
@@ -42,19 +45,12 @@ app.post("/register-user", addUser);
 app.post("/login", loginUser);
 // Optin user for beta release.
 app.post("/optin", optInUser);
+// Public routes for getting nearby restaurants.
+app.get("/restaurants/:long/:lat", getRestaurants);
+// Public route for getting information about certain restaurant
+app.get("/restaurant/:id", restaurantDetails);
 
 //running for socket.io instance
 httpServer.listen(config.port, () => {
   console.log(`Example app listening on port ${config.port}!`);
 });
-
-// INTEGRATING SOCKET.IO
-// const io = require("socket.io")(httpServer);
-// const matchService = require("./services/match");
-// //SOCKETS MATCHING SERVICE
-// matchService.match(io);
-
-//RUN ON PORT 3000
-// app.listen(config.port, () => {
-//     console.log(`Example app listening on port ${config.port}!`);
-// });

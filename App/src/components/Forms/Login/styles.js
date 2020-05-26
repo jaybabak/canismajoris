@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
 
 const styles = StyleSheet.create({
   container: {
@@ -6,80 +8,104 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
     // alignItems: 'flex-start',
     // backgroundColor: '#E2E2E2',
-    padding: 20
+    padding: 20,
   },
   containerCenter: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     // backgroundColor: '#E2E2E2',
-    textAlign: "center"
+    textAlign: "center",
     // padding: 20
   },
   containerBody: {
     flex: 1,
     justifyContent: "flex-start",
     alignItems: "flex-start",
-    padding: 20
+    padding: 20,
+    paddingTop: 0,
     // backgroundColor: '#E2E2E2',
   },
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 10
+    margin: 10,
   },
   instructions: {
     textAlign: "center",
     color: "#333333",
-    marginBottom: 5
+    marginBottom: 5,
   },
   iconQuestion: {
     fontSize: 26,
-    color: "red"
+    color: "red",
   },
   iconLocation: {
     fontSize: 20,
-    color: "red"
+    color: "red",
   },
   blueText: {
-    color: "blue"
+    color: "blue",
   },
   redText: {
-    color: "red"
+    color: "red",
   },
   blackText: {
     color: "black",
-    marginTop: 10
+    marginTop: 10,
   },
   whiteText: {
-    color: "white"
+    color: "white",
     // marginTop: 10,
   },
   introText: {
     color: "black",
+    marginTop: 20,
     marginBottom: 20,
-    fontSize: 26
+    fontSize: 26,
   },
   buttonSubmit: {
-    // marginTop: 10,
-    color: "white"
+    marginTop: 10,
+    color: "white",
   },
   buttonRegister: {
     backgroundColor: "red",
     marginTop: 10,
-    color: "blue"
+    color: "blue",
   },
   spinner: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     // backgroundColor: '#E2E2E2',
-    textAlign: "center"
+    textAlign: "center",
   },
   thumbnail: {
     // justifyContent: 'center',
-    alignSelf: "center"
-  }
+    alignSelf: "center",
+  },
+  skip: {
+    backgroundColor: "#fafafa",
+    marginTop: 10,
+    borderColor: "#e3e3e3",
+  },
+  skipText: {
+    color: "red",
+  },
+  formField: {
+    marginTop: 10,
+    backgroundColor: "white",
+    borderRadius: 5,
+  },
+  placeholder: {
+    color: "black",
+  },
+  thumbnail: {
+    // justifyContent: 'center',
+    width: screenWidth,
+    height: 400,
+    alignSelf: "center",
+  },
 });
 
 export default styles;

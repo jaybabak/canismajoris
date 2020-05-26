@@ -57,7 +57,9 @@ async function validateNewUser(user) {
   //Password Validation
   if (
     validator.isEmpty(newUser.password) ||
-    !validator.isLength(newUser.password, { min: 6, max: 20 })
+    !validator.isLength(newUser.password, { min: 6, max: 20 }) ||
+    validator.isAlpha(newUser.password) ||
+    validator.isNumeric(newUser.password, { no_symbols: true })
   ) {
     response.success = false;
     response.message =

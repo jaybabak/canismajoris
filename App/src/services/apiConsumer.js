@@ -5,7 +5,7 @@ const axios = require("axios");
  * Grabs nearby restaurants
  * @param {string} key Pass the key value to retrieve a config object from session storage.
  */
-const getStorageData = async function(key) {
+const getStorageData = async function (key) {
   try {
     const value = await AsyncStorage.getItem(key);
     if (value !== null) {
@@ -25,21 +25,42 @@ const getStorageData = async function(key) {
  * @param {string} lat Pass a valid latitude coordinate
  * @param {string} long Pass a valid longitutde coordinate
  */
-const getRestaurants = async function() {
+const getRestaurants = async function (location) {
+  // Determine if user is authenticated.
   const accessToken = await getStorageData("@app_access_token");
-  //HTTP Request object
-  const settings = {
-    headers: { Authorization: `Bearer ${accessToken}` },
-    method: "get",
-    url: "http://localhost:3000/api/get-restaurants"
-  };
+  // HTTP request object.
+  var settings = {};
+  // Return this variable with all restaurant data.
+  var items = {};
 
-  //Make the requst
-  const items = await axios(settings);
+  // If user is not logged in.
+  if (accessToken === null) {
+    settings = {
+      headers: {
+        key: `4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327`,
+      },
+      method: "get",
+      url: `http://localhost:3000/restaurants/${location.lon}/${location.lat}`,
+      // url: "http://localhost:3000/restaurants",
+    };
+    //Make the requst
+    items = await axios(settings);
+  } else {
+    //HTTP Request object
+    settings = {
+      headers: { Authorization: `Bearer ${accessToken}` },
+      method: "get",
+      url: "http://localhost:3000/api/get-restaurants",
+    };
 
+    //Make the requst
+    items = await axios(settings);
+  }
+
+  // If error occured.
   if (items.status !== 200) {
     items.errors = {
-      status: "Something unexpected occured" + items.status + "."
+      status: "Something unexpected occured" + items.status + ".",
     };
   }
   //Return the user object returned from server
@@ -50,22 +71,43 @@ const getRestaurants = async function() {
  * Grabs nearby restaurants
  * @param {string} restaurantId Pass a valid id to retieve information about a restaurant.
  */
-const getRestaurantById = async function(restaurantId) {
+const getRestaurantById = async function (restaurantId) {
+  // Determine if user is authenticated.
   const accessToken = await getStorageData("@app_access_token");
+  // HTTP request object.
+  var settings = {};
+  // Return this variable with all restaurant data.
+  var items = {};
 
-  //HTTP Request object
-  const settings = {
-    headers: { Authorization: `Bearer ${accessToken}` },
-    method: "get",
-    url: `http://localhost:3000/api/restaurant/${restaurantId}`
-  };
+  // If user is not logged in.
+  if (accessToken === null) {
+    //HTTP Request object
+    settings = {
+      headers: {
+        key: `4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327`,
+      },
+      method: "get",
+      url: `http://localhost:3000/restaurant/${restaurantId}`,
+    };
 
-  //Make the requst
-  const item = await axios(settings);
+    //Make the requst
+    item = await axios(settings);
+  } else {
+    //HTTP Request object
+    settings = {
+      headers: { Authorization: `Bearer ${accessToken}` },
+      method: "get",
+      url: `http://localhost:3000/api/restaurant/${restaurantId}`,
+    };
 
+    //Make the requst
+    item = await axios(settings);
+  }
+
+  // If error occured.
   if (item.status !== 200) {
     items.errors = {
-      status: "Something unexpected occured" + items.status + "."
+      status: "Something unexpected occured" + items.status + ".",
     };
   }
   //Return the user object returned from server

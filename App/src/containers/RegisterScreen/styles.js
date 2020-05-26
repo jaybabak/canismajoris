@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     width: Dimensions.get("window").width,
     height: Dimensions.get("window").height,
     // backgroundColor: "black",
-    flex: 1
+    flex: 1,
     // paddingLeft: 15,
     // paddingRight: 15,
     // borderRadius: 5
@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderWidth: 2.5,
     borderColor: "white",
-    backgroundColor: "white"
+    backgroundColor: "white",
     // backgroundColor: "black",
   },
   linearGradient: {
     flex: 1,
     paddingLeft: 10,
     paddingRight: 10,
-    borderRadius: 0
+    borderRadius: 0,
   },
   buttonText: {
     fontSize: 18,
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     margin: 10,
     color: "#ffffff",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
   },
   view: {
     position: "relative",
@@ -49,29 +49,31 @@ const styles = StyleSheet.create({
     alignItems: "stretch",
     // justifyContent: "",
     alignContent: "flex-start",
-    padding: 5
+    padding: 5,
     // borderRadius: 4,
     // borderWidth: 0.5,
     // borderColor: 'red'
   },
   btnAction: {
     backgroundColor: "red",
-    color: "white"
+    color: "white",
   },
   btnActionText: {
-    color: "white"
+    color: "white",
   },
   buttonSubmitBtn: {
     marginTop: 10,
     backgroundColor: "red",
-    color: "white"
+    color: "white",
   },
   iconQuestion: {
     fontSize: 20,
-    color: "red"
+    color: "red",
   },
   formWrapper: {
-    marginTop: 0
+    marginTop: 10,
+    backgroundColor: "white",
+    borderRadius: 5,
   },
   formItem: {
     // backgroundColor: 'white',
@@ -81,14 +83,21 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     // backgroundColor: '#E2E2E2',
-    textAlign: "center"
+    textAlign: "center",
   },
   thumbnail: {
     // justifyContent: 'center',
     // width: screenWidth,
     // height: 500,
-    alignSelf: "center"
-  }
+    alignSelf: "center",
+  },
+  defaulText: {
+    marginTop: 10,
+    marginBottom: 10,
+    color: "grey",
+    fontSize: 14,
+    // marginTop: 10
+  },
 });
 
 export default styles;

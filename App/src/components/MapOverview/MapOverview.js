@@ -14,12 +14,16 @@ import styles from "./styles.js";
 // Device dimentions.
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 // Map marker PNG icon.
-const mapMarkerImage = require("./static/marker.png");
+const mapMarkerImage = require("./static/markerE.png");
 
 class MapOverview extends Component {
   constructor(props) {
     super(props);
     this.state = { ...props };
+  }
+
+  componentDidMount() {
+    // Void. Left empty.
   }
 
   shouldComponentUpdate() {
