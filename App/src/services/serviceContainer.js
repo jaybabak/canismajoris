@@ -11,7 +11,7 @@ const makeCall = async function (phoneNumbers) {
   // Confirmation dialog
   Alert.alert(
     "Call",
-    `Would you like to place a call to ${phoneNumbers}?`,
+    `Place call to ${phoneNumbers}?`,
     [
       {
         text: "Cancel",

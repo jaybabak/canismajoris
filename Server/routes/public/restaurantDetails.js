@@ -1,8 +1,7 @@
 const getRestaurantById = require("../../actions/getRestaurantById");
+const api = require("../../actions/getRestaurantById");
 
 module.exports = async function restaurantDetails(req, res) {
-  console.log(req);
-
   const results = await getRestaurantById(req.params.id);
 
   res.json({

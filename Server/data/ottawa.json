@@ -1,3986 +1,4329 @@
-[
-  {
-    "name": "Fairouz",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.415890",
-    "longitude": "-75.695651",
-    "address": [
-      {
-        "address": "343 Somerset Street W"
-      },
-      {
-        "address": "Ottawa, ON K2P 0J8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=Ey1azXaPPCdfcHDezNEFkA&campaign_id=yVffDjE3atZEs3EuByDoVQ&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Ffairouz-ottawa&request_id=4ac5c13d96f13ca8&signature=f576e2f382099800b7eadce339da9b840a9355f4b20b90f3f71a76c7bae322e2&slot=0"
-  },
-  {
-    "name": "Dosa & Curries",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "Closed"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.418822",
-    "longitude": "-75.696149",
-    "address": [
-      {
-        "address": "114 Gloucester Street"
-      },
-      {
-        "address": "Ottawa, ON K1P 5Z9"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=2yCTo0T94U2EMRHe98g9uA&campaign_id=d2ZWtBmUZFnA7sVBFZ4xrA&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fdosa-and-curries-ottawa-2&request_id=4ac5c13d96f13ca8&signature=536c39c5b5185b914193740d5fb8646e7ea42f731fd22a65baa8769664035361&slot=1"
-  },
-  {
-    "name": "Moe’s BBQ",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Mobeen H."
-      }
-    ],
-    "latitude": "45.352768",
-    "longitude": "-75.646780",
-    "address": [
-      {
-        "address": "2446 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K1V 1A4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/moes-bbq-ottawa?osq=halal"
-  },
-  {
-    "name": "House Of Mandi",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 12:00 am"
-      }
-    ],
-    "latitude": "45.352977",
-    "longitude": "-75.650539",
-    "address": [
-      {
-        "address": "1183 Hunt Club Road"
-      },
-      {
-        "address": "Unit 108"
-      },
-      {
-        "address": "Ottawa, ON K1V 8S4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/house-of-mandi-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Chahaya Malaysia",
-    "category": "Indonesian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 5:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 10:00 pm"
-      }
-    ],
-    "latitude": "45.446056",
-    "longitude": "-75.612513",
-    "address": [
-      {
-        "address": "1690 Montreal Road"
-      },
-      {
-        "address": "Gloucester, ON K1J 6N5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/chahaya-malaysia-gloucester?osq=halal"
-  },
-  {
-    "name": "Laziz Broast & Mix Grill",
-    "category": "Mediterranean",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 10:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 9:00 pm"
-      }
-    ],
-    "latitude": "45.418195",
-    "longitude": "-75.595807",
-    "address": [
-      {
-        "address": "1900 Innes Road"
-      },
-      {
-        "address": "Ottawa, ON K1B 3K5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/laziz-broast-and-mix-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Zaky Grill & Broast",
-    "category": "Fast Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.362420",
-    "longitude": "-75.738138",
-    "address": [
-      {
-        "address": "1385 Baseline Road"
-      },
-      {
-        "address": "Unit 4"
-      },
-      {
-        "address": "Ottawa, ON K1A 0C5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/zaky-grill-and-broast-ottawa?osq=halal"
-  },
-  {
-    "name": "Les Grillades",
-    "category": "Lebanese",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:30 am - 9:00 pm"
-      }
-    ],
-    "latitude": "45.346545",
-    "longitude": "-75.702100",
-    "address": [
-      {
-        "address": "111 Colonnade Road"
-      },
-      {
-        "address": "Ottawa, ON K2E 7M3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/les-grillades-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Shawarma Palace",
-    "category": "Mediterranean",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 3:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 1:00 am"
-      }
-    ],
-    "latitude": "45.430957",
-    "longitude": "-75.679902",
-    "address": [
-      {
-        "address": "464 Rideau Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 5Z4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarma-palace-ottawa?osq=halal"
-  },
-  {
-    "name": "Mongolian Village West",
-    "category": "Mongolian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.320108",
-    "longitude": "-75.837125",
-    "address": [
-      {
-        "address": "2150 Robertson Road"
-      },
-      {
-        "address": "Ottawa, ON K2H 9S1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/mongolian-village-west-ottawa?osq=halal"
-  },
-  {
-    "name": "Kara Mia",
-    "category": "Desserts",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "2:00 pm - 11:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "2:00 pm - 11:30 pm"
-      }
-    ],
-    "latitude": "45.398853",
-    "longitude": "-75.624580",
-    "address": [
-      {
-        "address": "1910 St Laurent Boulevard"
-      },
-      {
-        "address": "Unit 7"
-      },
-      {
-        "address": "Ottawa, ON K1G 1A4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/kara-mia-ottawa?osq=halal"
-  },
-  {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Jamil B."
-      }
-    ],
-    "latitude": "45.414362",
-    "longitude": "-75.695279",
-    "address": [
-      {
-        "address": "329 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 1X9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/burgers-n-fries-forever-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Centrale Bergham - Ottawa",
-    "category": "Sandwiches",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "2:00 pm - 1:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 12:00 am"
-      }
-    ],
-    "latitude": "45.377889",
-    "longitude": "-75.667068",
-    "address": [
-      {
-        "address": "1611 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K1V 7Y8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/centrale-bergham-ottawa-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Sizzle n’Grill",
-    "category": "Mediterranean",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.265384",
-    "longitude": "-75.776907",
-    "address": [
-      {
-        "address": "200 Kennevale Drive"
-      },
-      {
-        "address": "Ottawa, ON K2J 0C3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/sizzle-ngrill-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Babi’s Restaurant",
-    "category": "Bakeries",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "7:00 am - 7:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "7:00 am - 7:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "7:00 am - 7:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "7:00 am - 7:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "8:00 am - 2:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "Closed"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 5:00 pm"
-      },
-      {
-        "days": "Shabi B."
-      }
-    ],
-    "latitude": "45.375910",
-    "longitude": "-75.751800",
-    "address": [
-      {
-        "address": "21 Nadolny Sachs Private"
-      },
-      {
-        "address": "Ottawa, ON K2A 1R9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/babis-restaurant-ottawa?osq=halal"
-  },
-  {
-    "name": "Pili Pili",
-    "category": "Barbeque",
-    "latitude": "45.431893",
-    "longitude": "-75.693635",
-    "address": [
-      {
-        "address": "205 Dalhousie Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 7C9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/pili-pili-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Pak India Restaurant",
-    "category": "Pakistani",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "PIR C."
-      }
-    ],
-    "latitude": "45.456140",
-    "longitude": "-75.505489",
-    "address": [
-      {
-        "address": "4025 Innes Road"
-      },
-      {
-        "address": "Suite 1"
-      },
-      {
-        "address": "Ottawa, ON K1C 1T1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/pak-india-restaurant-ottawa?osq=halal"
-  },
-  {
-    "name": "Coconut Lagoon",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:00 pm"
-      }
-    ],
-    "latitude": "45.433273",
-    "longitude": "-75.642076",
-    "address": [
-      {
-        "address": "853 St. Laurent Boulevard"
-      },
-      {
-        "address": "Ottawa, ON K1K 3B1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/coconut-lagoon-ottawa?osq=halal"
-  },
-  {
-    "name": "Chillies Tandoor & Grill Company",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 8:00 pm"
-      },
-      {
-        "days": "Amnah A."
-      }
-    ],
-    "latitude": "45.372395",
-    "longitude": "-75.662400",
-    "address": [
-      {
-        "address": "2675 Alta Vista Drive"
-      },
-      {
-        "address": "Ottawa, ON K1V 1A3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/chillies-tandoor-and-grill-company-ottawa?osq=halal"
-  },
-  {
-    "name": "Al Noor Bakery Halal",
-    "category": "Arabian",
-    "latitude": "45.354616",
-    "longitude": "-75.806603",
-    "address": [
-      {
-        "address": "70 Wylie Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 6M4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/al-noor-bakery-halal-ottawa?osq=halal"
-  },
-  {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 8:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 8:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 8:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 8:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 8:30 pm"
-      },
-      {
-        "days": "Jamil B."
-      }
-    ],
-    "latitude": "45.429983",
-    "longitude": "-75.692226",
-    "address": [
-      {
-        "address": "278 Dalhousie Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 7E6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/burgers-n-fries-forever-ottawa-4?osq=halal"
-  },
-  {
-    "name": "The Orient House Shawarma & Grill",
-    "category": "Turkish",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 6:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 6:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 6:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 6:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 6:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 6:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.420574",
-    "longitude": "-75.693815",
-    "address": [
-      {
-        "address": "150 Av Laurier O"
-      },
-      {
-        "address": "Ottawa, ON K1P 5J4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/the-orient-house-shawarma-and-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "India Curry And Kebab House",
-    "category": "Kebab",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "4:30 pm - 9:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "Closed"
-      },
-      {
-        "days": "Wed",
-        "time": "4:30 pm - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "4:30 pm - 9:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "4:30 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "4:30 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Sachin lalit C."
-      },
-      {
-        "days": "15% off Food and non alcoholic beverag"
-      }
-    ],
-    "latitude": "45.428632",
-    "longitude": "-75.694365",
-    "address": [
-      {
-        "address": "39 Clarence Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 5P4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/india-curry-and-kebab-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Nando’s",
-    "category": "South African",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.422049",
-    "longitude": "-75.694691",
-    "address": [
-      {
-        "address": "90 Elgin Street"
-      },
-      {
-        "address": "Unit 3"
-      },
-      {
-        "address": "Ottawa, ON K1P 5E9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/nandos-ottawa?osq=halal"
-  },
-  {
-    "name": "Al-Oumara Meat Shop & Grill",
-    "category": "Lebanese",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 6:00 pm"
-      },
-      {
-        "days": "Rabeia Z."
-      }
-    ],
-    "latitude": "45.363727",
-    "longitude": "-75.647101",
-    "address": [
-      {
-        "address": "25 Tapiola Crescent"
-      },
-      {
-        "address": "Ottawa, ON K1T 2J7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/al-oumara-meat-shop-and-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Crispy’s Resto Grill",
-    "category": "Chicken Wings",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 10:00 pm"
-      }
-    ],
-    "latitude": "45.341936",
-    "longitude": "-75.756052",
-    "address": [
-      {
-        "address": "1433 Woodroffe Avenue"
-      },
-      {
-        "address": "Unit D"
-      },
-      {
-        "address": "Ottawa, ON K2G 2V5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/crispys-resto-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Salang Kabob House",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "1 free cheezy garlic naan"
-      }
-    ],
-    "latitude": "45.356113",
-    "longitude": "-75.801762",
-    "address": [
-      {
-        "address": "2934 Carling Ave"
-      },
-      {
-        "address": "Ottawa, ON K2B 7J7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/salang-kabob-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Matar Kabob House",
-    "category": "Middle Eastern",
-    "latitude": "45.340619",
-    "longitude": "-75.616093",
-    "address": [
-      {
-        "address": "2527 Bank St"
-      },
-      {
-        "address": "Ottawa, ON K1T 1M8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/matar-kabob-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Kothu Rotti",
-    "category": "Sri Lankan",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:30 am - 9:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:30 am - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:30 am - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:30 am - 9:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:30 am - 10:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "3:30 pm - 10:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "3:30 pm - 9:00 pm"
-      },
-      {
-        "days": "Ranjan T."
-      }
-    ],
-    "latitude": "45.426569",
-    "longitude": "-75.689305",
-    "address": [
-      {
-        "address": "408 Dalhousie Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 9J9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/kothu-rotti-ottawa?osq=halal"
-  },
-  {
-    "name": "Fairouz",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.415890",
-    "longitude": "-75.695651",
-    "address": [
-      {
-        "address": "343 Somerset Street W"
-      },
-      {
-        "address": "Ottawa, ON K2P 0J8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/fairouz-ottawa?osq=halal"
-  },
-  {
-    "name": "Shirin Market",
-    "category": "International Grocery",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:30 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:30 am - 7:00 pm"
-      }
-    ],
-    "latitude": "45.349409",
-    "longitude": "-75.924799",
-    "address": [
-      {
-        "address": "700 March Road"
-      },
-      {
-        "address": "Kanata, ON K2K 1L3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shirin-market-kanata?osq=halal"
-  },
-  {
-    "name": "Shaan Curry House",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 7:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 7:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 7:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 7:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 7:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 7:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.359102",
-    "longitude": "-75.735763",
-    "address": [
-      {
-        "address": "1489 Merivale Road"
-      },
-      {
-        "address": "Nepean, ON K2E 5P3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shaan-curry-house-nepean?osq=halal"
-  },
-  {
-    "name": "North & Navy",
-    "category": "Seafood",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.416712",
-    "longitude": "-75.699082",
-    "address": [
-      {
-        "address": "226 Nepean Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 0B8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=7i5wefay6IWl_bLfe0pvvw&campaign_id=aicWD8Occ-3761aRfwObTA&click_origin=search_results&placement=below_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fnorth-and-navy-ottawa&request_id=4ac5c13d96f13ca8&signature=47f084903afa5ed194df47b0b8828c25ed253c4bcca6c832d4dfcac0fd447ca6&slot=0"
-  },
-  {
-    "name": "North & Navy",
-    "category": "Italian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.416712",
-    "longitude": "-75.699082",
-    "address": [
-      {
-        "address": "226 Nepean Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 0B8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=7i5wefay6IWl_bLfe0pvvw&campaign_id=aicWD8Occ-3761aRfwObTA&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fnorth-and-navy-ottawa&request_id=a3e452a369d7e207&signature=f76e9c65f4f40db1738100ad5656123545238881190e90ca97ee876ef03a395c&slot=0"
-  },
-  {
-    "name": "Asli Dining",
-    "category": "Comfort Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.365808",
-    "longitude": "-75.660073",
-    "address": [
-      {
-        "address": "2019 Bank Street"
-      },
-      {
-        "address": "Unit 101"
-      },
-      {
-        "address": "Ottawa, ON K1V"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/asli-dining-ottawa?osq=halal"
-  },
-  {
-    "name": "Grillade Kisanola",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "2:00 pm - 8:00 pm"
-      }
-    ],
-    "latitude": "45.461944",
-    "longitude": "-75.698052",
-    "address": [
-      {
-        "address": "1124B Rue Saint-Louis"
-      },
-      {
-        "address": "Gatineau, QC J8T 2R7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/grillade-kisanola-gatineau-2?osq=halal"
-  },
-  {
-    "name": "Centrale Bergham",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "2:00 pm - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.429798",
-    "longitude": "-75.638076",
-    "address": [
-      {
-        "address": "1255 Donald Street"
-      },
-      {
-        "address": "Unit 10"
-      },
-      {
-        "address": "Ottawa, ON K1K 3B1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/centrale-bergham-ottawa-3?osq=halal"
-  },
-  {
-    "name": "Mary Brown’s",
-    "category": "Fast Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 9:00 pm"
-      }
-    ],
-    "latitude": "45.354018",
-    "longitude": "-75.805941",
-    "address": [
-      {
-        "address": "3098 Carling Avenue"
-      },
-      {
-        "address": "Unit 6B"
-      },
-      {
-        "address": "Ottawa, ON K2B 7K2"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/mary-browns-ottawa?osq=halal"
-  },
-  {
-    "name": "Dal Moro’s",
-    "category": "Italian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.428526",
-    "longitude": "-75.693687",
-    "address": [
-      {
-        "address": "8 Byward Market Square"
-      },
-      {
-        "address": "Ottawa, ON K1N 7A1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/dal-moros-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Samar Kabab House",
-    "category": "Kebab",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.377742",
-    "longitude": "-75.645549",
-    "address": [
-      {
-        "address": "1729 Walkley Road"
-      },
-      {
-        "address": "Ottawa, ON K1V 6P4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/samar-kabab-house-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Shawarma’s King",
-    "category": "Sandwiches",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 4:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 4:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 3:00 am"
-      }
-    ],
-    "latitude": "45.413401",
-    "longitude": "-75.694475",
-    "address": [
-      {
-        "address": "395 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 1Y3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarmas-king-ottawa?osq=halal"
-  },
-  {
-    "name": "Pita Bell Kabab",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "12:00 pm - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "12:00 pm - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "12:00 pm - 8:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "12:00 pm - 8:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 pm - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 8:00 pm"
-      }
-    ],
-    "latitude": "45.378604",
-    "longitude": "-75.750533",
-    "address": [
-      {
-        "address": "1696 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2A 1C6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/pita-bell-kabab-ottawa?osq=halal"
-  },
-  {
-    "name": "Popeye’s Louisiana Kitchen",
-    "category": "Chicken Shop",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.446075",
-    "longitude": "-75.596864",
-    "address": [
-      {
-        "address": "2000 Montreal Road"
-      },
-      {
-        "address": "Ottawa, ON K1J 6N2"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/popeyes-louisiana-kitchen-ottawa?osq=halal"
-  },
-  {
-    "name": "Yaseen Halal Pizza & Bakery",
-    "category": "Pizza",
-    "latitude": "45.417296",
-    "longitude": "-75.604858",
-    "address": [
-      {
-        "address": "1741 Cyrville Road"
-      },
-      {
-        "address": "Ottawa, ON K1B 3K8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/yaseen-halal-pizza-and-bakery-ottawa?osq=halal"
-  },
-  {
-    "name": "Princess Shawarma",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:00 am - 9:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:00 am - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:00 am - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:00 am - 9:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:00 am - 10:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "10:00 am - 9:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:00 am - 9:30 pm"
-      }
-    ],
-    "latitude": "45.359721",
-    "longitude": "-75.738109",
-    "address": [
-      {
-        "address": "1383 Clyde Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2G 3H9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/princess-shawarma-ottawa?osq=halal"
-  },
-  {
-    "name": "Donerma",
-    "category": "Kebab",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.419380",
-    "longitude": "-75.699434",
-    "address": [
-      {
-        "address": "129 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K1P 5N7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/donerma-ottawa?osq=halal"
-  },
-  {
-    "name": "Shawarma Express",
-    "category": "Donairs",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:30 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:30 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:30 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.420882",
-    "longitude": "-75.696232",
-    "address": [
-      {
-        "address": "119 Slater Street"
-      },
-      {
-        "address": "Ottawa, ON K1P 5H2"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarma-express-ottawa?osq=halal"
-  },
-  {
-    "name": "Poulet Rouge",
-    "category": "Fast Food",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 9:00 pm"
-      }
-    ],
-    "latitude": "45.421867",
-    "longitude": "-75.638773",
-    "address": [
-      {
-        "address": "1200 St Laurent Boulevard"
-      },
-      {
-        "address": "Ottawa, ON K1K 3B8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/poulet-rouge-ottawa-3?osq=halal"
-  },
-  {
-    "name": "Say Cheese Pizza and Poutine",
-    "category": "Chicken Wings",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 1:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:30 am - 1:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "3:00 pm - 11:00 pm"
-      }
-    ],
-    "latitude": "45.379406",
-    "longitude": "-75.667453",
-    "address": [
-      {
-        "address": "1581 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K1H 7Z3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/say-cheese-pizza-and-poutine-ottawa?osq=halal"
-  },
-  {
-    "name": "Cafe Nero",
-    "category": "Coffee & Tea",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "7:30 am - 6:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "7:30 am - 6:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "7:30 am - 6:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "7:30 am - 6:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "7:30 am - 6:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 6:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:00 am - 6:00 pm"
-      }
-    ],
-    "latitude": "45.373349",
-    "longitude": "-75.664236",
-    "address": [
-      {
-        "address": "2690 Alta Vista Drive"
-      },
-      {
-        "address": "Ottawa, ON K1V 7T4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/cafe-nero-ottawa?osq=halal"
-  },
-  {
-    "name": "Mia’s Indian Cuisine",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "4:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Samsu M."
-      }
-    ],
-    "latitude": "45.450017",
-    "longitude": "-75.651549",
-    "address": [
-      {
-        "address": "327 St Laurent Boulevard"
-      },
-      {
-        "address": "Ottawa, ON K1K 2Z5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/mias-indian-cuisine-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Shawarma Palace",
-    "category": "Lebanese",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.356489",
-    "longitude": "-75.802631",
-    "address": [
-      {
-        "address": "2949 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 8K6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarma-palace-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Basmati Indian Cuisine",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:30 am - 11:30 pm"
-      },
-      {
-        "days": "1 free appetizer with purchase"
-      }
-    ],
-    "latitude": "45.415326",
-    "longitude": "-75.696771",
-    "address": [
-      {
-        "address": "373 Somerset Street W"
-      },
-      {
-        "address": "Ottawa, ON K2P 0K1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/basmati-indian-cuisine-ottawa?osq=halal"
-  },
-  {
-    "name": "Lulu Shawarma and Grill",
-    "category": "Mediterranean",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.292851",
-    "longitude": "-75.728655",
-    "address": [
-      {
-        "address": "2910 Woodroffe Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2J 4P7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/lulu-shawarma-and-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Bbq Golden Grill",
-    "category": "Chicken Wings",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "12:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.410165",
-    "longitude": "-75.698819",
-    "address": [
-      {
-        "address": "523 Gladstone Avenue"
-      },
-      {
-        "address": "Ottawa, ON K1R 5N9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/bbq-golden-grill-ottawa-3?osq=halal"
-  },
-  {
-    "name": "Big Smoke Burger",
-    "category": "Burgers",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:30 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:30 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:30 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:30 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:30 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "10:30 am - 6:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:30 am - 6:00 pm"
-      }
-    ],
-    "latitude": "45.425022",
-    "longitude": "-75.690176",
-    "address": [
-      {
-        "address": "50 Rideau Street"
-      },
-      {
-        "address": "Ottawa, ON K1N 9J7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/big-smoke-burger-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Nando’s Flame Grilled Chicken",
-    "category": "Portuguese",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "Closed"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.361525",
-    "longitude": "-75.733642",
-    "address": [
-      {
-        "address": "1461 Merivale Road"
-      },
-      {
-        "address": "Unit 2D"
-      },
-      {
-        "address": "Ottawa, ON K2E 5N9"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/nandos-flame-grilled-chicken-ottawa?osq=halal"
-  },
-  {
-    "name": "Ya Habibi",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:30 am - 5:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:30 am - 5:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:30 am - 5:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:30 am - 5:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:30 am - 5:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "Closed"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.419730",
-    "longitude": "-75.692868",
-    "address": [
-      {
-        "address": "160 Elgin Street"
-      },
-      {
-        "address": "Ottawa, ON K1A 1J4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/ya-habibi-ottawa?osq=halal"
-  },
-  {
-    "name": "Poulet BBQ Perla",
-    "category": "Portuguese",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:30 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:30 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.481164",
-    "longitude": "-75.700985",
-    "address": [
-      {
-        "address": "4 Rue D'Orleans"
-      },
-      {
-        "address": "Gatineau, QC J8T 5V1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/poulet-bbq-perla-gatineau?osq=halal"
-  },
-  {
-    "name": "Burgers and Shakes",
-    "category": "American (Traditional)",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "10:00 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.264907",
-    "longitude": "-75.776975",
-    "address": [
-      {
-        "address": "200 Kennevale Drive"
-      },
-      {
-        "address": "Nepean, ON K2J 0C3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/burgers-and-shakes-nepean?osq=halal"
-  },
-  {
-    "name": "Shawarma Prince",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.460772",
-    "longitude": "-75.486913",
-    "address": [
-      {
-        "address": "4434 Innes Road"
-      },
-      {
-        "address": "Ottawa, ON K4A 4C5"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarma-prince-ottawa-5?osq=halal"
-  },
-  {
-    "name": "Paramount",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 10:00 pm"
-      }
-    ],
-    "latitude": "45.269975",
-    "longitude": "-75.742623",
-    "address": [
-      {
-        "address": "51 Marketplace Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2J 5G4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/paramount-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Damas Supermarket",
-    "category": "International Grocery",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 9:00 pm"
-      }
-    ],
-    "latitude": "45.355082",
-    "longitude": "-75.806333",
-    "address": [
-      {
-        "address": "3033 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 7K3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/damas-supermarket-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Mr Shawarma Restaurant",
-    "category": "Halal",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 2:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 12:00 am"
-      }
-    ],
-    "latitude": "45.341904",
-    "longitude": "-75.786945",
-    "address": [
-      {
-        "address": "2555 Baseline Road"
-      },
-      {
-        "address": "Ottawa, ON K2H 7B3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/mr-shawarma-restaurant-ottawa?osq=halal"
-  },
-  {
-    "name": "Fairouz",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.415890",
-    "longitude": "-75.695651",
-    "address": [
-      {
-        "address": "343 Somerset Street W"
-      },
-      {
-        "address": "Ottawa, ON K2P 0J8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=Ey1azXaPPCdfcHDezNEFkA&campaign_id=zw4XZekMGTwOfSoW9xVdRw&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Ffairouz-ottawa&request_id=9ff8e364e2962031&signature=c93607a2eb2ab33e96cdb5a63df6c6cd6dabbba3bd639c650c081788d03e1459&slot=0"
-  },
-  {
-    "name": "North & Navy",
-    "category": "Italian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.416712",
-    "longitude": "-75.699082",
-    "address": [
-      {
-        "address": "226 Nepean Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 0B8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=7i5wefay6IWl_bLfe0pvvw&campaign_id=aicWD8Occ-3761aRfwObTA&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fnorth-and-navy-ottawa&request_id=9ff8e364e2962031&signature=57c2b7abad60bf256fdcb54e8a819ac5f75c7e5f758af242a0b4da4854ad7691&slot=1"
-  },
-  {
-    "name": "Moe’s BBQ",
-    "category": "Halal",
-    "url": "https://www.yelp.ca/biz/moes-bbq-ottawa?osq=halal"
-  },
-  {
-    "name": "House Of Mandi",
-    "category": "Halal",
-    "url": "https://www.yelp.ca/biz/house-of-mandi-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Chahaya Malaysia",
-    "category": "Indonesian",
-    "url": "https://www.yelp.ca/biz/chahaya-malaysia-gloucester?osq=halal"
-  },
-  {
-    "name": "Laziz Broast & Mix Grill",
-    "category": "Mediterranean",
-    "url": "https://www.yelp.ca/biz/laziz-broast-and-mix-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Zaky Grill & Broast",
-    "category": "Fast Food",
-    "url": "https://www.yelp.ca/biz/zaky-grill-and-broast-ottawa?osq=halal"
-  },
-  {
-    "name": "Les Grillades",
-    "category": "Lebanese",
-    "url": "https://www.yelp.ca/biz/les-grillades-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Shawarma Palace",
-    "category": "Mediterranean",
-    "url": "https://www.yelp.ca/biz/shawarma-palace-ottawa?osq=halal"
-  },
-  {
-    "name": "Mongolian Village West",
-    "category": "Mongolian",
-    "url": "https://www.yelp.ca/biz/mongolian-village-west-ottawa?osq=halal"
-  },
-  {
-    "name": "Kara Mia",
-    "category": "Desserts",
-    "url": "https://www.yelp.ca/biz/kara-mia-ottawa?osq=halal"
-  },
-  {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "url": "https://www.yelp.ca/biz/burgers-n-fries-forever-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Centrale Bergham - Ottawa",
-    "category": "Sandwiches",
-    "url": "https://www.yelp.ca/biz/centrale-bergham-ottawa-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Sizzle n’Grill",
-    "category": "Mediterranean",
-    "url": "https://www.yelp.ca/biz/sizzle-ngrill-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Babi’s Restaurant",
-    "category": "Bakeries",
-    "url": "https://www.yelp.ca/biz/babis-restaurant-ottawa?osq=halal"
-  },
-  {
-    "name": "Pili Pili",
-    "category": "Barbeque",
-    "url": "https://www.yelp.ca/biz/pili-pili-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Pak India Restaurant",
-    "category": "Pakistani",
-    "url": "https://www.yelp.ca/biz/pak-india-restaurant-ottawa?osq=halal"
-  },
-  {
-    "name": "Coconut Lagoon",
-    "category": "Indian",
-    "url": "https://www.yelp.ca/biz/coconut-lagoon-ottawa?osq=halal"
-  },
-  {
-    "name": "Chillies Tandoor & Grill Company",
-    "category": "Indian",
-    "url": "https://www.yelp.ca/biz/chillies-tandoor-and-grill-company-ottawa?osq=halal"
-  },
-  {
-    "name": "Al Noor Bakery Halal",
-    "category": "Arabian",
-    "url": "https://www.yelp.ca/biz/al-noor-bakery-halal-ottawa?osq=halal"
-  },
-  {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "url": "https://www.yelp.ca/biz/burgers-n-fries-forever-ottawa-4?osq=halal"
-  },
-  {
-    "name": "The Orient House Shawarma & Grill",
-    "category": "Turkish",
-    "url": "https://www.yelp.ca/biz/the-orient-house-shawarma-and-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "India Curry And Kebab House",
-    "category": "Kebab",
-    "url": "https://www.yelp.ca/biz/india-curry-and-kebab-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Nando’s",
-    "category": "South African",
-    "url": "https://www.yelp.ca/biz/nandos-ottawa?osq=halal"
-  },
-  {
-    "name": "Al-Oumara Meat Shop & Grill",
-    "category": "Lebanese",
-    "url": "https://www.yelp.ca/biz/al-oumara-meat-shop-and-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Crispy’s Resto Grill",
-    "category": "Chicken Wings",
-    "url": "https://www.yelp.ca/biz/crispys-resto-grill-ottawa?osq=halal"
-  },
-  {
-    "name": "Salang Kabob House",
-    "category": "Indian",
-    "url": "https://www.yelp.ca/biz/salang-kabob-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Matar Kabob House",
-    "category": "Middle Eastern",
-    "url": "https://www.yelp.ca/biz/matar-kabob-house-ottawa?osq=halal"
-  },
-  {
-    "name": "Kothu Rotti",
-    "category": "Sri Lankan",
-    "url": "https://www.yelp.ca/biz/kothu-rotti-ottawa?osq=halal"
-  },
-  {
-    "name": "Fairouz",
-    "category": "Middle Eastern",
-    "url": "https://www.yelp.ca/biz/fairouz-ottawa?osq=halal"
-  },
-  {
-    "name": "Shirin Market",
-    "category": "International Grocery",
-    "url": "https://www.yelp.ca/biz/shirin-market-kanata?osq=halal"
-  },
-  {
-    "name": "Shaan Curry House",
-    "category": "Indian",
-    "url": "https://www.yelp.ca/biz/shaan-curry-house-nepean?osq=halal"
-  },
-  {
-    "name": "Dosa & Curries",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "Closed"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.418822",
-    "longitude": "-75.696149",
-    "address": [
-      {
-        "address": "114 Gloucester Street"
-      },
-      {
-        "address": "Ottawa, ON K1P 5Z9"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=2yCTo0T94U2EMRHe98g9uA&campaign_id=d2ZWtBmUZFnA7sVBFZ4xrA&click_origin=search_results&placement=below_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fdosa-and-curries-ottawa-2&request_id=9ff8e364e2962031&signature=aaea0330b40749f169899a7e00aaca36996d745ecab9fc0bd1b7b58e7b6cede2&slot=0"
-  },
-  {
-    "name": "Fairouz",
-    "category": "Middle Eastern",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "Closed"
-      },
-      {
-        "days": "Tue",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 9:30 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "5:00 pm - 9:30 pm"
-      }
-    ],
-    "latitude": "45.415890",
-    "longitude": "-75.695651",
-    "address": [
-      {
-        "address": "343 Somerset Street W"
-      },
-      {
-        "address": "Ottawa, ON K2P 0J8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=Ey1azXaPPCdfcHDezNEFkA&campaign_id=zw4XZekMGTwOfSoW9xVdRw&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Ffairouz-ottawa&request_id=137fbccfd20cba87&signature=efc66dd0265c8e468f574ff10c9f0cd3d437fdbee6b9d4e24d86590c554fe203&slot=0"
-  },
-  {
-    "name": "Dosa & Curries",
-    "category": "Indian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "Closed"
-      },
-      {
-        "days": "Wed",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "5:00 pm - 11:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.418822",
-    "longitude": "-75.696149",
-    "address": [
-      {
-        "address": "114 Gloucester Street"
-      },
-      {
-        "address": "Ottawa, ON K1P 5Z9"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=2yCTo0T94U2EMRHe98g9uA&campaign_id=IAaC7XGeBcdBW_LypU7AuA&click_origin=search_results&placement=above_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fdosa-and-curries-ottawa-2&request_id=137fbccfd20cba87&signature=df6fab2c1ca3b6ce3f5507b135fe878be55e87b0380433f19d6ba753a7696ea2&slot=1"
-  },
-  {
-    "name": "Zam Zam",
-    "category": "Restaurants",
-    "latitude": "45.421268",
-    "longitude": "-75.672159",
-    "address": [
-      {
-        "address": "111 Av Mann"
-      },
-      {
-        "address": "Ottawa, ON K1N 5A4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/zam-zam-ottawa?osq=halal"
-  },
-  {
-    "name": "Digby’s Restaurant",
-    "category": "Fish & Chips",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 8:00 pm"
-      }
-    ],
-    "latitude": "45.311797",
-    "longitude": "-75.915650",
-    "address": [
-      {
-        "address": "17-300 Earl Grey Drive"
-      },
-      {
-        "address": "Kanata, ON K2T 1B8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/digbys-restaurant-kanata?osq=halal"
-  },
-  {
-    "name": "Casablanca Halal Supermarket",
-    "category": "Grocery",
-    "latitude": "45.356113",
-    "longitude": "-75.801762",
-    "address": [
-      {
-        "address": "2934 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 7J7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/casablanca-halal-supermarket-ottawa?osq=halal"
-  },
-  {
-    "name": "Ottawa Halal Market",
-    "category": "Meat Shops",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:00 am - 8:00 pm"
-      }
-    ],
-    "latitude": "45.350733",
-    "longitude": "-75.793721",
-    "address": [
-      {
-        "address": "2833 Dumaurier Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 7W3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/ottawa-halal-market-ottawa?osq=halal"
-  },
-  {
-    "name": "Shawarma Shish",
-    "category": "Sandwiches",
-    "latitude": "45.328271",
-    "longitude": "-75.819474",
-    "address": [
-      {
-        "address": "1831 Robertson Rd"
-      },
-      {
-        "address": "Unit 19"
-      },
-      {
-        "address": "Ottawa, ON K2H 8X3"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/shawarma-shish-ottawa?osq=halal"
-  },
-  {
-    "name": "Centrale Bergham",
-    "category": "Burgers",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "12:00 pm - 12:00 am"
-      }
-    ],
-    "latitude": "45.354654",
-    "longitude": "-75.807409",
-    "address": [
-      {
-        "address": "3059 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 7K4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/centrale-bergham-ottawa-5?osq=halal"
-  },
-  {
-    "name": "Mia’s Indian Cuisine",
-    "category": "Indian",
-    "latitude": "45.377817",
-    "longitude": "-75.774712",
-    "address": [
-      {
-        "address": "917 Richmond Road"
-      },
-      {
-        "address": "Ottawa, ON K2A 0G8"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/mias-indian-cuisine-ottawa?osq=halal"
-  },
-  {
-    "name": "Food Basics",
-    "category": "Grocery",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "8:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "8:00 am - 7:00 pm"
-      }
-    ],
-    "latitude": "45.386236",
-    "longitude": "-75.738947",
-    "address": [
-      {
-        "address": "667 Kirkwood Avenue"
-      },
-      {
-        "address": "Ottawa, ON K1Z 8N7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/food-basics-ottawa-6?osq=halal"
-  },
-  {
-    "name": "Al Jazeerah Food and Meat Market",
-    "category": "Grocery",
-    "latitude": "45.402847",
-    "longitude": "-75.725789",
-    "address": [
-      {
-        "address": "1101 Wellington Street W"
-      },
-      {
-        "address": "Ottawa, ON K1Y 2Y4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/al-jazeerah-food-and-meat-market-ottawa?osq=halal"
-  },
-  {
-    "name": "Centrale Bergham",
-    "category": "Sandwiches",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "1:00 pm - 3:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 12:00 am"
-      }
-    ],
-    "latitude": "45.425422",
-    "longitude": "-75.719418",
-    "address": [
-      {
-        "address": "22 Rue Eddy"
-      },
-      {
-        "address": "Gatineau, QC J8X 2V6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/centrale-bergham-gatineau?osq=halal"
-  },
-  {
-    "name": "Cote Poultry",
-    "category": "Meat Shops",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "7:00 am - 4:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "7:00 am - 4:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "7:00 am - 4:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "7:00 am - 4:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "7:00 am - 4:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "7:00 am - 1:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "Closed"
-      }
-    ],
-    "latitude": "45.395579",
-    "longitude": "-75.606278",
-    "address": [
-      {
-        "address": "2770 Lancaster Road"
-      },
-      {
-        "address": "Ottawa, ON K1B 4S4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/cote-poultry-ottawa?osq=halal"
-  },
-  {
-    "name": "Silk Road Foods",
-    "category": "Grocery",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 7:00 pm"
-      }
-    ],
-    "latitude": "45.347941",
-    "longitude": "-75.732440",
-    "address": [
-      {
-        "address": "1618 Merivale Road"
-      },
-      {
-        "address": "Ottawa, ON K2G 4A1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/silk-road-foods-ottawa?osq=halal"
-  },
-  {
-    "name": "Russell Restaurant",
-    "category": "Sandwiches",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "6:30 am - 10:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "6:30 am - 10:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "6:30 am - 10:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "6:30 am - 10:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "6:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "7:30 am - 10:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "8:00 am - 3:00 pm"
-      }
-    ],
-    "latitude": "45.257289",
-    "longitude": "-75.357485",
-    "address": [
-      {
-        "address": "182 Castor Street"
-      },
-      {
-        "address": "Russell, ON K4R 1C7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/russell-restaurant-russell?osq=halal"
-  },
-  {
-    "name": "Yaseen Halal Pizza",
-    "category": "Pizza",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "2:00 pm - 10:00 pm"
-      }
-    ],
-    "latitude": "45.356577",
-    "longitude": "-75.800898",
-    "address": [
-      {
-        "address": "2916 Carling Avenue"
-      },
-      {
-        "address": "Ottawa, ON K2B 7J7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/yaseen-halal-pizza-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Baghlan Market",
-    "category": "Butcher",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:00 am - 8:00 pm"
-      }
-    ],
-    "latitude": "45.477435",
-    "longitude": "-75.498530",
-    "address": [
-      {
-        "address": "385 Tompkins Ave"
-      },
-      {
-        "address": "Unit 2A"
-      },
-      {
-        "address": "Ottawa, ON K1E 3H4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/baghlan-market-ottawa?osq=halal"
-  },
-  {
-    "name": "Sultan Supermarket",
-    "category": "Meat Shops",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "9:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "9:00 am - 8:00 pm"
-      },
-      {
-        "days": "mamoon H."
-      }
-    ],
-    "latitude": "45.352768",
-    "longitude": "-75.646780",
-    "address": [
-      {
-        "address": "2446 Bank Street"
-      },
-      {
-        "address": "Suite 117"
-      },
-      {
-        "address": "Ottawa, ON K1V 1A4"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/sultan-supermarket-ottawa-2?osq=halal"
-  },
-  {
-    "name": "Barakat Market",
-    "category": "International Grocery",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "8:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "10:00 am - 8:00 pm"
-      },
-      {
-        "days": "Fouad B."
-      }
-    ],
-    "latitude": "45.376422",
-    "longitude": "-75.666965",
-    "address": [
-      {
-        "address": "1656 Bank Street"
-      },
-      {
-        "address": "Ottawa, ON K1V 7Y6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/barakat-market-ottawa?osq=halal"
-  },
-  {
-    "name": "Dairy Queen",
-    "category": "Ice Cream & Frozen Yogurt",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 9:00 pm"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 9:00 pm"
-      }
-    ],
-    "latitude": "45.464495",
-    "longitude": "-75.538446",
-    "address": [
-      {
-        "address": "2002 St. Joseph Blvd"
-      },
-      {
-        "address": "Orleans, ON K1C 1E6"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/dairy-queen-orleans?osq=halal"
-  },
-  {
-    "name": "1 For 1 Pizza",
-    "category": "Pizza",
-    "latitude": "45.292444",
-    "longitude": "-75.728151",
-    "address": [
-      {
-        "address": "2900 Woodroffe Ave"
-      },
-      {
-        "address": "Ottawa, ON K2J 4P7"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/1-for-1-pizza-ottawa-12?osq=halal"
-  },
-  {
-    "name": "1 For 1 Pizza",
-    "category": "Italian",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 1:00 am"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 3:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:30 am - 12:00 am"
-      }
-    ],
-    "latitude": "45.455770",
-    "longitude": "-75.506511",
-    "address": [
-      {
-        "address": "4025 Innes Road"
-      },
-      {
-        "address": "Ottawa, ON K1C 1T1"
-      }
-    ],
-    "url": "https://www.yelp.ca/biz/1-for-1-pizza-ottawa-13?osq=halal"
-  },
-  {
-    "name": "The Captain’s Boil",
-    "category": "Seafood",
-    "hours": [
-      {
-        "days": "Mon",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Tue",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Wed",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Thu",
-        "time": "11:00 am - 11:00 pm"
-      },
-      {
-        "days": "Fri",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sat",
-        "time": "11:00 am - 12:00 am"
-      },
-      {
-        "days": "Sun",
-        "time": "11:00 am - 11:00 pm"
-      }
-    ],
-    "latitude": "45.415425",
-    "longitude": "-75.688408",
-    "address": [
-      {
-        "address": "354 Elgin Street"
-      },
-      {
-        "address": "Ottawa, ON K2P 1M8"
-      }
-    ],
-    "url": "https://www.yelp.ca/adredir?ad_business_id=o251U2qPejXGglmz_qyBrA&campaign_id=T71Dv6WPtwLwTTtS6L--5Q&click_origin=search_results&placement=below_search&redirect_url=https%3A%2F%2Fwww.yelp.ca%2Fbiz%2Fthe-captains-boil-ottawa&request_id=137fbccfd20cba87&signature=8e064a23bedc9871a68614fc0db1ad866f0c89d6388ea3b3f5071f281aff10ff&slot=0"
+{
+ "restaurants": [
+  {
+   "name": "Panera Bread",
+   "category": "Sandwiches",
+   "phone_number": "+1-613-274-0888",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:30 am - 8:30 pm"
+    }
+   ],
+   "latitude": "45.338917",
+   "longitude": "-75.713619",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "320 West Hunt Club Road"
+      }
+     ],
+     "city": "Ottawa, ON K2E 1A5"
+    }
+   ],
+   "website": "http://panerabread.com"
+  },
+  {
+   "name": "North & Navy",
+   "category": "Italian",
+   "phone_number": "(613) 232-6289",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:30 pm"
+    }
+   ],
+   "latitude": "45.416712",
+   "longitude": "-75.699082",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "226 Nepean Street"
+      }
+     ],
+     "city": "Ottawa, ON K2P 0B8"
+    }
+   ],
+   "website": "http://northandnavy.com"
+  },
+  {
+   "name": "Moe’s BBQ",
+   "category": "Halal",
+   "phone_number": "(613) 695-1786",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Mobeen H."
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.352768",
+   "longitude": "-75.646780",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2446 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1V 1A4"
+    }
+   ],
+   "website": "http://moesbbq.ca"
+  },
+  {
+   "name": "House Of Mandi",
+   "category": "Halal",
+   "phone_number": "(613) 737-3200",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 12:00 am"
+    }
+   ],
+   "latitude": "45.352977",
+   "longitude": "-75.650539",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1183 Hunt Club Road",
+       "unit": "Unit 108"
+      }
+     ],
+     "city": "Ottawa, ON K1V 8S4"
+    }
+   ],
+   "website": "http://houseofmandi.business.site"
+  },
+  {
+   "name": "Chahaya Malaysia",
+   "category": "Indonesian",
+   "phone_number": "(613) 742-0242",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "4:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "4:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "4:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "4:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "4:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "4:00 pm - 8:00 pm"
+    }
+   ],
+   "latitude": "45.446056",
+   "longitude": "-75.612513",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1690 Montreal Road"
+      }
+     ],
+     "city": "Gloucester, ON K1J 6N5"
+    }
+   ]
+  },
+  {
+   "name": "Laziz Broast & Mix Grill",
+   "category": "Mediterranean",
+   "phone_number": "(613) 746-6111",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 10:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.418195",
+   "longitude": "-75.595807",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1900 Innes Road"
+      }
+     ],
+     "city": "Ottawa, ON K1B 3K5"
+    }
+   ],
+   "website": "http://lazizbroastmixgrill.ca"
+  },
+  {
+   "name": "Kara Mia",
+   "category": "Desserts",
+   "phone_number": "(613) 248-0500",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "2:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "2:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Edible Arrangements"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.398853",
+   "longitude": "-75.624580",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1910 St Laurent Boulevard",
+       "unit": "Unit 7"
+      }
+     ],
+     "city": "Ottawa, ON K1G 1A4"
+    }
+   ],
+   "website": "http://karamia.ca"
+  },
+  {
+   "name": "Shawarma Palace",
+   "category": "Mediterranean",
+   "phone_number": "(613) 789-9533",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 1:00 am"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.430957",
+   "longitude": "-75.679902",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "464 Rideau Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 5Z4"
+    }
+   ],
+   "website": "http://shawarmapalace.ca"
+  },
+  {
+   "name": "Sizzle n’Grill",
+   "category": "Mediterranean",
+   "phone_number": "(613) 825-7599",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.265384",
+   "longitude": "-75.776907",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "200 Kennevale Drive"
+      }
+     ],
+     "city": "Ottawa, ON K2J 0C3"
+    }
+   ]
+  },
+  {
+   "name": "Centrale Bergham - Ottawa",
+   "category": "Sandwiches",
+   "phone_number": "(613) 695-8844",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "2:00 pm - 1:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 12:00 am"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.377889",
+   "longitude": "-75.667068",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1611 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1V 7Y8"
+    }
+   ],
+   "website": "http://centralebergham.com"
+  },
+  {
+   "name": "Fairouz",
+   "category": "Middle Eastern",
+   "phone_number": "(613) 422-7700",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:30 pm"
+    }
+   ],
+   "latitude": "45.415890",
+   "longitude": "-75.695651",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "343 Somerset Street W"
+      }
+     ],
+     "city": "Ottawa, ON K2P 0J8"
+    }
+   ],
+   "website": "http://fairouz.ca"
+  },
+  {
+   "name": "Coconut Lagoon",
+   "category": "Indian",
+   "phone_number": "(613) 742-4444",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.433273",
+   "longitude": "-75.642076",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "853 St. Laurent Boulevard"
+      }
+     ],
+     "city": "Ottawa, ON K1K 3B1"
+    }
+   ],
+   "website": "http://coconutlagoon.ca"
+  },
+  {
+   "name": "Les Grillades",
+   "category": "Lebanese",
+   "phone_number": "(613) 723-3224",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 9:00 pm"
+    }
+   ],
+   "latitude": "45.346545",
+   "longitude": "-75.702100",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "111 Colonnade Road"
+      }
+     ],
+     "city": "Ottawa, ON K2E 7M3"
+    }
+   ],
+   "website": "http://lesgrillades.ca"
+  },
+  {
+   "name": "Zaky Grill & Broast",
+   "category": "Fast Food",
+   "phone_number": "(613) 224-7774",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.362420",
+   "longitude": "-75.738138",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1385 Baseline Road",
+       "unit": "Unit 4"
+      }
+     ],
+     "city": "Ottawa, ON K1A 0C5"
+    }
+   ],
+   "website": "http://zakygrill.ca"
+  },
+  {
+   "name": "Burgers n’ Fries Forever",
+   "category": "Fast Food",
+   "phone_number": "(613) 230-3456",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.414362",
+   "longitude": "-75.695279",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "329 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K2P 1X9"
+    }
+   ],
+   "website": "http://burgersnfriesforever.com"
+  },
+  {
+   "name": "Pak India Restaurant",
+   "category": "Pakistani",
+   "phone_number": "(613) 424-7006",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "PIR C."
+    }
+   ],
+   "latitude": "45.456140",
+   "longitude": "-75.505489",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4025 Innes Road"
+      }
+     ],
+     "city": "Ottawa, ON K1C 1T1"
+    }
+   ],
+   "website": "http://pakindiarestaurant.com"
+  },
+  {
+   "name": "Chillies Tandoor & Grill Company",
+   "category": "Indian",
+   "phone_number": "(613) 699-1825",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Amnah A."
+    }
+   ],
+   "latitude": "45.372395",
+   "longitude": "-75.662400",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2675 Alta Vista Drive"
+      }
+     ],
+     "city": "Ottawa, ON K1V 1A3"
+    }
+   ],
+   "website": "http://chilliestandoor.com"
+  },
+  {
+   "name": "Salang Kabob House",
+   "category": "Indian",
+   "phone_number": "(613) 820-0007",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "1 free cheezy garlic naan"
+    }
+   ],
+   "latitude": "45.356113",
+   "longitude": "-75.801762",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2934 Carling Ave"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7J7"
+    }
+   ],
+   "website": "http://salangkabobhouse.ca"
+  },
+  {
+   "name": "Nando’s",
+   "category": "South African",
+   "phone_number": "(613) 230-7474",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "45.422049",
+   "longitude": "-75.694691",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "90 Elgin Street",
+       "unit": "Unit 3"
+      }
+     ],
+     "city": "Ottawa, ON K1P 5E9"
+    }
+   ],
+   "website": "http://nandos.ca"
+  },
+  {
+   "name": "India Curry And Kebab House",
+   "category": "Kebab",
+   "phone_number": "(613) 680-0800",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "4:30 pm - 9:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "Closed"
+    },
+    {
+     "days": "Wed",
+     "time": "4:30 pm - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "4:30 pm - 9:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "4:30 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "4:30 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "Sachin lalit C."
+    },
+    {
+     "days": "15% off Food and non alcoholic beverag"
+    }
+   ],
+   "latitude": "45.428632",
+   "longitude": "-75.694365",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "39 Clarence Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 5P4"
+    }
+   ],
+   "website": "http://curryandkebabhouse.ca"
+  },
+  {
+   "name": "Al Noor Bakery Halal",
+   "category": "Arabian",
+   "phone_number": "(613) 829-2253",
+   "latitude": "45.354616",
+   "longitude": "-75.806603",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "70 Wylie Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 6M4"
+    }
+   ]
+  },
+  {
+   "name": "Al-Oumara Meat Shop & Grill",
+   "category": "Lebanese",
+   "phone_number": "(613) 523-1800",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 6:00 pm"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Rabeia Z."
+    }
+   ],
+   "latitude": "45.363727",
+   "longitude": "-75.647101",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "25 Tapiola Crescent"
+      }
+     ],
+     "city": "Ottawa, ON K1T 2J7"
+    }
+   ],
+   "website": "http://al-oumara.ca"
+  },
+  {
+   "name": "Crispy’s Resto Grill",
+   "category": "Chicken Wings",
+   "phone_number": "(613) 695-7575",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.341936",
+   "longitude": "-75.756052",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1433 Woodroffe Avenue",
+       "unit": "Unit D"
+      }
+     ],
+     "city": "Ottawa, ON K2G 2V5"
+    }
+   ],
+   "website": "http://crispysrestogrill.com"
+  },
+  {
+   "name": "The Orient House Shawarma & Grill",
+   "category": "Turkish",
+   "phone_number": "(613) 233-4999",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 6:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 6:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 6:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 6:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 6:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 6:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    }
+   ],
+   "latitude": "45.420574",
+   "longitude": "-75.693815",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "150 Av Laurier O"
+      }
+     ],
+     "city": "Ottawa, ON K1P 5J4"
+    }
+   ]
+  },
+  {
+   "name": "Kothu Rotti",
+   "category": "Sri Lankan",
+   "phone_number": "(613) 680-7812",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:30 am - 9:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:30 am - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:30 am - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:30 am - 9:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:30 am - 10:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "3:30 pm - 10:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "3:30 pm - 9:00 pm"
+    },
+    {
+     "days": "Ranjan T."
+    }
+   ],
+   "latitude": "45.426569",
+   "longitude": "-75.689305",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "408 Dalhousie Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 9J9"
+    }
+   ],
+   "website": "http://kothurotti.ca"
+  },
+  {
+   "name": "Pili Pili",
+   "category": "Barbeque",
+   "phone_number": "(613) 695-7404",
+   "hours": [
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.431893",
+   "longitude": "-75.693635",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "205 Dalhousie Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 7C9"
+    }
+   ],
+   "website": "http://pilipiligrilledchicken.com"
+  },
+  {
+   "name": "Babi’s Restaurant",
+   "category": "Bakeries",
+   "phone_number": "(613) 413-4231",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 7:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "8:00 am - 2:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "Closed"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 5:00 pm"
+    },
+    {
+     "days": "Edible Arrangements"
+    },
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Shabi B."
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    }
+   ],
+   "latitude": "45.375910",
+   "longitude": "-75.751800",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "21 Nadolny Sachs Private"
+      }
+     ],
+     "city": "Ottawa, ON K2A 1R9"
+    }
+   ],
+   "website": "http://babis.ca"
+  },
+  {
+   "name": "Burgers n’ Fries Forever",
+   "category": "Fast Food",
+   "phone_number": "(613) 241-3456",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 8:30 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.429983",
+   "longitude": "-75.692226",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "278 Dalhousie Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 7E6"
+    }
+   ],
+   "website": "http://burgersnfriesforever.com"
+  },
+  {
+   "name": "Mongolian Village West",
+   "category": "Mongolian",
+   "phone_number": "(613) 596-4366",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.320108",
+   "longitude": "-75.837125",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2150 Robertson Road"
+      }
+     ],
+     "city": "Ottawa, ON K2H 9S1"
+    }
+   ],
+   "website": "http://mongolianvillage.ca"
+  },
+  {
+   "name": "Matar Kabob House",
+   "category": "Middle Eastern",
+   "phone_number": "(613) 247-9999",
+   "hours": [
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.340619",
+   "longitude": "-75.616093",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2527 Bank St"
+      }
+     ],
+     "city": "Ottawa, ON K1T 1M8"
+    }
+   ]
+  },
+  {
+   "name": "Centrale Bergham",
+   "category": "Halal",
+   "phone_number": "(613) 422-8844",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "2:00 pm - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.429798",
+   "longitude": "-75.638076",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1255 Donald Street",
+       "unit": "Unit 10"
+      }
+     ],
+     "city": "Ottawa, ON K1K 3B1"
+    }
+   ],
+   "website": "http://centralebergham.com"
+  },
+  {
+   "name": "Shirin Market",
+   "category": "International Grocery",
+   "phone_number": "(613) 591-7000",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 7:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    }
+   ],
+   "latitude": "45.349409",
+   "longitude": "-75.924799",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "700 March Road"
+      }
+     ],
+     "city": "Kanata, ON K2K 1L3"
+    }
+   ],
+   "website": "http://shirinmarket.ca"
+  },
+  {
+   "name": "Panago Pizza",
+   "category": "Chicken Wings",
+   "phone_number": "(866) 310-0001",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "45.394778",
+   "longitude": "-75.683369",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1069 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1S 3W9"
+    }
+   ],
+   "website": "http://panago.com"
+  },
+  {
+   "name": "Panera Bread",
+   "category": "Soup",
+   "phone_number": "+1-613-274-0888",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:30 am - 8:30 pm"
+    }
+   ],
+   "latitude": "45.338917",
+   "longitude": "-75.713619",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "320 West Hunt Club Road"
+      }
+     ],
+     "city": "Ottawa, ON K2E 1A5"
+    }
+   ],
+   "website": "http://panerabread.com"
+  },
+  {
+   "name": "North & Navy",
+   "category": "Wine Bars",
+   "phone_number": "(613) 232-6289",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:30 pm"
+    }
+   ],
+   "latitude": "45.416712",
+   "longitude": "-75.699082",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "226 Nepean Street"
+      }
+     ],
+     "city": "Ottawa, ON K2P 0B8"
+    }
+   ],
+   "website": "http://northandnavy.com"
+  },
+  {
+   "name": "Popeye’s Louisiana Kitchen",
+   "category": "Chicken Shop",
+   "phone_number": "(613) 695-0333",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.446075",
+   "longitude": "-75.596864",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2000 Montreal Road"
+      }
+     ],
+     "city": "Ottawa, ON K1J 6N2"
+    }
+   ],
+   "website": "http://popeyeschicken.ca"
+  },
+  {
+   "name": "Mary Brown’s",
+   "category": "Fast Food",
+   "phone_number": "(613) 828-0808",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.354018",
+   "longitude": "-75.805941",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3098 Carling Avenue",
+       "unit": "Unit 6B"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7K2"
+    }
+   ],
+   "website": "http://marybrowns.com"
+  },
+  {
+   "name": "Pita Bell Kabab",
+   "category": "Middle Eastern",
+   "phone_number": "(613) 686-1740",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.378604",
+   "longitude": "-75.750533",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1696 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2A 1C6"
+    }
+   ],
+   "website": "http://pitabellkabab.com"
+  },
+  {
+   "name": "Samar Kabab House",
+   "category": "Kebab",
+   "phone_number": "(613) 523-7171",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 10:00 pm"
+    }
+   ],
+   "latitude": "45.377742",
+   "longitude": "-75.645549",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1729 Walkley Road"
+      }
+     ],
+     "city": "Ottawa, ON K1V 6P4"
+    }
+   ],
+   "website": "http://samarkabab.com"
+  },
+  {
+   "name": "Princess Shawarma",
+   "category": "Halal",
+   "phone_number": "(613) 225-5888",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 10:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 9:30 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.359721",
+   "longitude": "-75.738109",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1383 Clyde Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2G 3H9"
+    }
+   ],
+   "website": "http://princess-shawarma.com"
+  },
+  {
+   "name": "Shaan Curry House",
+   "category": "Indian",
+   "phone_number": "(613) 228-9759",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 7:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.359102",
+   "longitude": "-75.735763",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1489 Merivale Road"
+      }
+     ],
+     "city": "Nepean, ON K2E 5P3"
+    }
+   ],
+   "website": "http://shaancurryhouse.com"
+  },
+  {
+   "name": "Shawarma Palace",
+   "category": "Lebanese",
+   "phone_number": "(613) 726-9533",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.356489",
+   "longitude": "-75.802631",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2949 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 8K6"
+    }
+   ]
+  },
+  {
+   "name": "Shawarma Express",
+   "category": "Donairs",
+   "phone_number": "(613) 232-0606",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.420882",
+   "longitude": "-75.696232",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "119 Slater Street"
+      }
+     ],
+     "city": "Ottawa, ON K1P 5H2"
+    }
+   ],
+   "website": "http://shawex.ca"
+  },
+  {
+   "name": "Shawarma’s King",
+   "category": "Sandwiches",
+   "phone_number": "(613) 233-2226",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.413401",
+   "longitude": "-75.694475",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "395 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K2P 1Y3"
+    }
+   ],
+   "website": "http://sk.restaurant"
+  },
+  {
+   "name": "Donerma",
+   "category": "Kebab",
+   "phone_number": "(613) 695-2221",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    }
+   ],
+   "latitude": "45.419380",
+   "longitude": "-75.699434",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "129 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1P 5N7"
+    }
+   ]
+  },
+  {
+   "name": "Grillade Kisanola",
+   "category": "Halal",
+   "phone_number": "(819) 205-4957",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "2:00 pm - 8:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.461944",
+   "longitude": "-75.698052",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1124B Rue Saint-Louis"
+      }
+     ],
+     "city": "Gatineau, QC J8T 2R7"
+    }
+   ]
+  },
+  {
+   "name": "Asli Dining",
+   "category": "Comfort Food",
+   "phone_number": "(613) 260-5000",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.365808",
+   "longitude": "-75.660073",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2019 Bank Street",
+       "unit": "Unit 101"
+      }
+     ],
+     "city": "Ottawa, ON K1V"
+    }
+   ]
+  },
+  {
+   "name": "Mia’s Indian Cuisine",
+   "category": "Indian",
+   "phone_number": "(613) 680-5353",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "4:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "Samsu M."
+    }
+   ],
+   "latitude": "45.450017",
+   "longitude": "-75.651549",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "327 St Laurent Boulevard"
+      }
+     ],
+     "city": "Ottawa, ON K1K 2Z5"
+    }
+   ],
+   "website": "http://eatatmias.ca"
+  },
+  {
+   "name": "Basmati Indian Cuisine",
+   "category": "Indian",
+   "phone_number": "(613) 233-0303",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:30 am - 11:30 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "1 free appetizer with purchase"
+    }
+   ],
+   "latitude": "45.415326",
+   "longitude": "-75.696771",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "373 Somerset Street W"
+      }
+     ],
+     "city": "Ottawa, ON K2P 0K1"
+    }
+   ]
+  },
+  {
+   "name": "Shawarma Prince",
+   "category": "Halal",
+   "phone_number": "(613) 834-0112",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "45.460772",
+   "longitude": "-75.486913",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4434 Innes Road"
+      }
+     ],
+     "city": "Ottawa, ON K4A 4C5"
+    }
+   ],
+   "website": "http://shawarmaprince.com"
+  },
+  {
+   "name": "Lulu Shawarma and Grill",
+   "category": "Mediterranean",
+   "phone_number": "(343) 488-2323",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.292851",
+   "longitude": "-75.728655",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2910 Woodroffe Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2J 4P7"
+    }
+   ],
+   "website": "http://lulushawarmaandgrill.com"
+  },
+  {
+   "name": "Cafe Nero",
+   "category": "Coffee & Tea",
+   "phone_number": "(613) 680-6376",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:30 am - 6:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:30 am - 6:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:30 am - 6:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:30 am - 6:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:30 am - 6:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 6:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 6:00 pm"
+    },
+    {
+     "days": "Edible Arrangements"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.373349",
+   "longitude": "-75.664236",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2690 Alta Vista Drive"
+      }
+     ],
+     "city": "Ottawa, ON K1V 7T4"
+    }
+   ],
+   "website": "http://cafenero.ca/home.html"
+  },
+  {
+   "name": "Say Cheese Pizza and Poutine",
+   "category": "Chicken Wings",
+   "phone_number": "(613) 695-6999",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 1:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 1:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "3:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.379406",
+   "longitude": "-75.667453",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1581 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1H 7Z3"
+    }
+   ]
+  },
+  {
+   "name": "Dal Moro’s Fresh Pasta To Go",
+   "category": "Italian",
+   "phone_number": "(613) 680-2019",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.428526",
+   "longitude": "-75.693687",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "8 Byward Market Square"
+      }
+     ],
+     "city": "Ottawa, ON K1N 7A1"
+    }
+   ],
+   "website": "http://dalmoros.ca"
+  },
+  {
+   "name": "Mr Shawarma Restaurant",
+   "category": "Halal",
+   "phone_number": "(613) 726-1222",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.341904",
+   "longitude": "-75.786945",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2555 Baseline Road"
+      }
+     ],
+     "city": "Ottawa, ON K2H 7B3"
+    }
+   ]
+  },
+  {
+   "name": "Paramount",
+   "category": "Middle Eastern",
+   "phone_number": "(343) 547-9999",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.269975",
+   "longitude": "-75.742623",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "51 Marketplace Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2J 5G4"
+    }
+   ],
+   "website": "http://paramountfinefoods.com"
+  },
+  {
+   "name": "Burgers and Shakes",
+   "category": "American (Traditional)",
+   "phone_number": "(613) 440-4005",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.264907",
+   "longitude": "-75.776975",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "200 Kennevale Drive"
+      }
+     ],
+     "city": "Nepean, ON K2J 0C3"
+    }
+   ],
+   "website": "http://burgerandshake.ca"
+  },
+  {
+   "name": "Big Smoke Burger",
+   "category": "Burgers",
+   "phone_number": "(613) 231-7000",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 6:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:30 am - 6:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    }
+   ],
+   "latitude": "45.425022",
+   "longitude": "-75.690176",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "50 Rideau Street"
+      }
+     ],
+     "city": "Ottawa, ON K1N 9J7"
+    }
+   ],
+   "website": "http://bigsmokeburger.com"
+  },
+  {
+   "name": "Bbq Golden Grill",
+   "category": "Chicken Wings",
+   "phone_number": "(613) 695-5557",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 am - 11:00 pm"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.410165",
+   "longitude": "-75.698819",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "523 Gladstone Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K1R 5N9"
+    }
+   ],
+   "website": "http://gladstonegoldengrill.com"
+  },
+  {
+   "name": "Nando’s Flame Grilled Chicken",
+   "category": "Portuguese",
+   "phone_number": "(613) 749-7445",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "Closed"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    }
+   ],
+   "latitude": "45.361525",
+   "longitude": "-75.733642",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1461 Merivale Road",
+       "unit": "Unit 2D"
+      }
+     ],
+     "city": "Ottawa, ON K2E 5N9"
+    }
+   ],
+   "website": "http://nandos.ca"
+  },
+  {
+   "name": "Poulet BBQ Perla",
+   "category": "Portuguese",
+   "phone_number": "(819) 561-4444",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 10:00 pm"
+    }
+   ],
+   "latitude": "45.481164",
+   "longitude": "-75.700985",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4 Rue D'Orleans"
+      }
+     ],
+     "city": "Gatineau, QC J8T 5V1"
+    }
+   ]
+  },
+  {
+   "name": "Damas Supermarket",
+   "category": "International Grocery",
+   "phone_number": "(613) 726-1792",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Edible Arrangements"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.355082",
+   "longitude": "-75.806333",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3033 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7K3"
+    }
+   ],
+   "website": "http://damassupermarket.com"
+  },
+  {
+   "name": "Shawarma Shish",
+   "category": "Sandwiches",
+   "hours": [
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.328271",
+   "longitude": "-75.819474",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1831 Robertson Rd",
+       "unit": "Unit 19"
+      }
+     ],
+     "city": "Ottawa, ON K2H 8X3"
+    }
+   ],
+   "website": "http://Get Directions"
+  },
+  {
+   "name": "Ya Habibi",
+   "category": "Halal",
+   "phone_number": "(613) 234-2424",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "Closed"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.419730",
+   "longitude": "-75.692868",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "160 Elgin Street"
+      }
+     ],
+     "city": "Ottawa, ON K1A 1J4"
+    }
+   ]
+  },
+  {
+   "name": "Food Basics",
+   "category": "Grocery",
+   "phone_number": "(613) 722-7412",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "8:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:00 am - 7:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.386236",
+   "longitude": "-75.738947",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "667 Kirkwood Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K1Z 8N7"
+    }
+   ],
+   "website": "http://foodbasics.ca"
+  },
+  {
+   "name": "Panera Bread",
+   "category": "Salad",
+   "phone_number": "+1-613-274-0888",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:30 am - 8:30 pm"
+    }
+   ],
+   "latitude": "45.338917",
+   "longitude": "-75.713619",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "320 West Hunt Club Road"
+      }
+     ],
+     "city": "Ottawa, ON K2E 1A5"
+    }
+   ],
+   "website": "http://panerabread.com"
+  },
+  {
+   "name": "North & Navy",
+   "category": "Italian",
+   "phone_number": "(613) 232-6289",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:30 pm"
+    }
+   ],
+   "latitude": "45.416712",
+   "longitude": "-75.699082",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "226 Nepean Street"
+      }
+     ],
+     "city": "Ottawa, ON K2P 0B8"
+    }
+   ],
+   "website": "http://northandnavy.com"
+  },
+  {
+   "name": "Centrale Bergham",
+   "category": "Burgers",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 12:00 am"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.354654",
+   "longitude": "-75.807409",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3059 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7K4"
+    }
+   ],
+   "website": "http://bergham.com"
+  },
+  {
+   "name": "Ottawa Halal Market",
+   "category": "Meat Shops",
+   "phone_number": "(613) 274-7040",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.350733",
+   "longitude": "-75.793721",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2833 Dumaurier Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7W3"
+    }
+   ],
+   "website": "http://ottawahalalmarket.ca"
+  },
+  {
+   "name": "Baghlan Market",
+   "category": "Butcher",
+   "phone_number": "(613) 702-5000",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 8:00 pm"
+    }
+   ],
+   "latitude": "45.477435",
+   "longitude": "-75.498530",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "385 Tompkins Ave",
+       "unit": "Unit 2A"
+      }
+     ],
+     "city": "Ottawa, ON K1E 3H4"
+    }
+   ],
+   "website": "http://baghlan-market.business.site"
+  },
+  {
+   "name": "Casablanca Halal Supermarket",
+   "category": "Grocery",
+   "phone_number": "(613) 726-1400",
+   "hours": [
+    {
+     "days": "Cleopatra Honey"
+    }
+   ],
+   "latitude": "45.356113",
+   "longitude": "-75.801762",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2934 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7J7"
+    }
+   ]
+  },
+  {
+   "name": "Al Jazeerah Food and Meat Market",
+   "category": "Grocery",
+   "phone_number": "(613) 321-6113",
+   "hours": [
+    {
+     "days": "Cleopatra Honey"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.402847",
+   "longitude": "-75.725789",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1101 Wellington Street W"
+      }
+     ],
+     "city": "Ottawa, ON K1Y 2Y4"
+    }
+   ]
+  },
+  {
+   "name": "Digby’s Restaurant",
+   "category": "Fish & Chips",
+   "phone_number": "(613) 599-9800",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.311797",
+   "longitude": "-75.915650",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "17-300 Earl Grey Drive"
+      }
+     ],
+     "city": "Kanata, ON K2T 1B8"
+    }
+   ]
+  },
+  {
+   "name": "Poulet Rouge",
+   "category": "Fast Food",
+   "phone_number": "Located in St Laurent",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.421867",
+   "longitude": "-75.638773",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1200 St Laurent Boulevard"
+      }
+     ],
+     "city": "Ottawa, ON K1K 3B8"
+    }
+   ],
+   "website": "http://poulet-rouge.ca"
+  },
+  {
+   "name": "Mia’s Indian Cuisine",
+   "category": "Indian",
+   "phone_number": "(613) 695-3333",
+   "hours": [
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.377817",
+   "longitude": "-75.774712",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "917 Richmond Road"
+      }
+     ],
+     "city": "Ottawa, ON K2A 0G8"
+    }
+   ],
+   "website": "http://miaindiancuisine.com"
+  },
+  {
+   "name": "Zam Zam",
+   "category": "Restaurants",
+   "phone_number": "(613) 231-3858",
+   "hours": [
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "North & Navy"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.421268",
+   "longitude": "-75.672159",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "111 Av Mann"
+      }
+     ],
+     "city": "Ottawa, ON K1N 5A4"
+    }
+   ]
+  },
+  {
+   "name": "Centrale Bergham",
+   "category": "Sandwiches",
+   "phone_number": "(613) 421-4581",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "1:00 pm - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.425422",
+   "longitude": "-75.719418",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "22 Rue Eddy"
+      }
+     ],
+     "city": "Gatineau, QC J8X 2V6"
+    }
+   ],
+   "website": "http://bergham.com"
+  },
+  {
+   "name": "Barakat Market",
+   "category": "International Grocery",
+   "phone_number": "(613) 737-7722",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "8:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    },
+    {
+     "days": "Fouad B."
+    }
+   ],
+   "latitude": "45.376422",
+   "longitude": "-75.666965",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1656 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1V 7Y6"
+    }
+   ],
+   "website": "http://barakatmarket.com"
+  },
+  {
+   "name": "Sultan Supermarket",
+   "category": "Meat Shops",
+   "phone_number": "(613) 247-2100",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "mamoon H."
+    }
+   ],
+   "latitude": "45.352768",
+   "longitude": "-75.646780",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2446 Bank Street"
+      }
+     ],
+     "city": "Ottawa, ON K1V 1A4"
+    }
+   ],
+   "website": "http://sultanmeatshop.com"
+  },
+  {
+   "name": "Silk Road Foods",
+   "category": "Grocery",
+   "phone_number": "(613) 695-3631",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 7:00 pm"
+    },
+    {
+     "days": "Cleopatra Honey"
+    }
+   ],
+   "latitude": "45.347941",
+   "longitude": "-75.732440",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1618 Merivale Road"
+      }
+     ],
+     "city": "Ottawa, ON K2G 4A1"
+    }
+   ],
+   "website": "http://silkroadfoods.org"
+  },
+  {
+   "name": "Russell Restaurant",
+   "category": "Sandwiches",
+   "phone_number": "(613) 445-2886",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "6:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "6:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "6:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "6:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "6:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:30 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:00 am - 3:00 pm"
+    }
+   ],
+   "latitude": "45.257289",
+   "longitude": "-75.357485",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "182 Castor Street"
+      }
+     ],
+     "city": "Russell, ON K4R 1C7"
+    }
+   ],
+   "website": "http://russellrestaurant.ca"
+  },
+  {
+   "name": "Cote Poultry",
+   "category": "Meat Shops",
+   "phone_number": "(613) 247-7721",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 4:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 4:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 4:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 4:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 4:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:00 am - 1:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Ozzy’s Rappie Pies"
+    }
+   ],
+   "latitude": "45.395579",
+   "longitude": "-75.606278",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2770 Lancaster Road"
+      }
+     ],
+     "city": "Ottawa, ON K1B 4S4"
+    }
+   ],
+   "website": "http://cotepoultry.com"
+  },
+  {
+   "name": "Yaseen Halal Pizza",
+   "category": "Pizza",
+   "phone_number": "(613) 695-1818",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "2:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.356577",
+   "longitude": "-75.800898",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2916 Carling Avenue"
+      }
+     ],
+     "city": "Ottawa, ON K2B 7J7"
+    }
+   ],
+   "website": "http://carling.yaseenpizza.ca"
+  },
+  {
+   "name": "Dairy Queen",
+   "category": "Ice Cream & Frozen Yogurt",
+   "phone_number": "(613) 834-1153",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Edible Arrangements"
+    },
+    {
+     "days": "Oat Couture Oatmeal Cafe"
+    },
+    {
+     "days": "Panago Pizza"
+    }
+   ],
+   "latitude": "45.464495",
+   "longitude": "-75.538446",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2002 St Joseph Boulevard"
+      }
+     ],
+     "city": "Orleans, ON K1C 1E6"
+    }
+   ],
+   "website": "http://dairyqueen.com"
+  },
+  {
+   "name": "1 For 1 Pizza",
+   "category": "Pizza",
+   "phone_number": "(613) 825-8254",
+   "hours": [
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.292444",
+   "longitude": "-75.728151",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2900 Woodroffe Ave"
+      }
+     ],
+     "city": "Ottawa, ON K2J 4P7"
+    }
+   ],
+   "website": "http://1for1pizza.com"
+  },
+  {
+   "name": "Yaseen Halal Pizza & Bakery",
+   "category": "Pizza",
+   "phone_number": "(613) 216-4655",
+   "hours": [
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.417296",
+   "longitude": "-75.604858",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1741 Cyrville Road"
+      }
+     ],
+     "city": "Ottawa, ON K1B 3K8"
+    }
+   ]
+  },
+  {
+   "name": "1 For 1 Pizza",
+   "category": "Italian",
+   "phone_number": "(613) 234-0234",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 12:00 am"
+    },
+    {
+     "days": "Panago Pizza"
+    },
+    {
+     "days": "North & Navy"
+    }
+   ],
+   "latitude": "45.455770",
+   "longitude": "-75.506511",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4025 Innes Road"
+      }
+     ],
+     "city": "Ottawa, ON K1C 1T1"
+    }
+   ],
+   "website": "http://1for1pizza.com"
   }
-]
+ ]
+}

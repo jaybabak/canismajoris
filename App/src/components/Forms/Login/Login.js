@@ -69,7 +69,7 @@ class Login extends Component {
           <Text style={styles.whiteText}>Sign-up with a new account!</Text>
         </Button>
         <Button
-          onPress={() => this.props.navigateToDashboard(true)}
+          onPress={() => this.props.navigateToDashboard(true)} // true is for guest/skip
           style={styles.skip}
           block
           bordered
@@ -77,6 +77,12 @@ class Login extends Component {
         >
           <Text style={styles.skipText}>Skip</Text>
         </Button>
+        <Text style={{ alignSelf: "center", marginTop: 30, color: "#AEAEAE" }}>
+          Copyright Jyze.net. All Rights Reserved.
+        </Text>
+        {/* <Text style={{ alignSelf: "center", marginTop: 5 }}>
+          Copyright Jyze.net. All Rights Reserved.
+        </Text> */}
       </View>
     );
   }

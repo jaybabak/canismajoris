@@ -41,6 +41,8 @@ async function searchRestaurantsNearBy(longitude, latitude, distance) {
       },
     ]);
 
+    console.log(results.length);
+
     return results;
   } catch (e) {
     // Catch errors

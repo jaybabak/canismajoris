@@ -4,12 +4,12 @@ const pointSchema = new mongoose.Schema({
   type: {
     type: String,
     enum: ["Point"],
-    required: true
+    required: true,
   },
   coordinates: {
     type: [Number],
-    required: true
-  }
+    required: true,
+  },
 });
 
 // define the User model schema
@@ -17,18 +17,20 @@ const RestaurantSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      index: { unique: false }
+      index: { unique: false },
     },
     category: String,
+    phone: String,
     hours: Array,
     location: {
       type: pointSchema,
-      required: true
+      required: true,
     },
     address: {
-      type: { type: Array }
+      type: { type: Array },
     },
-    url: String
+    url: String,
+    yelp: String,
   },
   { timestamps: true }
 );

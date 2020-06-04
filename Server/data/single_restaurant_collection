@@ -1,0 +1,57 @@
+{
+  "_id": {
+    "$oid": "5e55fdb13069b8cfa6c6a370"
+  },
+  "name": "Les Grillades",
+  "category": "Lebanese",
+  "hours": [
+    {
+      "days": "Mon",
+      "time": "Closed"
+    },
+    {
+      "days": "Tue",
+      "time": "11:00 am - 10:00 pm"
+    },
+    {
+      "days": "Wed",
+      "time": "11:00 am - 10:00 pm"
+    },
+    {
+      "days": "Thu",
+      "time": "11:00 am - 11:00 pm"
+    },
+    {
+      "days": "Fri",
+      "time": "11:00 am - 11:00 pm"
+    },
+    {
+      "days": "Sat",
+      "time": "11:00 am - 11:00 pm"
+    },
+    {
+      "days": "Sun",
+      "time": "9:30 am - 9:00 pm"
+    }
+  ],
+  "address": [
+    {
+      "address": "111 Colonnade Road"
+    },
+    {
+      "address": "Ottawa, ON K2E 7M3"
+    }
+  ],
+  "url": "https://www.yelp.ca/biz/les-grillades-ottawa-2?osq=halal",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      {
+        "$numberDouble": "-75.7021"
+      },
+      {
+        "$numberDouble": "45.346545"
+      }
+    ]
+  }
+}

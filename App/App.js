@@ -76,9 +76,28 @@ class App extends Component {
     this.setState({
       isReady: false,
     });
-
+    // Get current user co-ordinates.
     this.getLocation();
+    // Check if user is already logged in to the app.
     this.authenticate();
+
+    // OPT-IN BETA RELEASE SIGN UP
+    Alert.alert(
+      "Operating in Ottawa Only",
+      "The service is currently only available to Ottawa and surrounding areas, however, you can opt-in to be notified when we begin to operate in your city!",
+      [
+        {
+          text: "Continue",
+          onPress: () => console.log("Canceled"),
+        },
+        {
+          text: "Opt-in ",
+          onPress: () => this.props.navigation.navigate("OptIn"),
+          style: "destructive",
+        },
+      ],
+      { cancelable: true }
+    );
   }
 
   async authenticate() {
@@ -111,45 +130,22 @@ class App extends Component {
 
         return;
       }
-
-      this.serverDownMessage();
-
-      this.setState({
-        errors: {
-          serverError: true,
-        },
-        isReady: true,
-      });
-      return;
     }
 
-    // OPT-IN BETA RELEASE SIGN UP
-    Alert.alert(
-      "Operating in Ottawa Only",
-      "The service is currently only available to Ottawa and surrounding areas, however, you can opt-in to be notified when we begin to operate in your city!",
-      [
-        {
-          text: "Continue",
-          onPress: () => console.log("Canceled"),
-        },
-        {
-          text: "Opt-in ",
-          onPress: () => this.props.navigation.navigate("OptIn"),
-          style: "destructive",
-        },
-      ],
-      { cancelable: true }
-    );
-
     // Disable the loading screen.
+    // this.serverDownMessage();
+
     this.setState({
+      // errors: {
+      //   serverError: true,
+      // },
       isReady: true,
     });
+    return;
   }
 
   async login() {
     let that = this;
-
     // Show the loading screen.
     this.setState({
       isReady: false,
@@ -187,6 +183,9 @@ class App extends Component {
             textHeading: "Hello " + getUserData.data.user.name + "!",
             authenticated: true,
             isReady: true,
+            errors: {
+              serverError: false,
+            },
           });
         }
       } else {
@@ -201,9 +200,12 @@ class App extends Component {
     } catch (err) {
       this.setState({
         isReady: true,
+        errors: {
+          serverError: true,
+        },
       });
 
-      this.serverDownMessage();
+      // this.serverDownMessage();
 
       console.log(err);
     }
@@ -309,7 +311,7 @@ class App extends Component {
 
   serverDownMessage() {
     Alert.alert(
-      "Things are still look wonky.",
+      "Server error.",
       "We really apoogize for this, please keep checking back in a short while. We'll be back up soon!",
       [
         {
@@ -361,16 +363,17 @@ class App extends Component {
           {this.state.errors.serverError ? (
             <View style={styles.defaultMessageContainer}>
               <Text style={styles.defaultMessage}>
-                Looks like we're are experiencing some issues, try again later.
+                Looks like we're are experiencing some technical issues, try
+                logging in or try again later.
               </Text>
-              <Button
+              {/* <Button
                 style={styles.buttonSubmitBtn}
                 block
                 info
                 onPress={this.authenticate}
               >
                 <Text>Retry</Text>
-              </Button>
+              </Button> */}
             </View>
           ) : null}
           {/* END Error incase server is unreachable */}

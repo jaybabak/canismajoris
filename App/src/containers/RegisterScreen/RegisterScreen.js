@@ -194,7 +194,10 @@ class RegisterScreen extends React.Component {
             style={styles.thumbnail}
             square
             large
-            source={{ uri: "https://i.ibb.co/7J4pNLr/profilephoto.png" }}
+            source={{
+              uri:
+                "https://image.freepik.com/free-vector/people-line-waiting-pay_23-2148207099.jpg",
+            }}
           />
           <View style={styles.view}>
             <View style={styles.container}>
@@ -238,7 +241,7 @@ class RegisterScreen extends React.Component {
                   autoCapitalize="none"
                   value={this.state.email}
                   placeholder={
-                    this.state.email ? this.state.email : "Email address"
+                    this.state.email ? this.state.email : "example@domain.com"
                   }
                   onChangeText={(value) => this.changeField("email", value)}
                 />
@@ -271,7 +274,7 @@ class RegisterScreen extends React.Component {
                   placeholder={
                     this.state.mobileNumber
                       ? this.state.mobileNumber
-                      : "Phone number including country code"
+                      : "Mobile Number"
                   }
                   onChangeText={(value) =>
                     this.changeField("mobileNumber", value)
@@ -279,7 +282,8 @@ class RegisterScreen extends React.Component {
                 />
               </Item>
               <Text style={styles.defaulText}>
-                Your primary contact number.
+                Starting with the country code followed by the area code.
+                Example: for Canada: 1-343 279 6524
               </Text>
               <Button
                 style={styles.buttonSubmitBtn}

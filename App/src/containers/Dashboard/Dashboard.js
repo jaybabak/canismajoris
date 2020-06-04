@@ -190,7 +190,8 @@ class Dashboard extends React.Component {
   render() {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="red" />;
-    } else if (
+    }
+    if (
       this.state.loadedRestaurants == true &&
       this.state.restaurants.length == 0
     ) {
@@ -219,7 +220,8 @@ class Dashboard extends React.Component {
             </Title>
           </Body>
           <Right>
-            {this.state.loadedRestaurants ? (
+            {this.state.loadedRestaurants &&
+            this.state.restaurants.length != 0 ? (
               <Button transparent onPress={this.switchToMapMode}>
                 <Icon
                   style={styles.iconQuestion}

@@ -39,8 +39,6 @@ class Details extends React.PureComponent {
       locationNow: "",
       errorRetrievingLocation: false,
       errors: {},
-      restaurants: [],
-      loadedRestaurants: false,
       mapMode: false,
       user: null,
       restaurant: null,
@@ -65,7 +63,7 @@ class Details extends React.PureComponent {
 
   async makeCall() {
     // Make call to provide parameter as phonumber to makeCall service.
-    await serviceContainer.makeCall("6132180587");
+    await serviceContainer.makeCall(this.state.restaurant.phone);
   }
 
   async openWebsite() {
@@ -233,22 +231,29 @@ class Details extends React.PureComponent {
               {/* Directions button */}
 
               {/* Website button */}
-              <Button
-                style={styles.buttonSubmitBtn}
-                bordered
-                block
-                onPress={this.openWebsite}
-              >
-                <Text style={styles.buttonSubmit}>Website</Text>
-              </Button>
-              {/* Directions button */}
+              {this.state.restaurant.hasOwnProperty("url") ? (
+                <Button
+                  style={styles.buttonSubmitBtn}
+                  bordered
+                  block
+                  onPress={this.openWebsite}
+                >
+                  <Text style={styles.buttonSubmit}>Website</Text>
+                </Button>
+              ) : null}
+              {/* Wesbite button */}
 
               {/* Address card/label */}
               <Card>
                 <CardItem>
                   <Body>
                     <Text style={styles.label}>Address</Text>
-                    <Text>{`${this.state.restaurant.address[0].address}, ${this.state.restaurant.address[1].address}`}</Text>
+                    {/* <Text>{`${this.state.restaurant.address[0].name}, ${this.state.restaurant.address[1].name}`}</Text> */}
+                    {this.state.restaurant.address
+                      .slice(0, 3)
+                      .map((value, index) => (
+                        <Text>{`${value.street[0].name}, ${value.city}`}</Text>
+                      ))}
                   </Body>
                 </CardItem>
               </Card>
@@ -266,7 +271,7 @@ class Details extends React.PureComponent {
               {/* Start Slider/Carousel */}
 
               <Text style={styles.defaulText}>DISCLAIMER:</Text>
-              <Text style={styles.defaulText}>
+              <Text note>
                 We do our best to ensure the restaurants we list are halal and
                 carry a valid halal certification, however, we recommend you
                 check with the restaurant to ensure it is halal before placing
