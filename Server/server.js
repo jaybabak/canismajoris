@@ -5,6 +5,9 @@ const app = express();
 const http = require("http");
 const httpServer = http.createServer(app);
 const bodyParser = require("body-parser");
+const helmet = require("helmet");
+//Default security options
+app.use(helmet());
 //MIDDLEWARE for adding the body property to req object
 app.use(
   bodyParser.urlencoded({
