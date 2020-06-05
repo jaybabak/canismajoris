@@ -1,5 +1,3 @@
-const mongoose = require("mongoose");
-const Restaurants = mongoose.model("Restaurant");
 const axios = require("axios");
 
 /* Parameters
@@ -13,16 +11,9 @@ const axios = require("axios");
  *   Return error incase operation not successful
  */
 
-module.exports = async function getRestaurantById(rid) {
-  console.log(rid);
-  var results = {};
-  // Get the restaurant details
+module.exports = async function getYelpData(phoneNumber) {
+  console.log(phoneNumber);
   try {
-    var restaurant = await Restaurants.findOne({
-      _id: rid,
-    });
-    // Sanitize phone number for yelp and remove unneccasary characters.
-    var phoneNumber = restaurant.phone;
     phoneNumber = phoneNumber.replace("+1", "");
     phoneNumber = phoneNumber.replace("(", "");
     phoneNumber = phoneNumber.replace(")", "");
@@ -41,15 +32,7 @@ module.exports = async function getRestaurantById(rid) {
 
     // Data returned from yelp
     const yelpData = await axios(options);
-
-    console.log(restaurant);
-    console.log(yelpData);
-
-    results.extra = yelpData.data;
-
-    console.log(restaurant);
-
-    return restaurant;
+    return yelpData;
   } catch (e) {
     console.log(e);
     // If error return error
