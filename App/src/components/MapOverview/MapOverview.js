@@ -14,7 +14,7 @@ import styles from "./styles.js";
 // Device dimentions.
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 // Map marker PNG icon.
-const mapMarkerImage = require("./static/markerE.png");
+const mapMarkerImage = require("./static/markerJyze3x.png");
 
 class MapOverview extends Component {
   constructor(props) {

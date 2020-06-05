@@ -27,6 +27,7 @@ import {
 } from "native-base";
 
 import { createStackNavigator, createAppContainer } from "react-navigation";
+import "react-native-gesture-handler";
 import RegisterScreen from "./src/containers/RegisterScreen/RegisterScreen";
 import Dashboard from "./src/containers/Dashboard/Dashboard";
 import Details from "./src/containers/Details/Details";

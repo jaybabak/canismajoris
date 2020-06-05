@@ -63,7 +63,7 @@ const addUser = async function (user) {
     //HTTP Request object
     const settings = {
       method: "post",
-      url: "http://localhost:3000/register-user",
+      url: "http://jyze.net/register-user",
       data: {
         user,
       },
@@ -88,7 +88,7 @@ const getUser = async function (accessToken) {
   const settings = {
     headers: { Authorization: `Bearer ${accessToken}` },
     method: "get",
-    url: "http://localhost:3000/api/home",
+    url: "http://jyze.net/api/home",
   };
 
   try {
@@ -219,7 +219,7 @@ const loginUser = async function (email, password, that) {
   //HTTP Request object to authenticate user
   const settings = {
     method: "post",
-    url: "http://localhost:3000/login",
+    url: "http://jyze.net/login",
     data: {
       email: email,
       password: password,
@@ -277,7 +277,7 @@ const updateUser = async function (email, field, value) {
     const settings = {
       headers: { Authorization: `Bearer ${accessToken}` },
       method: "post",
-      url: "http://localhost:3000/api/update",
+      url: "http://jyze.net/api/update",
       data: {
         email: email,
         field: field,

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Alert, View } from "react-native";
 import {
   Container,
+  Content,
   Header,
   Left,
   Body,
@@ -161,55 +162,62 @@ class OptIn extends React.Component {
           </Body>
           <Right></Right>
         </Header>
-        <Thumbnail style={styles.thumbnail} square large source={optInImage} />
-        <View style={styles.view}>
-          <View style={styles.container}>
-            <Item
-              error={this.state.errors.name ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.name}
-                placeholder={this.state.name ? this.state.name : "Name"}
-                onChangeText={(value) => this.changeField("name", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.email ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                autoCapitalize="none"
-                value={this.state.email}
-                placeholder={
-                  this.state.email ? this.state.email : "Email address"
-                }
-                onChangeText={(value) => this.changeField("email", value)}
-              />
-            </Item>
-            <Item
-              error={this.state.errors.city ? true : false}
-              style={styles.formWrapper}
-            >
-              <Input
-                style={styles.formItem}
-                value={this.state.city}
-                placeholder={this.state.city ? this.state.city : "City"}
-                onChangeText={(value) => this.changeField("city", value)}
-              />
-            </Item>
-            <Button
-              style={styles.buttonSubmitBtn}
-              block
-              onPress={this.submitRegistrationForm}
-            >
-              <Text style={styles.buttonSubmit}>Sign Up</Text>
-            </Button>
+        <Content>
+          <Thumbnail
+            style={styles.thumbnail}
+            square
+            large
+            source={optInImage}
+          />
+          <View style={styles.view}>
+            <View style={styles.container}>
+              <Item
+                error={this.state.errors.name ? true : false}
+                style={styles.formWrapper}
+              >
+                <Input
+                  style={styles.formItem}
+                  autoCapitalize="none"
+                  value={this.state.name}
+                  placeholder={this.state.name ? this.state.name : "Name"}
+                  onChangeText={(value) => this.changeField("name", value)}
+                />
+              </Item>
+              <Item
+                error={this.state.errors.email ? true : false}
+                style={styles.formWrapper}
+              >
+                <Input
+                  style={styles.formItem}
+                  autoCapitalize="none"
+                  value={this.state.email}
+                  placeholder={
+                    this.state.email ? this.state.email : "Email address"
+                  }
+                  onChangeText={(value) => this.changeField("email", value)}
+                />
+              </Item>
+              <Item
+                error={this.state.errors.city ? true : false}
+                style={styles.formWrapper}
+              >
+                <Input
+                  style={styles.formItem}
+                  value={this.state.city}
+                  placeholder={this.state.city ? this.state.city : "City"}
+                  onChangeText={(value) => this.changeField("city", value)}
+                />
+              </Item>
+              <Button
+                style={styles.buttonSubmitBtn}
+                block
+                onPress={this.submitRegistrationForm}
+              >
+                <Text style={styles.buttonSubmit}>Sign Up</Text>
+              </Button>
+            </View>
           </View>
-        </View>
+        </Content>
       </Container>
     );
   }

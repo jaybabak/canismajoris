@@ -10,7 +10,7 @@ import React, { Component } from "react";
 import MapView from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 const GOOGLE_MAPS_APIKEY = "AIzaSyAsuWCY1t7MYV7fvlwO3G6AtPADDYuWrvs";
-const imageUrlLocation = require("./static/halallocation.png");
+const imageUrlLocation = require("./static/markerJyze3x.png");
 
 class MapDetails extends Component {
   constructor(props) {
