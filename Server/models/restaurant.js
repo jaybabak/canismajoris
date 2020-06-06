@@ -31,6 +31,7 @@ const RestaurantSchema = new mongoose.Schema(
     },
     url: String,
     yelp: String,
+    extra: Array,
   },
   { timestamps: true }
 );
