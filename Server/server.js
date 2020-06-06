@@ -35,7 +35,7 @@ const optInUser = require("./actions/optInUser");
 // Public get restaurant controller
 const getRestaurants = require("./routes/public/getRestaurants");
 // Public restaurant details
-const restaurantDetails = require("./routes/public/restaurantDetails");
+const restaurantDetails = require("./routes/authenticated/restaurantDetails");
 // Authenrticated routes which require access token.
 const apiRouter = require("./routes/api");
 

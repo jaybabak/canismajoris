@@ -7,6 +7,7 @@ const validator = require("validator");
  *   email, password and mobile #
  */
 async function validateNewUser(user) {
+  // Ensure all values exist prior to validation.
   if (
     !user.hasOwnProperty("email") ||
     !user.hasOwnProperty("password") ||
@@ -17,7 +18,9 @@ async function validateNewUser(user) {
     !user.hasOwnProperty("location") ||
     !user.hasOwnProperty("status")
   ) {
+    // Console the error.
     console.error("Missing keys: ", user);
+    // Return the response with success = false.
     return {
       success: false,
       message:
@@ -25,6 +28,7 @@ async function validateNewUser(user) {
     };
   }
 
+  // User object that validation is going to occur against.
   var newUser = {
     email: validator.trim(user.email),
     password: user.password,
@@ -38,8 +42,6 @@ async function validateNewUser(user) {
       coordinates: user.location.coordinates,
     },
   };
-
-  console.log(newUser);
 
   var response = {
     success: true,
@@ -87,7 +89,7 @@ async function validateNewUser(user) {
     return response;
   }
 
-  //Status
+  // Status
   if (validator.isEmpty(newUser.status)) {
     response.success = false;
     response.message =
@@ -106,18 +108,22 @@ async function validateNewUser(user) {
 }
 
 async function validateOptInForm(form) {
+  // Ensure all field form are there.
   if (
     !form.hasOwnProperty("email") ||
     !form.hasOwnProperty("name") ||
     !form.hasOwnProperty("city")
   ) {
+    // Console the error.
     console.error("Missing keys: ", form);
+    // Return the response with success=false..
     return {
       success: false,
       message: "Unsuccessful operation request: missing fields.",
     };
   }
 
+  // Initialize success/response object.
   var response = {
     success: true,
     message: "Validated successfully.",
@@ -149,13 +155,11 @@ async function validateOptInForm(form) {
   return response;
 }
 
+// Ensures that field is sanitized.
 async function sanitizeField(field) {
   var sanitizedField = validator.trim(field);
   sanitizedField = validator.blacklist(sanitizedField, "\\[\\]");
   sanitizedField = validator.escape(sanitizedField);
-
-  console.log(sanitizedField);
-
   return sanitizedField;
 }
 

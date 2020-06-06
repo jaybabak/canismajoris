@@ -10,56 +10,76 @@ const redis_client = redis.createClient(redis_port);
 
 module.exports = async function restaurantDetails(req, res) {
   const results = await getRestaurantById(req.params.id);
-  console.log(results);
 
+  // See if request has been cached already.
   redis_client.get(req.params.id, async (err, data) => {
+    // If error then send response with error.
     if (err) {
       console.log(err);
       res.status(500).send(err);
     }
-    // If no existing cached request exists.
+
+    // Send CACHED response.
     if (data != null) {
       console.log("Cached Request");
-      const cachedData = JSON.parse(data);
-      //proceed to send response
+      // Add additional data to the existing results object for restaurants.
+      results.extra = JSON.parse(data);
+
+      // Proceed to send CACHED response.
       return res.json({
         message: "Contains restaurant details!",
         user: req.user,
         success: true,
         restaurantId: req.params.id,
         results,
-        extra: cachedData.businesses[0],
       });
     }
 
-    console.log("Not Cached Request");
+    // If Not CACHED proceed to make request and get additional data, then
     const yelp = await getYelpData(results.phone);
-    var serializeData = yelp.data;
+    // Response object that is sent back to client.
+    var combinedRestaurantDataFromYelp = {};
+    console.log("Not Cached Request");
 
+    // if initial response does not have any response data.
     if (yelp.data.businesses.length > 0) {
-      const yelpAdditionalData = await getYelpAdditionalData(
+      // Network request to get photos and other data about restaurant.
+      var yelpAdditionalData = await getYelpAdditionalData(
         yelp.data.businesses[0].id
       );
-      serializeData.businesses[1] = yelpAdditionalData.data;
+
+      // Merge array from initial yelp response and business lookup.
+      combinedRestaurantDataFromYelp = {
+        ...yelp.data.businesses[0],
+        ...yelpAdditionalData.data,
+      };
+    } else {
+      // Merge array properties.
+      combinedRestaurantDataFromYelp = {
+        ...yelp.data.businesses[0],
+      };
     }
 
-    serializeData = JSON.stringify(serializeData);
-
-    // Add data to Redis cache
-    var days = 30; // -> Days to expire cache after
-    var expire = days * 24 * 60 * 60 * 1000; // -> Days x hours x minutes x seconds x milliseconds
-
+    // Set # of days to expire cache after.
+    var days = 30;
     // Save to Redis cache.
-    redis_client.set(results.id, serializeData, "EX", expire);
+    redis_client.set(
+      results.id,
+      JSON.stringify(combinedRestaurantDataFromYelp),
+      "EX",
+      days * 24 * 60 * 60 * 1000
+    );
 
-    // Proceed to send response
+    // Add additional data to the existing results object for restaurants.
+    results.extra = combinedRestaurantDataFromYelp;
+
+    // Proceed to send NON-CACHED response.
     return res.json({
       message: "Contains restaurant details!",
       user: req.user,
       success: true,
       restaurantId: req.params.id,
       results,
-      extra: yelp.data.businesses[0],
     });
   });
 };

@@ -6,14 +6,9 @@ const axios = require("axios");
  *   value = the value to update to
  */
 
-/* @TODO
- *   Add code inside a try/catch block
- *   Return error incase operation not successful
- */
-
 module.exports = async function getYelpAdditionalData(bid) {
   try {
-    // Config object for yelp
+    // Config object for yelp.
     var options = {
       method: "GET",
       url: `https://api.yelp.com/v3/businesses/${bid}`,
@@ -26,8 +21,9 @@ module.exports = async function getYelpAdditionalData(bid) {
     // Data returned from yelp
     return await axios(options);
   } catch (e) {
-    console.log(e);
     // If error return error
+    console.log(e);
+    // Return error.
     return e;
   }
 };

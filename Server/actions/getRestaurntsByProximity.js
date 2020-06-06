@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const Restaurants = mongoose.model("Restaurant");
-const City = mongoose.model("City");
 
 /* Parameters
  *   long = users longitude
@@ -11,7 +10,7 @@ module.exports = async function getByLatLong(long, lat) {
   lat = parseFloat(lat);
   long = parseFloat(long);
 
-  // Restaurant list by geonear
+  // Restaurant list by geonear.
   var restaurantsSortedByDistanceGeoNear = await searchRestaurantsNearBy(
     long, //Users longitude
     lat, // Users latitude
@@ -23,7 +22,7 @@ module.exports = async function getByLatLong(long, lat) {
   results.long = long;
   results.restaurants = restaurantsSortedByDistanceGeoNear;
 
-  //Return results
+  // Return results.
   return results;
 };
 
@@ -41,10 +40,10 @@ async function searchRestaurantsNearBy(longitude, latitude, distance) {
       },
     ]);
 
-    console.log(results.length);
-
     return results;
   } catch (e) {
+    // If error console error.
+    console.log(e);
     // Catch errors
     return e;
   }

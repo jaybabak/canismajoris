@@ -6,12 +6,14 @@ const validationService = require("../services/validation");
  */
 
 module.exports = async function optInUser(req, res) {
+  // Gets all form values.
   const submittedFormValues = req.body;
+  // Validate all form options using validation service.
   const optInForm = await validationService.validateOptInForm(
     submittedFormValues
   );
 
-  //if submittedFormValues is not valid throw error back
+  // If submittedFormValues is not valid throw error back.
   if (optInForm.success !== true) {
     return res.json(optInForm);
   }
@@ -28,9 +30,12 @@ module.exports = async function optInUser(req, res) {
     // @TODO
     // Add use to sendGrid contact list
   } catch (e) {
+    // If error console error.
     console.error(e);
+    // Return response with error.
     return res.json({
       success: false,
+      message: e,
     });
   }
 

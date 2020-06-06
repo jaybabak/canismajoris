@@ -2,5 +2,6 @@
   "dbUri": "mongodb+srv://root:root@canis-majoris-iybxu.mongodb.net/test?retryWrites=true&w=majority",
   "secret": "blackandyellow",
   "port": "3000",
-  "redis_port": "6379"
+  "redis_port": "6379",
+  "sendgrid": "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"
 }

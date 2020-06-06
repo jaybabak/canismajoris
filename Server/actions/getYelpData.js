@@ -13,13 +13,14 @@ const axios = require("axios");
 
 module.exports = async function getYelpData(phoneNumber) {
   try {
+    // Remove spechial characters from phone number, santize.
     phoneNumber = phoneNumber.replace("+1", "");
     phoneNumber = phoneNumber.replace("(", "");
     phoneNumber = phoneNumber.replace(")", "");
     phoneNumber = phoneNumber.replace("-", "");
     phoneNumber = phoneNumber.replace(" ", "");
 
-    // Config object for yelp
+    // Config object for yelp.
     var options = {
       method: "GET",
       url: `https://api.yelp.com/v3/businesses/search/phone?phone=+1${phoneNumber}`,
@@ -29,11 +30,11 @@ module.exports = async function getYelpData(phoneNumber) {
       },
     };
 
-    // Data returned from yelp
+    // Data returned from yelp.
     return await axios(options);
   } catch (e) {
     console.log(e);
-    // If error return error
+    // If error return error.
     return e;
   }
 };

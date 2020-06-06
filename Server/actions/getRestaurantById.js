@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const Restaurants = mongoose.model("Restaurant");
-const axios = require("axios");
 
 /* Parameters
  *   id = filter by id/email or unique key
@@ -15,7 +14,7 @@ const axios = require("axios");
 
 module.exports = async function getRestaurantById(rid) {
   console.log(rid);
-  // Get the restaurant details
+  // Get the restaurant details.
   try {
     var restaurant = await Restaurants.findOne({
       _id: rid,
@@ -23,8 +22,9 @@ module.exports = async function getRestaurantById(rid) {
 
     return restaurant;
   } catch (e) {
+    // Console the error.
     console.log(e);
-    // If error return error
+    // If error return error.
     return e;
   }
 };

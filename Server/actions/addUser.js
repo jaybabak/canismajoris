@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 const User = mongoose.model("User");
-const axios = require("axios");
-const updateUser = require("./updateUser");
 const validationService = require("../services/validation");
 const emailService = require("../services/email");
 
@@ -16,18 +14,17 @@ const emailService = require("../services/email");
 module.exports = async function addUser(req, res) {
   //Validating the user object being passed from front end
   var newUser = await validationService.validateNewUser(req.body.user);
-  console.log(newUser);
 
-  //if form is not valid throw error back
+  // If form is not valid throw error back.
   if (newUser.success !== true) {
     return res.json(newUser);
   }
 
-  //Save the user -> literally though
+  // Save the user -> literally though.
   let userModel = new User(newUser.user);
 
   try {
-    //save user object after validation has occurred in previous step
+    // Save user object after validation has occurred in previous step.
     userModel = await userModel.save();
 
     // Send welcome email to user.

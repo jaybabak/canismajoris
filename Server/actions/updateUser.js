@@ -13,30 +13,34 @@ const User = mongoose.model("User");
  */
 
 module.exports = async function updateUser(email, field, value) {
+  // The user that will be updated.
   const filter = { email: email };
   var update = {};
 
+  // If location field, alter the update method.
   if (field === "location") {
     update = {
       location: {
         type: "Point",
-        coordinates: [value[0], value[1]] //longitude first and latitude second
-      }
+        coordinates: [value[0], value[1]], //longitude first and latitude second
+      },
     };
   } else {
+    // Update the field with the value from params.
     update[field] = value;
   }
 
-  let updatedUser = await User.findOneAndUpdate(filter, update, {
-    new: true
-  });
+  try {
+    let updatedUser = await User.findOneAndUpdate(filter, update, {
+      new: true,
+    });
 
-  if (updatedUser == null) {
-    console.log("UPDATE_USER_FAILED");
-  } else {
-    console.log("UPDATE_USER_SUCCESSFUL: ", email, field, value);
+    // Returns null if no user found.
+    return updatedUser;
+  } catch (e) {
+    // Console the error.
+    console.log(e);
+    // Return the error.
+    return e;
   }
-
-  //returns null if no user found
-  return updatedUser;
 };
