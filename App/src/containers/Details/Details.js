@@ -83,13 +83,15 @@ class Details extends React.PureComponent {
     try {
       const restaurant = await apiConsumer.getRestaurantById(rid);
 
+      console.log(restaurant);
+
       if (restaurant.status == 200) {
         this.setState({
           isReady: true,
           restaurant: restaurant.data.results,
         });
 
-        console.log(this.state.restaurant);
+        console.log(this.state);
       }
     } catch (e) {
       console.log(e);
@@ -111,6 +113,8 @@ class Details extends React.PureComponent {
         ],
         { cancelable: false }
       );
+
+      this.props.navigation.goBack();
     }
   }
 
@@ -198,11 +202,13 @@ class Details extends React.PureComponent {
                   marginBottom: 10,
                 }}
               >
-                {/* Restaurant open or closed
+                {/* @TODO Restaurant open or closed
                  * commented out for now due to data in database not being consistent
                  * (all strings and some are closed instead of propery formatted times)
                  */}
-                {/* <OpenOrClosedStatus isOpen={true} /> */}
+                {/* <OpenOrClosedStatus
+                  hoursOfOperation={this.state.restaurant.hours}
+                /> */}
                 {/* Restaurant open or closed */}
               </View>
               {/* Start Header */}
@@ -252,7 +258,9 @@ class Details extends React.PureComponent {
                     {this.state.restaurant.address
                       .slice(0, 3)
                       .map((value, index) => (
-                        <Text>{`${value.street[0].name}, ${value.city}`}</Text>
+                        <Text
+                          key={index}
+                        >{`${value.street[0].name}, ${value.city}`}</Text>
                       ))}
                   </Body>
                 </CardItem>
@@ -266,8 +274,8 @@ class Details extends React.PureComponent {
               {/* Location Map Component */}
 
               {/* Start Slider/Carousel */}
-              {/* <H3 style={styles.subTitle}>Photos</H3> */}
-              {/* <Slider /> */}
+              <H3 style={styles.subTitle}>Photos</H3>
+              <Slider {...this.state.restaurant} />
               {/* Start Slider/Carousel */}
 
               <Text style={styles.defaulText}>DISCLAIMER:</Text>

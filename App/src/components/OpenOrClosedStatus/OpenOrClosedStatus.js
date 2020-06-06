@@ -16,7 +16,8 @@ class OpenOrClosedStatus extends Component {
   }
 
   async componentDidMount() {
-    // Void. No state modifications.
+    console.log(this.props);
+    // Void. Left empty.
   }
 
   shouldComponentUpdate() {
@@ -24,6 +25,15 @@ class OpenOrClosedStatus extends Component {
   }
 
   render() {
+    if (this.state.isOpen === null) {
+      return (
+        <Badge warning>
+          <Text style={{ alignSelf: "flex-end" }}>Possibly open</Text>
+        </Badge>
+      );
+    }
+
+    //use warning attribute to render yellow maybe open button.
     return this.state.isOpen ? (
       <Badge success>
         <Text style={{ alignSelf: "flex-end" }}>Open</Text>

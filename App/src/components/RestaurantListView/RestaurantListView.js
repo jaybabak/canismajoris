@@ -54,7 +54,7 @@ class RestaurantListView extends React.PureComponent {
                 {/* <Text note>{restaurant.address[0].name}</Text>
                 <Text note>{restaurant.address[1].name}</Text> */}
                 {restaurant.address.map((value, index) => (
-                  <Text note>{`${value.street[0].name}, ${
+                  <Text key={index} note>{`${value.street[0].name}, ${
                     value.city.split(",", 1)[0]
                   }`}</Text>
                 ))}

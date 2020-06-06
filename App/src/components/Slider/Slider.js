@@ -20,32 +20,38 @@ class Slider extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      images: [
-        {
-          id: "WpIAc9by5iU",
-          thumbnail:
-            "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80",
-          title: "Led Zeppelin - Stairway To Heaven",
-        },
-        {
-          id: "sNPnbI1arSE",
-          thumbnail:
-            "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-          title: "Eminem - My Name Is",
-        },
-        {
-          id: "VOgFZfRVaww",
-          thumbnail:
-            "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
-          title: "",
-        },
-      ],
+      images: this.props.extra[0].hasOwnProperty("photos")
+        ? this.props.extra[0].photos.map((value, index) => {
+            return {
+              id: index,
+              thumbnail: value,
+            };
+          })
+        : null,
+
       activeSlide: 0,
     };
   }
 
   async componentDidMount() {
     // Void. No state modifications.
+  }
+
+  componentWillMount() {
+    console.log(this.props);
+    // Default image if no photo provides by api.
+    if (!this.props.extra[0].hasOwnProperty("photos")) {
+      this.setState({
+        images: [
+          {
+            id: "0",
+            thumbnail:
+              "https://canismajoris.s3.amazonaws.com/noimageavailabledark.png",
+            title: this.props.name,
+          },
+        ],
+      });
+    }
   }
 
   _renderItem({ item, index }, parallaxProps) {
@@ -58,9 +64,6 @@ class Slider extends Component {
           parallaxFactor={0.6}
           {...parallaxProps}
         />
-        {/* <Text style={styles.title} numberOfLines={2}>
-          {item.title}
-        </Text> */}
       </View>
     );
   }
@@ -77,7 +80,7 @@ class Slider extends Component {
           height: 10,
           borderRadius: 5,
           marginHorizontal: 8,
-          backgroundColor: "rgba(0,0,0,1)",
+          backgroundColor: "#E61E25",
         }}
         inactiveDotStyle={
           {
