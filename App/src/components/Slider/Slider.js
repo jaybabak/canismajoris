@@ -28,7 +28,6 @@ class Slider extends Component {
             };
           })
         : null,
-
       activeSlide: 0,
     };
   }
@@ -38,7 +37,6 @@ class Slider extends Component {
   }
 
   componentWillMount() {
-    console.log(this.props);
     // Default image if no photo provides by api.
     if (!this.props.extra[0].hasOwnProperty("photos")) {
       this.setState({
@@ -76,8 +74,8 @@ class Slider extends Component {
         activeDotIndex={activeSlide}
         // containerStyle={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
         dotStyle={{
-          width: 10,
-          height: 10,
+          width: 15,
+          height: 15,
           borderRadius: 5,
           marginHorizontal: 8,
           backgroundColor: "#E61E25",

@@ -23,6 +23,7 @@ import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
 import OpenOrClosedStatus from "../../components/OpenOrClosedStatus/OpenOrClosedStatus";
+import Reviews from "../../components/Reviews/Reviews";
 import apiConsumer from "../../services/apiConsumer";
 import serviceContainer from "../../services/serviceContainer";
 import styles from "./styles.js";
@@ -277,6 +278,12 @@ class Details extends React.PureComponent {
               <H3 style={styles.subTitle}>Photos</H3>
               <Slider {...this.state.restaurant} />
               {/* Start Slider/Carousel */}
+
+              {/* Start Reviews */}
+              <H3 style={styles.subTitle}>Reviews</H3>
+              <Reviews {...this.state.restaurant} />
+
+              {/* Start Reviews */}
 
               <Text style={styles.defaulText}>DISCLAIMER:</Text>
               <Text note>

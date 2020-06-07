@@ -51,7 +51,7 @@ module.exports = async function restaurantDetails(req, res) {
       // Merge array from initial yelp response and business lookup.
       combinedRestaurantDataFromYelp = {
         ...yelp.data.businesses[0],
-        ...yelpAdditionalData.data,
+        ...yelpAdditionalData,
       };
     } else {
       // Merge array properties.
@@ -72,6 +72,8 @@ module.exports = async function restaurantDetails(req, res) {
 
     // Add additional data to the existing results object for restaurants.
     results.extra = combinedRestaurantDataFromYelp;
+
+    console.log(results);
 
     // Proceed to send NON-CACHED response.
     return res.json({
