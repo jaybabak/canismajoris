@@ -82,7 +82,13 @@ class Reviews extends Component {
           <Card key={index}>
             <CardItem style={styles.card}>
               <Left>
-                <Thumbnail source={{ uri: value.thumbnail.user.image_url }} />
+                <Thumbnail
+                  source={{
+                    uri: value.thumbnail.user.image_url
+                      ? value.thumbnail.user.image_url
+                      : "https://canismajoris.s3.amazonaws.com/profile.png",
+                  }}
+                />
                 <Body>
                   <Text>{value.thumbnail.user.name}</Text>
                   <Text note>
@@ -113,14 +119,14 @@ class Reviews extends Component {
             </CardItem>
           </Card>
         ))}
-        <Button
+        {/* <Button
           style={styles.moreButton}
           transparent
           onPress={() => serviceContainer.openUrl(this.state.url)}
         >
           <Icon style={styles.red} active name="ios-arrow-forward" />
           <Text style={styles.red}>Read more reviews...</Text>
-        </Button>
+        </Button> */}
       </React.Fragment>
     );
   }
