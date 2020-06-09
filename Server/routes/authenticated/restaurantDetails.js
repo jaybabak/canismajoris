@@ -5,7 +5,7 @@ const getYelpAdditionalData = require("../../actions/getYelpDataAdditionalData")
 // Redis config.
 const redis = require("redis");
 const redis_port = config.redis_port || 6379;
-// Configure redis client on port 6379
+// Configure redis client on port 6379.
 const redis_client = redis.createClient(redis_port);
 
 module.exports = async function restaurantDetails(req, res) {

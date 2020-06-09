@@ -8,10 +8,9 @@ const axios = require("axios");
 
 module.exports = async function getYelpAdditionalData(bid) {
   try {
-    // Will eventually hold data from both end points.
+    // Data object sent back to client contains data from both endpoints.
     var allResultsData = {};
-
-    // Config object for yelp.
+    // Axios config object for yelp business lookup (photos etc.).
     var options = {
       method: "GET",
       url: `https://api.yelp.com/v3/businesses/${bid}`,
@@ -20,8 +19,7 @@ module.exports = async function getYelpAdditionalData(bid) {
           "Bearer kfds5vXtOV8wgR9Rvo8ScjUB8IDLhScYsWViW3tiiSvdBs81aOr7dhzJ8uBlNzjpaoqrlloUs8ai1c5nKoNu_HswbQnEImHXfdv0HQphuRAnD2P4v_Cqk6LztvnPXnYx",
       },
     };
-
-    // Config object for yelp reviews.
+    // Axios config object for yelp reviews.
     var optionsReviews = {
       method: "GET",
       url: `https://api.yelp.com/v3/businesses/${bid}/reviews`,
@@ -51,7 +49,7 @@ module.exports = async function getYelpAdditionalData(bid) {
     // Return the array that has been merged in above stop.
     return allResultsData;
   } catch (e) {
-    // If error return error
+    // If error return error.
     console.log(e);
     // Return error.
     return e;
