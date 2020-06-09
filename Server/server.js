@@ -1,8 +1,10 @@
 // EXPRESS/SERVER
+const fs = require('fs');
 const config = require("./config");
 const express = require("express");
 const app = express();
 const http = require("http");
+const https = require("https");
 const httpServer = http.createServer(app);
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
@@ -53,7 +55,19 @@ app.get("/restaurants/:long/:lat", getRestaurants);
 // Public route for getting information about certain restaurant
 app.get("/restaurant/:id", restaurantDetails);
 
-//running for socket.io instance
+// Running http version of server
 httpServer.listen(config.port, () => {
   console.log(`Example app listening on port ${config.port}!`);
 });
+
+// Cert locations
+const options = {
+  key: fs.readFileSync('/etc/letsencrypt/live/jyze.net/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/jyze.net/fullchain.pem')
+};
+
+// Https version of server
+https.createServer(options, app).listen(8001, () => {
+  console.log(`Example app listening on port 8001!`);
+});
+
