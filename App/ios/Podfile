@@ -46,8 +46,7 @@ target 'App' do
     pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
     pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
 
-    # Demo project dependencies
-    pod 'react-native-voximplant', path: '../node_modules/react-native-voximplant'
+    # Project dependencies
     pod 'RNCAsyncStorage', path: '../node_modules/@react-native-community/async-storage/'
     pod 'react-native-notifications', path: '../node_modules/react-native-notifications'
 
@@ -58,17 +57,8 @@ target 'App' do
     pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
     pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/GLog.podspec'
     pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-    
-
-    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
-
     pod 'react-native-maps', :path => '../node_modules/react-native-maps'
-
-
-
-
     pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
     pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
 
     post_install do |installer|

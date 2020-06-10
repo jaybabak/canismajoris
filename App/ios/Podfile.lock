@@ -1,7 +1,5 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - BVLinearGradient (2.5.6):
-    - React
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.61.5)
   - FBReactNativeSpec (0.61.5):
@@ -190,9 +188,6 @@ PODS:
     - React
   - react-native-notifications (2.0.2):
     - React
-  - react-native-voximplant (1.9.0):
-    - React
-    - VoxImplantSDK (= 2.20.7)
   - React-RCTActionSheet (0.61.5):
     - React-Core/RCTActionSheetHeaders (= 0.61.5)
   - React-RCTAnimation (0.61.5):
@@ -230,17 +225,11 @@ PODS:
     - ReactCommon/jscallinvoker (= 0.61.5)
   - RNCAsyncStorage (1.5.1):
     - React
-  - RNGestureHandler (1.3.0):
+  - RNGestureHandler (1.6.1):
     - React
-  - VoxImplantSDK (2.20.7):
-    - VoxImplantSDK/Core (= 2.20.7)
-  - VoxImplantSDK/Core (2.20.7):
-    - VoxImplantWebRTC (= 66.0.3)
-  - VoxImplantWebRTC (66.0.3)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
-  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
@@ -260,7 +249,6 @@ DEPENDENCIES:
   - "react-native-geolocation (from `../node_modules/@react-native-community/geolocation`)"
   - react-native-maps (from `../node_modules/react-native-maps`)
   - react-native-notifications (from `../node_modules/react-native-notifications`)
-  - react-native-voximplant (from `../node_modules/react-native-voximplant`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -279,12 +267,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
-    - VoxImplantSDK
-    - VoxImplantWebRTC
 
 EXTERNAL SOURCES:
-  BVLinearGradient:
-    :path: "../node_modules/react-native-linear-gradient"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   FBLazyVector:
@@ -319,8 +303,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-maps"
   react-native-notifications:
     :path: "../node_modules/react-native-notifications"
-  react-native-voximplant:
-    :path: "../node_modules/react-native-voximplant"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -350,7 +332,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  BVLinearGradient: e3aad03778a456d77928f594a649e96995f1c872
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
@@ -368,7 +349,6 @@ SPEC CHECKSUMS:
   react-native-geolocation: cbd9d6bd06bac411eed2671810f454d4908484a8
   react-native-maps: 6e499eee4eabf422ba8b6f94e993cc768bf35153
   react-native-notifications: 9becbb88cca62ebec6f542c54ceed30c8d128978
-  react-native-voximplant: a2ec8eb170d9c87c5b7cb02b156375ef886bddff
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -380,11 +360,9 @@ SPEC CHECKSUMS:
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   RNCAsyncStorage: 2808c378f6a70f22f66eeb6c11a8d69f326dd795
-  RNGestureHandler: 5329a942fce3d41c68b84c2c2276ce06a696d8b0
-  VoxImplantSDK: 014d3bbd46958bc083741c667d7f77128d908ebc
-  VoxImplantWebRTC: 25b4d834b77e42285b11822b5d885431c3411a2b
+  RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 1b4a366666542ff07596ca2bd6064f363fbead62
+PODFILE CHECKSUM: 19f963821e9c9e7ee008fb53df049f2691d224e8
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
