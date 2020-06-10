@@ -72,6 +72,8 @@ class Dashboard extends React.Component {
             loadedRestaurants: true,
             user: restaurants.data.user,
           });
+
+          return;
         }
       } else {
         restaurants = await apiConsumer.getRestaurants(
@@ -94,10 +96,10 @@ class Dashboard extends React.Component {
             loadedRestaurants: true,
             user: user,
           });
+
+          return;
         }
       }
-
-      // console.log(this.state);
 
       if (restaurants.hasOwnProperty("error")) {
         this.setState({
@@ -116,7 +118,27 @@ class Dashboard extends React.Component {
           ],
           { cancelable: false }
         );
+
+        return;
       }
+
+      this.setState({
+        isReady: true,
+      });
+
+      Alert.alert(
+        "Sorry!",
+        "Looks like we were unable to determine your location, try updating location permissions for Jyze and try again.",
+        [
+          {
+            text: "Cancel",
+            onPress: () => console.log("Cancel Pressed"),
+            style: "cancel",
+          },
+          { text: "OK", onPress: () => console.log("OK Pressed") },
+        ],
+        { cancelable: false }
+      );
     } catch (e) {
       console.log(e);
 

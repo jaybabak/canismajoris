@@ -76,9 +76,9 @@ class Slider extends Component {
         dotStyle={{
           width: 15,
           height: 15,
-          borderRadius: 5,
+          borderRadius: 15,
           marginHorizontal: 8,
-          backgroundColor: "#E61E25",
+          backgroundColor: "black",
         }}
         inactiveDotStyle={
           {
@@ -100,7 +100,7 @@ class Slider extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <View style={styles.marginBottom}>
         <Carousel
           sliderWidth={screenWidth - 30}
           sliderHeight={screenWidth}
@@ -111,7 +111,7 @@ class Slider extends Component {
           onSnapToItem={(index) => this.setState({ activeSlide: index })}
         />
         {this.pagination}
-      </React.Fragment>
+      </View>
     );
   }
 }

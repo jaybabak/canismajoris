@@ -23,6 +23,19 @@ import serviceContainer from "../../services/serviceContainer";
 import styles from "./styles.js";
 const { width: screenWidth } = Dimensions.get("window");
 
+// Finder image -> magnifying glass.
+const star_0 = require("./static/large_0.png");
+const star_1 = require("./static/large_1.png");
+const star_1_5 = require("./static/large_1_5.png");
+const star_2 = require("./static/large_2.png");
+const star_2_5 = require("./static/large_2_5.png");
+const star_3 = require("./static/large_3.png");
+const star_3_5 = require("./static/large_3_5.png");
+const star_4 = require("./static/large_4.png");
+const star_4_5 = require("./static/large_4_5.png");
+const star_5 = require("./static/large_5.png");
+const yelp_logo = require("./static/yelp.png");
+
 class Reviews extends Component {
   constructor(props) {
     super(props);
@@ -46,32 +59,67 @@ class Reviews extends Component {
     // Void. No state modifications.
   }
 
-  componentWillMount() {
-    console.log(this.props);
-    // Default image if no photo provides by api.
-    // if (!this.props.extra[0].hasOwnProperty("reviews")) {
-    //   this.setState({
-    //     images: [
-    //       {
-    //         id: "0",
-    //         thumbnail:
-    //           "https://canismajoris.s3.amazonaws.com/noimageavailabledark.png",
-    //         title: this.props.name,
-    //       },
-    //     ],
-    //   });
-    // }
-  }
-
   shouldComponentUpdate(nextProps, nextState) {
     return false;
+  }
+
+  // Returns the proper image based on star rating
+  starRatingImage(rating) {
+    switch (rating) {
+      case 0:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_0} />
+        );
+      case 1:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_1} />
+        );
+      case 1.5:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_1_5} />
+        );
+      case 2:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_2} />
+        );
+      case 2.5:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_2_5} />
+        );
+      case 3:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_3} />
+        );
+      case 3.5:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_3_5} />
+        );
+      case 4:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_4} />
+        );
+      case 4.5:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_4_5} />
+        );
+      case 5:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_5} />
+        );
+      default:
+        return (
+          <Image resizeMode={"contain"} style={styles.star} source={star_5} />
+        );
+    }
   }
 
   render() {
     if (!this.props.extra[0].hasOwnProperty("reviews")) {
       return (
         <React.Fragment>
-          <Text>No reviews available for this restaurant.</Text>
+          <Text style={styles.moreButton}>
+            No reviews available for this restaurant.
+          </Text>
         </React.Fragment>
       );
     }
@@ -79,7 +127,7 @@ class Reviews extends Component {
     return (
       <React.Fragment>
         {this.state.reviews.map((value, index) => (
-          <Card key={index}>
+          <Card style={styles.cardWrapper} key={index}>
             <CardItem style={styles.card}>
               <Left>
                 <Thumbnail
@@ -90,10 +138,8 @@ class Reviews extends Component {
                   }}
                 />
                 <Body>
-                  <Text>{value.thumbnail.user.name}</Text>
-                  <Text note>
-                    Gives this restaurant a {value.thumbnail.rating}
-                  </Text>
+                  <Text style={styles.name}>{value.thumbnail.user.name}</Text>
+                  {this.starRatingImage(value.thumbnail.rating)}
                 </Body>
               </Left>
             </CardItem>
@@ -102,31 +148,40 @@ class Reviews extends Component {
             </CardItem>
             <CardItem style={styles.cardBottom}>
               <Left>
-                <Button
+                {/* <Button
                   transparent
                   onPress={() =>
                     serviceContainer.openUrl(value.thumbnail.user.profile_url)
                   }
                 >
                   <Text style={styles.red}>View user profile</Text>
-                </Button>
+                </Button> */}
               </Left>
               <Right>
                 <Text style={styles.reviewDate}>
-                  {value.thumbnail.time_created.split(" ")[0]}
+                  Posted on
+                  {" " + value.thumbnail.time_created.split(" ")[0]}
                 </Text>
               </Right>
             </CardItem>
           </Card>
         ))}
-        {/* <Button
+        <Button
           style={styles.moreButton}
           transparent
           onPress={() => serviceContainer.openUrl(this.state.url)}
         >
           <Icon style={styles.red} active name="ios-arrow-forward" />
-          <Text style={styles.red}>Read more reviews...</Text>
-        </Button> */}
+          <Text style={styles.red}>More reviews</Text>
+        </Button>
+        <View style={styles.yelp_branding}>
+          <Text style={styles.yelp_text}>Reviews provided by</Text>
+          <Image
+            resizeMode={"contain"}
+            style={styles.logo}
+            source={yelp_logo}
+          />
+        </View>
       </React.Fragment>
     );
   }

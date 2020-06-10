@@ -40,8 +40,7 @@ const getRestaurants = async function (location) {
         key: `4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327`,
       },
       method: "get",
-      url: `http://jyze.net/restaurants/${location.lon}/${location.lat}`,
-      // url: "http://jyze.net/restaurants",
+      url: `http://localhost:3000/restaurants/${location.lon}/${location.lat}`,
     };
     //Make the requst
     items = await axios(settings);
@@ -50,7 +49,7 @@ const getRestaurants = async function (location) {
     settings = {
       headers: { Authorization: `Bearer ${accessToken}` },
       method: "get",
-      url: "http://jyze.net/api/get-restaurants",
+      url: "http://localhost:3000/api/get-restaurants",
     };
 
     //Make the requst
@@ -87,7 +86,7 @@ const getRestaurantById = async function (restaurantId) {
         key: `4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327`,
       },
       method: "get",
-      url: `http://jyze.net/restaurant/${restaurantId}`,
+      url: `http://localhost:3000/restaurant/${restaurantId}`,
     };
 
     //Make the requst
@@ -97,7 +96,7 @@ const getRestaurantById = async function (restaurantId) {
     settings = {
       headers: { Authorization: `Bearer ${accessToken}` },
       method: "get",
-      url: `http://jyze.net/api/restaurant/${restaurantId}`,
+      url: `http://localhost:3000/api/restaurant/${restaurantId}`,
     };
 
     //Make the requst

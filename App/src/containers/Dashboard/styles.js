@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 10,
     paddingRight: 10,
-    borderRadius: 0
+    borderRadius: 0,
   },
   buttonText: {
     fontSize: 18,
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     margin: 10,
     color: "#ffffff",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
   },
   view: {
     position: "relative",
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     alignItems: "stretch",
     // justifyContent: "",
     alignContent: "flex-start",
-    padding: 5
+    padding: 5,
     // borderRadius: 4,
     // borderWidth: 0.5,
     // borderColor: 'red'
@@ -34,40 +34,40 @@ const styles = StyleSheet.create({
     alignItems: "stretch",
     // justifyContent: "",
     alignContent: "flex-start",
-    padding: 5
+    padding: 5,
     // borderRadius: 4,
     // borderWidth: 0.5,
     // borderColor: 'red'
   },
   btnAction: {
     backgroundColor: "red",
-    color: "white"
+    color: "white",
   },
   btnActionMarker: {
     backgroundColor: "red",
-    color: "white"
+    color: "white",
   },
   btnActionMarkerDirections: {
     backgroundColor: "black",
     color: "white",
-    marginTop: 7
+    marginTop: 7,
   },
   btnActionText: {
-    color: "white"
+    color: "white",
   },
   buttonSubmitBtn: {
-    marginTop: 10,
+    marginTop: 40,
     backgroundColor: "red",
     color: "white",
     justifyContent: "center",
-    alignSelf: "center"
+    alignSelf: "center",
   },
   iconQuestion: {
     fontSize: 20,
-    color: "red"
+    color: "red",
   },
   formWrapper: {
-    marginTop: 0
+    marginTop: 0,
   },
   formItem: {
     // backgroundColor: 'white',
@@ -77,30 +77,30 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     // backgroundColor: '#E2E2E2',
-    textAlign: "center"
+    textAlign: "center",
   },
   thumbnail: {
     // justifyContent: 'center',
     width: screenWidth,
     height: 500,
-    alignSelf: "center"
+    alignSelf: "center",
   },
   near: {
-    color: "green"
+    color: "green",
   },
   far: {
-    color: "blue"
+    color: "blue",
   },
   modalStyles: {
     backgroundColor: "black",
     opacity: 0.7,
-    marginTop: 22
+    marginTop: 22,
   },
   modalContainer: {
     height: screenHeight,
     width: screenWidth,
     justifyContent: "flex-end",
-    alignItems: "stretch"
+    alignItems: "stretch",
   },
   buttonSubmitCloseBtn: {
     marginTop: 10,
@@ -108,28 +108,28 @@ const styles = StyleSheet.create({
     color: "white",
     position: "absolute",
     bottom: 30,
-    right: 30
+    right: 30,
   },
   imageWrapper: {
     flex: 1,
-    alignItems: "stretch"
+    alignItems: "stretch",
   },
   image: {
-    flex: 1
+    flex: 1,
   },
   toolTip: {
     backgroundColor: "white",
     padding: 10,
-    borderRadius: 10
+    borderRadius: 10,
   },
   label: {
-    marginBottom: 7
+    marginBottom: 7,
   },
   iconMarker: {
     marginBottom: 7,
     color: "red",
-    fontSize: 36
-  }
+    fontSize: 36,
+  },
 });
 
 export default styles;

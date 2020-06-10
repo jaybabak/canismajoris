@@ -27,6 +27,13 @@ module.exports = async function optInUser(req, res) {
       `<h1>${submittedFormValues.name}, we really appreciate you signing up for our beta release!</h1><div><h3>We'll let you know when we launch in ${submittedFormValues.city}!</h3></div><div style="color:c9c9c9;">Copyright Jyze.net | Find Halal Food Near You 2019. All Rights Reserved. Ottawa, Canada.</div>`
     );
 
+    await emailService.sendEmail(
+      "contact@jyze.net",
+      "contact@jyze.net",
+      "Jyza - New Beta registration",
+      `<h1>${submittedFormValues.name} with the email ${submittedFormValues.email} - signed up beta service notification for launch in ${submittedFormValues.city}!</div>`
+    );
+
     // @TODO
     // Add use to sendGrid contact list
   } catch (e) {

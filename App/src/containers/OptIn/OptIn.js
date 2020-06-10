@@ -20,7 +20,7 @@ import optInForm from "../../services/optInForm";
 // import optInForm from "../../services/optInForm";
 import styles from "./styles.js";
 // Welcome image -> PNG assets.
-const optInImage = require("../../../assets/images/splash_optin.png");
+const optInImage = require("../../../assets/images/splash_optin_2.jpg");
 
 class OptIn extends React.Component {
   constructor(props) {
@@ -216,6 +216,18 @@ class OptIn extends React.Component {
                 <Text style={styles.buttonSubmit}>Sign Up</Text>
               </Button>
             </View>
+            <Text
+              style={{
+                alignSelf: "center",
+                marginTop: 30,
+                color: "#AEAEAE",
+                paddingLeft: 40,
+                paddingRight: 40,
+                textAlign: "center",
+              }}
+            >
+              We will notify you once Jyze becomes available in your city.
+            </Text>
           </View>
         </Content>
       </Container>

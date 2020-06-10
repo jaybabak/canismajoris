@@ -22,15 +22,21 @@ const styles = StyleSheet.create({
   reviewDate: {
     color: "#AAAAAA",
   },
+  cardWrapper: {
+    marginBottom: 30,
+    borderBottomColor: "red",
+    borderBottomWidth: 5,
+  },
   card: {
     borderBottomWidth: 1,
     borderBottomColor: "#E2E2E2",
-    // backgroundColor: "red",
   },
   cardBottom: {
     borderTopWidth: 1,
     borderTopColor: "#E2E2E2",
-    // backgroundColor: "red",
+  },
+  name: {
+    color: "black",
   },
   white: {
     color: "white",
@@ -40,8 +46,23 @@ const styles = StyleSheet.create({
     color: "red",
   },
   moreButton: {
-    marginTop: 30,
-    marginBottom: 20,
+    marginBottom: 70,
+  },
+  star: {
+    flex: 1,
+    height: undefined,
+    width: 120,
+  },
+  logo: {
+    // flex: 1,
+    height: 40,
+    width: 60,
+  },
+  yelp_branding: { flexDirection: "row", flexWrap: "wrap" },
+  yelp_text: {
+    color: "#AAAAAA",
+    paddingTop: 15,
+    marginRight: 10,
   },
 });
 
