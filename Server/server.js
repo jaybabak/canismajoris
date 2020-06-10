@@ -59,6 +59,11 @@ app.get("/privacy-policy", function (req, res) {
   res.sendFile(__dirname + "/pages/privacy-policy/index.html");
 });
 
+// Regular HTML pages.
+app.get("/terms-and-conditions", function (req, res) {
+  res.sendFile(__dirname + "/pages/terms-and-conditions/index.html");
+});
+
 // Running http version of server
 httpServer.listen(config.port, () => {
   console.log(`Example app listening on port ${config.port}!`);
