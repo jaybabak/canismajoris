@@ -52,7 +52,7 @@ const submit = async function (form) {
     //HTTP Request object
     const settings = {
       method: "post",
-      url: "http://localhost:3000/optin",
+      url: "https://jyze.net/optin",
       data: {
         name: form.name,
         email: form.email,

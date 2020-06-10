@@ -54,6 +54,11 @@ app.get("/restaurants/:long/:lat", getRestaurants);
 // Guest user - Public route for getting information about certain restaurant
 app.get("/restaurant/:id", restaurantDetails);
 
+// Regular HTML pages.
+app.get("/privacy-policy", function (req, res) {
+  res.sendFile(__dirname + "/pages/privacy-policy/index.html");
+});
+
 // Running http version of server
 httpServer.listen(config.port, () => {
   console.log(`Example app listening on port ${config.port}!`);

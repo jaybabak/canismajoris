@@ -8,7 +8,7 @@
 
 import React from "react";
 import { Left, Body, Right, Text, List, ListItem } from "native-base";
-import { View, Dimensions, Image } from "react-native";
+import { View, Image } from "react-native";
 import styles from "./styles.js";
 // Splash image -> Jyze.
 const image = require("./static/noimageavailabledark.png");

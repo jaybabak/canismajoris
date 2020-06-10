@@ -21,23 +21,15 @@ const styles = StyleSheet.create({
     position: "relative",
     flex: 1,
     alignItems: "stretch",
-    // justifyContent: "",
     alignContent: "flex-start",
     padding: 5,
-    // borderRadius: 4,
-    // borderWidth: 0.5,
-    // borderColor: 'red'
   },
   viewBottom: {
     position: "relative",
     flex: 1,
     alignItems: "stretch",
-    // justifyContent: "",
     alignContent: "flex-start",
     padding: 5,
-    // borderRadius: 4,
-    // borderWidth: 0.5,
-    // borderColor: 'red'
   },
   btnAction: {
     backgroundColor: "red",
@@ -78,7 +70,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   thumbnail: {
-    // justifyContent: 'center',
     alignSelf: "center",
   },
   near: {
@@ -128,24 +119,14 @@ const styles = StyleSheet.create({
     fontSize: 36,
   },
   distanceField: {
-    // marginTop: 5,
     fontSize: 12,
-    // backgroundColor: "black",
     color: "#fa2500",
     fontWeight: "600",
     textAlign: "center",
-    // position: "absolute",
-    // left: 0,
-    // right: 0,
     width: 30,
-    // height: 20,
-    // top: 0,
   },
   distanceContainer: {
     // backgroundColor: "white",
-    // paddingRight: 10,
-    // position: "relative",
-    // borderRadius: 25,
   },
   logo: {
     // flex: 1,
