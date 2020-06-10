@@ -128,9 +128,24 @@ const styles = StyleSheet.create({
     fontSize: 36,
   },
   distanceField: {
+    // marginTop: 5,
     fontSize: 12,
-    color: "red",
-    fontWeight: "400",
+    // backgroundColor: "black",
+    color: "#fa2500",
+    fontWeight: "600",
+    textAlign: "center",
+    // position: "absolute",
+    // left: 0,
+    // right: 0,
+    width: 30,
+    // height: 20,
+    // top: 0,
+  },
+  distanceContainer: {
+    // backgroundColor: "white",
+    // paddingRight: 10,
+    // position: "relative",
+    // borderRadius: 25,
   },
   logo: {
     // flex: 1,
@@ -168,6 +183,9 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: "600",
     paddingTop: 150,
+  },
+  listItem: {
+    backgroundColor: "white",
   },
 });
 

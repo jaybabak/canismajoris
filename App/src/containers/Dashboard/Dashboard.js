@@ -19,8 +19,9 @@ import apiConsumer from "../../services/apiConsumer";
 import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
 import MapOverview from "../../components/MapOverview/MapOverview";
 import styles from "./styles.js";
-// Finder image -> magnifying glass.
-const splashImage = require("../../../assets/images/splash_1.png");
+// Static assets
+const logo = require("./static/splash.png");
+const image = require("./static/search-food.gif");
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -213,12 +214,6 @@ class Dashboard extends React.Component {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="red" />;
     }
-    if (
-      this.state.loadedRestaurants == true &&
-      this.state.restaurants.length == 0
-    ) {
-      listView = <Text note>No halal restauarants found nearby.</Text>;
-    }
 
     return (
       <Container style={{ backgroundColor: "white" }}>
@@ -254,37 +249,50 @@ class Dashboard extends React.Component {
             ) : null}
           </Right>
         </Header>
-        <Content>
-          {this.state.loadedRestaurants ? null : (
-            <Thumbnail
-              style={styles.thumbnail}
-              square
-              large
-              source={splashImage}
-            />
-          )}
 
-          <View style={styles.view}>
-            <View style={styles.container}>
-              {this.state.loadedRestaurants ? null : (
-                <Button
-                  style={styles.buttonSubmitBtn}
-                  onPress={this.retrieveRestaurantsByLatLong}
-                >
-                  <Text style={styles.buttonSubmit}>
-                    Find Halal Restaurants Nearby
-                  </Text>
-                </Button>
-              )}
+        {this.state.loadedRestaurants ? (
+          <Content>
+            <RestaurantListView
+              loadedRestaurants={this.state.loadedRestaurants}
+              restaurants={this.state.restaurants}
+              goToDetailsPage={this.goToDetailsPage}
+              switchToMapMode={this.switchToMapMode}
+            />
+          </Content>
+        ) : (
+          <Content style={{ backgroundColor: "#E61E25" }}>
+            <View style={styles.view}>
+              <View style={styles.container}>
+                {this.state.loadedRestaurants ? null : (
+                  <React.Fragment>
+                    <Thumbnail
+                      style={styles.thumbnail}
+                      square
+                      large
+                      resizeMode="contain"
+                      source={image}
+                    />
+                    <Button
+                      style={styles.buttonSubmitBtn}
+                      onPress={this.retrieveRestaurantsByLatLong}
+                    >
+                      <Text style={styles.buttonSubmit}>
+                        Find Halal Restaurants Nearby
+                      </Text>
+                    </Button>
+                    <Thumbnail
+                      style={styles.logo}
+                      square
+                      large
+                      resizeMode="contain"
+                      source={logo}
+                    />
+                  </React.Fragment>
+                )}
+              </View>
             </View>
-          </View>
-          <RestaurantListView
-            loadedRestaurants={this.state.loadedRestaurants}
-            restaurants={this.state.restaurants}
-            goToDetailsPage={this.goToDetailsPage}
-            switchToMapMode={this.switchToMapMode}
-          />
-        </Content>
+          </Content>
+        )}
 
         {/* Map Mode Modal Window
          *

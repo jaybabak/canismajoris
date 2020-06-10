@@ -21,7 +21,6 @@ import {
 } from "native-base";
 import serviceContainer from "../../services/serviceContainer";
 import styles from "./styles.js";
-const { width: screenWidth } = Dimensions.get("window");
 
 // Finder image -> magnifying glass.
 const star_0 = require("./static/large_0.png");

@@ -18,26 +18,17 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   view: {
-    position: "relative",
-    flex: 1,
-    alignItems: "stretch",
-    // justifyContent: "",
-    alignContent: "flex-start",
-    padding: 5,
-    // borderRadius: 4,
-    // borderWidth: 0.5,
-    // borderColor: 'red'
+    width: screenWidth,
+    height: screenHeight,
+    // backgroundColor: "#E61E25",
+    backgroundColor: "white",
   },
   viewBottom: {
     position: "relative",
     flex: 1,
     alignItems: "stretch",
-    // justifyContent: "",
     alignContent: "flex-start",
     padding: 5,
-    // borderRadius: 4,
-    // borderWidth: 0.5,
-    // borderColor: 'red'
   },
   btnAction: {
     backgroundColor: "red",
@@ -55,9 +46,14 @@ const styles = StyleSheet.create({
   btnActionText: {
     color: "white",
   },
+  buttonSubmit: {
+    color: "white",
+    // color: "red",
+  },
   buttonSubmitBtn: {
     marginTop: 40,
-    backgroundColor: "red",
+    // backgroundColor: "white",
+    backgroundColor: "#E61E25",
     color: "white",
     justifyContent: "center",
     alignSelf: "center",
@@ -69,9 +65,6 @@ const styles = StyleSheet.create({
   formWrapper: {
     marginTop: 0,
   },
-  formItem: {
-    // backgroundColor: 'white',
-  },
   spinner: {
     flex: 1,
     justifyContent: "center",
@@ -80,9 +73,15 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   thumbnail: {
-    // justifyContent: 'center',
-    width: screenWidth,
-    height: 500,
+    marginTop: 80,
+    width: 200,
+    height: 250,
+    alignSelf: "center",
+  },
+  logo: {
+    marginTop: 30,
+    width: 150,
+    height: 250,
     alignSelf: "center",
   },
   near: {

@@ -54,14 +54,17 @@ class RestaurantListView extends React.PureComponent {
               avatar
               key={index}
               onPress={() => this.props.goToDetailsPage(restaurant._id)}
+              // style={{ backgroundColor: "white" }}
+              style={styles.listItem}
             >
-              <Left>
+              <Left style={styles.distanceContainer}>
                 <Text style={styles.distanceField}>
                   {(
                     Math.round((restaurant.dist.calculated / 1000) * 10) / 10
-                  ).toFixed(1)}
+                  ).toFixed(1)}{" "}
+                  KM
                 </Text>
-                <Text style={styles.distanceField}>km</Text>
+                {/* <Text style={styles.distanceField}>KM</Text> */}
               </Left>
               <Body>
                 <Text>{restaurant.name}</Text>

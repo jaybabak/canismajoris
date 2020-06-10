@@ -325,10 +325,8 @@ class App extends Component {
   }
 
   render() {
-    var loadingIcon = <Spinner style={styles.spinner} color="#F39034" />;
-
     if (this.state.isReady !== true) {
-      return loadingIcon;
+      return <Spinner style={styles.spinner} color="red" />;
     }
 
     return (
