@@ -54,14 +54,17 @@ app.get("/restaurants/:long/:lat", getRestaurants);
 // Guest user - Public route for getting information about certain restaurant
 app.get("/restaurant/:id", restaurantDetails);
 
-// Regular HTML pages.
+// Regular privacy policy HTML pages
 app.get("/privacy-policy", function (req, res) {
   res.sendFile(__dirname + "/pages/privacy-policy/index.html");
 });
-
-// Regular HTML pages.
+// Regular T&C HTML page.
 app.get("/terms-and-conditions", function (req, res) {
   res.sendFile(__dirname + "/pages/terms-and-conditions/index.html");
+});
+// Static serving asset page/directory.
+app.get("/static/jyze/one", function (req, res) {
+  res.sendFile(__dirname + "/pages/static/jyze_1.MP4");
 });
 
 // Running http version of server
