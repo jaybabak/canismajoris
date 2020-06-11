@@ -1,6 +1,11 @@
 #! /usr/bin/env node
 var shell = require("shelljs");
 const fs = require("fs");
+const util = require("util");
+const log_file = fs.createWriteStream(
+  shell.pwd() + "/data/output/logs/toronto.log",
+  { flags: "w" }
+);
 
 console.log(
   "\r\n\r\n\r\n******* Massage JSON Data for MongoDB Imports *******\r\n"
@@ -10,7 +15,7 @@ shell.echo("\r\nReading JSON file");
 shell.echo(shell.pwd());
 shell.echo("Attempting to open file: ottawa.json");
 
-let rawdata = fs.readFileSync(shell.pwd() + "/data/ottawa.json");
+let rawdata = fs.readFileSync(shell.pwd() + "/data/toronto.json");
 let restaurants = JSON.parse(rawdata);
 
 // // print message
@@ -22,6 +27,7 @@ shell.echo("==============================");
 convertData(restaurants.restaurants);
 
 function convertData(jsonFile) {
+  count = 0;
   var data = JSON.stringify(jsonFile);
   data = JSON.parse(data);
 
@@ -38,8 +44,15 @@ function convertData(jsonFile) {
       // returns true if all above are true
       return true;
     }
+    count++;
     shell.echo("\r\n==========REMOVED=============");
     console.log(restaurant.name);
+    log_file.write(util.format(count + ". " + restaurant.name) + "\n");
+    log_file.write(
+      util.format(
+        "\r\n======================================================"
+      ) + "\n"
+    );
     return false;
   });
 
@@ -48,7 +61,18 @@ function convertData(jsonFile) {
     data.length - filteredArray.length
   );
 
+  log_file.write(
+    util.format(
+      "\r\nRestaurants removed (not valid): ",
+      data.length - filteredArray.length
+    ) + "\n"
+  );
+
   console.log("Total restaurants part of this set: ", data.length + "\n\r");
+
+  log_file.write(
+    util.format("Total restaurants part of this set: ", data.length) + "\n"
+  );
 
   var new_array = filteredArray.map(function (item) {
     // console.log(item.name, "longitude", item.longitude);
@@ -69,9 +93,13 @@ function convertData(jsonFile) {
     return formattedArray;
   });
 
-  createJsonFile(new_array, shell.pwd() + "/data/output/ottawa.json");
+  createJsonFile(new_array, shell.pwd() + "/data/output/toronto.json");
   // console.dir(new_array);
   console.log("\r\nTOTAL ITEMS PROCESSED: ", new_array.length);
+
+  log_file.write(
+    util.format("\r\nTOTAL ITEMS PROCESSED: " + new_array.length) + "\n"
+  );
 
   console.log(
     "\r\n\r\n\r\n******* Massage JSON Data for MongoDB Imports *******\r\r\n"
@@ -79,6 +107,14 @@ function convertData(jsonFile) {
 }
 
 function createJsonFile(data, path) {
+  try {
+    fs.writeFileSync(path, JSON.stringify(data));
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+function createLogFile(data, path) {
   try {
     fs.writeFileSync(path, JSON.stringify(data));
   } catch (err) {

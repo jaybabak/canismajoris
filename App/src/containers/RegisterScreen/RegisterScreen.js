@@ -101,7 +101,7 @@ class RegisterScreen extends React.Component {
         isReady: true,
       });
 
-      Alert.alert(
+      return Alert.alert(
         "Successfully Signed up!.",
         "Proceed to login form now.",
         [
@@ -128,7 +128,7 @@ class RegisterScreen extends React.Component {
         },
       });
 
-      Alert.alert(
+      return Alert.alert(
         "Sorry that email is taken.",
         "Try a differnt email address.",
         [
@@ -141,24 +141,24 @@ class RegisterScreen extends React.Component {
         ],
         { cancelable: false }
       );
-    } // Error with form server side validation.
-    else {
-      this.setState({
-        isReady: true,
-      });
-
-      Alert.alert(
-        "Sorry please review form!",
-        "Ensure all the fields meet the requirements.",
-        [
-          {
-            text: "Okay",
-            style: "detructive",
-          },
-        ],
-        { cancelable: false }
-      );
     }
+
+    // Error with form server side validation.
+    this.setState({
+      isReady: true,
+    });
+
+    return Alert.alert(
+      "Sorry please review form!",
+      "Ensure all the fields meet the requirements.",
+      [
+        {
+          text: "Okay",
+          style: "detructive",
+        },
+      ],
+      { cancelable: false }
+    );
   }
 
   changeField(e, ref) {
@@ -208,7 +208,7 @@ class RegisterScreen extends React.Component {
               >
                 <Input
                   style={styles.formItem}
-                  autoCapitalize="none"
+                  autoCapitalize="words"
                   value={this.state.name}
                   placeholder={this.state.name ? this.state.name : "First name"}
                   onChangeText={(value) => this.changeField("name", value)}
@@ -222,7 +222,7 @@ class RegisterScreen extends React.Component {
               >
                 <Input
                   style={styles.formItem}
-                  autoCapitalize="none"
+                  autoCapitalize="words"
                   value={this.state.lastName}
                   placeholder={
                     this.state.lastName ? this.state.lastName : "Last name"
@@ -290,7 +290,7 @@ class RegisterScreen extends React.Component {
                 block
                 onPress={this.submitRegistrationForm}
               >
-                <Text style={styles.buttonSubmit}>Sign Up</Text>
+                <Text style={styles.buttonSubmit}>Register</Text>
               </Button>
             </View>
           </View>

@@ -17,6 +17,7 @@ import {
   Thumbnail,
 } from "native-base";
 import optInForm from "../../services/optInForm";
+import serviceContainer from "../../services/serviceContainer";
 // import optInForm from "../../services/optInForm";
 import styles from "./styles.js";
 // Welcome image -> PNG assets.
@@ -37,6 +38,7 @@ class OptIn extends React.Component {
     this.goBack = this.goBack.bind(this);
     this.changeField = this.changeField.bind(this);
     this.submitRegistrationForm = this.submitRegistrationForm.bind(this);
+    this.openWebsite = this.openWebsite.bind(this);
   }
 
   componentDidMount() {
@@ -45,6 +47,13 @@ class OptIn extends React.Component {
     this.setState({
       isReady: true,
     });
+  }
+
+  async openWebsite() {
+    // website URL on YELP
+    var privacyPolicy = "http://localhost:3000/privacy-policy";
+    // Make call to provide parameter as phonumber to makeCall service.
+    await serviceContainer.openUrl(privacyPolicy);
   }
 
   goBack() {
@@ -158,7 +167,7 @@ class OptIn extends React.Component {
             </Button>
           </Left>
           <Body>
-            <Title>BETA Opt-In</Title>
+            <Title>Mailing List</Title>
           </Body>
           <Right></Right>
         </Header>
@@ -213,7 +222,7 @@ class OptIn extends React.Component {
                 block
                 onPress={this.submitRegistrationForm}
               >
-                <Text style={styles.buttonSubmit}>Sign Up</Text>
+                <Text style={styles.buttonSubmit}>Subscribe</Text>
               </Button>
             </View>
             <Text
@@ -221,13 +230,24 @@ class OptIn extends React.Component {
                 alignSelf: "center",
                 marginTop: 30,
                 color: "#AEAEAE",
-                paddingLeft: 40,
-                paddingRight: 40,
+                paddingLeft: 10,
+                paddingRight: 10,
                 textAlign: "center",
               }}
             >
-              We will notify you once Jyze becomes available in your city.
+              Thank you for signing up to our mailing list, we don't share
+              personal information with external third parties. Review our
+              privacy policy to find out more.
             </Text>
+            <Button
+              style={styles.privacyPolicyBtn}
+              // bordered
+              block
+              light
+              onPress={this.openWebsite}
+            >
+              <Text style={styles.privacyPolicy}>Privacy Policy</Text>
+            </Button>
           </View>
         </Content>
       </Container>

@@ -215,15 +215,18 @@ class Details extends React.PureComponent {
               {/* Start Header */}
               <H1 style={styles.title}>{this.state.restaurant.name}</H1>
               <H3 style={styles.subTitle}>{this.state.restaurant.category}</H3>
-              <Button
-                style={styles.buttonSubmitBtn}
-                block
-                bordered
-                success
-                onPress={this.makeCall}
-              >
-                <Text style={styles.buttonSubmit}>Call</Text>
-              </Button>
+
+              {this.state.restaurant.hasOwnProperty("phone") ? (
+                <Button
+                  style={styles.buttonSubmitBtn}
+                  block
+                  bordered
+                  success
+                  onPress={this.makeCall}
+                >
+                  <Text style={styles.buttonSubmit}>Call</Text>
+                </Button>
+              ) : null}
 
               {/* Directions button */}
               <Button

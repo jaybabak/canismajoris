@@ -34,7 +34,7 @@
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<true/>
+		<false/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>
@@ -47,9 +47,11 @@
 	<key>NSCameraUsageDescription</key>
 	<string>${PRODUCT_NAME} Uses camera for video calls</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Jyze uses your location to determine near-by restaurants and halal food options in your city.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Jyze uses your location to determine near-by restaurants and halal food options in your city.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Jyze uses your location to determine near-by restaurants and halal food options in your city.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>${PRODUCT_NAME} Uses mic for audio calls</string>
 	<key>UIAppFonts</key>
