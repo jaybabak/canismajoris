@@ -63,7 +63,7 @@ module.exports = async function restaurantDetails(req, res) {
       }
 
       // Set # of days to expire cache after.
-      var days = 720;
+      var days = 120;
       // Save to Redis cache.
       redis_client.set(
         results.id,
@@ -75,8 +75,6 @@ module.exports = async function restaurantDetails(req, res) {
 
     // Add additional data to the existing results object for restaurants.
     results.extra = combinedRestaurantDataFromYelp;
-
-    console.log(results);
 
     // Proceed to send NON-CACHED response.
     return res.json({

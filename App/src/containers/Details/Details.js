@@ -84,8 +84,6 @@ class Details extends React.PureComponent {
     try {
       const restaurant = await apiConsumer.getRestaurantById(rid);
 
-      console.log(restaurant);
-
       if (restaurant.status == 200) {
         this.setState({
           isReady: true,

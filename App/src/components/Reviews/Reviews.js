@@ -54,7 +54,6 @@ class Reviews extends Component {
   }
 
   async componentDidMount() {
-    console.log(this.state);
     // Void. No state modifications.
   }
 
