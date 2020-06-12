@@ -33,8 +33,10 @@ const getRestaurants = async function (location) {
   // Return this variable with all restaurant data.
   var items = {};
 
-  // If user is not logged in.
-  if (accessToken === null) {
+  // TEMPORARY FIX -> If user is not logged in. USING public route since authenticated one needs fixing cannot use location from user field
+  // Need to find fix and swap to use parameterization instead of relying on user fields for location stored in database
+  // remove the || location != null to ensure that authenticated route is being used
+  if (accessToken === null || location != null) {
     settings = {
       headers: {
         key: `4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327`,

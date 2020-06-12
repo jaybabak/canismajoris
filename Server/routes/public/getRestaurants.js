@@ -2,6 +2,13 @@ const validator = require("validator");
 const getByLatLong = require("../../actions/getRestaurntsByProximity");
 
 module.exports = async function getRestaurants(req, res) {
+  if (
+    req.headers.key !=
+    "4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327"
+  ) {
+    return res.send(401);
+  }
+
   const LATITUDE = req.params.lat;
   const LONGITUDE = req.params.long;
 

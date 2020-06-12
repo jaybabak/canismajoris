@@ -14,7 +14,7 @@ module.exports = async function getByLatLong(long, lat) {
   var restaurantsSortedByDistanceGeoNear = await searchRestaurantsNearBy(
     long, //Users longitude
     lat, // Users latitude
-    150000 //Max distance in meters
+    65000 //Max distance in meters
   );
 
   results = {};

@@ -24,7 +24,7 @@ module.exports = async function restaurantDetails(req, res) {
 
     // Send CACHED response.
     if (data != null) {
-      console.log("Cached Request");
+      // console.log("Cached Request");
       // Add additional data to the existing results object for restaurants.
       results.extra = JSON.parse(data);
 
@@ -41,7 +41,7 @@ module.exports = async function restaurantDetails(req, res) {
     // If Not CACHED proceed to make request and get additional data, then
     if (results.toObject().hasOwnProperty("phone")) {
       const yelp = await getYelpData(results.phone);
-      console.log("Not Cached Request");
+      // console.log("Not Cached Request");
 
       // if initial response does not have any response data.
       if (yelp.data.businesses.length > 0) {

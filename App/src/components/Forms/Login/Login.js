@@ -69,7 +69,7 @@ class Login extends Component {
           <Text style={styles.whiteText}>Sign-up with a new account!</Text>
         </Button>
         <Button
-          onPress={() => this.props.navigateToDashboard(true)} // true is for guest/skip
+          onPress={() => this.props.navigateToDashboard(true)} // true is for isGuest param
           style={styles.skip}
           block
           bordered

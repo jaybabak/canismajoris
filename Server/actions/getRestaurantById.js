@@ -13,7 +13,6 @@ const Restaurants = mongoose.model("Restaurant");
  */
 
 module.exports = async function getRestaurantById(rid) {
-  console.log(rid);
   // Get the restaurant details.
   try {
     var restaurant = await Restaurants.findOne({

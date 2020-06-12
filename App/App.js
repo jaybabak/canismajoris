@@ -250,9 +250,12 @@ class App extends Component {
   }
 
   getLocation() {
+    var location = {
+      lat: null,
+      lon: null,
+    };
     navigator.geolocation.getCurrentPosition(
       (position) => {
-        console.log(position);
         this.setState({
           location: {
             lat: position.coords.latitude,
@@ -260,6 +263,8 @@ class App extends Component {
           },
           locationNow: `Your location is: ${position.coords.latitude}/${position.coords.longitude}`,
         });
+        location.lat = position.coords.latitude;
+        location.lon = position.coords.longitude;
       },
       (error) => {
         Alert.alert(
@@ -282,20 +287,36 @@ class App extends Component {
         timeout: 30000,
       }
     );
+
+    return location;
   }
 
   navigateToRegisterScreen() {
     this.props.navigation.navigate("Register"); //pass params to this object to pass current vixomplant instance
   }
-  navigateToDashboard(isGuest) {
-    if (!isGuest) {
-      return this.props.navigation.navigate("Dashboard"); //pass params to this object to pass current vixomplant instance
-    }
 
+  // Is guest param for the Login component to trigger
+  navigateToDashboard(isGuest) {
+    const location = this.getLocation();
     return this.props.navigation.navigate("Dashboard", {
       guest: true,
-      location: this.state.location,
+      location: location,
     });
+
+    // Uncomment for authenticated routes to getRestaurants (read comments below)
+    // if (!isGuest) {
+    //   // Temporary fix -> Using guest route to get restaurants
+    //   // Faking it atm using guest route since current authenticated function in backend relies in user field location to retrieve results
+    //   // Switch to using params provided by app -> similar to guest route. (instead of db fields in user collection)
+    //   return this.props.navigation.navigate("Dashboard", {
+    //     guest: true,
+    //     location: location,
+    //   });
+    //   // Using below when authenticated request is needed -> USER object is sent back since access token is being checked
+    //   // inside the apiConsumer.getRerstaurants function
+    //   // WORKAROUND -> currently use anonmyous/guest route
+    //   // return this.props.navigation.navigate("Dashboard"); //pass params to this object to pass current vixomplant instance
+    // }
   }
 
   changeUsername(e) {

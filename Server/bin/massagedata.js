@@ -3,7 +3,7 @@ var shell = require("shelljs");
 const fs = require("fs");
 const util = require("util");
 const log_file = fs.createWriteStream(
-  shell.pwd() + "/data/output/logs/toronto.log",
+  shell.pwd() + "/data/output/logs/montreal.log",
   { flags: "w" }
 );
 
@@ -15,7 +15,7 @@ shell.echo("\r\nReading JSON file");
 shell.echo(shell.pwd());
 shell.echo("Attempting to open file: ottawa.json");
 
-let rawdata = fs.readFileSync(shell.pwd() + "/data/toronto.json");
+let rawdata = fs.readFileSync(shell.pwd() + "/data/montreal.json");
 let restaurants = JSON.parse(rawdata);
 
 // // print message
@@ -93,7 +93,7 @@ function convertData(jsonFile) {
     return formattedArray;
   });
 
-  createJsonFile(new_array, shell.pwd() + "/data/output/toronto.json");
+  createJsonFile(new_array, shell.pwd() + "/data/output/montreal.json");
   // console.dir(new_array);
   console.log("\r\nTOTAL ITEMS PROCESSED: ", new_array.length);
 
