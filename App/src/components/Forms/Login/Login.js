@@ -9,6 +9,7 @@
 import React, { Component } from "react";
 import { Text, View } from "react-native";
 import { Button, Input, Item, Thumbnail } from "native-base";
+import serviceContainer from "../../../services/serviceContainer";
 import styles from "./styles.js";
 // Welcome background image -> PNG assets.
 const splashImage = require("../../../../assets/images/splash_6.png");
@@ -16,9 +17,15 @@ const splashImage = require("../../../../assets/images/splash_6.png");
 class Login extends Component {
   constructor(props) {
     super(props);
+    this.sendEmail = this.sendEmail.bind(this);
   }
 
   async componentDidMount() {
+    // Void. No state modifications.
+  }
+
+  async sendEmail() {
+    await serviceContainer.openUrl("mailto:contact@jyze.net");
     // Void. No state modifications.
   }
 
@@ -78,8 +85,22 @@ class Login extends Component {
           <Text style={styles.skipText}>Skip</Text>
         </Button>
         <Text style={{ alignSelf: "center", marginTop: 30, color: "#AEAEAE" }}>
-          Copyright Jyze.net. All Rights Reserved.
+          {"\u00A9"} Jyze.net 2020. All Rights Reserved.
         </Text>
+
+        <Button block transparent onPress={this.sendEmail}>
+          <Text
+            style={{
+              alignSelf: "center",
+              textAlign: "center",
+              marginTop: 5,
+              color: "#AEAEAE",
+            }}
+          >
+            Need support? Send an email to contact@jyze.net
+          </Text>
+        </Button>
+
         {/* <Text style={{ alignSelf: "center", marginTop: 5 }}>
           Copyright Jyze.net. All Rights Reserved.
         </Text> */}
