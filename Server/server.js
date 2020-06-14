@@ -68,6 +68,6 @@ app.get("/static/jyze/one", function (req, res) {
 });
 
 // Running http version of server
-httpServer.listen(config.port, () => {
+httpServer.listen(process.argv[2] || config.port, () => {
   console.log(`Example app listening on port ${config.port}!`);
 });
