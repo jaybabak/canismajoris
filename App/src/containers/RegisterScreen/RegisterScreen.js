@@ -274,7 +274,7 @@ class RegisterScreen extends React.Component {
                   placeholder={
                     this.state.mobileNumber
                       ? this.state.mobileNumber
-                      : "Mobile Number"
+                      : "Mobile Number (optional)"
                   }
                   onChangeText={(value) =>
                     this.changeField("mobileNumber", value)
@@ -282,8 +282,7 @@ class RegisterScreen extends React.Component {
                 />
               </Item>
               <Text style={styles.defaulText}>
-                Starting with the country code followed by the area code.
-                Example: for Canada: 1-343 279 6524
+                Country code followed by the area code. 1 6472226555
               </Text>
               <Button
                 style={styles.buttonSubmitBtn}
