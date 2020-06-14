@@ -6,6 +6,7 @@ const http = require("http");
 const httpServer = http.createServer(app);
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
+const rateLimiterRedisMiddleware = require("./middleware/rateLimiterRedis");
 // Default security options
 app.use(helmet());
 // Middleware for adding the body property to req object.
@@ -15,6 +16,8 @@ app.use(
   })
 );
 app.use(bodyParser.json());
+// Rate limite exceeder -> prevents brute force attacks
+app.use(rateLimiterRedisMiddleware);
 
 // Mongoose and database configuration.
 const mongoose = require("mongoose");
