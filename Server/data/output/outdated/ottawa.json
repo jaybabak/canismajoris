@@ -1,7 +1,29 @@
 [
   {
+    "name": "Panera Bread",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:30 am - 8:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "320 West Hunt Club Road" }],
+        "city": "Ottawa, ON K2E 1A5"
+      }
+    ],
+    "url": "http://panerabread.com",
+    "phone": "+1-613-274-0888",
+    "location": { "type": "Point", "coordinates": [-75.713619, 45.338917] }
+  },
+  {
     "name": "North & Navy",
-    "category": "Seafood",
+    "category": "Italian",
     "hours": [
       { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
       { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
@@ -22,28 +44,6 @@
     "location": { "type": "Point", "coordinates": [-75.699082, 45.416712] }
   },
   {
-    "name": "Dosa & Curries",
-    "category": "Indian",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "Closed" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "114 Gloucester Street" }],
-        "city": "Ottawa, ON K1P 5Z9"
-      }
-    ],
-    "url": "http://dosaandcurries.com",
-    "phone": "(613) 231-6550",
-    "location": { "type": "Point", "coordinates": [-75.696149, 45.418822] }
-  },
-  {
     "name": "Moe’s BBQ",
     "category": "Halal",
     "hours": [
@@ -54,11 +54,9 @@
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
-      { "days": "North & Navy" },
       { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
       { "days": "Mobeen H." },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Dosa & Curries" },
       { "days": "Panago Pizza" }
     ],
     "address": [
@@ -81,8 +79,7 @@
       { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 12:00 am" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 12:00 am" },
-      { "days": "Dosa & Curries" }
+      { "days": "Sun", "time": "11:00 am - 12:00 am" }
     ],
     "address": [
       {
@@ -104,9 +101,7 @@
       { "days": "Thu", "time": "4:00 pm - 8:00 pm" },
       { "days": "Fri", "time": "4:00 pm - 8:00 pm" },
       { "days": "Sat", "time": "4:00 pm - 8:00 pm" },
-      { "days": "Sun", "time": "4:00 pm - 8:00 pm" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "168 Sushi Asian Buffet" }
+      { "days": "Sun", "time": "4:00 pm - 8:00 pm" }
     ],
     "address": [
       {
@@ -128,12 +123,9 @@
       { "days": "Fri", "time": "11:30 am - 10:30 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "Oat Couture Oatmeal Cafe" },
       { "days": "North & Navy" },
-      { "days": "Dosa & Curries" },
-      { "days": "Panago Pizza" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -144,6 +136,107 @@
     "url": "http://lazizbroastmixgrill.ca",
     "phone": "(613) 746-6111",
     "location": { "type": "Point", "coordinates": [-75.595807, 45.418195] }
+  },
+  {
+    "name": "Kara Mia",
+    "category": "Desserts",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "2:00 pm - 11:30 pm" },
+      { "days": "Sun", "time": "2:00 pm - 11:30 pm" },
+      { "days": "Edible Arrangements" },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1910 St Laurent Boulevard", "unit": "Unit 7" }],
+        "city": "Ottawa, ON K1G 1A4"
+      }
+    ],
+    "url": "http://karamia.ca",
+    "phone": "(613) 248-0500",
+    "location": { "type": "Point", "coordinates": [-75.62458, 45.398853] }
+  },
+  {
+    "name": "Shawarma Palace",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 1:00 am" },
+      { "days": "Tue", "time": "11:00 am - 1:00 am" },
+      { "days": "Wed", "time": "11:00 am - 1:00 am" },
+      { "days": "Thu", "time": "11:00 am - 2:00 am" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 3:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 1:00 am" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "464 Rideau Street" }],
+        "city": "Ottawa, ON K1N 5Z4"
+      }
+    ],
+    "url": "http://shawarmapalace.ca",
+    "phone": "(613) 789-9533",
+    "location": { "type": "Point", "coordinates": [-75.679902, 45.430957] }
+  },
+  {
+    "name": "Sizzle n’Grill",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "200 Kennevale Drive" }],
+        "city": "Ottawa, ON K2J 0C3"
+      }
+    ],
+    "phone": "(613) 825-7599",
+    "location": { "type": "Point", "coordinates": [-75.776907, 45.265384] }
+  },
+  {
+    "name": "Centrale Bergham - Ottawa",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "2:00 pm - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1611 Bank Street" }],
+        "city": "Ottawa, ON K1V 7Y8"
+      }
+    ],
+    "url": "http://centralebergham.com",
+    "phone": "(613) 695-8844",
+    "location": { "type": "Point", "coordinates": [-75.667068, 45.377889] }
   },
   {
     "name": "Fairouz",
@@ -168,110 +261,6 @@
     "location": { "type": "Point", "coordinates": [-75.695651, 45.41589] }
   },
   {
-    "name": "Kara Mia",
-    "category": "Desserts",
-    "hours": [
-      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
-      { "days": "Sat", "time": "2:00 pm - 11:30 pm" },
-      { "days": "Sun", "time": "2:00 pm - 11:30 pm" },
-      { "days": "Edible Arrangements" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "North & Navy" },
-      { "days": "Panago Pizza" },
-      { "days": "Dosa & Curries" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1910 St Laurent Boulevard", "unit": "Unit 7" }],
-        "city": "Ottawa, ON K1G 1A4"
-      }
-    ],
-    "url": "http://karamia.ca",
-    "phone": "(613) 248-0500",
-    "location": { "type": "Point", "coordinates": [-75.62458, 45.398853] }
-  },
-  {
-    "name": "Shawarma Palace",
-    "category": "Mediterranean",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 1:00 am" },
-      { "days": "Tue", "time": "11:00 am - 1:00 am" },
-      { "days": "Wed", "time": "11:00 am - 1:00 am" },
-      { "days": "Thu", "time": "11:00 am - 2:00 am" },
-      { "days": "Fri", "time": "11:00 am - 3:00 am" },
-      { "days": "Sat", "time": "12:00 pm - 3:00 am" },
-      { "days": "Sun", "time": "12:00 pm - 1:00 am" },
-      { "days": "The Soca Kitchen" },
-      { "days": "North & Navy" },
-      { "days": "Dosa & Curries" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "464 Rideau Street" }],
-        "city": "Ottawa, ON K1N 5Z4"
-      }
-    ],
-    "url": "http://shawarmapalace.ca",
-    "phone": "(613) 789-9533",
-    "location": { "type": "Point", "coordinates": [-75.679902, 45.430957] }
-  },
-  {
-    "name": "Sizzle n’Grill",
-    "category": "Mediterranean",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 12:00 am" },
-      { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "North & Navy" },
-      { "days": "Panago Pizza" },
-      { "days": "Dosa & Curries" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "200 Kennevale Drive" }],
-        "city": "Ottawa, ON K2J 0C3"
-      }
-    ],
-    "phone": "(613) 825-7599",
-    "location": { "type": "Point", "coordinates": [-75.776907, 45.265384] }
-  },
-  {
-    "name": "Centrale Bergham - Ottawa",
-    "category": "Sandwiches",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 12:00 am" },
-      { "days": "Tue", "time": "11:00 am - 12:00 am" },
-      { "days": "Wed", "time": "11:00 am - 12:00 am" },
-      { "days": "Thu", "time": "11:00 am - 12:00 am" },
-      { "days": "Fri", "time": "2:00 pm - 1:00 am" },
-      { "days": "Sat", "time": "11:00 am - 1:00 am" },
-      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
-      { "days": "Panago Pizza" },
-      { "days": "North & Navy" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Dosa & Curries" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1611 Bank Street" }],
-        "city": "Ottawa, ON K1V 7Y8"
-      }
-    ],
-    "url": "http://centralebergham.com",
-    "phone": "(613) 695-8844",
-    "location": { "type": "Point", "coordinates": [-75.667068, 45.377889] }
-  },
-  {
     "name": "Coconut Lagoon",
     "category": "Indian",
     "hours": [
@@ -282,8 +271,6 @@
       { "days": "Fri", "time": "5:00 pm - 9:30 pm" },
       { "days": "Sat", "time": "5:00 pm - 9:30 pm" },
       { "days": "Sun", "time": "5:00 pm - 9:00 pm" },
-      { "days": "Dosa & Curries" },
-      { "days": "Hing Lung Chinese Food" },
       { "days": "Panago Pizza" }
     ],
     "address": [
@@ -297,31 +284,6 @@
     "location": { "type": "Point", "coordinates": [-75.642076, 45.433273] }
   },
   {
-    "name": "Zaky Grill & Broast",
-    "category": "Fast Food",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Panago Pizza" },
-      { "days": "Dosa & Curries" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1385 Baseline Road", "unit": "Unit 4" }],
-        "city": "Ottawa, ON K1A 0C5"
-      }
-    ],
-    "url": "http://zakygrill.ca",
-    "phone": "(613) 224-7774",
-    "location": { "type": "Point", "coordinates": [-75.738138, 45.36242] }
-  },
-  {
     "name": "Les Grillades",
     "category": "Lebanese",
     "hours": [
@@ -331,8 +293,7 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "9:30 am - 9:00 pm" },
-      { "days": "Dosa & Curries" }
+      { "days": "Sun", "time": "9:30 am - 9:00 pm" }
     ],
     "address": [
       {
@@ -345,6 +306,54 @@
     "location": { "type": "Point", "coordinates": [-75.7021, 45.346545] }
   },
   {
+    "name": "Zaky Grill & Broast",
+    "category": "Fast Food",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1385 Baseline Road", "unit": "Unit 4" }],
+        "city": "Ottawa, ON K1A 0C5"
+      }
+    ],
+    "url": "http://zakygrill.ca",
+    "phone": "(613) 224-7774",
+    "location": { "type": "Point", "coordinates": [-75.738138, 45.36242] }
+  },
+  {
+    "name": "Burgers n’ Fries Forever",
+    "category": "Fast Food",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "329 Bank Street" }],
+        "city": "Ottawa, ON K2P 1X9"
+      }
+    ],
+    "url": "http://burgersnfriesforever.com",
+    "phone": "(613) 230-3456",
+    "location": { "type": "Point", "coordinates": [-75.695279, 45.414362] }
+  },
+  {
     "name": "Pak India Restaurant",
     "category": "Pakistani",
     "hours": [
@@ -355,7 +364,6 @@
       { "days": "Fri", "time": "11:30 am - 9:30 pm" },
       { "days": "Sat", "time": "11:30 am - 9:30 pm" },
       { "days": "Sun", "time": "11:30 am - 9:30 pm" },
-      { "days": "Dosa & Curries" },
       { "days": "PIR C." }
     ],
     "address": [
@@ -369,33 +377,6 @@
     "location": { "type": "Point", "coordinates": [-75.505489, 45.45614] }
   },
   {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "hours": [
-      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
-      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
-      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
-      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "North & Navy" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "Panago Pizza" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "329 Bank Street" }],
-        "city": "Ottawa, ON K2P 1X9"
-      }
-    ],
-    "url": "http://burgersnfriesforever.com",
-    "phone": "(613) 230-3456",
-    "location": { "type": "Point", "coordinates": [-75.695279, 45.414362] }
-  },
-  {
     "name": "Chillies Tandoor & Grill Company",
     "category": "Indian",
     "hours": [
@@ -406,8 +387,6 @@
       { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
       { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 8:00 pm" },
-      { "days": "Dosa & Curries" },
-      { "days": "Hing Lung Chinese Food" },
       { "days": "Amnah A." }
     ],
     "address": [
@@ -431,7 +410,6 @@
       { "days": "Fri", "time": "11:30 am - 10:00 pm" },
       { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "Dosa & Curries" },
       { "days": "1 free cheezy garlic naan" }
     ],
     "address": [
@@ -454,8 +432,7 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 12:00 am" },
       { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "The Soca Kitchen" }
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
     ],
     "address": [
       {
@@ -478,11 +455,9 @@
       { "days": "Fri", "time": "4:30 pm - 10:00 pm" },
       { "days": "Sat", "time": "4:30 pm - 10:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "The Soca Kitchen" },
-      { "days": "Dosa & Curries" },
-      { "days": "Sachin lalit C." },
-      { "days": "Hing Lung Chinese Food" },
       { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Panago Pizza" },
+      { "days": "Sachin lalit C." },
       { "days": "15% off Food and non alcoholic beverag" }
     ],
     "address": [
@@ -494,6 +469,30 @@
     "url": "http://curryandkebabhouse.ca",
     "phone": "(613) 680-0800",
     "location": { "type": "Point", "coordinates": [-75.694365, 45.428632] }
+  },
+  {
+    "name": "Al-Oumara Meat Shop & Grill",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 6:00 pm" },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Rabeia Z." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "25 Tapiola Crescent" }],
+        "city": "Ottawa, ON K1T 2J7"
+      }
+    ],
+    "url": "http://al-oumara.ca",
+    "phone": "(613) 523-1800",
+    "location": { "type": "Point", "coordinates": [-75.647101, 45.363727] }
   },
   {
     "name": "Crispy’s Resto Grill",
@@ -508,9 +507,7 @@
       { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
       { "days": "Oat Couture Oatmeal Cafe" },
       { "days": "North & Navy" },
-      { "days": "Panago Pizza" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -521,101 +518,6 @@
     "url": "http://crispysrestogrill.com",
     "phone": "(613) 695-7575",
     "location": { "type": "Point", "coordinates": [-75.756052, 45.341936] }
-  },
-  {
-    "name": "Kothu Rotti",
-    "category": "Sri Lankan",
-    "hours": [
-      { "days": "Mon", "time": "9:30 am - 9:30 pm" },
-      { "days": "Tue", "time": "9:30 am - 9:30 pm" },
-      { "days": "Wed", "time": "9:30 am - 9:30 pm" },
-      { "days": "Thu", "time": "9:30 am - 9:30 pm" },
-      { "days": "Fri", "time": "9:30 am - 10:30 pm" },
-      { "days": "Sat", "time": "3:30 pm - 10:30 pm" },
-      { "days": "Sun", "time": "3:30 pm - 9:00 pm" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "Ranjan T." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "408 Dalhousie Street" }],
-        "city": "Ottawa, ON K1N 9J9"
-      }
-    ],
-    "url": "http://kothurotti.ca",
-    "phone": "(613) 680-7812",
-    "location": { "type": "Point", "coordinates": [-75.689305, 45.426569] }
-  },
-  {
-    "name": "Burgers n’ Fries Forever",
-    "category": "Fast Food",
-    "hours": [
-      { "days": "Mon", "time": "11:30 am - 8:30 pm" },
-      { "days": "Tue", "time": "11:30 am - 8:30 pm" },
-      { "days": "Wed", "time": "11:30 am - 8:30 pm" },
-      { "days": "Thu", "time": "11:30 am - 8:30 pm" },
-      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 8:30 pm" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "278 Dalhousie Street" }],
-        "city": "Ottawa, ON K1N 7E6"
-      }
-    ],
-    "url": "http://burgersnfriesforever.com",
-    "phone": "(613) 241-3456",
-    "location": { "type": "Point", "coordinates": [-75.692226, 45.429983] }
-  },
-  {
-    "name": "Al-Oumara Meat Shop & Grill",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 8:00 pm" },
-      { "days": "Tue", "time": "9:00 am - 8:00 pm" },
-      { "days": "Wed", "time": "9:00 am - 8:00 pm" },
-      { "days": "Thu", "time": "9:00 am - 8:00 pm" },
-      { "days": "Fri", "time": "9:00 am - 8:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 8:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 6:00 pm" },
-      { "days": "Rabeia Z." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "25 Tapiola Crescent" }],
-        "city": "Ottawa, ON K1T 2J7"
-      }
-    ],
-    "url": "http://al-oumara.ca",
-    "phone": "(613) 523-1800",
-    "location": { "type": "Point", "coordinates": [-75.647101, 45.363727] }
-  },
-  {
-    "name": "Mongolian Village West",
-    "category": "Mongolian",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "Closed" },
-      { "days": "168 Sushi Asian Buffet" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2150 Robertson Road" }],
-        "city": "Ottawa, ON K2H 9S1"
-      }
-    ],
-    "url": "http://mongolianvillage.ca",
-    "phone": "(613) 596-4366",
-    "location": { "type": "Point", "coordinates": [-75.837125, 45.320108] }
   },
   {
     "name": "The Orient House Shawarma & Grill",
@@ -639,6 +541,105 @@
     "location": { "type": "Point", "coordinates": [-75.693815, 45.420574] }
   },
   {
+    "name": "Kothu Rotti",
+    "category": "Sri Lankan",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 9:30 pm" },
+      { "days": "Tue", "time": "9:30 am - 9:30 pm" },
+      { "days": "Wed", "time": "9:30 am - 9:30 pm" },
+      { "days": "Thu", "time": "9:30 am - 9:30 pm" },
+      { "days": "Fri", "time": "9:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "3:30 pm - 10:30 pm" },
+      { "days": "Sun", "time": "3:30 pm - 9:00 pm" },
+      { "days": "Ranjan T." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "408 Dalhousie Street" }],
+        "city": "Ottawa, ON K1N 9J9"
+      }
+    ],
+    "url": "http://kothurotti.ca",
+    "phone": "(613) 680-7812",
+    "location": { "type": "Point", "coordinates": [-75.689305, 45.426569] }
+  },
+  {
+    "name": "Babi’s Restaurant",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 2:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "9:00 am - 5:00 pm" },
+      { "days": "Edible Arrangements" },
+      { "days": "Cleopatra Honey" },
+      { "days": "Shabi B." },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Oat Couture Oatmeal Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "21 Nadolny Sachs Private" }],
+        "city": "Ottawa, ON K2A 1R9"
+      }
+    ],
+    "url": "http://babis.ca",
+    "phone": "(613) 413-4231",
+    "location": { "type": "Point", "coordinates": [-75.7518, 45.37591] }
+  },
+  {
+    "name": "Burgers n’ Fries Forever",
+    "category": "Fast Food",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 8:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 8:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 8:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 8:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 8:30 pm" },
+      { "days": "North & Navy" },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "278 Dalhousie Street" }],
+        "city": "Ottawa, ON K1N 7E6"
+      }
+    ],
+    "url": "http://burgersnfriesforever.com",
+    "phone": "(613) 241-3456",
+    "location": { "type": "Point", "coordinates": [-75.692226, 45.429983] }
+  },
+  {
+    "name": "Mongolian Village West",
+    "category": "Mongolian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Ozzy’s Rappie Pies" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2150 Robertson Road" }],
+        "city": "Ottawa, ON K2H 9S1"
+      }
+    ],
+    "url": "http://mongolianvillage.ca",
+    "phone": "(613) 596-4366",
+    "location": { "type": "Point", "coordinates": [-75.837125, 45.320108] }
+  },
+  {
     "name": "Centrale Bergham",
     "category": "Halal",
     "hours": [
@@ -649,9 +650,7 @@
       { "days": "Fri", "time": "2:00 pm - 12:00 am" },
       { "days": "Sat", "time": "11:00 am - 12:00 am" },
       { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "Panago Pizza" },
-      { "days": "Dosa & Curries" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -664,34 +663,6 @@
     "location": { "type": "Point", "coordinates": [-75.638076, 45.429798] }
   },
   {
-    "name": "Popeye’s Louisiana Kitchen",
-    "category": "Chicken Shop",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "The Soca Kitchen" },
-      { "days": "Panago Pizza" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2000 Montreal Road" }],
-        "city": "Ottawa, ON K1J 6N2"
-      }
-    ],
-    "url": "http://popeyeschicken.ca",
-    "phone": "(613) 695-0333",
-    "location": { "type": "Point", "coordinates": [-75.596864, 45.446075] }
-  },
-  {
     "name": "Shirin Market",
     "category": "International Grocery",
     "hours": [
@@ -702,8 +673,7 @@
       { "days": "Fri", "time": "9:30 am - 9:00 pm" },
       { "days": "Sat", "time": "9:30 am - 9:00 pm" },
       { "days": "Sun", "time": "9:30 am - 7:00 pm" },
-      { "days": "Cleopatra Honey" },
-      { "days": "Dosa & Curries" }
+      { "days": "Cleopatra Honey" }
     ],
     "address": [
       { "street": [{ "name": "700 March Road" }], "city": "Kanata, ON K2K 1L3" }
@@ -714,7 +684,7 @@
   },
   {
     "name": "Panago Pizza",
-    "category": "Salad",
+    "category": "Chicken Wings",
     "hours": [
       { "days": "Mon", "time": "11:00 am - 11:00 pm" },
       { "days": "Tue", "time": "11:00 am - 11:00 pm" },
@@ -735,30 +705,30 @@
     "location": { "type": "Point", "coordinates": [-75.683369, 45.394778] }
   },
   {
-    "name": "Dosa & Curries",
-    "category": "Indian",
+    "name": "Panera Bread",
+    "category": "Soup",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "Closed" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
+      { "days": "Mon", "time": "7:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:30 am - 8:30 pm" }
     ],
     "address": [
       {
-        "street": [{ "name": "114 Gloucester Street" }],
-        "city": "Ottawa, ON K1P 5Z9"
+        "street": [{ "name": "320 West Hunt Club Road" }],
+        "city": "Ottawa, ON K2E 1A5"
       }
     ],
-    "url": "http://dosaandcurries.com",
-    "phone": "(613) 231-6550",
-    "location": { "type": "Point", "coordinates": [-75.696149, 45.418822] }
+    "url": "http://panerabread.com",
+    "phone": "+1-613-274-0888",
+    "location": { "type": "Point", "coordinates": [-75.713619, 45.338917] }
   },
   {
     "name": "North & Navy",
-    "category": "Italian",
+    "category": "Wine Bars",
     "hours": [
       { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
       { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
@@ -779,6 +749,31 @@
     "location": { "type": "Point", "coordinates": [-75.699082, 45.416712] }
   },
   {
+    "name": "Popeye’s Louisiana Kitchen",
+    "category": "Chicken Shop",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2000 Montreal Road" }],
+        "city": "Ottawa, ON K1J 6N2"
+      }
+    ],
+    "url": "http://popeyeschicken.ca",
+    "phone": "(613) 695-0333",
+    "location": { "type": "Point", "coordinates": [-75.596864, 45.446075] }
+  },
+  {
     "name": "Mary Brown’s",
     "category": "Fast Food",
     "hours": [
@@ -789,7 +784,7 @@
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
       { "days": "Sat", "time": "11:00 am - 10:00 pm" },
       { "days": "Sun", "time": "11:00 am - 9:00 pm" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -812,7 +807,7 @@
       { "days": "Fri", "time": "12:00 pm - 9:00 pm" },
       { "days": "Sat", "time": "12:00 pm - 9:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 8:00 pm" },
-      { "days": "Dosa & Curries" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -834,8 +829,7 @@
       { "days": "Thu", "time": "11:00 am - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
       { "days": "Sat", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 10:00 pm" },
-      { "days": "Dosa & Curries" }
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" }
     ],
     "address": [
       {
@@ -846,27 +840,6 @@
     "url": "http://samarkabab.com",
     "phone": "(613) 523-7171",
     "location": { "type": "Point", "coordinates": [-75.645549, 45.377742] }
-  },
-  {
-    "name": "Shawarma Palace",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 12:00 am" },
-      { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2949 Carling Avenue" }],
-        "city": "Ottawa, ON K2B 8K6"
-      }
-    ],
-    "phone": "(613) 726-9533",
-    "location": { "type": "Point", "coordinates": [-75.802631, 45.356489] }
   },
   {
     "name": "Princess Shawarma",
@@ -880,9 +853,7 @@
       { "days": "Sat", "time": "10:00 am - 9:30 pm" },
       { "days": "Sun", "time": "10:00 am - 9:30 pm" },
       { "days": "North & Navy" },
-      { "days": "Dosa & Curries" },
-      { "days": "Panago Pizza" },
-      { "days": "168 Sushi Asian Buffet" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -895,29 +866,49 @@
     "location": { "type": "Point", "coordinates": [-75.738109, 45.359721] }
   },
   {
-    "name": "Babi’s Restaurant",
-    "category": "Bakeries",
+    "name": "Shaan Curry House",
+    "category": "Indian",
     "hours": [
-      { "days": "Mon", "time": "7:00 am - 7:00 pm" },
-      { "days": "Tue", "time": "7:00 am - 7:00 pm" },
-      { "days": "Wed", "time": "7:00 am - 7:00 pm" },
-      { "days": "Thu", "time": "7:00 am - 7:00 pm" },
-      { "days": "Fri", "time": "8:00 am - 2:00 pm" },
-      { "days": "Sat", "time": "Closed" },
-      { "days": "Sun", "time": "9:00 am - 5:00 pm" },
-      { "days": "Edible Arrangements" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "Shabi B." }
+      { "days": "Mon", "time": "11:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
-        "street": [{ "name": "21 Nadolny Sachs Private" }],
-        "city": "Ottawa, ON K2A 1R9"
+        "street": [{ "name": "1489 Merivale Road" }],
+        "city": "Nepean, ON K2E 5P3"
       }
     ],
-    "url": "http://babis.ca",
-    "phone": "(613) 413-4231",
-    "location": { "type": "Point", "coordinates": [-75.7518, 45.37591] }
+    "url": "http://shaancurryhouse.com",
+    "phone": "(613) 228-9759",
+    "location": { "type": "Point", "coordinates": [-75.735763, 45.359102] }
+  },
+  {
+    "name": "Shawarma Palace",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2949 Carling Avenue" }],
+        "city": "Ottawa, ON K2B 8K6"
+      }
+    ],
+    "phone": "(613) 726-9533",
+    "location": { "type": "Point", "coordinates": [-75.802631, 45.356489] }
   },
   {
     "name": "Shawarma Express",
@@ -930,10 +921,9 @@
       { "days": "Fri", "time": "10:30 am - 10:00 pm" },
       { "days": "Sat", "time": "11:00 am - 10:00 pm" },
       { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "North & Navy" },
       { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "Dosa & Curries" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
@@ -956,11 +946,8 @@
       { "days": "Fri", "time": "11:00 am - 4:00 am" },
       { "days": "Sat", "time": "11:00 am - 4:00 am" },
       { "days": "Sun", "time": "11:00 am - 3:00 am" },
-      { "days": "North & Navy" },
       { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "Panago Pizza" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Dosa & Curries" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -973,27 +960,48 @@
     "location": { "type": "Point", "coordinates": [-75.694475, 45.413401] }
   },
   {
-    "name": "Shaan Curry House",
-    "category": "Indian",
+    "name": "Donerma",
+    "category": "Kebab",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 7:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 7:00 pm" },
-      { "days": "Sun", "time": "Closed" },
-      { "days": "Dosa & Curries" }
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "Closed" }
     ],
     "address": [
       {
-        "street": [{ "name": "1489 Merivale Road" }],
-        "city": "Nepean, ON K2E 5P3"
+        "street": [{ "name": "129 Bank Street" }],
+        "city": "Ottawa, ON K1P 5N7"
       }
     ],
-    "url": "http://shaancurryhouse.com",
-    "phone": "(613) 228-9759",
-    "location": { "type": "Point", "coordinates": [-75.735763, 45.359102] }
+    "phone": "(613) 695-2221",
+    "location": { "type": "Point", "coordinates": [-75.699434, 45.41938] }
+  },
+  {
+    "name": "Grillade Kisanola",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "2:00 pm - 8:00 pm" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1124B Rue Saint-Louis" }],
+        "city": "Gatineau, QC J8T 2R7"
+      }
+    ],
+    "phone": "(819) 205-4957",
+    "location": { "type": "Point", "coordinates": [-75.698052, 45.461944] }
   },
   {
     "name": "Asli Dining",
@@ -1006,9 +1014,9 @@
       { "days": "Fri", "time": "9:00 am - 10:00 pm" },
       { "days": "Sat", "time": "9:00 am - 10:00 pm" },
       { "days": "Sun", "time": "9:00 am - 10:00 pm" },
+      { "days": "Ozzy’s Rappie Pies" },
       { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "Panago Pizza" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -1030,10 +1038,8 @@
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
       { "days": "Sat", "time": "11:30 am - 10:00 pm" },
       { "days": "Sun", "time": "11:30 am - 10:00 pm" },
-      { "days": "Dosa & Curries" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "Samsu M." },
-      { "days": "Panago Pizza" }
+      { "days": "Panago Pizza" },
+      { "days": "Samsu M." }
     ],
     "address": [
       {
@@ -1046,31 +1052,6 @@
     "location": { "type": "Point", "coordinates": [-75.651549, 45.450017] }
   },
   {
-    "name": "Grillade Kisanola",
-    "category": "Halal",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "2:00 pm - 8:00 pm" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "North & Navy" },
-      { "days": "Dosa & Curries" },
-      { "days": "168 Sushi Asian Buffet" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1124B Rue Saint-Louis" }],
-        "city": "Gatineau, QC J8T 2R7"
-      }
-    ],
-    "phone": "(819) 205-4957",
-    "location": { "type": "Point", "coordinates": [-75.698052, 45.461944] }
-  },
-  {
     "name": "Basmati Indian Cuisine",
     "category": "Indian",
     "hours": [
@@ -1081,8 +1062,6 @@
       { "days": "Fri", "time": "10:30 am - 11:30 pm" },
       { "days": "Sat", "time": "10:30 am - 11:30 pm" },
       { "days": "Sun", "time": "10:30 am - 11:30 pm" },
-      { "days": "Dosa & Curries" },
-      { "days": "Hing Lung Chinese Food" },
       { "days": "Panago Pizza" },
       { "days": "1 free appetizer with purchase" }
     ],
@@ -1096,81 +1075,6 @@
     "location": { "type": "Point", "coordinates": [-75.696771, 45.415326] }
   },
   {
-    "name": "Dal Moro’s Fresh Pasta To Go",
-    "category": "Italian",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 3:00 am" },
-      { "days": "Sat", "time": "11:00 am - 3:00 am" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "The Soca Kitchen" },
-      { "days": "Panago Pizza" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "8 Byward Market Square" }],
-        "city": "Ottawa, ON K1N 7A1"
-      }
-    ],
-    "url": "http://dalmoros.ca",
-    "phone": "(613) 680-2019",
-    "location": { "type": "Point", "coordinates": [-75.693687, 45.428526] }
-  },
-  {
-    "name": "Donerma",
-    "category": "Kebab",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
-      { "days": "Sun", "time": "Closed" },
-      { "days": "Dosa & Curries" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "129 Bank Street" }],
-        "city": "Ottawa, ON K1P 5N7"
-      }
-    ],
-    "phone": "(613) 695-2221",
-    "location": { "type": "Point", "coordinates": [-75.699434, 45.41938] }
-  },
-  {
-    "name": "Lulu Shawarma and Grill",
-    "category": "Mediterranean",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "The Soca Kitchen" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "North & Navy" },
-      { "days": "Dosa & Curries" },
-      { "days": "168 Sushi Asian Buffet" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2910 Woodroffe Avenue" }],
-        "city": "Ottawa, ON K2J 4P7"
-      }
-    ],
-    "url": "http://lulushawarmaandgrill.com",
-    "phone": "(343) 488-2323",
-    "location": { "type": "Point", "coordinates": [-75.728655, 45.292851] }
-  },
-  {
     "name": "Shawarma Prince",
     "category": "Halal",
     "hours": [
@@ -1180,8 +1084,7 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Panago Pizza" }
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
     ],
     "address": [
       {
@@ -1194,27 +1097,53 @@
     "location": { "type": "Point", "coordinates": [-75.486913, 45.460772] }
   },
   {
-    "name": "Nando’s Flame Grilled Chicken",
-    "category": "Portuguese",
+    "name": "Lulu Shawarma and Grill",
+    "category": "Mediterranean",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "Closed" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "The Soca Kitchen" }
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Panago Pizza" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
-        "street": [{ "name": "1461 Merivale Road", "unit": "Unit 2D" }],
-        "city": "Ottawa, ON K2E 5N9"
+        "street": [{ "name": "2910 Woodroffe Avenue" }],
+        "city": "Ottawa, ON K2J 4P7"
       }
     ],
-    "url": "http://nandos.ca",
-    "phone": "(613) 749-7445",
-    "location": { "type": "Point", "coordinates": [-75.733642, 45.361525] }
+    "url": "http://lulushawarmaandgrill.com",
+    "phone": "(343) 488-2323",
+    "location": { "type": "Point", "coordinates": [-75.728655, 45.292851] }
+  },
+  {
+    "name": "Cafe Nero",
+    "category": "Coffee & Tea",
+    "hours": [
+      { "days": "Mon", "time": "7:30 am - 6:00 pm" },
+      { "days": "Tue", "time": "7:30 am - 6:00 pm" },
+      { "days": "Wed", "time": "7:30 am - 6:00 pm" },
+      { "days": "Thu", "time": "7:30 am - 6:00 pm" },
+      { "days": "Fri", "time": "7:30 am - 6:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
+      { "days": "Edible Arrangements" },
+      { "days": "Ozzy’s Rappie Pies" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2690 Alta Vista Drive" }],
+        "city": "Ottawa, ON K1V 7T4"
+      }
+    ],
+    "url": "http://cafenero.ca/home.html",
+    "phone": "(613) 680-6376",
+    "location": { "type": "Point", "coordinates": [-75.664236, 45.373349] }
   },
   {
     "name": "Say Cheese Pizza and Poutine",
@@ -1227,9 +1156,8 @@
       { "days": "Fri", "time": "11:30 am - 1:00 am" },
       { "days": "Sat", "time": "11:30 am - 1:00 am" },
       { "days": "Sun", "time": "3:00 pm - 11:00 pm" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
@@ -1239,6 +1167,30 @@
     ],
     "phone": "(613) 695-6999",
     "location": { "type": "Point", "coordinates": [-75.667453, 45.379406] }
+  },
+  {
+    "name": "Dal Moro’s Fresh Pasta To Go",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "North & Navy" },
+      { "days": "Panago Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8 Byward Market Square" }],
+        "city": "Ottawa, ON K1N 7A1"
+      }
+    ],
+    "url": "http://dalmoros.ca",
+    "phone": "(613) 680-2019",
+    "location": { "type": "Point", "coordinates": [-75.693687, 45.428526] }
   },
   {
     "name": "Mr Shawarma Restaurant",
@@ -1251,6 +1203,7 @@
       { "days": "Fri", "time": "11:00 am - 2:00 am" },
       { "days": "Sat", "time": "11:00 am - 2:00 am" },
       { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Panago Pizza" },
       { "days": "North & Navy" }
     ],
     "address": [
@@ -1263,32 +1216,6 @@
     "location": { "type": "Point", "coordinates": [-75.786945, 45.341904] }
   },
   {
-    "name": "Big Smoke Burger",
-    "category": "Burgers",
-    "hours": [
-      { "days": "Mon", "time": "10:30 am - 9:00 pm" },
-      { "days": "Tue", "time": "10:30 am - 9:00 pm" },
-      { "days": "Wed", "time": "10:30 am - 9:00 pm" },
-      { "days": "Thu", "time": "10:30 am - 9:00 pm" },
-      { "days": "Fri", "time": "10:30 am - 9:00 pm" },
-      { "days": "Sat", "time": "10:30 am - 6:00 pm" },
-      { "days": "Sun", "time": "10:30 am - 6:00 pm" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "50 Rideau Street" }],
-        "city": "Ottawa, ON K1N 9J7"
-      }
-    ],
-    "url": "http://bigsmokeburger.com",
-    "phone": "(613) 231-7000",
-    "location": { "type": "Point", "coordinates": [-75.690176, 45.425022] }
-  },
-  {
     "name": "Paramount",
     "category": "Middle Eastern",
     "hours": [
@@ -1298,7 +1225,8 @@
       { "days": "Thu", "time": "11:00 am - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -1324,7 +1252,7 @@
       { "days": "Cleopatra Honey" },
       { "days": "Oat Couture Oatmeal Cafe" },
       { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
@@ -1337,6 +1265,30 @@
     "location": { "type": "Point", "coordinates": [-75.776975, 45.264907] }
   },
   {
+    "name": "Big Smoke Burger",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:30 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:30 am - 6:00 pm" },
+      { "days": "North & Navy" },
+      { "days": "Oat Couture Oatmeal Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "50 Rideau Street" }],
+        "city": "Ottawa, ON K1N 9J7"
+      }
+    ],
+    "url": "http://bigsmokeburger.com",
+    "phone": "(613) 231-7000",
+    "location": { "type": "Point", "coordinates": [-75.690176, 45.425022] }
+  },
+  {
     "name": "Bbq Golden Grill",
     "category": "Chicken Wings",
     "hours": [
@@ -1347,12 +1299,9 @@
       { "days": "Fri", "time": "12:00 am - 11:00 pm" },
       { "days": "Sat", "time": "12:00 am - 11:00 pm" },
       { "days": "Sun", "time": "12:00 am - 11:00 pm" },
-      { "days": "Panago Pizza" },
       { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
@@ -1365,6 +1314,28 @@
     "location": { "type": "Point", "coordinates": [-75.698819, 45.410165] }
   },
   {
+    "name": "Nando’s Flame Grilled Chicken",
+    "category": "Portuguese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1461 Merivale Road", "unit": "Unit 2D" }],
+        "city": "Ottawa, ON K2E 5N9"
+      }
+    ],
+    "url": "http://nandos.ca",
+    "phone": "(613) 749-7445",
+    "location": { "type": "Point", "coordinates": [-75.733642, 45.361525] }
+  },
+  {
     "name": "Poulet BBQ Perla",
     "category": "Portuguese",
     "hours": [
@@ -1374,8 +1345,7 @@
       { "days": "Thu", "time": "11:30 am - 10:00 pm" },
       { "days": "Fri", "time": "11:30 am - 11:00 pm" },
       { "days": "Sat", "time": "11:30 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
-      { "days": "The Soca Kitchen" }
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" }
     ],
     "address": [
       {
@@ -1385,79 +1355,6 @@
     ],
     "phone": "(819) 561-4444",
     "location": { "type": "Point", "coordinates": [-75.700985, 45.481164] }
-  },
-  {
-    "name": "Cafe Nero Espresso & Eatery",
-    "category": "Coffee & Tea",
-    "hours": [
-      { "days": "Mon", "time": "7:30 am - 6:00 pm" },
-      { "days": "Tue", "time": "7:30 am - 6:00 pm" },
-      { "days": "Wed", "time": "7:30 am - 6:00 pm" },
-      { "days": "Thu", "time": "7:30 am - 6:00 pm" },
-      { "days": "Fri", "time": "7:30 am - 6:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 6:00 pm" },
-      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
-      { "days": "Edible Arrangements" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2690 Alta Vista Drive" }],
-        "city": "Ottawa, ON K1V 7T4"
-      }
-    ],
-    "url": "http://cafenero.ca/home.html",
-    "location": { "type": "Point", "coordinates": [-75.664236, 45.373349] }
-  },
-  {
-    "name": "Poulet Rouge",
-    "category": "Fast Food",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
-      { "days": "Oat Couture Oatmeal Cafe" },
-      { "days": "The Soca Kitchen" },
-      { "days": "North & Navy" },
-      { "days": "Hing Lung Chinese Food" },
-      { "days": "168 Sushi Asian Buffet" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1200 St Laurent Boulevard" }],
-        "city": "Ottawa, ON K1K 3B8"
-      }
-    ],
-    "url": "http://poulet-rouge.ca",
-    "phone": "(613) 745-6858",
-    "location": { "type": "Point", "coordinates": [-75.638773, 45.421867] }
-  },
-  {
-    "name": "Food Basics",
-    "category": "Grocery",
-    "hours": [
-      { "days": "Mon", "time": "8:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "8:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "8:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "8:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "8:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "8:00 am - 8:00 pm" },
-      { "days": "Sun", "time": "8:00 am - 7:00 pm" },
-      { "days": "Cleopatra Honey" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "667 Kirkwood Avenue" }],
-        "city": "Ottawa, ON K1Z 8N7"
-      }
-    ],
-    "url": "http://foodbasics.ca",
-    "phone": "(613) 722-7412",
-    "location": { "type": "Point", "coordinates": [-75.738947, 45.386236] }
   },
   {
     "name": "Damas Supermarket",
@@ -1471,7 +1368,8 @@
       { "days": "Sat", "time": "9:00 am - 9:00 pm" },
       { "days": "Sun", "time": "9:00 am - 9:00 pm" },
       { "days": "Cleopatra Honey" },
-      { "days": "Edible Arrangements" }
+      { "days": "Edible Arrangements" },
+      { "days": "Ozzy’s Rappie Pies" }
     ],
     "address": [
       {
@@ -1484,30 +1382,76 @@
     "location": { "type": "Point", "coordinates": [-75.806333, 45.355082] }
   },
   {
-    "name": "Dosa & Curries",
-    "category": "Indian",
+    "name": "Ya Habibi",
+    "category": "Halal",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "Closed" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
+      { "days": "Mon", "time": "10:30 am - 5:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 5:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 5:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 5:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 5:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
-        "street": [{ "name": "114 Gloucester Street" }],
-        "city": "Ottawa, ON K1P 5Z9"
+        "street": [{ "name": "160 Elgin Street" }],
+        "city": "Ottawa, ON K1A 1J4"
       }
     ],
-    "url": "http://dosaandcurries.com",
-    "phone": "(613) 231-6550",
-    "location": { "type": "Point", "coordinates": [-75.696149, 45.418822] }
+    "phone": "(613) 234-2424",
+    "location": { "type": "Point", "coordinates": [-75.692868, 45.41973] }
+  },
+  {
+    "name": "Food Basics",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 7:00 pm" },
+      { "days": "Cleopatra Honey" },
+      { "days": "Ozzy’s Rappie Pies" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "667 Kirkwood Avenue" }],
+        "city": "Ottawa, ON K1Z 8N7"
+      }
+    ],
+    "url": "http://foodbasics.ca",
+    "phone": "(613) 722-7412",
+    "location": { "type": "Point", "coordinates": [-75.738947, 45.386236] }
+  },
+  {
+    "name": "Panera Bread",
+    "category": "Salad",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:30 am - 8:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "320 West Hunt Club Road" }],
+        "city": "Ottawa, ON K2E 1A5"
+      }
+    ],
+    "url": "http://panerabread.com",
+    "phone": "+1-613-274-0888",
+    "location": { "type": "Point", "coordinates": [-75.713619, 45.338917] }
   },
   {
     "name": "North & Navy",
-    "category": "Wine Bars",
+    "category": "Italian",
     "hours": [
       { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
       { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
@@ -1528,27 +1472,29 @@
     "location": { "type": "Point", "coordinates": [-75.699082, 45.416712] }
   },
   {
-    "name": "Digby’s Restaurant",
-    "category": "Fish & Chips",
+    "name": "Centrale Bergham",
+    "category": "Burgers",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
-      { "days": "The Soca Kitchen" },
-      { "days": "Panago Pizza" }
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Ozzy’s Rappie Pies" },
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
-        "street": [{ "name": "17-300 Earl Grey Drive" }],
-        "city": "Kanata, ON K2T 1B8"
+        "street": [{ "name": "3059 Carling Avenue" }],
+        "city": "Ottawa, ON K2B 7K4"
       }
     ],
-    "phone": "(613) 599-9800",
-    "location": { "type": "Point", "coordinates": [-75.91565, 45.311797] }
+    "url": "http://bergham.com",
+    "location": { "type": "Point", "coordinates": [-75.807409, 45.354654] }
   },
   {
     "name": "Ottawa Halal Market",
@@ -1561,7 +1507,8 @@
       { "days": "Fri", "time": "9:00 am - 9:00 pm" },
       { "days": "Sat", "time": "9:00 am - 9:00 pm" },
       { "days": "Sun", "time": "10:00 am - 8:00 pm" },
-      { "days": "Cleopatra Honey" }
+      { "days": "Cleopatra Honey" },
+      { "days": "Ozzy’s Rappie Pies" }
     ],
     "address": [
       {
@@ -1596,48 +1543,74 @@
     "location": { "type": "Point", "coordinates": [-75.49853, 45.477435] }
   },
   {
-    "name": "Russell Restaurant",
-    "category": "Sandwiches",
+    "name": "Digby’s Restaurant",
+    "category": "Fish & Chips",
     "hours": [
-      { "days": "Mon", "time": "6:30 am - 10:00 pm" },
-      { "days": "Tue", "time": "6:30 am - 10:00 pm" },
-      { "days": "Wed", "time": "6:30 am - 10:00 pm" },
-      { "days": "Thu", "time": "6:30 am - 10:00 pm" },
-      { "days": "Fri", "time": "6:30 am - 10:00 pm" },
-      { "days": "Sat", "time": "7:30 am - 10:00 pm" },
-      { "days": "Sun", "time": "8:00 am - 3:00 pm" }
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {
-        "street": [{ "name": "182 Castor Street" }],
-        "city": "Russell, ON K4R 1C7"
+        "street": [{ "name": "17-300 Earl Grey Drive" }],
+        "city": "Kanata, ON K2T 1B8"
       }
     ],
-    "url": "http://russellrestaurant.ca",
-    "phone": "(613) 445-2886",
-    "location": { "type": "Point", "coordinates": [-75.357485, 45.257289] }
+    "phone": "(613) 599-9800",
+    "location": { "type": "Point", "coordinates": [-75.91565, 45.311797] }
   },
   {
-    "name": "Cote Poultry",
-    "category": "Meat Shops",
+    "name": "Poulet Rouge",
+    "category": "Fast Food",
     "hours": [
-      { "days": "Mon", "time": "7:00 am - 4:00 pm" },
-      { "days": "Tue", "time": "7:00 am - 4:00 pm" },
-      { "days": "Wed", "time": "7:00 am - 4:00 pm" },
-      { "days": "Thu", "time": "7:00 am - 4:00 pm" },
-      { "days": "Fri", "time": "7:00 am - 4:00 pm" },
-      { "days": "Sat", "time": "7:00 am - 1:00 pm" },
-      { "days": "Sun", "time": "Closed" }
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "North & Navy" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Panago Pizza" }
     ],
     "address": [
       {
-        "street": [{ "name": "2770 Lancaster Road" }],
-        "city": "Ottawa, ON K1B 4S4"
+        "street": [{ "name": "1200 St Laurent Boulevard" }],
+        "city": "Ottawa, ON K1K 3B8"
       }
     ],
-    "url": "http://cotepoultry.com",
-    "phone": "(613) 247-7721",
-    "location": { "type": "Point", "coordinates": [-75.606278, 45.395579] }
+    "url": "http://poulet-rouge.ca",
+    "phone": "Located in St Laurent",
+    "location": { "type": "Point", "coordinates": [-75.638773, 45.421867] }
+  },
+  {
+    "name": "Centrale Bergham",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "1:00 pm - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Oat Couture Oatmeal Cafe" },
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
+    ],
+    "address": [
+      { "street": [{ "name": "22 Rue Eddy" }], "city": "Gatineau, QC J8X 2V6" }
+    ],
+    "url": "http://bergham.com",
+    "phone": "(613) 421-4581",
+    "location": { "type": "Point", "coordinates": [-75.719418, 45.425422] }
   },
   {
     "name": "Barakat Market",
@@ -1650,6 +1623,7 @@
       { "days": "Fri", "time": "8:00 am - 9:00 pm" },
       { "days": "Sat", "time": "8:00 am - 9:00 pm" },
       { "days": "Sun", "time": "10:00 am - 8:00 pm" },
+      { "days": "Ozzy’s Rappie Pies" },
       { "days": "Fouad B." }
     ],
     "address": [
@@ -1686,30 +1660,6 @@
     "location": { "type": "Point", "coordinates": [-75.64678, 45.352768] }
   },
   {
-    "name": "Yaseen Halal Pizza",
-    "category": "Pizza",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 12:00 am" },
-      { "days": "Fri", "time": "11:00 am - 12:00 am" },
-      { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "2:00 pm - 10:00 pm" },
-      { "days": "North & Navy" },
-      { "days": "Local Heroes Bar & Grill" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2916 Carling Avenue" }],
-        "city": "Ottawa, ON K2B 7J7"
-      }
-    ],
-    "url": "http://carling.yaseenpizza.ca",
-    "phone": "(613) 695-1818",
-    "location": { "type": "Point", "coordinates": [-75.800898, 45.356577] }
-  },
-  {
     "name": "Silk Road Foods",
     "category": "Grocery",
     "hours": [
@@ -1731,6 +1681,75 @@
     "url": "http://silkroadfoods.org",
     "phone": "(613) 695-3631",
     "location": { "type": "Point", "coordinates": [-75.73244, 45.347941] }
+  },
+  {
+    "name": "Russell Restaurant",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "6:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "6:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "6:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "6:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "6:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "7:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 3:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "182 Castor Street" }],
+        "city": "Russell, ON K4R 1C7"
+      }
+    ],
+    "url": "http://russellrestaurant.ca",
+    "phone": "(613) 445-2886",
+    "location": { "type": "Point", "coordinates": [-75.357485, 45.257289] }
+  },
+  {
+    "name": "Cote Poultry",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 4:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 4:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 4:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 4:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 1:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Ozzy’s Rappie Pies" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2770 Lancaster Road" }],
+        "city": "Ottawa, ON K1B 4S4"
+      }
+    ],
+    "url": "http://cotepoultry.com",
+    "phone": "(613) 247-7721",
+    "location": { "type": "Point", "coordinates": [-75.606278, 45.395579] }
+  },
+  {
+    "name": "Yaseen Halal Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "2:00 pm - 10:00 pm" },
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2916 Carling Avenue" }],
+        "city": "Ottawa, ON K2B 7J7"
+      }
+    ],
+    "url": "http://carling.yaseenpizza.ca",
+    "phone": "(613) 695-1818",
+    "location": { "type": "Point", "coordinates": [-75.800898, 45.356577] }
   },
   {
     "name": "Dairy Queen",
@@ -1768,7 +1787,8 @@
       { "days": "Fri", "time": "11:00 am - 3:00 am" },
       { "days": "Sat", "time": "11:00 am - 3:00 am" },
       { "days": "Sun", "time": "11:30 am - 12:00 am" },
-      { "days": "Panago Pizza" }
+      { "days": "Panago Pizza" },
+      { "days": "North & Navy" }
     ],
     "address": [
       {

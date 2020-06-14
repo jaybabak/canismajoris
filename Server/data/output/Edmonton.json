@@ -1,0 +1,1548 @@
+[
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12922 167 Ave NW" }],
+        "city": "Edmonton, AB T6V 1J6"
+      }
+    ],
+    "url": "http://paramountfinefoodsalberta.com",
+    "phone": "(587) 200-1528",
+    "location": { "type": "Point", "coordinates": [-113.546851, 53.629418] }
+  },
+  {
+    "name": "Pizza Firm",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "1 free can of pop with order!" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6550 170 Avenue NW" }],
+        "city": "Edmonton, AB T5E 5S7"
+      }
+    ],
+    "url": "http://pizzafirm.ca",
+    "phone": "(780) 705-6000",
+    "location": { "type": "Point", "coordinates": [-113.44115, 53.633374] }
+  },
+  {
+    "name": "Khan Kebabs",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:30 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3927 106 Street" }],
+        "city": "Edmonton, AB T6J 2S3"
+      }
+    ],
+    "url": "http://khan-kebabs.business.site",
+    "phone": "(780) 450-9100",
+    "location": { "type": "Point", "coordinates": [-113.505544, 53.474815] }
+  },
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12922 167 Ave NW" }],
+        "city": "Edmonton, AB T6V 1J6"
+      }
+    ],
+    "url": "http://paramountfinefoodsalberta.com",
+    "phone": "(587) 200-1528",
+    "location": { "type": "Point", "coordinates": [-113.546851, 53.629418] }
+  },
+  {
+    "name": "Chilli Peppers",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Panda Express - Temporarily Closed" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6847 Ellersille Road" }],
+        "city": "Edmonton, AB T6X 2A1"
+      }
+    ],
+    "url": "http://Www.chillipeppers.ca",
+    "phone": "(780) 705-8908",
+    "location": { "type": "Point", "coordinates": [-113.44427, 53.424107] }
+  },
+  {
+    "name": "Boardwalk",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3803 Calgary Trail NW" }],
+        "city": "Edmonton, AB T6J 7H8"
+      }
+    ],
+    "url": "http://boardwalkfries.com",
+    "phone": "(587) 499-3214",
+    "location": { "type": "Point", "coordinates": [-113.492661, 53.470381] }
+  },
+  {
+    "name": "Coriander Cuisine",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Sinoj A." },
+      { "days": "Panda Express - Temporarily Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11214 76 Avenue NW" }],
+        "city": "Edmonton, AB T6G 0K1"
+      }
+    ],
+    "url": "http://corianderedmonton.com",
+    "phone": "(780) 430-7667",
+    "location": { "type": "Point", "coordinates": [-113.520709, 53.512442] }
+  },
+  {
+    "name": "Kabsa The Ultimate Cuisine",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
+      { "days": "Paramount Fine Foods" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5932 153 Avenue NW" }],
+        "city": "Edmonton, AB T5Y 2W1"
+      }
+    ],
+    "url": "http://kabsacuisine.com",
+    "phone": "(780) 436-1815",
+    "location": { "type": "Point", "coordinates": [-113.431281, 53.616357] }
+  },
+  {
+    "name": "Best Kabab",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12503 127 Street NorthWest" }],
+        "city": "Edmonton, AB T5L 1A3"
+      }
+    ],
+    "phone": "(587) 591-1313",
+    "location": { "type": "Point", "coordinates": [-113.540565, 53.581185] }
+  },
+  {
+    "name": "Punjab Sweets & Restaurant",
+    "category": "Buffets",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:30 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:30 pm" },
+      { "days": "Sun", "time": "10:00 am - 9:30 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Khalid L." },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9393 34 Avenue" }],
+        "city": "Edmonton, AB T6E 5W8"
+      }
+    ],
+    "url": "http://punjabsweetsedmonton.com",
+    "phone": "(780) 434-7373",
+    "location": { "type": "Point", "coordinates": [-113.476991, 53.465961] }
+  },
+  {
+    "name": "Tandoori Junction",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:30 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" },
+      { "days": "Karan T." },
+      { "days": "Chili Hot Pot" },
+      { "days": "Panda Express - Temporarily Closed" },
+      { "days": "10% off First Order when you check-in" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4271 - 23rd Avenue NW" }],
+        "city": "Edmonton, AB T6L 4M6"
+      }
+    ],
+    "url": "http://tandoorijunction.ca",
+    "phone": "(780) 461-9981",
+    "location": { "type": "Point", "coordinates": [-113.408441, 53.454858] }
+  },
+  {
+    "name": "Ayesha’s Kitchen",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2807 116 Street NW" }],
+        "city": "Edmonton, AB T6J 4R6"
+      }
+    ],
+    "url": "http://ayeshaskitchen.ca",
+    "phone": "(780) 761-3219",
+    "location": { "type": "Point", "coordinates": [-113.531538, 53.460498] }
+  },
+  {
+    "name": "Chutney",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 9:30 pm" },
+      { "days": "Sat", "time": "10:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:30 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Panda Express" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6104 172 Street NW", "unit": "Unit 128" }],
+        "city": "Edmonton, AB T6M 1G9"
+      }
+    ],
+    "url": "http://chutney.restaurant",
+    "phone": "(780) 481-1060",
+    "location": { "type": "Point", "coordinates": [-113.622093, 53.496498] }
+  },
+  {
+    "name": "Persia Palace",
+    "category": "Persian/Iranian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Paramount Fine Foods" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9340 34 Avenue NW" }],
+        "city": "Edmonton, AB T6E 5X8"
+      }
+    ],
+    "url": "http://persiapalace.ca",
+    "phone": "(780) 469-8844",
+    "location": { "type": "Point", "coordinates": [-113.475916, 53.467109] }
+  },
+  {
+    "name": "JayBees Diner",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "7:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "7:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "7:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "7:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "7:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "7:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "7:30 am - 10:00 pm" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12707 140 Avenue NW" }],
+        "city": "Edmonton, AB T6V 1G5"
+      }
+    ],
+    "url": "http://jaybeesdiner.com",
+    "phone": "(780) 456-1128",
+    "location": { "type": "Point", "coordinates": [-113.542017, 53.60193] }
+  },
+  {
+    "name": "La Shish Taouk",
+    "category": "Falafel",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 3:00 am" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Omar N." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10106 118 Street NW" }],
+        "city": "Edmonton, AB T5G 0P5"
+      }
+    ],
+    "url": "http://lashishshawarma.ca",
+    "phone": "(780) 452-1333",
+    "location": { "type": "Point", "coordinates": [-113.525072, 53.541062] }
+  },
+  {
+    "name": "Afghan Chopan Kebab",
+    "category": "Afghan",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Paramount Fine Foods" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10756 - 101 Street" }],
+        "city": "Edmonton, AB T5H 0V4"
+      }
+    ],
+    "url": "http://afghanchopankebab.com",
+    "phone": "(780) 757-1777",
+    "location": { "type": "Point", "coordinates": [-113.494049, 53.552667] }
+  },
+  {
+    "name": "Royal India Express",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Panda Express" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7626 144 Ave Nw" }],
+        "city": "Edmonton, AB T5C 2R7"
+      }
+    ],
+    "url": "http://royal-india.ca",
+    "phone": "(780) 249-6666",
+    "location": { "type": "Point", "coordinates": [-113.458901, 53.607487] }
+  },
+  {
+    "name": "Yeg Burger",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "12:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 am - 8:00 pm" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15131 121 Street NW" }],
+        "city": "Edmonton, AB T5X 3C8"
+      }
+    ],
+    "url": "http://yegburger.ca",
+    "phone": "(587) 459-2874",
+    "location": { "type": "Point", "coordinates": [-113.529668, 53.613341] }
+  },
+  {
+    "name": "PitaBake",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15180 127 Street" }],
+        "city": "Edmonton, AB T6V 0C5"
+      }
+    ],
+    "url": "http://pitabake.com",
+    "phone": "(780) 475-5447",
+    "location": { "type": "Point", "coordinates": [-113.542292, 53.615163] }
+  },
+  {
+    "name": "Sunbake Pita Bakery",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "6:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "6:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "6:00 am - 7:00 pm" },
+      { "days": "Pizza Firm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10728 134 Ave NW" }],
+        "city": "Edmonton, AB T5E 1J8"
+      }
+    ],
+    "phone": "(780) 472-8405",
+    "location": { "type": "Point", "coordinates": [-113.506306, 53.595296] }
+  },
+  {
+    "name": "Mazaj Mediterranean Bar & Grill",
+    "category": "Venues & Event Spaces",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "2:00 pm - 2:00 am" },
+      { "days": "Sun", "time": "2:00 pm - 12:00 am" },
+      { "days": "Cravings Gelato" },
+      { "days": "Knights Pub & Grill" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "224 Mayfield Common Northwest" }],
+        "city": "Edmonton, AB T5P 4B3"
+      }
+    ],
+    "url": "http://mazajedmonton.com",
+    "phone": "(780) 758-3611",
+    "location": { "type": "Point", "coordinates": [-113.610776, 53.541999] }
+  },
+  {
+    "name": "Donair Station",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Ahmad H." },
+      { "days": "CA$20 for 2 can dine 2 Reg donair combos" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "17234 95 Avenue NW" }],
+        "city": "Edmonton, AB T5T 6P1"
+      }
+    ],
+    "url": "http://donairstation.com",
+    "phone": "(780) 489-5464",
+    "location": { "type": "Point", "coordinates": [-113.619884, 53.53176] }
+  },
+  {
+    "name": "Buok Fresh Korean Kitchen",
+    "category": "Korean",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Cupbap" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10707 100 Avenue NW" }],
+        "city": "Edmonton, AB T5J 3M1"
+      }
+    ],
+    "url": "http://buokfresh.ca",
+    "phone": "(780) 244-2865",
+    "location": { "type": "Point", "coordinates": [-113.505151, 53.538573] }
+  },
+  {
+    "name": "Pizza City Donair & Broast",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5572 Windermere Boulevard SW" }],
+        "city": "Edmonton, AB T6W 0L9"
+      }
+    ],
+    "phone": "(780) 437-9800",
+    "location": { "type": "Point", "coordinates": [-113.620152, 53.439646] }
+  },
+  {
+    "name": "Noodlebox",
+    "category": "Noodles",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 8:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Panda Express" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "222 Baseline Road" }],
+        "city": "Sherwood Park, AB T8H 1S8"
+      }
+    ],
+    "url": "http://noodlebox.ca",
+    "phone": "(780) 449-9489",
+    "location": { "type": "Point", "coordinates": [-113.316634, 53.542166] }
+  },
+  {
+    "name": "La Boule",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "9:00 am - 4:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 4:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 4:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 4:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8020 101 Street NW" }],
+        "city": "Edmonton, AB T6E 6W3"
+      }
+    ],
+    "url": "http://laboulebakery.ca",
+    "phone": "(780) 760-2253",
+    "location": { "type": "Point", "coordinates": [-113.491392, 53.516731] }
+  },
+  {
+    "name": "Pizza Unlimited & Fried Chicken",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "10:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "10:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "10:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "10:30 am - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3911 106 Street" }],
+        "city": "Edmonton, AB T6J 2S3"
+      }
+    ],
+    "url": "http://pizzaunlimited.ca",
+    "phone": "(780) 757-7777",
+    "location": { "type": "Point", "coordinates": [-113.504731, 53.47434] }
+  },
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12922 167 Ave NW" }],
+        "city": "Edmonton, AB T6V 1J6"
+      }
+    ],
+    "url": "http://paramountfinefoodsalberta.com",
+    "phone": "(587) 200-1528",
+    "location": { "type": "Point", "coordinates": [-113.546851, 53.629418] }
+  },
+  {
+    "name": "Pizza Firm",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "1 free can of pop with order!" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6550 170 Avenue NW" }],
+        "city": "Edmonton, AB T5E 5S7"
+      }
+    ],
+    "url": "http://pizzafirm.ca",
+    "phone": "(780) 705-6000",
+    "location": { "type": "Point", "coordinates": [-113.44115, 53.633374] }
+  },
+  {
+    "name": "Home Style Donair & Subs",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:30 pm" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3424 43 Avenue NW" }],
+        "city": "Edmonton, AB T6L 5W9"
+      }
+    ],
+    "url": "http://homestyledonair.com",
+    "phone": "(780) 465-7699",
+    "location": { "type": "Point", "coordinates": [-113.394469, 53.481024] }
+  },
+  {
+    "name": "Aladdin Donair & Kabab",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3536 137 Avenue NW" }],
+        "city": "Edmonton, AB T5Y 1Y7"
+      }
+    ],
+    "url": "http://aladdin-donair-and-kabab.busin…",
+    "phone": "(780) 478-7733",
+    "location": { "type": "Point", "coordinates": [-113.396037, 53.600115] }
+  },
+  {
+    "name": "Global Buffet and Grill",
+    "category": "Fish & Chips",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [
+          { "name": "11845 Wayne gretzkey drive southbound NW Edmonton AB" }
+        ],
+        "city": "Edmonton, AB T5B 4R4"
+      }
+    ],
+    "phone": "(780) 777-2429",
+    "location": { "type": "Point", "coordinates": [-113.453252, 53.571691] }
+  },
+  {
+    "name": "Bliss Baked Goods",
+    "category": "Custom Cakes",
+    "hours": [
+      { "days": "Mon", "time": "7:30 am - 6:30 pm" },
+      { "days": "Tue", "time": "7:30 am - 6:30 pm" },
+      { "days": "Wed", "time": "7:30 am - 6:30 pm" },
+      { "days": "Thu", "time": "7:30 am - 6:30 pm" },
+      { "days": "Fri", "time": "7:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "11:00 am - 5:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10710-142 Street" }],
+        "city": "Edmonton, AB T5N 2P7"
+      }
+    ],
+    "url": "http://blissbakedgoods.ca",
+    "phone": "(780) 453-0101",
+    "location": { "type": "Point", "coordinates": [-113.567466, 53.551573] }
+  },
+  {
+    "name": "Chettinad Aachy’s",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "11:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:30 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15525 Stony Plain Road" }],
+        "city": "Edmonton, AB T5P 3Z1"
+      }
+    ],
+    "url": "http://aachysedmonton.com",
+    "phone": "(780) 760-4200",
+    "location": { "type": "Point", "coordinates": [-113.589094, 53.540992] }
+  },
+  {
+    "name": "Laziza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 1:00 am" },
+      { "days": "Tue", "time": "9:00 am - 1:00 am" },
+      { "days": "Wed", "time": "9:00 am - 1:00 am" },
+      { "days": "Thu", "time": "9:00 am - 1:00 am" },
+      { "days": "Fri", "time": "9:00 am - 1:00 am" },
+      { "days": "Sat", "time": "9:00 am - 1:00 am" },
+      { "days": "Sun", "time": "9:00 am - 1:00 am" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "154-15277 Castle Downs Road NW" }],
+        "city": "Edmonton, AB T5X 3N5"
+      }
+    ],
+    "phone": "(780) 757-8787",
+    "location": { "type": "Point", "coordinates": [-113.515375, 53.613639] }
+  },
+  {
+    "name": "Top Donair",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 2:00 am" },
+      { "days": "Sat", "time": "10:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" },
+      { "days": "Habob A." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8210 144 Avenue NW" }],
+        "city": "Edmonton, AB T5E 2H4"
+      }
+    ],
+    "url": "http://top-donair.ca",
+    "phone": "(780) 476-1818",
+    "location": { "type": "Point", "coordinates": [-113.468227, 53.607231] }
+  },
+  {
+    "name": "LUX Steakhouse and Bar",
+    "category": "Canadian (New)",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 1:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Pizza Firm" },
+      { "days": "Knights Pub & Grill" }
+    ],
+    "address": [
+      { "street": [{ "name": "Commerce Pl" }], "city": "Edmonton, AB T5J 1W5" }
+    ],
+    "url": "http://centuryhospitality.com/lux",
+    "phone": "(780) 424-0400",
+    "location": { "type": "Point", "coordinates": [-113.493986, 53.541676] }
+  },
+  {
+    "name": "Queen Donair",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 4:00 am" },
+      { "days": "Tue", "time": "11:00 am - 4:00 am" },
+      { "days": "Wed", "time": "11:00 am - 4:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 4:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 4:00 am" },
+      { "days": "Sat", "time": "11:00 am - 4:00 am" },
+      { "days": "Sun", "time": "11:00 am - 4:00 am" },
+      { "days": "Nai Nai Mie" },
+      { "days": "Pizza Firm" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10752 Jasper Avenue NW" }],
+        "city": "Edmonton, AB T5J 2A7"
+      }
+    ],
+    "url": "http://queendonairs.com",
+    "phone": "(780) 424-3129",
+    "location": { "type": "Point", "coordinates": [-113.506222, 53.541109] }
+  },
+  {
+    "name": "Checkers Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 1:00 am" },
+      { "days": "Tue", "time": "11:00 am - 1:00 am" },
+      { "days": "Wed", "time": "11:00 am - 1:00 am" },
+      { "days": "Thu", "time": "11:00 am - 1:00 am" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10658 82 Avenue NW" }],
+        "city": "Edmonton, AB T6E 2A7"
+      }
+    ],
+    "url": "http://checkerspizzakabab.com",
+    "phone": "(780) 989-3365",
+    "location": { "type": "Point", "coordinates": [-113.505617, 53.518482] }
+  },
+  {
+    "name": "Second Wife Kitchen",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Panda Express" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "16518 59A Street NW" }],
+        "city": "Edmonton, AB T6X 0M5"
+      }
+    ],
+    "url": "http://secondwifekitchen.ca",
+    "phone": "(780) 250-8786",
+    "location": { "type": "Point", "coordinates": [-113.43129, 53.62773] }
+  },
+  {
+    "name": "High Voltage Food & Coffee Bar",
+    "category": "Coffee & Tea",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 5:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Paramount Fine Foods" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10387 63 Ave NW" }],
+        "city": "Edmonton, AB T6H 1P2"
+      }
+    ],
+    "phone": "(780) 437-3202",
+    "location": { "type": "Point", "coordinates": [-113.497199, 53.499627] }
+  },
+  {
+    "name": "Spot On Donair and Kebab",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9516 Ellerslie Rd SW" }],
+        "city": "Edmonton, AB T6X 0K6"
+      }
+    ],
+    "phone": "(780) 465-4625",
+    "location": { "type": "Point", "coordinates": [-113.478853, 53.425012] }
+  },
+  {
+    "name": "Mary Brown’s Famous Chicken & Taters",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Panda Express" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "358 Mayfield Common NW" }],
+        "city": "Edmonton, AB T5P 4B3"
+      }
+    ],
+    "url": "http://marybrowns.com",
+    "phone": "(780) 489-7667",
+    "location": { "type": "Point", "coordinates": [-113.612381, 53.545389] }
+  },
+  {
+    "name": "Amean Pizza Donair & Sub",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "10:00 am - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Nai Nai Mie" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3450 99 Street NW" }],
+        "city": "Edmonton, AB T6E 5X5"
+      }
+    ],
+    "phone": "(780) 489-3499",
+    "location": { "type": "Point", "coordinates": [-113.487572, 53.468602] }
+  },
+  {
+    "name": "Elsafadi Brothers Super Market",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 9:00 pm" },
+      { "days": "Nai Nai Mie" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11316 134 Avenue NW" }],
+        "city": "Edmonton, AB T5E 1K5"
+      }
+    ],
+    "url": "http://elsafadi.com",
+    "phone": "(780) 475-4909",
+    "location": { "type": "Point", "coordinates": [-113.516167, 53.595263] }
+  },
+  {
+    "name": "Elsafadi Supermarket",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10807 Castle Downs Road NW" }],
+        "city": "Edmonton, AB T5X 3N7"
+      }
+    ],
+    "url": "http://elsafadi.com",
+    "phone": "(780) 406-3617",
+    "location": { "type": "Point", "coordinates": [-113.507777, 53.627702] }
+  },
+  {
+    "name": "Lucky Supermarket",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13851 127 Street NW" }],
+        "city": "Edmonton, AB T5L 4Y5"
+      }
+    ],
+    "url": "http://luckysupermarket.ca",
+    "phone": "(780) 476-2225",
+    "location": { "type": "Point", "coordinates": [-113.538915, 53.601665] }
+  },
+  {
+    "name": "South Point Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Jagjit K." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "805 Tamarack Way NW" }],
+        "city": "Edmonton, AB T6T 1H9"
+      }
+    ],
+    "url": "http://southpointpizza.ca",
+    "phone": "(780) 244-1444",
+    "location": { "type": "Point", "coordinates": [-113.365128, 53.479328] }
+  },
+  {
+    "name": "Mary Brown’s Famous Chicken & Taters",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Panda Express" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15303 Castle Downs Road NW", "unit": "Unit 30" }],
+        "city": "Edmonton, AB T5E 0Y5"
+      }
+    ],
+    "url": "http://marybrowns.com",
+    "phone": "(780) 472-2907",
+    "location": { "type": "Point", "coordinates": [-113.515681, 53.615501] }
+  },
+  {
+    "name": "Remedy Cafe",
+    "category": "Cafes",
+    "hours": [
+      { "days": "Mon", "time": "7:30 am - 12:00 am" },
+      { "days": "Tue", "time": "7:30 am - 12:00 am" },
+      { "days": "Wed", "time": "7:30 am - 12:00 am" },
+      { "days": "Thu", "time": "7:30 am - 12:00 am" },
+      { "days": "Fri", "time": "7:30 am - 12:00 am" },
+      { "days": "Sat", "time": "8:00 am - 12:00 am" },
+      { "days": "Sun", "time": "8:00 am - 12:00 am" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1707 Towne Centre Blvd NW" }],
+        "city": "Edmonton, AB T6R"
+      }
+    ],
+    "phone": "(780) 988-4010",
+    "location": { "type": "Point", "coordinates": [-113.577646, 53.444845] }
+  },
+  {
+    "name": "Macarons & Goodies",
+    "category": "Chocolatiers & Shops",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10548 - 101 Street NW" }],
+        "city": "Edmonton, AB T5H 2R8"
+      }
+    ],
+    "url": "http://macaronsgoodies.com",
+    "phone": "(587) 473-6400",
+    "location": { "type": "Point", "coordinates": [-113.493895, 53.548716] }
+  },
+  {
+    "name": "OJ’s Halal Meat and Deli",
+    "category": "Butcher",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "100-10807 Castle Downs Road NW" }],
+        "city": "Edmonton, AB T5X 3N7"
+      }
+    ],
+    "url": "http://ojshalalmeat.com",
+    "phone": "(780) 478-7895",
+    "location": { "type": "Point", "coordinates": [-113.49845, 53.628787] }
+  },
+  {
+    "name": "Monas Pizza& Donair",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Pizza Firm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Chili Hot Pot" }
+    ],
+    "address": [
+      { "street": [{ "name": "10706-134 Avenue" }], "city": "Edmonton, AB T5E" }
+    ],
+    "phone": "(780) 473-1555",
+    "location": { "type": "Point", "coordinates": [-113.505345, 53.595008] }
+  },
+  {
+    "name": "BABA Halal Grocery & Bakery",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9848 63 Avenue NW" }],
+        "city": "Edmonton, AB T6E 0G6"
+      }
+    ],
+    "phone": "(780) 430-1938",
+    "location": { "type": "Point", "coordinates": [-113.485079, 53.500181] }
+  },
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12922 167 Ave NW" }],
+        "city": "Edmonton, AB T6V 1J6"
+      }
+    ],
+    "url": "http://paramountfinefoodsalberta.com",
+    "phone": "(587) 200-1528",
+    "location": { "type": "Point", "coordinates": [-113.546851, 53.629418] }
+  },
+  {
+    "name": "Pizza Firm",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "1 free can of pop with order!" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6550 170 Avenue NW" }],
+        "city": "Edmonton, AB T5E 5S7"
+      }
+    ],
+    "url": "http://pizzafirm.ca",
+    "phone": "(780) 705-6000",
+    "location": { "type": "Point", "coordinates": [-113.44115, 53.633374] }
+  },
+  {
+    "name": "Passion de France",
+    "category": "Desserts",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 4:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11812 86 Street NW" }],
+        "city": "Edmonton, AB T5B 3K1"
+      }
+    ],
+    "url": "http://passiondefrance.ca",
+    "phone": "(780) 257-2092",
+    "location": { "type": "Point", "coordinates": [-113.472661, 53.570732] }
+  },
+  {
+    "name": "Baraka Foods",
+    "category": "Caterers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 5:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 5:00 pm" },
+      { "days": "Cravings Gelato" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9228 144 Avenue NW" }],
+        "city": "Edmonton, AB T5E 6A3"
+      }
+    ],
+    "url": "http://barakafoods.ca",
+    "phone": "(780) 666-4265",
+    "location": { "type": "Point", "coordinates": [-113.48377, 53.606882] }
+  },
+  {
+    "name": "Boston Pizza",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "11:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9804 22 Avenue NW" }],
+        "city": "Edmonton, AB T6N 1J7"
+      }
+    ],
+    "url": "http://bostonpizza.com/en",
+    "phone": "(780) 463-9086",
+    "location": { "type": "Point", "coordinates": [-113.484149, 53.453056] }
+  },
+  {
+    "name": "The Kitchen Buffet & Bistro",
+    "category": "Cafes",
+    "hours": [
+      { "days": "Mon", "time": "Open 24 hours" },
+      { "days": "Tue", "time": "Open 24 hours" },
+      { "days": "Wed", "time": "Open 24 hours" },
+      { "days": "Thu", "time": "Open 24 hours" },
+      { "days": "Fri", "time": "Open 24 hours" },
+      { "days": "Sat", "time": "Open 24 hours" },
+      { "days": "Sun", "time": "Open 24 hours" },
+      { "days": "Pizza Firm" },
+      { "days": "Chili Hot Pot" },
+      { "days": "Panda Express" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "River Cree Resort & Casino" }],
+        "city": "Enoch, AB T7X 3Y3"
+      }
+    ],
+    "url": "http://marriott.com/hotels/hotel-info…",
+    "phone": "(780) 484-2121",
+    "location": { "type": "Point", "coordinates": [-113.697249, 53.51007] }
+  },
+  {
+    "name": "Quick Donair",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 6:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 6:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7619 Argyll Road NW" }],
+        "city": "Edmonton, AB T6C 4A7"
+      }
+    ],
+    "phone": "(780) 466-1672",
+    "location": { "type": "Point", "coordinates": [-113.443993, 53.506573] }
+  },
+  {
+    "name": "Jimmy’s Place Pizza & Donair",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 4:00 am" },
+      { "days": "Tue", "time": "4:00 pm - 4:00 am" },
+      { "days": "Wed", "time": "4:00 pm - 4:00 am" },
+      { "days": "Thu", "time": "4:00 pm - 4:00 am" },
+      { "days": "Fri", "time": "4:00 pm - 4:00 am" },
+      { "days": "Sat", "time": "4:00 pm - 4:00 am" },
+      { "days": "Sun", "time": "4:00 pm - 4:00 am" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" },
+      { "days": "Cupbap" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11718 82 St NW" }],
+        "city": "Edmonton, AB T5B 2W1"
+      }
+    ],
+    "url": "http://jimmysplacepizza.ca",
+    "phone": "(780) 752-0011",
+    "location": { "type": "Point", "coordinates": [-113.467549, 53.569385] }
+  },
+  {
+    "name": "Edmonton halal meat",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3480 93 Street NW" }],
+        "city": "Edmonton, AB T6E 6A4"
+      }
+    ],
+    "phone": "(780) 439-4362",
+    "location": { "type": "Point", "coordinates": [-113.474113, 53.467809] }
+  },
+  {
+    "name": "Pizza & Donair",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 9:00 pm" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8882 170 St NW" }],
+        "city": "Edmonton, AB T5T 4M2"
+      }
+    ],
+    "url": "http://wem.ca/directory/stores/pizza-…",
+    "phone": "(780) 489-9878",
+    "location": { "type": "Point", "coordinates": [-113.621871, 53.52244] }
+  },
+  {
+    "name": "Acheson Pizza & Donair",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 5:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Paramount Fine Foods" },
+      { "days": "Nai Nai Mie" },
+      { "days": "Pizza Firm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "100-11386 255 Street" }],
+        "city": "Acheson, AB T7X 6C9"
+      }
+    ],
+    "url": "http://acheson-pizza-donair.business.…",
+    "phone": "(587) 461-9668",
+    "location": { "type": "Point", "coordinates": [-113.751201, 53.562706] }
+  }
+]

@@ -53,13 +53,7 @@
       { "days": "Thu", "time": "11:00 am - 2:00 am" },
       { "days": "Fri", "time": "11:00 am - 2:00 am" },
       { "days": "Sat", "time": "11:00 am - 2:00 am" },
-      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
-      { "days": "St. Louis Bar & Grill" },
-      { "days": "Cumin Kitchen - Fine Indian Cuisine" },
-      { "days": "Panago Pizza" },
-      { "days": "Zaad" },
-      { "days": "Fishman Lobster Clubhouse Restaurant" },
-      { "days": "Trattoria Leonardo" }
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" }
     ],
     "address": [
       {
@@ -79,13 +73,7 @@
       { "days": "Thu", "time": "1:00 pm - 10:00 pm" },
       { "days": "Fri", "time": "1:00 pm - 12:00 am" },
       { "days": "Sat", "time": "1:00 pm - 12:00 am" },
-      { "days": "Sun", "time": "1:00 pm - 10:00 pm" },
-      { "days": "Panago Pizza" },
-      { "days": "Cumin Kitchen - Fine Indian Cuisine" },
-      { "days": "Zaad" },
-      { "days": "St. Louis Bar & Grill" },
-      { "days": "Shish Kabab Express" },
-      { "days": "Falafel Plus" }
+      { "days": "Sun", "time": "1:00 pm - 10:00 pm" }
     ],
     "address": [
       {
@@ -107,14 +95,7 @@
       { "days": "Thu", "time": "2:30 pm - 9:30 pm" },
       { "days": "Fri", "time": "2:30 pm - 9:30 pm" },
       { "days": "Sat", "time": "2:30 pm - 9:30 pm" },
-      { "days": "Sun", "time": "2:30 pm - 9:30 pm" },
-      { "days": "GB Hand-pulled Noodles" },
-      { "days": "Kaka All You Can Eat" },
-      { "days": "Jeff and Nuit R." },
-      { "days": "Cumin Kitchen - Fine Indian Cuisine" },
-      { "days": "Fishman Lobster Clubhouse Restaurant" },
-      { "days": "Yuzu No Hana" },
-      { "days": "Pho Linh" }
+      { "days": "Sun", "time": "2:30 pm - 9:30 pm" }
     ],
     "address": [
       {
@@ -136,13 +117,7 @@
       { "days": "Thu", "time": "11:00 am - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
       { "days": "Sat", "time": "11:00 am - 6:00 pm" },
-      { "days": "Sun", "time": "Closed" },
-      { "days": "Bar Sybanne" },
-      { "days": "Falafel Plus" },
-      { "days": "CopaCabana Brazilian Steakhouse" },
-      { "days": "Casa Fuego" },
-      { "days": "Zaad" },
-      { "days": "Cumin Kitchen - Fine Indian Cuisine" }
+      { "days": "Sun", "time": "Closed" }
     ],
     "address": [
       {

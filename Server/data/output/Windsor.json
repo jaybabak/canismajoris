@@ -1,0 +1,3735 @@
+[
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "Just Chicken",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "1:00 pm - 8:00 pm" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "Ali K." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "425 Tecumseh Road W" }],
+        "city": "Windsor, ON N8X 1G6"
+      }
+    ],
+    "phone": "(519) 973-0077",
+    "location": { "type": "Point", "coordinates": [-83.029938, 42.295267] }
+  },
+  {
+    "name": "Eddy’s Mediterranean Bistro",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "Eddy H." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "420 Tecumseh Road E" }],
+        "city": "Windsor, ON N8X 2R6"
+      }
+    ],
+    "url": "http://eddysbistro.ca",
+    "phone": "(519) 254-5656",
+    "location": { "type": "Point", "coordinates": [-83.018874, 42.297801] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "House of Pad Thai",
+    "category": "Laotian",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "903 Wyandotte E" }],
+        "city": "Windsor, ON N9A 3K1"
+      }
+    ],
+    "url": "http://HouseofPadThai.ca",
+    "phone": "(519) 252-8424",
+    "location": { "type": "Point", "coordinates": [-83.023627, 42.318622] }
+  },
+  {
+    "name": "Biryani Palace & Grill",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "Shahed K." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1367 Grand Marais West" }],
+        "city": "Windsor, ON N9E 1E2"
+      }
+    ],
+    "url": "http://biryanipalace1367.com",
+    "phone": "(519) 250-0003",
+    "location": { "type": "Point", "coordinates": [-83.026489, 42.267052] }
+  },
+  {
+    "name": "Jubba Restaurant",
+    "category": "African",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2000 W Wyandotte Street" }],
+        "city": "Windsor, ON N9B 1J7"
+      }
+    ],
+    "phone": "(519) 253-6215",
+    "location": { "type": "Point", "coordinates": [-83.059335, 42.306435] }
+  },
+  {
+    "name": "Bubi’s Awesome Eats",
+    "category": "Salad",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:30 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "MAZAAR - Downtown" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "620 University Avenue W" }],
+        "city": "Windsor, ON N9A 5R5"
+      }
+    ],
+    "url": "http://bubis.org",
+    "phone": "(519) 252-2001",
+    "location": { "type": "Point", "coordinates": [-83.046421, 42.315928] }
+  },
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "Sumayah S." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3184 Dougall Avenue", "unit": "Unit A5" }],
+        "city": "Windsor, ON N9E 1S6"
+      }
+    ],
+    "url": "http://paramountfinefoods.com",
+    "phone": "(519) 915-9020",
+    "location": { "type": "Point", "coordinates": [-83.009965, 42.269414] }
+  },
+  {
+    "name": "2941 Street Food",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 7:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 7:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 7:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 7:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 7:30 pm" },
+      { "days": "Sat", "time": "11:30 am - 7:30 pm" },
+      { "days": "Sun", "time": "11:30 am - 7:30 pm" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "La Shish" },
+      { "days": "Jacques Van Staden F." },
+      { "days": "Jet’s Pizza" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4219 Woodward Ave" }],
+        "city": "Detroit, MI 48201"
+      }
+    ],
+    "url": "http://2941streetfood.com",
+    "phone": "(313) 338-3466",
+    "location": { "type": "Point", "coordinates": [-83.061398, 42.351754] }
+  },
+  {
+    "name": "Yemen Cafe",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "7:30 am - 1:00 am" },
+      { "days": "Tue", "time": "7:30 am - 1:00 am" },
+      { "days": "Wed", "time": "7:30 am - 1:00 am" },
+      { "days": "Thu", "time": "7:30 am - 1:00 am" },
+      { "days": "Fri", "time": "7:30 am - 1:00 am" },
+      { "days": "Sat", "time": "7:30 am - 1:00 am" },
+      { "days": "Sun", "time": "7:30 am - 1:00 am" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "La Shish" },
+      { "days": "Pattternz" },
+      { "days": "Hello Shawarma" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8740 Joseph Campau St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 871-4349",
+    "location": { "type": "Point", "coordinates": [-83.053292, 42.390184] }
+  },
+  {
+    "name": "Saffron De Twah",
+    "category": "Moroccan",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 3:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7636 Gratiot Ave" }],
+        "city": "Detroit, MI 48213"
+      }
+    ],
+    "url": "http://saffrondetwah.com",
+    "phone": "(586) 359-6138",
+    "location": { "type": "Point", "coordinates": [-83.015984, 42.376283] }
+  },
+  {
+    "name": "Boostan Cafe",
+    "category": "Juice Bars & Smoothies",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "10:00 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "Royal Roasts" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Farhan M." },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Coney King Coney Island" },
+      { "days": "1 free Mango Juice" },
+      { "days": "Jet’s Pizza" },
+      { "days": "La Shish" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3470 Holbrook Ave" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://boostancafe.com",
+    "phone": "(313) 456-8100",
+    "location": { "type": "Point", "coordinates": [-83.048977, 42.396064] }
+  },
+  {
+    "name": "Sheeba Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 11:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "La Shish" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Hello Shawarma" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13919 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://sheebarestaurant.com",
+    "phone": "(313) 724-6887",
+    "location": { "type": "Point", "coordinates": [-83.179512, 42.320932] }
+  },
+  {
+    "name": "Halal Desi Pizza & Gyro’s",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Hello Shawarma" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2200 Caniff St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 365-0111",
+    "location": { "type": "Point", "coordinates": [-83.065502, 42.397411] }
+  },
+  {
+    "name": "Balkan House",
+    "category": "Creperies",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "Pattternz" },
+      { "days": "Las Cazuelas" },
+      { "days": "Duma E." },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Zo’s Good Burger" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3028 Caniff St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://thebalkanhouse.com",
+    "phone": "(313) 262-6234",
+    "location": { "type": "Point", "coordinates": [-83.058224, 42.400183] }
+  },
+  {
+    "name": "Detroit Masala",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "3:00 pm - 9:00 pm" },
+      { "days": "Joe U." }
+    ],
+    "address": [
+      { "street": [{ "name": "4154 3rd Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://detroitmasala.com",
+    "phone": "(313) 656-4681",
+    "location": { "type": "Point", "coordinates": [-83.06773, 42.348919] }
+  },
+  {
+    "name": "A1 Dogs&burgers",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "5:00 pm - 12:00 am" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Sal S." },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "HOT DOGS YO WAY" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Coney King Coney Island" }
+    ],
+    "address": [
+      { "street": [{ "name": "15430 W Warren" }], "city": "Dearborn, MI 48228" }
+    ],
+    "url": "http://a1dogsandburgers.com",
+    "phone": "(313) 888-1515",
+    "location": { "type": "Point", "coordinates": [-83.195598, 42.344031] }
+  },
+  {
+    "name": "Grub Inn Pizza & Grill",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Zo’s Good Burger" }
+    ],
+    "address": [
+      { "street": [{ "name": "10406 Eagle St" }], "city": "Dearborn, MI 48120" }
+    ],
+    "phone": "(313) 914-7195",
+    "location": { "type": "Point", "coordinates": [-83.152358, 42.312283] }
+  },
+  {
+    "name": "Al Chabab Restaurant",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Alloush Grill" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Xushi Ko" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12930 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 582-2927",
+    "location": { "type": "Point", "coordinates": [-83.170433, 42.344193] }
+  },
+  {
+    "name": "AKtakeaway",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 4:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 4:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 4:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 4:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Denny’s" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "La Shish" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "150 W Jefferson Ave" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "phone": "(313) 771-3030",
+    "location": { "type": "Point", "coordinates": [-83.046154, 42.328834] }
+  },
+  {
+    "name": "Ronnie Berrys Halal Meats",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "9:00 am - 5:30 pm" },
+      { "days": "Wed", "time": "9:00 am - 5:30 pm" },
+      { "days": "Thu", "time": "9:00 am - 5:30 pm" },
+      { "days": "Fri", "time": "9:00 am - 5:30 pm" },
+      { "days": "Sat", "time": "9:00 am - 4:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Ruhlig Farm & Gardens" },
+      { "days": "Village Market" },
+      { "days": "Ronnie B." },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "HOT DOGS YO WAY" }
+    ],
+    "address": [
+      { "street": [{ "name": "10163 Dix" }], "city": "Dearborn, MI 48120" }
+    ],
+    "phone": "(313) 842-2710",
+    "location": { "type": "Point", "coordinates": [-83.145175, 42.303331] }
+  },
+  {
+    "name": "Al Haramain International Foods",
+    "category": "Delis",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 12:00 am" },
+      { "days": "Tue", "time": "7:00 am - 12:00 am" },
+      { "days": "Wed", "time": "7:00 am - 12:00 am" },
+      { "days": "Thu", "time": "7:00 am - 12:00 am" },
+      { "days": "Fri", "time": "7:00 am - 12:00 am" },
+      { "days": "Sat", "time": "7:00 am - 12:00 am" },
+      { "days": "Sun", "time": "7:00 am - 12:00 am" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Village Market" },
+      { "days": "Big Apple Bagels" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Fairway Sav-Mor Drugs" },
+      { "days": "Penn Station East Coast Subs" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9028 Joseph Campau Ave" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 875-8920",
+    "location": { "type": "Point", "coordinates": [-83.056096, 42.391782] }
+  },
+  {
+    "name": "Pizza Plus Curry House",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "10:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "10:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "10:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "10:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "4:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:30 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "A B." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4691 Wyandotte Steet E" }],
+        "city": "Windsor, ON N8Y 1H6"
+      }
+    ],
+    "phone": "(519) 948-3333",
+    "location": { "type": "Point", "coordinates": [-82.980237, 42.32618] }
+  },
+  {
+    "name": "The Jamaican Pot",
+    "category": "Soul Food",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14615 W 8 Mile Rd" }],
+        "city": "Detroit, MI 48235"
+      }
+    ],
+    "url": "http://thejamaicanpot.com",
+    "phone": "(313) 659-6033",
+    "location": { "type": "Point", "coordinates": [-83.191191, 42.444848] }
+  },
+  {
+    "name": "Royale with Cheese",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      { "street": [{ "name": "4163 Cass Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://royaledetroit.com",
+    "phone": "(313) 315-3014",
+    "location": { "type": "Point", "coordinates": [-83.063412, 42.350338] }
+  },
+  {
+    "name": "Zo’s Good Burger - Dearborn",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 10:45 pm" },
+      { "days": "Tue", "time": "10:30 am - 10:45 pm" },
+      { "days": "Wed", "time": "10:30 am - 10:45 pm" },
+      { "days": "Thu", "time": "10:30 am - 10:45 pm" },
+      { "days": "Fri", "time": "10:30 am - 11:45 pm" },
+      { "days": "Sat", "time": "10:30 am - 11:45 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:45 pm" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Las Cazuelas" },
+      { "days": "Zo’s Good Burger" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14311 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://zosgoodburger.com",
+    "phone": "(313) 584-3114",
+    "location": { "type": "Point", "coordinates": [-83.181535, 42.320396] }
+  },
+  {
+    "name": "Burger Factory",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3873 Walker Road" }],
+        "city": "Windsor, ON N8W 3T1"
+      }
+    ],
+    "url": "http://myburgerfactory.com",
+    "phone": "(519) 966-9339",
+    "location": { "type": "Point", "coordinates": [-82.971746, 42.266113] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "New York Deli",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "16010 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 908-1560",
+    "location": { "type": "Point", "coordinates": [-83.200167, 42.315237] }
+  },
+  {
+    "name": "Amar Pizza",
+    "category": "Bangladeshi",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Khurshed A." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12195 Joseph Campau" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://amarpizza.com",
+    "phone": "(313) 366-0980",
+    "location": { "type": "Point", "coordinates": [-83.064488, 42.406122] }
+  },
+  {
+    "name": "CHARMINAR BIRYANI HOUSE",
+    "category": "Bangladeshi",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Raj C." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3337 Greenfield Rd" }],
+        "city": "Dearborn, MI 48120"
+      }
+    ],
+    "url": "http://charminarbiryanihouse.com",
+    "phone": "(313) 982-7466",
+    "location": { "type": "Point", "coordinates": [-83.188722, 42.306158] }
+  },
+  {
+    "name": "Arcata Pizzeria",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "Bob A." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3021 Dougall Avenue" }],
+        "city": "Windsor, ON N9E 1S3"
+      }
+    ],
+    "url": "http://arcatapizzeria.com",
+    "phone": "(519) 969-2551",
+    "location": { "type": "Point", "coordinates": [-83.014212, 42.272601] }
+  },
+  {
+    "name": "ZamZam Restaurant",
+    "category": "Bangladeshi",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "2:30 pm - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "HOT DOGS YO WAY" },
+      { "days": "Jitis Indian Fusion Food" },
+      { "days": "1 free Tea" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11917 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 893-9902",
+    "location": { "type": "Point", "coordinates": [-83.055455, 42.406247] }
+  },
+  {
+    "name": "Popeyes Louisiana Kitchen",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "MAZAAR - Downtown" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "QDOBA Mexican Eats" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1375 Huron Church Road" }],
+        "city": "Windsor, ON N9C 2K8"
+      }
+    ],
+    "url": "http://popeyeschicken.ca",
+    "phone": "(519) 256-3200",
+    "location": { "type": "Point", "coordinates": [-83.060161, 42.290202] }
+  },
+  {
+    "name": "Al-Ameer",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 11:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "La Shish" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12710 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://alameerrestaurant.com",
+    "phone": "(313) 582-8185",
+    "location": { "type": "Point", "coordinates": [-83.167445, 42.344487] }
+  },
+  {
+    "name": "Baba’s Grill",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 11:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Hello Shawarma" },
+      { "days": "La Shish" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "HOT DOGS YO WAY" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13823 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://babasgrill.net",
+    "phone": "(313) 945-0400",
+    "location": { "type": "Point", "coordinates": [-83.178838, 42.320945] }
+  },
+  {
+    "name": "Tea House Windsor",
+    "category": "Coffee & Tea",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 4:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 4:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 4:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 4:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Fine Herbs" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2475 McDougall Street" }],
+        "city": "Windsor, ON N8X 3N9"
+      }
+    ],
+    "phone": "(226) 348-6151",
+    "location": { "type": "Point", "coordinates": [-83.018598, 42.288751] }
+  },
+  {
+    "name": "Alex Kabob House",
+    "category": "Arabian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Malek Al Kabob - Taylor" },
+      { "days": "La Shish" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Shottys Kitchen Halal" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13360 Eureka Rd" }],
+        "city": "Southgate, MI 48195"
+      }
+    ],
+    "url": "http://alexkabobhouse.com",
+    "phone": "(734) 284-5666",
+    "location": { "type": "Point", "coordinates": [-83.187215, 42.199615] }
+  },
+  {
+    "name": "California Burgerz",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Hani O." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12045 Conant Ave" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://californiaburgerz.com",
+    "phone": "(313) 703-8000",
+    "location": { "type": "Point", "coordinates": [-83.056262, 42.407197] }
+  },
+  {
+    "name": "Arbeel Kabab",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "8:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "8:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "8:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "8:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "8:30 am - 10:30 pm" },
+      { "days": "Sun", "time": "8:30 am - 10:30 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "Hello Shawarma" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Subway" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5959 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://arbeelkabab.com",
+    "phone": "(313) 581-7880",
+    "location": { "type": "Point", "coordinates": [-83.176728, 42.332962] }
+  },
+  {
+    "name": "Tuhama’s",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "10:00 am - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Alloush Grill" },
+      { "days": "La Shish" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Downtown Louie’s" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10613 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 581-0714",
+    "location": { "type": "Point", "coordinates": [-83.165039, 42.344138] }
+  },
+  {
+    "name": "Aladdin Sweets & Cafe",
+    "category": "Bangladeshi",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 11:30 pm" },
+      { "days": "Tue", "time": "9:00 am - 11:30 pm" },
+      { "days": "Wed", "time": "9:00 am - 11:30 pm" },
+      { "days": "Thu", "time": "9:00 am - 11:30 pm" },
+      { "days": "Fri", "time": "9:00 am - 11:30 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:30 pm" },
+      { "days": "Sun", "time": "9:00 am - 11:30 pm" },
+      { "days": "Jitis Indian Fusion Food" },
+      { "days": "Hello Shawarma" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11945 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 891-8050",
+    "location": { "type": "Point", "coordinates": [-83.055833, 42.406576] }
+  },
+  {
+    "name": "Saad Wholesale Meats",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 2:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 2:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 2:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 2:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 2:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 2:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Village Market" },
+      { "days": "Capri Italian Bakery" }
+    ],
+    "address": [
+      { "street": [{ "name": "2814 Orleans St" }], "city": "Detroit, MI 48207" }
+    ],
+    "url": "http://saadmeats.com",
+    "phone": "(313) 831-8126",
+    "location": { "type": "Point", "coordinates": [-83.038361, 42.349421] }
+  },
+  {
+    "name": "Berry & Sons Islamic Slaughter House",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 3:00 pm" },
+      { "days": "Tue", "time": "6:00 am - 3:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 3:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 3:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "6:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Village Market" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Salah R." },
+      { "days": "10% off Your Order" }
+    ],
+    "address": [
+      { "street": [{ "name": "2496 Orleans St" }], "city": "Detroit, MI 48207" }
+    ],
+    "url": "http://berryandsonshalalmeat.com",
+    "phone": "(313) 259-6925",
+    "location": { "type": "Point", "coordinates": [-83.036832, 42.347066] }
+  },
+  {
+    "name": "Bishr Poultry & Food Center",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 8:00 pm" },
+      { "days": "Village Market" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Hello Shawarma" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      { "street": [{ "name": "12300 Conant St" }], "city": "Detroit, MI 48212" }
+    ],
+    "phone": "(313) 892-1020",
+    "location": { "type": "Point", "coordinates": [-83.057213, 42.409437] }
+  },
+  {
+    "name": "Mummas Burritos",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "Open 24 hours" },
+      { "days": "Tue", "time": "Open 24 hours" },
+      { "days": "Wed", "time": "Open 24 hours" },
+      { "days": "Thu", "time": "Open 24 hours" },
+      { "days": "Fri", "time": "Open 24 hours" },
+      { "days": "Sat", "time": "Open 24 hours" },
+      { "days": "Sun", "time": "Open 24 hours" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" },
+      { "days": "QDOBA Mexican Eats" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1500 Huron Church Road", "unit": "Unit 8" }],
+        "city": "Windsor, ON N9C 2L1"
+      }
+    ],
+    "url": "http://mummasburritos.com",
+    "phone": "(226) 221-9099",
+    "location": { "type": "Point", "coordinates": [-83.058211, 42.290344] }
+  },
+  {
+    "name": "Jose’s Tacos",
+    "category": "Tacos",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 5:00 pm" },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "218 E Grand River" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "phone": "(313) 965-9992",
+    "location": { "type": "Point", "coordinates": [-83.046593, 42.335608] }
+  },
+  {
+    "name": "Mike’s Kabob Grille",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "10:30 am - 2:30 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Denny’s" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Mike A." },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "La Terraza" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      { "street": [{ "name": "719 Griswold St" }], "city": "Detroit, MI 48226" }
+    ],
+    "url": "http://mikeskg.com",
+    "phone": "(313) 285-8112",
+    "location": { "type": "Point", "coordinates": [-83.047908, 42.330806] }
+  },
+  {
+    "name": "Iraqi Kabob",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 12:00 am" },
+      { "days": "Tue", "time": "8:00 am - 12:00 am" },
+      { "days": "Wed", "time": "8:00 am - 12:00 am" },
+      { "days": "Thu", "time": "8:00 am - 12:00 am" },
+      { "days": "Fri", "time": "8:00 am - 12:00 am" },
+      { "days": "Sat", "time": "8:00 am - 12:00 am" },
+      { "days": "Sun", "time": "8:00 am - 12:00 am" },
+      { "days": "La Shish" },
+      { "days": "Alloush Grill" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13650 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 945-9400",
+    "location": { "type": "Point", "coordinates": [-83.177905, 42.344154] }
+  },
+  {
+    "name": "Hello Shawarma",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Hareth M." },
+      { "days": "Big Apple Bagels" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Coney King Coney Island" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12197 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://helloshawarmatogo.com",
+    "phone": "(313) 707-0988",
+    "location": { "type": "Point", "coordinates": [-83.057175, 42.408591] }
+  },
+  {
+    "name": "Urban Ramen",
+    "category": "Noodles",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Noble Fish" },
+      { "days": "Xushi Ko" },
+      { "days": "Yohei U." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4206 Woodward Ave" }],
+        "city": "Detroit, MI 48201"
+      }
+    ],
+    "url": "http://urbanramen.com",
+    "phone": "(313) 285-9869",
+    "location": { "type": "Point", "coordinates": [-83.060648, 42.352016] }
+  },
+  {
+    "name": "Taystee’s Burgers",
+    "category": "Fast Food",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      { "street": [{ "name": "10419 Ford Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://taysteesburger.com",
+    "phone": "(313) 724-6535",
+    "location": { "type": "Point", "coordinates": [-83.162039, 42.329718] }
+  },
+  {
+    "name": "Shatila Bakery",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Z’s Bubble Tea & Bingsu" },
+      { "days": "Bode’s Corned Beef House" },
+      { "days": "Tania S." },
+      { "days": "Dutch Girl Donuts" },
+      { "days": "Papparoti" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "Capri Italian Bakery" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14300 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://shatila.com",
+    "phone": "(313) 582-1952",
+    "location": { "type": "Point", "coordinates": [-83.183238, 42.344165] }
+  },
+  {
+    "name": "Broadway Market Corned Beef Company",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 12:00 pm" },
+      { "days": "Tue", "time": "6:00 am - 12:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 12:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 12:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 12:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Village Market" },
+      { "days": "Capri Italian Bakery" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1841 Gratiot Ave" }],
+        "city": "Detroit, MI 48207"
+      }
+    ],
+    "url": "http://broadwaycornedbeef.com",
+    "phone": "(313) 259-8850",
+    "location": { "type": "Point", "coordinates": [-83.036431, 42.347161] }
+  },
+  {
+    "name": "Cedarland Restaurant",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 12:00 am" },
+      { "days": "Tue", "time": "9:00 am - 12:00 am" },
+      { "days": "Wed", "time": "9:00 am - 12:00 am" },
+      { "days": "Thu", "time": "9:00 am - 12:00 am" },
+      { "days": "Fri", "time": "9:00 am - 12:00 am" },
+      { "days": "Sat", "time": "9:00 am - 12:00 am" },
+      { "days": "Sun", "time": "9:00 am - 12:00 am" },
+      { "days": "Alloush Grill" },
+      { "days": "La Shish" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13007 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://cedarlandrestaurants.com",
+    "phone": "(313) 582-4849",
+    "location": { "type": "Point", "coordinates": [-83.171139, 42.343942] }
+  },
+  {
+    "name": "Basement Burger Bar",
+    "category": "Salad",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "11:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Malek Al Kabob - Taylor" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Xushi Ko" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      { "street": [{ "name": "1326 Brush St" }], "city": "Detroit, MI 48226" }
+    ],
+    "url": "http://basementburgerbar.com",
+    "phone": "(313) 818-3708",
+    "location": { "type": "Point", "coordinates": [-83.044319, 42.335698] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "Cleopatra Mediterranean Grill",
+    "category": "Seafood",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
+      { "days": "Pattternz" },
+      { "days": "La Shish" },
+      { "days": "Noble Fish" },
+      { "days": "Las Cazuelas" },
+      { "days": "Howe’s Bayou" },
+      { "days": "Downtown Louie’s" }
+    ],
+    "address": [
+      { "street": [{ "name": "19027 Mack Ave" }], "city": "Detroit, MI 48236" }
+    ],
+    "url": "http://cleopatragrill.com",
+    "phone": "(313) 640-9000",
+    "location": { "type": "Point", "coordinates": [-82.911201, 42.416574] }
+  },
+  {
+    "name": "Ricky’s Sub Shop",
+    "category": "Cheesesteaks",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "Closed" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6460 Greenfield Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://Rickyssubshop.com",
+    "phone": "(313) 582-9410",
+    "location": { "type": "Point", "coordinates": [-83.195565, 42.337643] }
+  },
+  {
+    "name": "Brujo Tacos and Tapas",
+    "category": "Tacos",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Las Cazuelas" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      { "street": [{ "name": "474 Peterboro" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://brujodetroit.com",
+    "location": { "type": "Point", "coordinates": [-83.061516, 42.344091] }
+  },
+  {
+    "name": "Bisher Market",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 7:00 pm" },
+      { "days": "Ruhlig Farm & Gardens" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Village Market" },
+      { "days": "Hello Shawarma" },
+      { "days": "Lava Java Cafe" },
+      { "days": "La Shish" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3440 Wyoming St" }],
+        "city": "Dearborn, MI 48120"
+      }
+    ],
+    "phone": "(313) 843-4041",
+    "location": { "type": "Point", "coordinates": [-83.153298, 42.312434] }
+  },
+  {
+    "name": "Prime and Proper",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Xushi Ko" },
+      { "days": "Bash Original Izakaya" },
+      { "days": "Downtown Louie’s" },
+      { "days": "La Terraza" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1145 Griswold St" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "url": "http://Primeandproperdetroit.com",
+    "phone": "(313) 636-3100",
+    "location": { "type": "Point", "coordinates": [-83.049311, 42.332288] }
+  },
+  {
+    "name": "Khalaf grill",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "10:00 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "Alloush Grill" },
+      { "days": "Denny’s" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Las Cazuelas" },
+      { "days": "La Shish" },
+      { "days": "Avenue Brunch House" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14507 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://khalafgrill.com",
+    "phone": "(313) 633-0373",
+    "location": { "type": "Point", "coordinates": [-83.185742, 42.343455] }
+  },
+  {
+    "name": "Spread Deli+Coffee",
+    "category": "Coffee & Tea",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" }
+    ],
+    "address": [
+      { "street": [{ "name": "4215 Cass Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://spreaddelidetroit.com",
+    "phone": "(313) 782-4946",
+    "location": { "type": "Point", "coordinates": [-83.063882, 42.350788] }
+  },
+  {
+    "name": "Blimpie",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Las Cazuelas" },
+      { "days": "Zo’s Good Burger" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "108 W Hancock St" }],
+        "city": "DETROIT, MI 48201"
+      }
+    ],
+    "url": "http://blimpie.com",
+    "phone": "(313) 831-0711",
+    "location": { "type": "Point", "coordinates": [-83.065437, 42.355178] }
+  },
+  {
+    "name": "Go Sy Thai",
+    "category": "Thai",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      { "street": [{ "name": "4240 Cass Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://gosythai.com",
+    "phone": "(313) 638-1467",
+    "location": { "type": "Point", "coordinates": [-83.063785, 42.351523] }
+  },
+  {
+    "name": "WingFellas",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Hello Shawarma" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Zo’s Good Burger" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5854 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://thewingfellas.com",
+    "phone": "(313) 254-9464",
+    "location": { "type": "Point", "coordinates": [-83.175928, 42.332393] }
+  },
+  {
+    "name": "Detroit Grill & Chill",
+    "category": "Juice Bars & Smoothies",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Yousef A." },
+      { "days": "Downtown Louie’s" },
+      { "days": "Traverse City Whiskey Co. Outpost" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Ferndale Project" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8009 E Jefferson Ave" }],
+        "city": "Detroit, MI 48214"
+      }
+    ],
+    "url": "http://detroitgrillandchill.com",
+    "phone": "(313) 473-8629",
+    "location": { "type": "Point", "coordinates": [-82.994841, 42.352211] }
+  },
+  {
+    "name": "Sheeba Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 11:00 pm" },
+      { "days": "Pattternz" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Hello Shawarma" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8752 Joseph Campau St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 874-0299",
+    "location": { "type": "Point", "coordinates": [-83.053324, 42.390296] }
+  },
+  {
+    "name": "Eat-N-Out Pizza & Gelato",
+    "category": "Gelato",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 3:00 am" },
+      { "days": "Tue", "time": "11:00 am - 3:00 am" },
+      { "days": "Wed", "time": "11:00 am - 3:00 am" },
+      { "days": "Thu", "time": "11:00 am - 3:00 am" },
+      { "days": "Fri", "time": "11:00 am - 4:00 am" },
+      { "days": "Sat", "time": "11:00 am - 4:00 am" },
+      { "days": "Sun", "time": "11:00 am - 3:00 am" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Las Cazuelas Grill" }
+    ],
+    "address": [
+      { "street": [{ "name": "531 Monroe Ave" }], "city": "Detroit, MI 48226" }
+    ],
+    "url": "http://eat-n-outpizzagelato.com",
+    "phone": "(313) 800-5718",
+    "location": { "type": "Point", "coordinates": [-83.042054, 42.33522] }
+  },
+  {
+    "name": "Ollie’s Lebanese Cuisine",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      { "street": [{ "name": "16351 Ford Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://olliescuisine.com",
+    "phone": "(313) 253-1010",
+    "location": { "type": "Point", "coordinates": [-83.203329, 42.328045] }
+  },
+  {
+    "name": "Detroit Shipping Company",
+    "category": "Food Court",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "4:00 pm - 8:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "4:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "La Terraza" },
+      { "days": "Downtown Louie’s" },
+      { "days": "Jon and Jim H." },
+      { "days": "Traverse City Whiskey Co. Outpost" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "474 Peterboro St" }],
+        "city": "Detroit, MI 48201"
+      }
+    ],
+    "url": "http://detroitshippingcompany.com",
+    "phone": "(313) 462-4973",
+    "location": { "type": "Point", "coordinates": [-83.061516, 42.344091] }
+  },
+  {
+    "name": "Z Shawarma King",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 11:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Malek Al Kabob - Taylor" },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Bash Original Izakaya" },
+      { "days": "Traverse City Whiskey Co. Outpost" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15548 Southfield Rd" }],
+        "city": "Allen Park, MI 48101"
+      }
+    ],
+    "phone": "(313) 749-7517",
+    "location": { "type": "Point", "coordinates": [-83.207061, 42.259741] }
+  },
+  {
+    "name": "Eastern Market",
+    "category": "Farmers Market",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "9:00 am - 1:00 pm" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "Closed" },
+      { "days": "Fri", "time": "Closed" },
+      { "days": "Sat", "time": "6:00 am - 4:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Dan C." }
+    ],
+    "address": [
+      { "street": [{ "name": "2934 Russell St" }], "city": "Detroit, MI 48207" }
+    ],
+    "url": "http://easternmarket.org",
+    "phone": "(313) 833-9300",
+    "location": { "type": "Point", "coordinates": [-83.040827, 42.348474] }
+  },
+  {
+    "name": "Capital Poultry",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 3:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 3:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 3:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 3:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 2:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Village Market" },
+      { "days": "Larry A." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2456 Riopelle St" }],
+        "city": "Detroit, MI 48207"
+      }
+    ],
+    "url": "http://capitalpoultryco.com/about-us.…",
+    "phone": "(313) 567-0800",
+    "location": { "type": "Point", "coordinates": [-83.038138, 42.346183] }
+  },
+  {
+    "name": "Rafic’s Falafel",
+    "category": "Falafel",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 11:00 pm" },
+      { "days": "Alloush Grill" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Hussein B." },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Subway" },
+      { "days": "La Shish" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6905 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 551-5046",
+    "location": { "type": "Point", "coordinates": [-83.177, 42.341306] }
+  },
+  {
+    "name": "Alqamar",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:30 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Las Cazuelas" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Ferndale Project" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10240 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 875-5592",
+    "location": { "type": "Point", "coordinates": [-83.05189, 42.40171] }
+  },
+  {
+    "name": "Super Greenland Market",
+    "category": "Delis",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 10:00 pm" },
+      { "days": "Livonia Liquor Shoppe" },
+      { "days": "Village Market" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Papparoti" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12715 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://supergreenlandmarket.com",
+    "phone": "(313) 584-5445",
+    "location": { "type": "Point", "coordinates": [-83.167496, 42.34384] }
+  },
+  {
+    "name": "Saj Alreef",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 3:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 3:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 3:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 3:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "7:00 am - 3:00 pm" },
+      { "days": "Z’s Bubble Tea & Bingsu" },
+      { "days": "Papparoti" },
+      { "days": "Alloush Grill" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Dutch Girl Donuts" },
+      { "days": "Lava Java Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5902 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 443-3000",
+    "location": { "type": "Point", "coordinates": [-83.175867, 42.33246] }
+  },
+  {
+    "name": "Fat Salmon Sushi",
+    "category": "Japanese",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "2:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Xushi Ko" },
+      { "days": "Noble Fish" },
+      { "days": "Adachi" },
+      { "days": "Bash Original Izakaya" },
+      { "days": "Pokeworks" },
+      { "days": "Jitis Indian Fusion Food" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11411 Joseph Campau St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 305-4347",
+    "location": { "type": "Point", "coordinates": [-83.060975, 42.400847] }
+  },
+  {
+    "name": "Shottys Kitchen Halal",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Ahmed A." }
+    ],
+    "address": [
+      { "street": [{ "name": "7645 Livernois" }], "city": "Detroit, MI 48210" }
+    ],
+    "phone": "(313) 899-0008",
+    "location": { "type": "Point", "coordinates": [-83.135373, 42.350991] }
+  },
+  {
+    "name": "Modhuban Sweets",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "HOT DOGS YO WAY" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Jitis Indian Fusion Food" },
+      { "days": "Hello Shawarma" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3611 Carpenter St" }],
+        "city": "Detroit, MI 48212"
+      }
+    ],
+    "url": "http://modhubansweets.com",
+    "phone": "(313) 826-7641",
+    "location": { "type": "Point", "coordinates": [-83.057993, 42.408982] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "Zo’s Good Burger",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2894 W Grand Blvd" }],
+        "city": "Detroit, MI 48202"
+      }
+    ],
+    "url": "http://zosgoodburger.com",
+    "phone": "(313) 771-0022",
+    "location": { "type": "Point", "coordinates": [-83.080554, 42.367208] }
+  },
+  {
+    "name": "Kong Kow Restaurant",
+    "category": "Chinese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:30 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "3:00 pm - 9:00 pm" },
+      { "days": "Noble Fish" },
+      { "days": "Xushi Ko" },
+      { "days": "Panda Express" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13337 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 581-5576",
+    "location": { "type": "Point", "coordinates": [-83.174133, 42.32243] }
+  },
+  {
+    "name": "Sisters On A Roll ,Mobile Cafe",
+    "category": "Specialty Food",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "La Terraza" },
+      { "days": "Harriette B." }
+    ],
+    "address": [{ "street": [{ "name": "Detroit, MI" }] }],
+    "url": "http://sistersonaroll.biz",
+    "phone": "(978) 482-7627",
+    "location": { "type": "Point", "coordinates": [-83.045754, 42.331427] }
+  },
+  {
+    "name": "Dime Store",
+    "category": "Diners",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 3:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 3:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 3:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 3:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 3:00 pm" }
+    ],
+    "address": [
+      { "street": [{ "name": "719 Griswold St" }], "city": "Detroit, MI 48226" }
+    ],
+    "url": "http://eatdimestore.com",
+    "phone": "(313) 962-9106",
+    "location": { "type": "Point", "coordinates": [-83.047992, 42.330806] }
+  },
+  {
+    "name": "M Cantina",
+    "category": "Latin American",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13214 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://mcantina.com",
+    "phone": "(313) 399-9117",
+    "location": { "type": "Point", "coordinates": [-83.17272, 42.32337] }
+  },
+  {
+    "name": "Sicily’s Pizzeria & Subs",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "10:00 am - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Ali B." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3554 W Vernor Hwy" }],
+        "city": "Detroit, MI 48216"
+      }
+    ],
+    "url": "http://sicilysdetroit.com",
+    "phone": "(313) 554-0755",
+    "location": { "type": "Point", "coordinates": [-83.08766, 42.323639] }
+  },
+  {
+    "name": "Roast",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1128 Washington Blvd" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "url": "http://roastdetroit.com",
+    "phone": "(313) 961-2500",
+    "location": { "type": "Point", "coordinates": [-83.050572, 42.332201] }
+  },
+  {
+    "name": "Express Poultry & Fish",
+    "category": "Chicken Shop",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 7:30 pm" },
+      { "days": "Tue", "time": "8:30 am - 7:30 pm" },
+      { "days": "Wed", "time": "8:30 am - 7:30 pm" },
+      { "days": "Thu", "time": "8:30 am - 7:30 pm" },
+      { "days": "Fri", "time": "8:30 am - 7:30 pm" },
+      { "days": "Sat", "time": "8:30 am - 7:30 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
+      { "days": "Livonia Liquor Shoppe" },
+      { "days": "Village Market" },
+      { "days": "ray S." },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Poke Poke - Sushi Unrolled" },
+      { "days": "10% off Any order over $50" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Subway" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15038 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://expresspoultryandfish.com",
+    "phone": "(313) 584-1020",
+    "location": { "type": "Point", "coordinates": [-83.191714, 42.343979] }
+  },
+  {
+    "name": "Ali’s Pizza",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Buffalo Wild Wings" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11608 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 826-1403",
+    "location": { "type": "Point", "coordinates": [-83.054154, 42.405042] }
+  },
+  {
+    "name": "Dearborn Meat Market",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
+      { "days": "Abe S." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7721 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 581-8820",
+    "location": { "type": "Point", "coordinates": [-83.177343, 42.348837] }
+  },
+  {
+    "name": "Andiamo Detroit Riverfront",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "2:00 pm - 9:00 pm" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Traverse City Whiskey Co. Outpost" },
+      { "days": "Howe’s Bayou" },
+      { "days": "La Terraza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "400 Renaissance Ctr" }],
+        "city": "Detroit, MI 48243"
+      }
+    ],
+    "url": "http://andiamoitalia.com",
+    "phone": "(313) 567-6700",
+    "location": { "type": "Point", "coordinates": [-83.039659, 42.328235] }
+  },
+  {
+    "name": "Pizzaway",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "8:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "8:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "8:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "8:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "8:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "Parks & Rec Gastropub & Sports Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2430 Dougall Avenue" }],
+        "city": "Windsor, ON N8X 1T2"
+      }
+    ],
+    "phone": "(519) 250-7770",
+    "location": { "type": "Point", "coordinates": [-83.022207, 42.289048] }
+  },
+  {
+    "name": "Lunch Box Cafe",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 5:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Subway" },
+      { "days": "KFC" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Shottys Kitchen Halal" },
+      { "days": "Firehouse Subs" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4700 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 908-9022",
+    "location": { "type": "Point", "coordinates": [-83.175451, 42.32157] }
+  },
+  {
+    "name": "El Asador",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Xushi Ko" },
+      { "days": "Las Cazuelas" },
+      { "days": "Luis G." },
+      { "days": "Las Cazuelas Grill" },
+      { "days": "Las Cazuelas" },
+      { "days": "La Terraza" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1312 Springwells St" }],
+        "city": "Detroit, MI 48209"
+      }
+    ],
+    "url": "http://elasadordetroit.com",
+    "phone": "(313) 297-2360",
+    "location": { "type": "Point", "coordinates": [-83.121934, 42.304759] }
+  },
+  {
+    "name": "Chase Market",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 12:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 12:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 12:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 12:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 12:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 12:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 12:00 pm" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      { "street": [{ "name": "5918 Chase Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://chase-market-llc.business.site",
+    "phone": "(313) 584-3444",
+    "location": { "type": "Point", "coordinates": [-83.185729, 42.332311] }
+  },
+  {
+    "name": "Texas de Brazil",
+    "category": "Venues & Event Spaces",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1000 Woodward Ave" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "url": "http://texasdebrazil.com",
+    "phone": "(313) 964-4333",
+    "location": { "type": "Point", "coordinates": [-83.047019, 42.332396] }
+  },
+  {
+    "name": "Mocha Bistro",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14456 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://mochabistro.com",
+    "phone": "(313) 406-4444",
+    "location": { "type": "Point", "coordinates": [-83.183486, 42.320204] }
+  },
+  {
+    "name": "Byblos Cafe & Grill II",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      { "street": [{ "name": "4830 Cass Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://bybloscafeandgrill.com",
+    "phone": "(313) 292-5678",
+    "location": { "type": "Point", "coordinates": [-83.066172, 42.355565] }
+  },
+  {
+    "name": "Slows To Go",
+    "category": "Food Trucks",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Howe’s Bayou" },
+      { "days": "Xushi Ko" },
+      { "days": "Sonic Drive-In" },
+      { "days": "Bash Original Izakaya" },
+      { "days": "Ferndale Project" }
+    ],
+    "address": [
+      { "street": [{ "name": "4107 Cass Ave" }], "city": "Detroit, MI 48201" }
+    ],
+    "url": "http://slowstogo.com",
+    "phone": "(313) 309-7560",
+    "location": { "type": "Point", "coordinates": [-83.063318, 42.349553] }
+  },
+  {
+    "name": "Ram’s Horn",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "Open 24 hours" },
+      { "days": "Tue", "time": "Open 24 hours" },
+      { "days": "Wed", "time": "Open 24 hours" },
+      { "days": "Thu", "time": "Open 24 hours" },
+      { "days": "Fri", "time": "Open 24 hours" },
+      { "days": "Sat", "time": "Open 24 hours" },
+      { "days": "Sun", "time": "Open 24 hours" },
+      { "days": "Alloush Grill" },
+      { "days": "KFC" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "HOT DOGS YO WAY" },
+      { "days": "La Shish" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6356 Greenfield Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 945-6600",
+    "location": { "type": "Point", "coordinates": [-83.195635, 42.336256] }
+  },
+  {
+    "name": "Red Star Restaurant",
+    "category": "Noodles",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Noble Fish" },
+      { "days": "Panda Express" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13944 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://redstarchinese.weebly.com",
+    "phone": "(313) 581-1451",
+    "location": { "type": "Point", "coordinates": [-83.180248, 42.321133] }
+  },
+  {
+    "name": "Fantastic Subs",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "3:00 pm - 3:00 am" },
+      { "days": "Tue", "time": "3:00 pm - 3:00 am" },
+      { "days": "Wed", "time": "3:00 pm - 3:00 am" },
+      { "days": "Thu", "time": "3:00 pm - 3:00 am" },
+      { "days": "Fri", "time": "3:00 pm - 3:00 am" },
+      { "days": "Sat", "time": "3:00 pm - 3:00 am" },
+      { "days": "Sun", "time": "3:00 pm - 3:00 am" },
+      { "days": "Big Apple Bagels" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Celebrity Catering" },
+      { "days": "Capri Italian Bakery" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9335 Conant St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://fantasticsub.com",
+    "phone": "(313) 974-6073",
+    "location": { "type": "Point", "coordinates": [-83.049122, 42.396802] }
+  },
+  {
+    "name": "Bash Mansour Bakery",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "5:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "5:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "5:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "5:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "5:00 am - 5:00 pm" },
+      { "days": "Sat", "time": "5:00 am - 5:00 pm" },
+      { "days": "Sun", "time": "5:00 am - 5:00 pm" },
+      { "days": "Bode’s Corned Beef House" },
+      { "days": "Papparoti" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6823 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 908-1825",
+    "location": { "type": "Point", "coordinates": [-83.177096, 42.340814] }
+  },
+  {
+    "name": "Delite Cafe Deli Detroit",
+    "category": "Delis",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Dutch Girl Donuts" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Firehouse Subs" },
+      { "days": "KFC" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "320 E Canfield St" }],
+        "city": "Detroit, MI 48201"
+      }
+    ],
+    "phone": "(313) 818-0274",
+    "location": { "type": "Point", "coordinates": [-83.057284, 42.35421] }
+  },
+  {
+    "name": "Xushi Ko",
+    "category": "Sushi Bars",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Tue", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Wed", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" }
+    ],
+    "address": [
+      { "street": [{ "name": "16351 Ford Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://xushi-ko.com",
+    "phone": "(313) 914-1453",
+    "location": { "type": "Point", "coordinates": [-83.203374, 42.32755] }
+  },
+  {
+    "name": "Delite Cafe & Deli",
+    "category": "Cafes",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 7:00 pm" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Ferndale Project" },
+      { "days": "Firehouse Subs" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3135 Caniff Ave" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 305-4244",
+    "location": { "type": "Point", "coordinates": [-83.057786, 42.400716] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "Albasha Subs",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 2:30 am" },
+      { "days": "Tue", "time": "10:00 am - 2:30 am" },
+      { "days": "Wed", "time": "10:00 am - 2:30 am" },
+      { "days": "Thu", "time": "10:00 am - 2:30 am" },
+      { "days": "Fri", "time": "10:00 am - 2:30 am" },
+      { "days": "Sat", "time": "10:00 am - 2:30 am" },
+      { "days": "Sun", "time": "10:00 am - 2:30 am" },
+      { "days": "1 free pop or chips" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10626 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://albashasubs.com",
+    "phone": "(313) 846-9684",
+    "location": { "type": "Point", "coordinates": [-83.165361, 42.344516] }
+  },
+  {
+    "name": "TRIA - An American Brasserie",
+    "category": "American (New)",
+    "hours": [
+      { "days": "Mon", "time": "6:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "6:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "6:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "6:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "6:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "6:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "6:30 am - 9:00 pm" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Howe’s Bayou" },
+      { "days": "1 free Appetizer" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "300 Town Center Dr" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://triadearbornrestaurant.com",
+    "phone": "(313) 253-4475",
+    "location": { "type": "Point", "coordinates": [-83.21697, 42.32036] }
+  },
+  {
+    "name": "Maine Street Restaurant",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 8:30 pm" },
+      { "days": "Tue", "time": "6:00 am - 8:30 pm" },
+      { "days": "Wed", "time": "6:00 am - 8:30 pm" },
+      { "days": "Thu", "time": "6:00 am - 8:30 pm" },
+      { "days": "Fri", "time": "6:00 am - 8:30 pm" },
+      { "days": "Sat", "time": "6:00 am - 8:30 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Nick L." },
+      { "days": "50% off 1 appetizer" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "11650 Joseph Campau Ave" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://mainestreetrestaurant.com/Home…",
+    "phone": "(313) 368-0500",
+    "location": { "type": "Point", "coordinates": [-83.061692, 42.403056] }
+  },
+  {
+    "name": "La Thai Cuisine",
+    "category": "Thai",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 8:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Thai Ocha" },
+      { "days": "Thai Fresh" },
+      { "days": "Xushi Ko" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      { "street": [{ "name": "16351 Ford Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://la-thaicuisine.com",
+    "phone": "(313) 914-5846",
+    "location": { "type": "Point", "coordinates": [-83.203329, 42.328053] }
+  },
+  {
+    "name": "Leo’s Coney Island",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "Open 24 hours" },
+      { "days": "Tue", "time": "Open 24 hours" },
+      { "days": "Wed", "time": "Open 24 hours" },
+      { "days": "Thu", "time": "Open 24 hours" },
+      { "days": "Fri", "time": "Open 24 hours" },
+      { "days": "Sat", "time": "Open 24 hours" },
+      { "days": "Sun", "time": "Open 24 hours" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "La Terraza" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5575 Greenfield Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://leosconeyisland.com",
+    "phone": "(313) 253-0200",
+    "location": { "type": "Point", "coordinates": [-83.196319, 42.328384] }
+  },
+  {
+    "name": "Supino Pizzeria",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      { "street": [{ "name": "2457 Russell St" }], "city": "Detroit, MI 48207" }
+    ],
+    "url": "http://supinopizzeria.com",
+    "phone": "(313) 567-7879",
+    "location": { "type": "Point", "coordinates": [-83.040065, 42.345476] }
+  },
+  {
+    "name": "Al-Haramain International Foods",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 12:00 am" },
+      { "days": "Tue", "time": "7:00 am - 12:00 am" },
+      { "days": "Wed", "time": "7:00 am - 12:00 am" },
+      { "days": "Thu", "time": "7:00 am - 12:00 am" },
+      { "days": "Fri", "time": "7:00 am - 12:00 am" },
+      { "days": "Sat", "time": "7:00 am - 12:00 am" },
+      { "days": "Sun", "time": "7:00 am - 12:00 am" },
+      { "days": "Village Market" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3306 Caniff St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 870-9748",
+    "location": { "type": "Point", "coordinates": [-83.055785, 42.400915] }
+  },
+  {
+    "name": "Slows Bar BQ",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2138 Michigan Ave" }],
+        "city": "Detroit, MI 48216"
+      }
+    ],
+    "url": "http://slowsbarbq.com",
+    "phone": "(313) 962-9828",
+    "location": { "type": "Point", "coordinates": [-83.075953, 42.331599] }
+  },
+  {
+    "name": "Al’s Grill",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 2:00 am" },
+      { "days": "Tue", "time": "10:00 am - 2:00 am" },
+      { "days": "Wed", "time": "10:00 am - 2:00 am" },
+      { "days": "Thu", "time": "10:00 am - 2:00 am" },
+      { "days": "Fri", "time": "10:00 am - 3:00 am" },
+      { "days": "Sat", "time": "10:00 am - 3:00 am" },
+      { "days": "Sun", "time": "10:00 am - 2:00 am" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13701 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 581-7500",
+    "location": { "type": "Point", "coordinates": [-83.178194, 42.343776] }
+  },
+  {
+    "name": "Zebee Fish Market & Seafood Resturant",
+    "category": "Caribbean",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Jet’s Pizza" },
+      { "days": "La Terraza" },
+      { "days": "HOT DOGS YO WAY" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Mangia Pizza & Catering" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8233 Livernois Ave" }],
+        "city": "Detroit, MI 48204"
+      }
+    ],
+    "url": "http://zeebeefishmarket.com",
+    "phone": "(313) 933-5255",
+    "location": { "type": "Point", "coordinates": [-83.138137, 42.354984] }
+  },
+  {
+    "name": "All Fresh Fish & Seafood",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:45 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Celebrity Catering" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Big Apple Bagels" },
+      { "days": "HOT DOGS YO WAY" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1575 E 8 Mile Rd" }],
+        "city": "Hazel Park, MI 48030"
+      }
+    ],
+    "phone": "(248) 336-1700",
+    "location": { "type": "Point", "coordinates": [-83.087453, 42.447825] }
+  },
+  {
+    "name": "Townhouse",
+    "category": "Bars",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "10:00 am - 2:00 am" },
+      { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "Woodward Cocktail Bar" },
+      { "days": "Traverse City Whiskey Co. Outpost" },
+      { "days": "Zo’s Good Burger" },
+      { "days": "Downtown Louie’s" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "500 Woodward Ave" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "url": "http://eatattownhouse.com",
+    "phone": "(313) 723-1000",
+    "location": { "type": "Point", "coordinates": [-83.045329, 42.330236] }
+  },
+  {
+    "name": "Roman Village Cucina Italiana",
+    "category": "Wine Bars",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "1:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "1:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      { "street": [{ "name": "9924 Dix Ave" }], "city": "Dearborn, MI 48120" }
+    ],
+    "url": "http://antoniosrestaurants.com",
+    "phone": "(313) 842-2100",
+    "location": { "type": "Point", "coordinates": [-83.144421, 42.305737] }
+  },
+  {
+    "name": "Mudgie’s Deli & Wine Shop",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 3:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 3:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 3:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 3:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 3:00 pm" },
+      { "days": "Greg M." },
+      { "days": "$5 off your purchase of 2 dinners" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1413 Brooklyn St" }],
+        "city": "Detroit, MI 48226"
+      }
+    ],
+    "url": "http://mudgiesdeli.com",
+    "phone": "(313) 961-2000",
+    "location": { "type": "Point", "coordinates": [-83.062095, 42.329084] }
+  },
+  {
+    "name": "Halal Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 12:00 am" },
+      { "days": "Tue", "time": "12:00 pm - 12:00 am" },
+      { "days": "Wed", "time": "12:00 pm - 12:00 am" },
+      { "days": "Thu", "time": "12:00 pm - 12:00 am" },
+      { "days": "Fri", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Ferndale Project" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "La Terraza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6521 Greenfield Rd" }],
+        "city": "Detroit, MI 48228"
+      }
+    ],
+    "phone": "(313) 581-9880",
+    "location": { "type": "Point", "coordinates": [-83.196539, 42.338536] }
+  },
+  {
+    "name": "Rams Horn",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 12:00 am" },
+      { "days": "Tue", "time": "6:00 am - 12:00 am" },
+      { "days": "Wed", "time": "6:00 am - 12:00 am" },
+      { "days": "Thu", "time": "6:00 am - 12:00 am" },
+      { "days": "Fri", "time": "6:00 am - 1:30 am" },
+      { "days": "Sat", "time": "6:00 am - 1:30 am" },
+      { "days": "Sun", "time": "6:00 am - 10:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Malek Al Kabob - Taylor" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Avenue Brunch House" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15544 Southfield Rd" }],
+        "city": "Allen Park, MI 48101"
+      }
+    ],
+    "url": "http://ramshornrestaurants.com",
+    "phone": "(313) 928-7500",
+    "location": { "type": "Point", "coordinates": [-83.206799, 42.259557] }
+  },
+  {
+    "name": "Treat You Batter",
+    "category": "Desserts",
+    "hours": [
+      { "days": "Mon", "time": "1:00 pm - 8:00 pm" },
+      { "days": "Tue", "time": "1:00 pm - 8:00 pm" },
+      { "days": "Wed", "time": "1:00 pm - 8:00 pm" },
+      { "days": "Thu", "time": "1:00 pm - 8:00 pm" },
+      { "days": "Fri", "time": "1:00 pm - 9:00 pm" },
+      { "days": "Sat", "time": "1:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "1 free cookie with each dozen!" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6915 Greenfield Rd" }],
+        "city": "Detroit, MI 48228"
+      }
+    ],
+    "phone": "(313) 395-4561",
+    "location": { "type": "Point", "coordinates": [-83.196557, 42.34307] }
+  },
+  {
+    "name": "Mootz Pizzeria + Bar",
+    "category": "Bars",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Noble Fish" },
+      { "days": "La Terraza" },
+      { "days": "Tony S." },
+      { "days": "Traverse City Whiskey Co. Outpost" },
+      { "days": "Downtown Louie’s" },
+      { "days": "Lava Java Cafe" },
+      { "days": "Ferndale Project" }
+    ],
+    "address": [
+      { "street": [{ "name": "1230 Library St" }], "city": "Detroit, MI 48226" }
+    ],
+    "url": "http://mootzpizzeria.com",
+    "phone": "(313) 243-1230",
+    "location": { "type": "Point", "coordinates": [-83.04673, 42.334332] }
+  },
+  {
+    "name": "Captain Jay’s Fish & Chicken",
+    "category": "Fish & Chips",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "10:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Fresh Healthy Cafe-Royal Oak" },
+      { "days": "Avenue Brunch House" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9233 Greenfield Rd" }],
+        "city": "Detroit, MI 48228"
+      }
+    ],
+    "url": "http://captainjays.net",
+    "phone": "(313) 653-3878",
+    "location": { "type": "Point", "coordinates": [-83.197568, 42.363332] }
+  },
+  {
+    "name": "Delite Cafe & Deli",
+    "category": "Breakfast & Brunch",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Denny’s" },
+      { "days": "Avenue Brunch House" },
+      { "days": "KFC" },
+      { "days": "Subway" },
+      { "days": "Shottys Kitchen Halal" },
+      { "days": "Sonic Drive-In" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13530 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://delitecafedeli.com",
+    "phone": "(313) 406-3945",
+    "location": { "type": "Point", "coordinates": [-83.175368, 42.322714] }
+  },
+  {
+    "name": "Alanos Pizza & Subs",
+    "category": "Salad",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "11:00 am - 2:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "1 free Small Fries or Bread Sticks" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14212 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://orderalanos.com",
+    "phone": "(313) 582-5300",
+    "location": { "type": "Point", "coordinates": [-83.180706, 42.321022] }
+  },
+  {
+    "name": "7 Star Pizza, Subs & More",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "10:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Yolk & Toast Family Diner" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7840 Wyoming Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://pizzeriadetroit.com",
+    "phone": "(313) 834-4800",
+    "location": { "type": "Point", "coordinates": [-83.156992, 42.350525] }
+  },
+  {
+    "name": "Alphagreen Resources",
+    "category": "Health Markets",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 4:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 4:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 4:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 4:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Fine Herbs" },
+      { "days": "Elena S." }
+    ],
+    "address": [{ "street": [{ "name": "Windsor, ON N8X 4W3" }] }],
+    "url": "http://alphagreenresources.com",
+    "phone": "(519) 966-7474",
+    "location": { "type": "Point", "coordinates": [-82.992153, 42.270506] }
+  },
+  {
+    "name": "Sal’s Pizza Cafe",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 3:00 am" },
+      { "days": "Tue", "time": "9:00 am - 3:00 am" },
+      { "days": "Wed", "time": "9:00 am - 3:00 am" },
+      { "days": "Thu", "time": "9:00 am - 3:00 am" },
+      { "days": "Fri", "time": "9:00 am - 3:00 am" },
+      { "days": "Sat", "time": "9:00 am - 3:00 am" },
+      { "days": "Sun", "time": "9:00 am - 3:00 am" }
+    ],
+    "address": [
+      { "street": [{ "name": "5084 Chase Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "phone": "(313) 581-5700",
+    "location": { "type": "Point", "coordinates": [-83.185457, 42.324426] }
+  },
+  {
+    "name": "Fratellis Pizza Cafe",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5960 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://myfratellis.com",
+    "phone": "(313) 466-6600",
+    "location": { "type": "Point", "coordinates": [-83.175933, 42.33296] }
+  },
+  {
+    "name": "MAZAAR - Downtown",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "372 Ouellette Avenue" }],
+        "city": "Windsor, ON N9A 1A6"
+      }
+    ],
+    "url": "http://mazaar.ca",
+    "phone": "(519) 967-9696",
+    "location": { "type": "Point", "coordinates": [-83.038441, 42.316854] }
+  },
+  {
+    "name": "Golden Halal Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Coney King Coney Island" },
+      { "days": "Subway" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10509 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 846-0922",
+    "location": { "type": "Point", "coordinates": [-83.163721, 42.344026] }
+  },
+  {
+    "name": "Sisters On A Roll",
+    "category": "American (Traditional)",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 4:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Red Lobster" },
+      { "days": "Harriette B." },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Downtown Louie’s" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      { "street": [{ "name": "4237 Larchmont" }], "city": "Detroit, MI 48204" }
+    ],
+    "url": "http://sistersonaroll.biz",
+    "phone": "(978) 482-7627",
+    "location": { "type": "Point", "coordinates": [-83.113503, 42.35601] }
+  },
+  {
+    "name": "Berro Brothers Poultry",
+    "category": "Seafood Markets",
+    "hours": [
+      { "days": "Mon", "time": "6:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "6:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "6:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "6:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "6:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "6:30 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 6:00 pm" },
+      { "days": "Livonia Liquor Shoppe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5703 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 581-0220",
+    "location": { "type": "Point", "coordinates": [-83.176293, 42.329694] }
+  },
+  {
+    "name": "Conant Cafe’ & Grill",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Buffalo Wild Wings" },
+      { "days": "Las Cazuelas" },
+      { "days": "Downtown Louie’s" },
+      { "days": "Howe’s Bayou" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "9240 Conant St", "unit": "Unit 3A" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 875-2233",
+    "location": { "type": "Point", "coordinates": [-83.047842, 42.396055] }
+  },
+  {
+    "name": "BIGGBY COFFEE",
+    "category": "Cafes",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "6:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "6:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "7:00 am - 9:00 pm" },
+      { "days": "Killoud Dabaja D." },
+      { "days": "$1 off any size specialty beverages" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3389 Greenfield Rd" }],
+        "city": "Dearborn, MI 48120"
+      }
+    ],
+    "url": "http://biggby.com",
+    "phone": "(313) 982-1100",
+    "location": { "type": "Point", "coordinates": [-83.188419, 42.307014] }
+  },
+  {
+    "name": "Subway",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Buffalo Pizza & Wings" },
+      { "days": "Big Apple Bagels" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Yolk & Toast Family Diner" },
+      { "days": "KFC" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "20710 Harper Ave" }],
+        "city": "Harper Woods, MI 48225"
+      }
+    ],
+    "url": "http://subway.com",
+    "phone": "(313) 886-5886",
+    "location": { "type": "Point", "coordinates": [-82.916209, 42.446413] }
+  },
+  {
+    "name": "Dearborn Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "14406 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 846-9420",
+    "location": { "type": "Point", "coordinates": [-83.184395, 42.344164] }
+  },
+  {
+    "name": "Holbrook Market",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 1:00 am" },
+      { "days": "Tue", "time": "7:00 am - 1:00 am" },
+      { "days": "Wed", "time": "7:00 am - 1:00 am" },
+      { "days": "Thu", "time": "7:00 am - 1:00 am" },
+      { "days": "Fri", "time": "7:00 am - 1:00 am" },
+      { "days": "Sat", "time": "7:00 am - 1:00 am" },
+      { "days": "Sun", "time": "7:00 am - 1:00 am" },
+      { "days": "Village Market" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3201 Holbrook St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "phone": "(313) 972-8001",
+    "location": { "type": "Point", "coordinates": [-83.05283, 42.39504] }
+  },
+  {
+    "name": "Kings Bakery",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "6:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "6:00 am - 5:00 pm" },
+      { "days": "Sun", "time": "6:00 am - 6:00 pm" },
+      { "days": "Homestead Kitchen - Artisan Cakery" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4618 Greenfield Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "phone": "(313) 551-3027",
+    "location": { "type": "Point", "coordinates": [-83.195107, 42.318328] }
+  },
+  {
+    "name": "Greenland Market",
+    "category": "Imported Food",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 9:00 pm" },
+      { "days": "Livonia Liquor Shoppe" },
+      { "days": "Homestead Kitchen - Artisan Cakery" },
+      { "days": "Z’s Bubble Tea & Bingsu" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Dutch Girl Donuts" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15237 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://supergreenlandmarket.com",
+    "phone": "(313) 945-5445",
+    "location": { "type": "Point", "coordinates": [-83.193828, 42.343438] }
+  },
+  {
+    "name": "Eastborn Fruit Market",
+    "category": "Fruits & Veggies",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7431 Wyoming St" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://eastbornfruitmarket.business.s…",
+    "phone": "(313) 934-4004",
+    "location": { "type": "Point", "coordinates": [-83.157659, 42.347415] }
+  },
+  {
+    "name": "Sonic Drive-In",
+    "category": "Ice Cream & Frozen Yogurt",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 12:00 am" },
+      { "days": "Sat", "time": "9:00 am - 12:00 am" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" },
+      { "days": "Z’s Bubble Tea & Bingsu" },
+      { "days": "Malek Al Kabob - Dearborn" }
+    ],
+    "address": [
+      { "street": [{ "name": "10403 Ford Rd" }], "city": "Dearborn, MI 48126" }
+    ],
+    "url": "http://sonicdrivein.com",
+    "phone": "(313) 436-5033",
+    "location": { "type": "Point", "coordinates": [-83.160001, 42.329418] }
+  },
+  {
+    "name": "Paisano’s Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 1:00 am" },
+      { "days": "Tue", "time": "10:00 am - 1:00 am" },
+      { "days": "Wed", "time": "10:00 am - 1:00 am" },
+      { "days": "Thu", "time": "10:00 am - 1:00 am" },
+      { "days": "Fri", "time": "10:00 am - 2:00 am" },
+      { "days": "Sat", "time": "10:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Jet’s Pizza" },
+      { "days": "Mangia Pizza & Catering" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Ferndale Project" },
+      { "days": "Sonic Drive-In" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5511 Schaefer Rd" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://paisano1.com",
+    "phone": "(313) 581-4000",
+    "location": { "type": "Point", "coordinates": [-83.176519, 42.328661] }
+  },
+  {
+    "name": "Sindbad’s Restaurant & Marina",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Hungry Howie’s Pizza" },
+      { "days": "Noble Fish" },
+      { "days": "La Terraza" },
+      { "days": "Howe’s Bayou" },
+      { "days": "Yolk & Toast Family Diner" },
+      { "days": "Red Lobster" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "100 Saint Clair St" }],
+        "city": "Detroit, MI 48214"
+      }
+    ],
+    "url": "http://sindbads.com",
+    "phone": "(313) 822-7817",
+    "location": { "type": "Point", "coordinates": [-82.973908, 42.357864] }
+  },
+  {
+    "name": "Samwich Factory",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "8:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "8:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "8:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "8:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 7:30 pm" },
+      { "days": "Capri Italian Bakery" },
+      { "days": "Subway" },
+      { "days": "Penn Station East Coast Subs" },
+      { "days": "Avenue Brunch House" },
+      { "days": "10% off Your Entire Order*" },
+      { "days": "Shottys Kitchen Halal" },
+      { "days": "Las Cazuelas" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12841 Michigan Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://samwichfactory.com",
+    "phone": "(313) 846-9935",
+    "location": { "type": "Point", "coordinates": [-83.167503, 42.324069] }
+  },
+  {
+    "name": "Jet’s Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 12:00 am" },
+      { "days": "Bode’s Corned Beef House" },
+      { "days": "Malek Al Kabob - Dearborn" },
+      { "days": "Lava Java Cafe" },
+      { "days": "La Terraza" },
+      { "days": "Las Cazuelas Grill" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "13735 W Warren Ave" }],
+        "city": "Dearborn, MI 48126"
+      }
+    ],
+    "url": "http://jetspizza.com",
+    "phone": "(313) 584-1400",
+    "location": { "type": "Point", "coordinates": [-83.178765, 42.34507] }
+  },
+  {
+    "name": "Jet’s Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "10:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Celebrity Catering" },
+      { "days": "La Terraza" },
+      { "days": "Bash Original Izakaya" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10035 Joseph Campau St" }],
+        "city": "Hamtramck, MI 48212"
+      }
+    ],
+    "url": "http://jetspizza.com",
+    "phone": "(313) 875-5200",
+    "location": { "type": "Point", "coordinates": [-83.058959, 42.398115] }
+  }
+]

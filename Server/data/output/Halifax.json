@@ -1,0 +1,445 @@
+[
+  {
+    "name": "The Mercantile Social",
+    "category": "Cocktail Bars",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Ashley O." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1579 Hollis Street" }],
+        "city": "Halifax, NS B3J 1V3"
+      }
+    ],
+    "url": "http://themercantilesocial.ca",
+    "phone": "(902) 425-8682",
+    "location": { "type": "Point", "coordinates": [-63.571844, 44.646093] }
+  },
+  {
+    "name": "Rocky’s Noodles",
+    "category": "Chinese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:30 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1532 Granville Street" }],
+        "city": "Halifax, NS B3J 1W8"
+      }
+    ],
+    "url": "http://rockynoodles.com",
+    "phone": "(902) 420-9200",
+    "location": { "type": "Point", "coordinates": [-63.572257, 44.645055] }
+  },
+  {
+    "name": "Mashawee Mediterranean Grill",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "The Mercantile Social" },
+      { "days": "Rocky’s Noodles" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1526 Dresden Row" }],
+        "city": "Halifax, NS B3J 1G5"
+      }
+    ],
+    "url": "http://mashaweehalal.com",
+    "phone": "(902) 423-9742",
+    "location": { "type": "Point", "coordinates": [-63.578209, 44.643447] }
+  },
+  {
+    "name": "Dhaba",
+    "category": "Vegetarian",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "4:30 pm - 8:30 pm" },
+      { "days": "Wed", "time": "4:30 pm - 8:30 pm" },
+      { "days": "Thu", "time": "4:30 pm - 8:30 pm" },
+      { "days": "Fri", "time": "4:30 pm - 9:00 pm" },
+      { "days": "Sat", "time": "4:30 pm - 9:00 pm" },
+      { "days": "Sun", "time": "4:30 pm - 8:00 pm" },
+      { "days": "Happy Veal Hot Pot" },
+      { "days": "Faizal and Salma J." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8 Oland Crescent" }],
+        "city": "Halifax, NS B3S 1C6"
+      }
+    ],
+    "url": "http://dhaba-express.ca",
+    "phone": "(902) 444-4411",
+    "location": { "type": "Point", "coordinates": [-63.675662, 44.647001] }
+  },
+  {
+    "name": "Basha Restaurant",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 2:00 am" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5361 Inglis Street" }],
+        "city": "Halifax, NS B3H 1J4"
+      }
+    ],
+    "url": "http://basharestaurant.com",
+    "phone": "(902) 425-4005",
+    "location": { "type": "Point", "coordinates": [-63.570118, 44.636043] }
+  },
+  {
+    "name": "Turkish Delight",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "1:00 pm - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5680 Spring Garden Road" }],
+        "city": "Halifax, NS B3J 1H5"
+      }
+    ],
+    "url": "http://turkishdelighthalifax.ca",
+    "phone": "(902) 446-4366",
+    "location": { "type": "Point", "coordinates": [-63.579058, 44.642363] }
+  },
+  {
+    "name": "Syrian Meat Shop",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Wed", "time": "11:45 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:45 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2760 Gladstone street" }],
+        "city": "Halifax Regional Municipality, NS B3K 1V1"
+      }
+    ],
+    "phone": "(902) 329-4433",
+    "location": { "type": "Point", "coordinates": [-63.600962, 44.654942] }
+  },
+  {
+    "name": "Nann-n-Curry",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:30 pm" },
+      { "days": "Happy Veal Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6386 Quinpool Road" }],
+        "city": "Halifax, NS B3L 4N2"
+      }
+    ],
+    "url": "http://naan-n-cuury-restaurant.busine…",
+    "phone": "(902) 444-1480",
+    "location": { "type": "Point", "coordinates": [-63.59985, 44.644465] }
+  },
+  {
+    "name": "A Taste of India Foods",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Happy Veal Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5201 Duke Street" }],
+        "city": "Halifax, NS B3J 1N9"
+      }
+    ],
+    "url": "http://atasteofindia.net",
+    "phone": "(902) 455-5467",
+    "location": { "type": "Point", "coordinates": [-63.575649, 44.649657] }
+  },
+  {
+    "name": "Byblos Lebanese Cuisine",
+    "category": "Barbeque",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 6:00 pm" },
+      { "days": "Sam K." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "644 Portland Street" }],
+        "city": "Dartmouth, NS B2W 6C4"
+      }
+    ],
+    "url": "http://bybloslebanesecuisine.ca",
+    "phone": "(902) 435-5555",
+    "location": { "type": "Point", "coordinates": [-63.525796, 44.670456] }
+  },
+  {
+    "name": "Thai Ivory Indian Express - Always A Pleasure",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Happy Veal Hot Pot" },
+      { "days": "Rocky’s Noodles" },
+      { "days": "Anuradha S." },
+      { "days": "10% off any Dish" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1595 Bedford Highway (Sunnyside Mall)" }],
+        "city": "Bedford, NS B4A 3Y4"
+      }
+    ],
+    "url": "http://OpenKitchen.Live",
+    "phone": "(902) 407-5150",
+    "location": { "type": "Point", "coordinates": [-63.655477, 44.732334] }
+  },
+  {
+    "name": "Bâton Rouge Steakhouse & Bar",
+    "category": "Seafood",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "4:00 pm - 8:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 8:00 pm" },
+      { "days": "The Old Triangle Irish Alehouse" },
+      { "days": "Happy Veal Hot Pot" },
+      { "days": "The Mercantile Social" },
+      { "days": "Rocky’s Noodles" },
+      { "days": "50% off any appy with entree purchase" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1877 Hollis St" }],
+        "city": "Halifax, NS B3J 1W5"
+      }
+    ],
+    "url": "http://batonrouge.ca",
+    "phone": "(902) 407-0007",
+    "location": { "type": "Point", "coordinates": [-63.573856, 44.65011] }
+  },
+  {
+    "name": "PG’s Cafe",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 5:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 3:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "The Mercantile Social" },
+      { "days": "The Old Triangle Irish Alehouse" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1266 Hollis Street" }],
+        "city": "Halifax, NS B3J 1B3"
+      }
+    ],
+    "phone": "(902) 429-8806",
+    "location": { "type": "Point", "coordinates": [-63.569837, 44.641673] }
+  },
+  {
+    "name": "902 Resturant & Catering",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "2:00 pm - 9:00 pm" },
+      { "days": "The Mercantile Social" },
+      { "days": "Rocky’s Noodles" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1579 Dresden Row" }],
+        "city": "Halifax, NS B3J 2K4"
+      }
+    ],
+    "url": "http://902halifax.com",
+    "phone": "(902) 477-9090",
+    "location": { "type": "Point", "coordinates": [-63.578563, 44.644424] }
+  },
+  {
+    "name": "Shawarman Pizza & Subs",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "1:00 pm - 10:00 pm" },
+      { "days": "The Mercantile Social" },
+      { "days": "The Old Triangle Irish Alehouse" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "342 Windmill Road" }],
+        "city": "Dartmouth, NS B3A 1J1"
+      }
+    ],
+    "url": "http://shawarman.ca",
+    "phone": "(902) 404-9999",
+    "location": { "type": "Point", "coordinates": [-63.59458, 44.679864] }
+  },
+  {
+    "name": "Mexicali Rosa’s",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "The Mercantile Social" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "222 Chain Lake Drive" }],
+        "city": "Halifax, NS B3S 1C5"
+      }
+    ],
+    "url": "http://mexicalirosas.com",
+    "phone": "(902) 422-7672",
+    "location": { "type": "Point", "coordinates": [-63.677235, 44.654624] }
+  },
+  {
+    "name": "Pizza Pizza",
+    "category": "Chicken Wings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "The Mercantile Social" },
+      { "days": "The Old Triangle Irish Alehouse" },
+      { "days": "Rocky’s Noodles" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "75 Peakview Way" }],
+        "city": "Halifax, NS B3M 0G2"
+      }
+    ],
+    "url": "http://pizzapizza.ca",
+    "phone": "(902) 480-1111",
+    "location": { "type": "Point", "coordinates": [-63.685676, 44.69783] }
+  },
+  {
+    "name": "Station1 Lebanese Kitchen",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 8:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "50 Tacoma Drive" }],
+        "city": "Dartmouth, NS B2W 3E6"
+      }
+    ],
+    "url": "http://station1lebanesekitchen.com",
+    "phone": "(902) 446-2547",
+    "location": { "type": "Point", "coordinates": [-63.539602, 44.679631] }
+  },
+  {
+    "name": "Sobeys",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 12:00 am" },
+      { "days": "Tue", "time": "6:00 am - 12:00 am" },
+      { "days": "Wed", "time": "6:00 am - 12:00 am" },
+      { "days": "Thu", "time": "6:00 am - 12:00 am" },
+      { "days": "Fri", "time": "6:00 am - 12:00 am" },
+      { "days": "Sat", "time": "6:00 am - 12:00 am" },
+      { "days": "Sun", "time": "7:00 am - 11:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1120 Queen Street" }],
+        "city": "Halifax, NS B3H 2R9"
+      }
+    ],
+    "url": "http://sobeys.com",
+    "phone": "(902) 422-9884",
+    "location": { "type": "Point", "coordinates": [-63.573997, 44.637269] }
+  }
+]

@@ -129,27 +129,9 @@
     {
      "days": "Sun",
      "time": "11:00 am - 9:00 pm"
-    },
-    {
-     "days": "St. Louis Bar & Grill"
-    },
-    {
-     "days": "Cumin Kitchen - Fine Indian Cuisine"
-    },
-    {
-     "days": "Panago Pizza"
-    },
-    {
-     "days": "Zaad"
-    },
-    {
-     "days": "Fishman Lobster Clubhouse Restaurant"
-    },
-    {
-     "days": "Trattoria Leonardo"
     }
    ],
-   "latitude": "",
+   "latitude": "43.654003",
    "longitude": "-79.425951",
    "address": [
     {
@@ -193,24 +175,6 @@
     {
      "days": "Sun",
      "time": "1:00 pm - 10:00 pm"
-    },
-    {
-     "days": "Panago Pizza"
-    },
-    {
-     "days": "Cumin Kitchen - Fine Indian Cuisine"
-    },
-    {
-     "days": "Zaad"
-    },
-    {
-     "days": "St. Louis Bar & Grill"
-    },
-    {
-     "days": "Shish Kabab Express"
-    },
-    {
-     "days": "Falafel Plus"
     }
    ],
    "latitude": "43.657146",
@@ -259,27 +223,6 @@
     {
      "days": "Sun",
      "time": "2:30 pm - 9:30 pm"
-    },
-    {
-     "days": "GB Hand-pulled Noodles"
-    },
-    {
-     "days": "Kaka All You Can Eat"
-    },
-    {
-     "days": "Jeff and Nuit R."
-    },
-    {
-     "days": "Cumin Kitchen - Fine Indian Cuisine"
-    },
-    {
-     "days": "Fishman Lobster Clubhouse Restaurant"
-    },
-    {
-     "days": "Yuzu No Hana"
-    },
-    {
-     "days": "Pho Linh"
     }
    ],
    "latitude": "43.647866",
@@ -328,24 +271,6 @@
     {
      "days": "Sun",
      "time": "Closed"
-    },
-    {
-     "days": "Bar Sybanne"
-    },
-    {
-     "days": "Falafel Plus"
-    },
-    {
-     "days": "CopaCabana Brazilian Steakhouse"
-    },
-    {
-     "days": "Casa Fuego"
-    },
-    {
-     "days": "Zaad"
-    },
-    {
-     "days": "Cumin Kitchen - Fine Indian Cuisine"
     }
    ],
    "latitude": "43.658726",

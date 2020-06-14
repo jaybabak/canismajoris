@@ -33,6 +33,7 @@
       { "days": "Sat", "time": "2:00 pm - 12:00 am" },
       { "days": "Sun", "time": "2:00 pm - 10:00 pm" },
       { "days": "Mont Everest Masala" },
+      { "days": "Crusty Crust" },
       { "days": "B B." }
     ],
     "address": [
@@ -86,6 +87,7 @@
         "city": "Montreal, QC H2L 1A7"
       }
     ],
+    "phone": "(514) 844-7131",
     "location": { "type": "Point", "coordinates": [-73.574699, 45.521865] }
   },
   {
@@ -99,6 +101,7 @@
       { "days": "Fri", "time": "12:00 pm - 11:00 pm" },
       { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
       { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" },
       { "days": "Mont Everest Masala" }
     ],
@@ -108,6 +111,7 @@
         "city": "Montreal, QC H3H 1C9"
       }
     ],
+    "phone": "(514) 846-0000",
     "location": { "type": "Point", "coordinates": [-73.581744, 45.496279] }
   },
   {
@@ -144,8 +148,9 @@
       { "days": "Sat", "time": "11:00 am - 4:00 am" },
       { "days": "Sun", "time": "11:00 am - 4:00 am" },
       { "days": "Bar MajesThé" },
-      { "days": "Mont Everest Masala" },
-      { "days": "Nabil R." }
+      { "days": "Crusty Crust" },
+      { "days": "Nabil R." },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
@@ -156,6 +161,30 @@
     "url": "http://boustan.ca",
     "phone": "(514) 843-3194",
     "location": { "type": "Point", "coordinates": [-73.577845, 45.497924] }
+  },
+  {
+    "name": "Le Parisien Sandwicherie",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Bar MajesThé" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Crusty Crust" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "215 Rue Sainte Catherine E" }],
+        "city": "Montreal, QC H2X 1L2"
+      }
+    ],
+    "phone": "(438) 380-2600",
+    "location": { "type": "Point", "coordinates": [-73.562176, 45.512138] }
   },
   {
     "name": "GaNaDaRa",
@@ -176,52 +205,8 @@
         "city": "Montreal, QC H3H 1J9"
       }
     ],
+    "phone": "(514) 933-2288",
     "location": { "type": "Point", "coordinates": [-73.581312, 45.493665] }
-  },
-  {
-    "name": "Le Parisien Sandwicherie",
-    "category": "Sandwiches",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 12:00 am" },
-      { "days": "Fri", "time": "11:00 am - 1:00 am" },
-      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
-      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
-      { "days": "Bar MajesThé" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "215 Rue Sainte Catherine E" }],
-        "city": "Montreal, QC H2X 1L2"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.562176, 45.512138] }
-  },
-  {
-    "name": "Sparta",
-    "category": "Greek",
-    "hours": [
-      { "days": "Mon", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Tue", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Wed", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Thu", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Fri", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Sat", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "4024B Rue Saint-Catherine" }],
-        "city": "Westmount, QC H3Z 1P2"
-      }
-    ],
-    "url": "http://spartapouletgrille.com",
-    "phone": "(514) 907-7970",
-    "location": { "type": "Point", "coordinates": [-73.585176, 45.488482] }
   },
   {
     "name": "Antep Kabab",
@@ -242,6 +227,7 @@
         "city": "Montreal, QC H3H 2N4"
       }
     ],
+    "phone": "(514) 903-7979",
     "location": { "type": "Point", "coordinates": [-73.579574, 45.495232] }
   },
   {
@@ -256,6 +242,7 @@
       { "days": "Sat", "time": "10:00 am - 8:00 pm" },
       { "days": "Sun", "time": "10:00 am - 8:00 pm" },
       { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" },
       { "days": "Bar MajesThé" }
     ],
     "address": [
@@ -264,7 +251,32 @@
         "city": "Montreal, QC H2X 3P9"
       }
     ],
+    "phone": "(514) 285-8729",
     "location": { "type": "Point", "coordinates": [-73.575003, 45.510319] }
+  },
+  {
+    "name": "Sparta",
+    "category": "Greek",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4024B Rue Saint-Catherine" }],
+        "city": "Westmount, QC H3Z 1P2"
+      }
+    ],
+    "url": "http://spartapouletgrille.com",
+    "phone": "(514) 907-7970",
+    "location": { "type": "Point", "coordinates": [-73.585176, 45.488482] }
   },
   {
     "name": "Café Replika",
@@ -369,6 +381,7 @@
       { "days": "Sat", "time": "11:00 am - 3:00 am" },
       { "days": "Sun", "time": "11:00 am - 1:00 am" },
       { "days": "Bar MajesThé" },
+      { "days": "Crusty Crust" },
       { "days": "Mont Everest Masala" }
     ],
     "address": [
@@ -391,7 +404,8 @@
       { "days": "Thu", "time": "4:00 pm - 11:00 pm" },
       { "days": "Fri", "time": "12:00 pm - 11:00 pm" },
       { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 11:00 pm" }
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
@@ -399,6 +413,7 @@
         "city": "Montreal, QC H2V 4E4"
       }
     ],
+    "phone": "(514) 840-9494",
     "location": { "type": "Point", "coordinates": [-73.589854, 45.517271] }
   },
   {
@@ -426,6 +441,30 @@
     "location": { "type": "Point", "coordinates": [-73.615873, 45.537022] }
   },
   {
+    "name": "Souriana",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 12:00 am" },
+      { "days": "Tue", "time": "10:00 am - 12:00 am" },
+      { "days": "Wed", "time": "10:00 am - 12:00 am" },
+      { "days": "Thu", "time": "10:00 am - 12:00 am" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "10:00 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "Crusty Crust" },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1249 Rue Bishop" }],
+        "city": "Montreal, QC H3G 2E2"
+      }
+    ],
+    "url": "http://souriana.ca",
+    "phone": "(514) 875-5666",
+    "location": { "type": "Point", "coordinates": [-73.57578, 45.496287] }
+  },
+  {
     "name": "Sana",
     "category": "Bangladeshi",
     "hours": [
@@ -444,7 +483,55 @@
         "city": "Montreal, QC H3N 1G3"
       }
     ],
+    "phone": "(514) 613-2206",
     "location": { "type": "Point", "coordinates": [-73.635943, 45.530991] }
+  },
+  {
+    "name": "Resto Menthe & Couscous",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 12:00 am" },
+      { "days": "Sat", "time": "11:30 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 10:30 pm" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Crusty Crust" },
+      { "days": "Mansour K." },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "361 Rue Émery" }],
+        "city": "Montreal, QC H2X 1J2"
+      }
+    ],
+    "url": "http://mentheetcouscous.ca",
+    "phone": "(514) 842-3717",
+    "location": { "type": "Point", "coordinates": [-73.56368, 45.514806] }
+  },
+  {
+    "name": "Avesta",
+    "category": "Turkish",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2077 Rue Sainte-Catherine O" }],
+        "city": "Montreal, QC H3H 1M6"
+      }
+    ],
+    "phone": "(514) 937-0156",
+    "location": { "type": "Point", "coordinates": [-73.582103, 45.491614] }
   },
   {
     "name": "Restaurant Makkah",
@@ -470,121 +557,6 @@
     "location": { "type": "Point", "coordinates": [-73.614767, 45.53761] }
   },
   {
-    "name": "Souriana",
-    "category": "Steakhouses",
-    "hours": [
-      { "days": "Mon", "time": "10:00 am - 12:00 am" },
-      { "days": "Tue", "time": "10:00 am - 12:00 am" },
-      { "days": "Wed", "time": "10:00 am - 12:00 am" },
-      { "days": "Thu", "time": "10:00 am - 12:00 am" },
-      { "days": "Fri", "time": "10:00 am - 12:00 am" },
-      { "days": "Sat", "time": "10:00 am - 12:00 am" },
-      { "days": "Sun", "time": "10:00 am - 12:00 am" },
-      { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1249 Rue Bishop" }],
-        "city": "Montreal, QC H3G 2E2"
-      }
-    ],
-    "url": "http://souriana.ca",
-    "phone": "(514) 875-5666",
-    "location": { "type": "Point", "coordinates": [-73.57578, 45.496287] }
-  },
-  {
-    "name": "Buffet Sultan",
-    "category": "Buffets",
-    "hours": [
-      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Sun", "time": "11:00 am - 3:00 pm" },
-      { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "3666 Rue Saint-Denis" }],
-        "city": "Montreal, QC H2X 3L7"
-      }
-    ],
-    "url": "http://sultanindianbuffet.com",
-    "phone": "(514) 903-6869",
-    "location": { "type": "Point", "coordinates": [-73.570552, 45.518133] }
-  },
-  {
-    "name": "Resto Menthe & Couscous",
-    "category": "Mediterranean",
-    "hours": [
-      { "days": "Mon", "time": "11:30 am - 10:30 pm" },
-      { "days": "Tue", "time": "11:30 am - 10:30 pm" },
-      { "days": "Wed", "time": "11:30 am - 10:30 pm" },
-      { "days": "Thu", "time": "11:30 am - 10:30 pm" },
-      { "days": "Fri", "time": "11:30 am - 12:00 am" },
-      { "days": "Sat", "time": "11:30 am - 12:00 am" },
-      { "days": "Sun", "time": "10:00 am - 10:30 pm" },
-      { "days": "Bar MajesThé" },
-      { "days": "Mansour K." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "361 Rue Émery" }],
-        "city": "Montreal, QC H2X 1J2"
-      }
-    ],
-    "url": "http://mentheetcouscous.ca",
-    "phone": "(514) 842-3717",
-    "location": { "type": "Point", "coordinates": [-73.56368, 45.514806] }
-  },
-  {
-    "name": "Avesta",
-    "category": "Turkish",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2077 Rue Sainte-Catherine O" }],
-        "city": "Montreal, QC H3H 1M6"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.582103, 45.491614] }
-  },
-  {
-    "name": "Boucherie Abu Elias",
-    "category": "Butcher",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "733 Boulevard de La Cote-Vertu" }],
-        "city": "Saint-Laurent, QC H4L 1Y3"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.67424, 45.521044] }
-  },
-  {
     "name": "Poulet Rouge",
     "category": "Barbeque",
     "hours": [
@@ -595,6 +567,7 @@
       { "days": "Fri", "time": "11:00 am - 4:00 am" },
       { "days": "Sat", "time": "11:00 am - 4:00 am" },
       { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" }
     ],
     "address": [
@@ -608,52 +581,52 @@
     "location": { "type": "Point", "coordinates": [-73.578407, 45.494701] }
   },
   {
-    "name": "Ad Deyafa",
-    "category": "Moroccan",
+    "name": "Grillado’s",
+    "category": "Chicken Shop",
     "hours": [
-      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
-      { "days": "Mohammed A." },
-      { "days": "Recommended reviews in French" }
+      { "days": "Mon", "time": "11:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:30 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:30 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Mohammad M." }
     ],
     "address": [
       {
-        "street": [{ "name": "5588 Rue Jean-Talon E" }],
-        "city": "Saint-Léonard, QC H1S 1L9"
+        "street": [{ "name": "2079 Rue Sainte-Catherine Ouest" }],
+        "city": "Montreal, QC H3H 1M6"
       }
     ],
-    "url": "http://ad-deyafa.ca",
-    "phone": "(514) 257-6144",
-    "location": { "type": "Point", "coordinates": [-73.580353, 45.582214] }
+    "url": "http://grillados.ca",
+    "phone": "(514) 933-9399",
+    "location": { "type": "Point", "coordinates": [-73.582128, 45.491631] }
   },
   {
-    "name": "Bar MajesThé",
-    "category": "Asian Fusion",
+    "name": "Buffet Sultan",
+    "category": "Buffets",
     "hours": [
-      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
-      { "days": "Sat", "time": "12:30 pm - 10:00 pm" },
-      { "days": "Sun", "time": "12:30 pm - 10:00 pm" },
-      { "days": "Playground" },
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 3:00 pm" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Bar MajesThé" },
       { "days": "Crusty Crust" }
     ],
     "address": [
       {
-        "street": [{ "name": "2077 Boulevard Robert-Bourassa" }],
-        "city": "Montreal, QC H3A 2M3"
+        "street": [{ "name": "3666 Rue Saint-Denis" }],
+        "city": "Montreal, QC H2X 3L7"
       }
     ],
-    "url": "http://lemajesthe.ca",
-    "phone": "(514) 543-5505",
-    "location": { "type": "Point", "coordinates": [-73.572777, 45.504759] }
+    "url": "http://sultanindianbuffet.com",
+    "phone": "(514) 903-6869",
+    "location": { "type": "Point", "coordinates": [-73.570552, 45.518133] }
   },
   {
     "name": "Bar MajesThé",
@@ -680,28 +653,26 @@
     "location": { "type": "Point", "coordinates": [-73.572777, 45.504759] }
   },
   {
-    "name": "Grillado’s",
-    "category": "Chicken Shop",
+    "name": "Mont Everest Masala",
+    "category": "Indian",
     "hours": [
-      { "days": "Mon", "time": "11:30 am - 10:30 pm" },
-      { "days": "Tue", "time": "11:30 am - 10:30 pm" },
-      { "days": "Wed", "time": "11:30 am - 10:30 pm" },
-      { "days": "Thu", "time": "11:30 am - 10:30 pm" },
-      { "days": "Fri", "time": "11:30 am - 11:30 pm" },
-      { "days": "Sat", "time": "12:00 pm - 11:30 pm" },
-      { "days": "Sun", "time": "12:00 pm - 10:30 pm" },
-      { "days": "Bar MajesThé" },
-      { "days": "Mohammad M." }
+      { "days": "Mon", "time": "6:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" }
     ],
     "address": [
       {
-        "street": [{ "name": "2079 Rue Sainte-Catherine Ouest" }],
-        "city": "Montreal, QC H3H 1M6"
+        "street": [{ "name": "1999 Avenue du Mont-Royal E" }],
+        "city": "Montreal, QC H2H 1J5"
       }
     ],
-    "url": "http://grillados.ca",
-    "phone": "(514) 933-9399",
-    "location": { "type": "Point", "coordinates": [-73.582128, 45.491631] }
+    "url": "http://monteverestmasala.com",
+    "phone": "(514) 521-6999",
+    "location": { "type": "Point", "coordinates": [-73.573191, 45.534558] }
   },
   {
     "name": "Arzou Express",
@@ -722,30 +693,8 @@
         "city": "Lasalle, QC H8N 1T7"
       }
     ],
+    "phone": "(514) 275-4890",
     "location": { "type": "Point", "coordinates": [-73.629491, 45.428303] }
-  },
-  {
-    "name": "Le Taj",
-    "category": "Indian",
-    "hours": [
-      { "days": "Mon", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Tue", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Fri", "time": "5:00 pm - 11:00 pm" },
-      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
-      { "days": "Sun", "time": "5:00 pm - 10:30 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "2077 Rue Stanley" }],
-        "city": "Montreal, QC H3A 1R7"
-      }
-    ],
-    "url": "http://restaurantletaj.com",
-    "phone": "(514) 845-9015",
-    "location": { "type": "Point", "coordinates": [-73.576657, 45.501105] }
   },
   {
     "name": "Paramount",
@@ -781,6 +730,7 @@
       { "days": "Fri", "time": "7:00 am - 3:30 pm" },
       { "days": "Sat", "time": "7:00 am - 3:30 pm" },
       { "days": "Sun", "time": "7:00 am - 3:30 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Mont Everest Masala" }
     ],
     "address": [
@@ -789,7 +739,77 @@
         "city": "Laval, QC H7V 2V3"
       }
     ],
+    "phone": "(514) 812-2526",
     "location": { "type": "Point", "coordinates": [-73.747376, 45.539405] }
+  },
+  {
+    "name": "Boucherie Abu Elias",
+    "category": "Butcher",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "733 Boulevard de La Cote-Vertu" }],
+        "city": "Saint-Laurent, QC H4L 1Y3"
+      }
+    ],
+    "phone": "(514) 747-7754",
+    "location": { "type": "Point", "coordinates": [-73.67424, 45.521044] }
+  },
+  {
+    "name": "Ad Deyafa",
+    "category": "Moroccan",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
+      { "days": "Mohammed A." },
+      { "days": "Recommended reviews in French" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5588 Rue Jean-Talon E" }],
+        "city": "Saint-Léonard, QC H1S 1L9"
+      }
+    ],
+    "url": "http://ad-deyafa.ca",
+    "phone": "(514) 257-6144",
+    "location": { "type": "Point", "coordinates": [-73.580353, 45.582214] }
+  },
+  {
+    "name": "Le Taj",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2077 Rue Stanley" }],
+        "city": "Montreal, QC H3A 1R7"
+      }
+    ],
+    "url": "http://restaurantletaj.com",
+    "phone": "(514) 845-9015",
+    "location": { "type": "Point", "coordinates": [-73.576657, 45.501105] }
   },
   {
     "name": "L’Usine de Spaghetti",
@@ -802,6 +822,7 @@
       { "days": "Fri", "time": "11:30 am - 10:00 pm" },
       { "days": "Sat", "time": "11:30 am - 10:00 pm" },
       { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" },
       { "days": "Rick Khanna K." }
     ],
@@ -825,8 +846,7 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" }
     ],
     "address": [
       {
@@ -834,28 +854,8 @@
         "city": "Montreal, QC H1S 1K4"
       }
     ],
+    "phone": "(438) 387-3990",
     "location": { "type": "Point", "coordinates": [-73.586169, 45.572998] }
-  },
-  {
-    "name": "El Rey del Taco",
-    "category": "Mexican",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "9:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "9:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "9:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "9:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 10:00 pm" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "232 Rue Jean-Talon E" }],
-        "city": "Montreal, QC H2R 1S7"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.615961, 45.536422] }
   },
   {
     "name": "3 Amigos",
@@ -912,8 +912,7 @@
       { "days": "Thu", "time": "11:30 am - 10:30 pm" },
       { "days": "Fri", "time": "11:30 am - 10:30 pm" },
       { "days": "Sat", "time": "11:30 am - 10:30 pm" },
-      { "days": "Sun", "time": "11:30 am - 10:30 pm" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Sun", "time": "11:30 am - 10:30 pm" }
     ],
     "address": [
       {
@@ -926,29 +925,6 @@
     "location": { "type": "Point", "coordinates": [-73.766812, 45.558563] }
   },
   {
-    "name": "Om",
-    "category": "Himalayan/Nepalese",
-    "hours": [
-      { "days": "Mon", "time": "Closed" },
-      { "days": "Tue", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Wed", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Thu", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Fri", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Sat", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Sun", "time": "5:30 pm - 10:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "4382 Boulevard Saint-Laurent" }],
-        "city": "Montreal, QC H2W 1Z5"
-      }
-    ],
-    "url": "http://restaurantom.ca",
-    "phone": "(514) 287-3553",
-    "location": { "type": "Point", "coordinates": [-73.584742, 45.519265] }
-  },
-  {
     "name": "Centrale Bergham",
     "category": "Sandwiches",
     "hours": [
@@ -959,8 +935,8 @@
       { "days": "Fri", "time": "11:00 am - 4:00 am" },
       { "days": "Sat", "time": "11:00 am - 4:00 am" },
       { "days": "Sun", "time": "11:00 am - 4:00 am" },
-      { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" }
+      { "days": "Bar MajesThé" },
+      { "days": "Crusty Crust" }
     ],
     "address": [
       {
@@ -995,6 +971,52 @@
     "location": { "type": "Point", "coordinates": [-73.605715, 45.532916] }
   },
   {
+    "name": "El Rey del Taco",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "232 Rue Jean-Talon E" }],
+        "city": "Montreal, QC H2R 1S7"
+      }
+    ],
+    "phone": "(514) 274-3336",
+    "location": { "type": "Point", "coordinates": [-73.615961, 45.536422] }
+  },
+  {
+    "name": "Om",
+    "category": "Himalayan/Nepalese",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:30 pm - 10:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4382 Boulevard Saint-Laurent" }],
+        "city": "Montreal, QC H2W 1Z5"
+      }
+    ],
+    "url": "http://restaurantom.ca",
+    "phone": "(514) 287-3553",
+    "location": { "type": "Point", "coordinates": [-73.584742, 45.519265] }
+  },
+  {
     "name": "BBQ Tandoori",
     "category": "Pakistani",
     "hours": [
@@ -1014,74 +1036,8 @@
         "city": "LaSalle, QC H8N 1T7"
       }
     ],
+    "phone": "(514) 595-9000",
     "location": { "type": "Point", "coordinates": [-73.630749, 45.428932] }
-  },
-  {
-    "name": "Farhat Boucherie et Grillades",
-    "category": "Halal",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 10:30 pm" },
-      { "days": "Tue", "time": "9:00 am - 10:30 pm" },
-      { "days": "Wed", "time": "9:00 am - 10:30 pm" },
-      { "days": "Thu", "time": "9:00 am - 10:30 pm" },
-      { "days": "Fri", "time": "9:00 am - 10:30 pm" },
-      { "days": "Sat", "time": "9:00 am - 10:30 pm" },
-      { "days": "Sun", "time": "9:00 am - 10:30 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "559 Boulevard Saint-Martin Ouest" }],
-        "city": "Laval, QC H7M 1Y9"
-      }
-    ],
-    "url": "http://grilladesfarhat.com",
-    "phone": "(450) 490-4901",
-    "location": { "type": "Point", "coordinates": [-73.713154, 45.576747] }
-  },
-  {
-    "name": "Restaurant Raja",
-    "category": "Vegetarian",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1151 Rue Décarie" }],
-        "city": "Montreal, QC H4L 3M8"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.684133, 45.515713] }
-  },
-  {
-    "name": "786 Halal Restaurant",
-    "category": "Pakistani",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
-      { "days": "Fri", "time": "2:00 pm - 10:30 pm" },
-      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:30 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "850 Rue Jean-Talon O" }],
-        "city": "Montreal, QC H3N 1S4"
-      }
-    ],
-    "url": "http://786halalrestaurant.com",
-    "phone": "(514) 270-0786",
-    "location": { "type": "Point", "coordinates": [-73.624759, 45.525784] }
   },
   {
     "name": "L’Afghan Grillade",
@@ -1107,6 +1063,29 @@
     "location": { "type": "Point", "coordinates": [-73.659334, 45.533669] }
   },
   {
+    "name": "Farhat Boucherie et Grillades",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "9:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "9:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "9:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "9:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "9:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "9:00 am - 10:30 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "559 Boulevard Saint-Martin Ouest" }],
+        "city": "Laval, QC H7M 1Y9"
+      }
+    ],
+    "url": "http://grilladesfarhat.com",
+    "phone": "(450) 490-4901",
+    "location": { "type": "Point", "coordinates": [-73.713154, 45.576747] }
+  },
+  {
     "name": "GrillnGo",
     "category": "Steakhouses",
     "hours": [
@@ -1116,8 +1095,7 @@
       { "days": "Thu", "time": "11:00 am - 12:00 am" },
       { "days": "Fri", "time": "11:00 am - 12:00 am" },
       { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "11:00 am - 12:00 am" },
-      { "days": "Crusty Crust" }
+      { "days": "Sun", "time": "11:00 am - 12:00 am" }
     ],
     "address": [
       {
@@ -1130,24 +1108,77 @@
     "location": { "type": "Point", "coordinates": [-73.63558, 45.575291] }
   },
   {
-    "name": "Garage Beirut",
-    "category": "Barbeque",
+    "name": "786 Halal Restaurant",
+    "category": "Pakistani",
     "hours": [
-      { "days": "Mon", "time": "Closed" },
-      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "2:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:30 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "1238 rue Mackay" }],
-        "city": "Montreal, QC H3G 2H4"
+        "street": [{ "name": "850 Rue Jean-Talon O" }],
+        "city": "Montreal, QC H3N 1S4"
       }
     ],
-    "location": { "type": "Point", "coordinates": [-73.576232, 45.495192] }
+    "url": "http://786halalrestaurant.com",
+    "phone": "(514) 270-0786",
+    "location": { "type": "Point", "coordinates": [-73.624759, 45.525784] }
+  },
+  {
+    "name": "Boulangerie Habib",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "5:00 am - 7:30 pm" },
+      { "days": "Tue", "time": "5:00 am - 7:30 pm" },
+      { "days": "Wed", "time": "5:00 am - 7:30 pm" },
+      { "days": "Thu", "time": "5:00 am - 8:30 pm" },
+      { "days": "Fri", "time": "5:00 am - 8:30 pm" },
+      { "days": "Sat", "time": "5:00 am - 8:30 pm" },
+      { "days": "Sun", "time": "7:00 am - 7:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Yusuf H." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6655 Victoria Avenue" }],
+        "city": "Montreal, QC H3W 2T2"
+      }
+    ],
+    "url": "http://boulangeriehabib.com",
+    "phone": "(514) 504-1745",
+    "location": { "type": "Point", "coordinates": [-73.641829, 45.496617] }
+  },
+  {
+    "name": "Al-Amine",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 12:30 am" },
+      { "days": "Tue", "time": "6:00 am - 12:30 am" },
+      { "days": "Wed", "time": "6:00 am - 12:30 am" },
+      { "days": "Thu", "time": "6:00 am - 12:30 am" },
+      { "days": "Fri", "time": "6:00 am - 1:00 am" },
+      { "days": "Sat", "time": "6:00 am - 1:00 am" },
+      { "days": "Sun", "time": "6:00 am - 12:00 am" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3549 Avenue Lacombe" }],
+        "city": "Montreal, QC H3T 1M2"
+      }
+    ],
+    "url": "http://restaurant.topmenu.com/al-amin…",
+    "phone": "(514) 739-1817",
+    "location": { "type": "Point", "coordinates": [-73.62333, 45.496924] }
   },
   {
     "name": "Bar MajesThé",
@@ -1174,6 +1205,51 @@
     "location": { "type": "Point", "coordinates": [-73.572777, 45.504759] }
   },
   {
+    "name": "Mont Everest Masala",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "6:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1999 Avenue du Mont-Royal E" }],
+        "city": "Montreal, QC H2H 1J5"
+      }
+    ],
+    "url": "http://monteverestmasala.com",
+    "phone": "(514) 521-6999",
+    "location": { "type": "Point", "coordinates": [-73.573191, 45.534558] }
+  },
+  {
+    "name": "Garage Beirut",
+    "category": "Barbeque",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Bar MajesThé" },
+      { "days": "Crusty Crust" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1238 rue Mackay" }],
+        "city": "Montreal, QC H3G 2H4"
+      }
+    ],
+    "phone": "(514) 564-2040",
+    "location": { "type": "Point", "coordinates": [-73.576232, 45.495192] }
+  },
+  {
     "name": "Janani",
     "category": "Vegetarian",
     "hours": [
@@ -1192,6 +1268,7 @@
         "city": "Montreal, QC H3W 2S9"
       }
     ],
+    "phone": "(514) 903-8300",
     "location": { "type": "Point", "coordinates": [-73.640206, 45.495358] }
   },
   {
@@ -1205,6 +1282,7 @@
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
       { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" }
     ],
     "address": [
@@ -1213,54 +1291,8 @@
         "city": "Montreal, QC H4B 1M2"
       }
     ],
+    "phone": "(514) 489-7888",
     "location": { "type": "Point", "coordinates": [-73.623343, 45.466421] }
-  },
-  {
-    "name": "Boulangerie Habib",
-    "category": "Bakeries",
-    "hours": [
-      { "days": "Mon", "time": "5:00 am - 7:30 pm" },
-      { "days": "Tue", "time": "5:00 am - 7:30 pm" },
-      { "days": "Wed", "time": "5:00 am - 7:30 pm" },
-      { "days": "Thu", "time": "5:00 am - 8:30 pm" },
-      { "days": "Fri", "time": "5:00 am - 8:30 pm" },
-      { "days": "Sat", "time": "5:00 am - 8:30 pm" },
-      { "days": "Sun", "time": "7:00 am - 7:00 pm" },
-      { "days": "Mont Everest Masala" },
-      { "days": "Yusuf H." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "6655 Victoria Avenue" }],
-        "city": "Montreal, QC H3W 2T2"
-      }
-    ],
-    "url": "http://boulangeriehabib.com",
-    "phone": "(514) 504-1745",
-    "location": { "type": "Point", "coordinates": [-73.641829, 45.496617] }
-  },
-  {
-    "name": "Al-Amine",
-    "category": "Pizza",
-    "hours": [
-      { "days": "Mon", "time": "6:00 am - 12:30 am" },
-      { "days": "Tue", "time": "6:00 am - 12:30 am" },
-      { "days": "Wed", "time": "6:00 am - 12:30 am" },
-      { "days": "Thu", "time": "6:00 am - 12:30 am" },
-      { "days": "Fri", "time": "6:00 am - 1:00 am" },
-      { "days": "Sat", "time": "6:00 am - 1:00 am" },
-      { "days": "Sun", "time": "6:00 am - 12:00 am" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "3549 Avenue Lacombe" }],
-        "city": "Montreal, QC H3T 1M2"
-      }
-    ],
-    "url": "http://restaurant.topmenu.com/al-amin…",
-    "phone": "(514) 739-1817",
-    "location": { "type": "Point", "coordinates": [-73.62333, 45.496924] }
   },
   {
     "name": "Le Plezl",
@@ -1273,7 +1305,9 @@
       { "days": "Fri", "time": "11:00 am - 3:00 pm" },
       { "days": "Sat", "time": "Closed" },
       { "days": "Sun", "time": "Closed" },
-      { "days": "Bar MajesThé" }
+      { "days": "Crusty Crust" },
+      { "days": "Bar MajesThé" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
@@ -1281,28 +1315,8 @@
         "city": "Montreal, QC H3A 1W7"
       }
     ],
+    "phone": "(514) 400-5147",
     "location": { "type": "Point", "coordinates": [-73.577488, 45.502527] }
-  },
-  {
-    "name": "Restaurant Yas",
-    "category": "Persian/Iranian",
-    "hours": [
-      { "days": "Mon", "time": "Closed" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "M I." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "5563 Chemin Upper Lachine" }],
-        "city": "Montreal, QC H4A 2A7"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.608688, 45.469833] }
   },
   {
     "name": "Poulet Bronzé",
@@ -1323,6 +1337,7 @@
         "city": "Montreal, QC H3H 1G9"
       }
     ],
+    "phone": "(514) 989-8555",
     "location": { "type": "Point", "coordinates": [-73.58057, 45.495823] }
   },
   {
@@ -1336,7 +1351,6 @@
       { "days": "Fri", "time": "11:00 am - 12:00 am" },
       { "days": "Sat", "time": "11:00 am - 12:00 am" },
       { "days": "Sun", "time": "11:00 am - 12:00 am" },
-      { "days": "Crusty Crust" },
       { "days": "Mont Everest Masala" }
     ],
     "address": [
@@ -1350,113 +1364,26 @@
     "location": { "type": "Point", "coordinates": [-73.743368, 45.557827] }
   },
   {
-    "name": "Roti Boti",
-    "category": "Pakistani",
-    "hours": [
-      { "days": "Mon", "time": "Closed" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1631 Boulevard Curé-Labelle" }],
-        "city": "Laval, QC H7V 2W5"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.758623, 45.551106] }
-  },
-  {
-    "name": "Juste à Coté",
-    "category": "Sandwiches",
+    "name": "Restaurant Raja",
+    "category": "Vegetarian",
     "hours": [
       { "days": "Mon", "time": "11:00 am - 10:00 pm" },
       { "days": "Tue", "time": "11:00 am - 10:00 pm" },
       { "days": "Wed", "time": "11:00 am - 10:00 pm" },
       { "days": "Thu", "time": "11:00 am - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 7:00 pm" },
-      { "days": "Crusty Crust" },
-      { "days": "Mont Everest Masala" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "152 Rue Prince Arthur E" }],
-        "city": "Montreal, QC H2X 1B7"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.571241, 45.515298] }
-  },
-  {
-    "name": "Shawarma Royale",
-    "category": "Vegetarian",
-    "hours": [
-      { "days": "Mon", "time": "10:30 am - 11:00 pm" },
-      { "days": "Tue", "time": "10:30 am - 11:00 pm" },
-      { "days": "Wed", "time": "10:30 am - 11:00 pm" },
-      { "days": "Thu", "time": "10:30 am - 11:00 pm" },
-      { "days": "Fri", "time": "10:30 am - 11:00 pm" },
-      { "days": "Sat", "time": "10:30 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" },
-      { "days": "Joseph Yousef S." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1290 Rue Jarry E" }],
-        "city": "Montreal, QC H2P 1X1"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.621759, 45.549539] }
-  },
-  {
-    "name": "Milton B",
-    "category": "Breakfast & Brunch",
-    "hours": [
-      { "days": "Mon", "time": "Open 24 hours" },
-      { "days": "Tue", "time": "Open 24 hours" },
-      { "days": "Wed", "time": "Open 24 hours" },
-      { "days": "Thu", "time": "Open 24 hours" },
-      { "days": "Fri", "time": "Open 24 hours" },
-      { "days": "Sat", "time": "Open 24 hours" },
-      { "days": "Sun", "time": "Open 24 hours" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "3498 Avenue du Parc" }],
-        "city": "Montreal, QC H2X 2H5"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.573688, 45.50919] }
-  },
-  {
-    "name": "Elounda",
-    "category": "Greek",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
-      { "days": "Sun", "time": "5:00 pm - 11:00 pm" },
-      { "days": "Crusty Crust" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
       { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "1818 Boulevard de la Côte-Vertu" }],
-        "city": "Saint-Laurent, QC H4L 2A6"
+        "street": [{ "name": "1151 Rue Décarie" }],
+        "city": "Montreal, QC H4L 3M8"
       }
     ],
-    "location": { "type": "Point", "coordinates": [-73.687021, 45.510577] }
+    "phone": "(514) 748-1200",
+    "location": { "type": "Point", "coordinates": [-73.684133, 45.515713] }
   },
   {
     "name": "Pinoy Pansitan",
@@ -1468,7 +1395,8 @@
       { "days": "Thu", "time": "11:00 am - 9:00 pm" },
       { "days": "Fri", "time": "11:00 am - 9:00 pm" },
       { "days": "Sat", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 9:00 pm" }
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Bar MajesThé" }
     ],
     "address": [
       {
@@ -1476,6 +1404,7 @@
         "city": "Montreal, QC H3W 2R8"
       }
     ],
+    "phone": "(438) 386-7999",
     "location": { "type": "Point", "coordinates": [-73.636209, 45.493547] }
   },
   {
@@ -1502,6 +1431,51 @@
     "location": { "type": "Point", "coordinates": [-73.466585, 45.484174] }
   },
   {
+    "name": "Restaurant Yas",
+    "category": "Persian/Iranian",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Mont Everest Masala" },
+      { "days": "M I." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5563 Chemin Upper Lachine" }],
+        "city": "Montreal, QC H4A 2A7"
+      }
+    ],
+    "phone": "(514) 483-0303",
+    "location": { "type": "Point", "coordinates": [-73.608688, 45.469833] }
+  },
+  {
+    "name": "Roti Boti",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1631 Boulevard Curé-Labelle" }],
+        "city": "Laval, QC H7V 2W5"
+      }
+    ],
+    "phone": "(450) 681-0661",
+    "location": { "type": "Point", "coordinates": [-73.758623, 45.551106] }
+  },
+  {
     "name": "Zykaa",
     "category": "Indian",
     "hours": [
@@ -1525,6 +1499,167 @@
     "location": { "type": "Point", "coordinates": [-73.519121, 45.602382] }
   },
   {
+    "name": "Juste à Coté",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "152 Rue Prince Arthur E" }],
+        "city": "Montreal, QC H2X 1B7"
+      }
+    ],
+    "phone": "(514) 844-2683",
+    "location": { "type": "Point", "coordinates": [-73.571241, 45.515298] }
+  },
+  {
+    "name": "Shawarma Royale",
+    "category": "Vegetarian",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" },
+      { "days": "Joseph Yousef S." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1290 Rue Jarry E" }],
+        "city": "Montreal, QC H2P 1X1"
+      }
+    ],
+    "phone": "(514) 721-1444",
+    "location": { "type": "Point", "coordinates": [-73.621759, 45.549539] }
+  },
+  {
+    "name": "Casa Express",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "2:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "10% off votre 1 ère commande" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "80 Boulevard Sainte-Foy" }],
+        "city": "Longueuil, QC J4J 1W4"
+      }
+    ],
+    "url": "http://casa-express.business.site",
+    "phone": "(450) 286-1000",
+    "location": { "type": "Point", "coordinates": [-73.485372, 45.530599] }
+  },
+  {
+    "name": "Whatsub?",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1789 Boulevard Curé-Labelle" }],
+        "city": "Laval, QC H7T 1L1"
+      }
+    ],
+    "phone": "(450) 681-0085",
+    "location": { "type": "Point", "coordinates": [-73.760551, 45.552909] }
+  },
+  {
+    "name": "Elounda",
+    "category": "Greek",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1818 Boulevard de la Côte-Vertu" }],
+        "city": "Saint-Laurent, QC H4L 2A6"
+      }
+    ],
+    "phone": "(514) 331-4040",
+    "location": { "type": "Point", "coordinates": [-73.687021, 45.510577] }
+  },
+  {
+    "name": "Baba",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:30 am - 8:00 pm" },
+      { "days": "Sun", "time": "9:30 am - 8:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "150 Rue Sainte-Catherine O" }],
+        "city": "Montreal, QC H2X 3Y2"
+      }
+    ],
+    "phone": "(514) 289-9910",
+    "location": { "type": "Point", "coordinates": [-73.565564, 45.507842] }
+  },
+  {
+    "name": "Boustan",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 4:00 am" },
+      { "days": "Tue", "time": "11:00 am - 4:00 am" },
+      { "days": "Wed", "time": "11:00 am - 4:00 am" },
+      { "days": "Thu", "time": "11:00 am - 4:00 am" },
+      { "days": "Fri", "time": "11:00 am - 4:00 am" },
+      { "days": "Sat", "time": "11:00 am - 4:00 am" },
+      { "days": "Sun", "time": "11:00 am - 4:00 am" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "19 Rue Sainte-Catherine Est" }],
+        "city": "Montreal, QC H2X 1K4"
+      }
+    ],
+    "url": "http://boustan.ca",
+    "phone": "(514) 844-2999",
+    "location": { "type": "Point", "coordinates": [-73.563564, 45.510339] }
+  },
+  {
     "name": "Mozart",
     "category": "Kosher",
     "hours": [
@@ -1534,7 +1669,8 @@
       { "days": "Thu", "time": "11:30 am - 10:30 pm" },
       { "days": "Fri", "time": "11:30 am - 3:00 pm" },
       { "days": "Sat", "time": "10:00 am - 12:30 am" },
-      { "days": "Sun", "time": "11:30 am - 11:00 pm" }
+      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
@@ -1542,6 +1678,7 @@
         "city": "Montreal, QC H3X 1T9"
       }
     ],
+    "phone": "(514) 419-4411",
     "location": { "type": "Point", "coordinates": [-73.629813, 45.483173] }
   },
   {
@@ -1563,31 +1700,8 @@
         "city": "Montreal, QC H3N 1S2"
       }
     ],
+    "phone": "(514) 495-0495",
     "location": { "type": "Point", "coordinates": [-73.624344, 45.52652] }
-  },
-  {
-    "name": "Casa Express",
-    "category": "Halal",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "2:00 pm - 12:00 am" },
-      { "days": "Sat", "time": "11:00 am - 12:00 am" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
-      { "days": "Mont Everest Masala" },
-      { "days": "10% off votre 1 ère commande" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "80 Boulevard Sainte-Foy" }],
-        "city": "Longueuil, QC J4J 1W4"
-      }
-    ],
-    "url": "http://casa-express.business.site",
-    "phone": "(450) 286-1000",
-    "location": { "type": "Point", "coordinates": [-73.485372, 45.530599] }
   },
   {
     "name": "ADONIS",
@@ -1610,94 +1724,6 @@
     "url": "http://groupeadonis.ca",
     "phone": "(514) 933-4747",
     "location": { "type": "Point", "coordinates": [-73.583477, 45.49053] }
-  },
-  {
-    "name": "Whatsub?",
-    "category": "Halal",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
-      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
-      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 9:00 pm" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1789 Boulevard Curé-Labelle" }],
-        "city": "Laval, QC H7T 1L1"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.760551, 45.552909] }
-  },
-  {
-    "name": "Boustan",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 4:00 am" },
-      { "days": "Tue", "time": "11:00 am - 4:00 am" },
-      { "days": "Wed", "time": "11:00 am - 4:00 am" },
-      { "days": "Thu", "time": "11:00 am - 4:00 am" },
-      { "days": "Fri", "time": "11:00 am - 4:00 am" },
-      { "days": "Sat", "time": "11:00 am - 4:00 am" },
-      { "days": "Sun", "time": "11:00 am - 4:00 am" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "19 Rue Sainte-Catherine Est" }],
-        "city": "Montreal, QC H2X 1K4"
-      }
-    ],
-    "url": "http://boustan.ca",
-    "phone": "(514) 844-2999",
-    "location": { "type": "Point", "coordinates": [-73.563564, 45.510339] }
-  },
-  {
-    "name": "Baba",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "9:30 am - 9:00 pm" },
-      { "days": "Tue", "time": "9:30 am - 9:00 pm" },
-      { "days": "Wed", "time": "9:30 am - 9:00 pm" },
-      { "days": "Thu", "time": "9:30 am - 9:00 pm" },
-      { "days": "Fri", "time": "9:30 am - 9:00 pm" },
-      { "days": "Sat", "time": "9:30 am - 8:00 pm" },
-      { "days": "Sun", "time": "9:30 am - 8:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "150 Rue Sainte-Catherine O" }],
-        "city": "Montreal, QC H2X 3Y2"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.565564, 45.507842] }
-  },
-  {
-    "name": "Deli 365",
-    "category": "Sandwiches",
-    "hours": [
-      { "days": "Mon", "time": "12:00 pm - 10:30 pm" },
-      { "days": "Tue", "time": "12:00 pm - 10:30 pm" },
-      { "days": "Wed", "time": "12:00 pm - 10:30 pm" },
-      { "days": "Thu", "time": "12:00 pm - 11:00 pm" },
-      { "days": "Fri", "time": "10:00 am - 4:00 pm" },
-      { "days": "Sat", "time": "Closed" },
-      { "days": "Sun", "time": "1:00 pm - 10:30 pm" },
-      { "days": "Crusty Crust" },
-      { "days": "Mont Everest Masala" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "365 Rue Bernard O" }],
-        "city": "Montreal, QC H2V 1T6"
-      }
-    ],
-    "url": "http://Deli365.ca",
-    "phone": "(514) 544-3354",
-    "location": { "type": "Point", "coordinates": [-73.605885, 45.523441] }
   },
   {
     "name": "Pizza Pizza",
@@ -1723,8 +1749,30 @@
     "location": { "type": "Point", "coordinates": [-73.409046, 45.495434] }
   },
   {
+    "name": "Il Focolaio",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1223 Rue du Square-Phillips" }],
+        "city": "Montreal, QC H3B 3E9"
+      }
+    ],
+    "url": "http://ilfocolaio.ca",
+    "phone": "(514) 879-1045",
+    "location": { "type": "Point", "coordinates": [-73.568103, 45.504096] }
+  },
+  {
     "name": "Bar MajesThé",
-    "category": "Taiwanese",
+    "category": "Asian Fusion",
     "hours": [
       { "days": "Mon", "time": "11:30 am - 10:00 pm" },
       { "days": "Tue", "time": "11:30 am - 10:00 pm" },
@@ -1747,26 +1795,49 @@
     "location": { "type": "Point", "coordinates": [-73.572777, 45.504759] }
   },
   {
-    "name": "Il Focolaio",
-    "category": "Italian",
+    "name": "Mont Everest Masala",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "6:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1999 Avenue du Mont-Royal E" }],
+        "city": "Montreal, QC H2H 1J5"
+      }
+    ],
+    "url": "http://monteverestmasala.com",
+    "phone": "(514) 521-6999",
+    "location": { "type": "Point", "coordinates": [-73.573191, 45.534558] }
+  },
+  {
+    "name": "Kebeh Kebab",
+    "category": "Kebab",
     "hours": [
       { "days": "Mon", "time": "11:00 am - 8:00 pm" },
       { "days": "Tue", "time": "11:00 am - 8:00 pm" },
       { "days": "Wed", "time": "11:00 am - 8:00 pm" },
       { "days": "Thu", "time": "11:00 am - 9:00 pm" },
       { "days": "Fri", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "4:00 pm - 9:00 pm" },
-      { "days": "Sun", "time": "Closed" }
+      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "1223 Rue du Square-Phillips" }],
-        "city": "Montreal, QC H3B 3E9"
+        "street": [{ "name": "2600 Rue de Salaberry" }],
+        "city": "Montreal, QC H3M 1L3"
       }
     ],
-    "url": "http://ilfocolaio.ca",
-    "phone": "(514) 879-1045",
-    "location": { "type": "Point", "coordinates": [-73.568103, 45.504096] }
+    "url": "http://kebehkabab.ca",
+    "phone": "(514) 419-1933",
+    "location": { "type": "Point", "coordinates": [-73.697507, 45.536847] }
   },
   {
     "name": "Basha",
@@ -1793,27 +1864,28 @@
     "location": { "type": "Point", "coordinates": [-73.555119, 45.506664] }
   },
   {
-    "name": "Kebeh Kebab",
-    "category": "Kebab",
+    "name": "Deli 365",
+    "category": "Sandwiches",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "Mon", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Wed", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "1:00 pm - 10:30 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "2600 Rue de Salaberry" }],
-        "city": "Montreal, QC H3M 1L3"
+        "street": [{ "name": "365 Rue Bernard O" }],
+        "city": "Montreal, QC H2V 1T6"
       }
     ],
-    "url": "http://kebehkabab.ca",
-    "phone": "(514) 419-1933",
-    "location": { "type": "Point", "coordinates": [-73.697507, 45.536847] }
+    "url": "http://Deli365.ca",
+    "phone": "(514) 544-3354",
+    "location": { "type": "Point", "coordinates": [-73.605885, 45.523441] }
   },
   {
     "name": "Petinos la Prairie",
@@ -1838,27 +1910,73 @@
     "location": { "type": "Point", "coordinates": [-73.498382, 45.406614] }
   },
   {
-    "name": "Universel",
-    "category": "Steakhouses",
+    "name": "Centrale Bergham",
+    "category": "Burgers",
     "hours": [
-      { "days": "Mon", "time": "7:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "7:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "7:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "7:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "7:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "7:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "7:00 am - 11:00 pm" },
-      { "days": "Bar MajesThé" }
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 12:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "359 Rue Sainte-Catherine O" }],
-        "city": "Montreal, QC H3B 1A4"
+        "street": [{ "name": "8093 Rue Saint-Hubert" }],
+        "city": "Montreal, QC H2R 2P4"
       }
     ],
-    "url": "http://stecatherine.resto-universel.c…",
-    "phone": "(514) 844-7136",
-    "location": { "type": "Point", "coordinates": [-73.567358, 45.506137] }
+    "url": "http://bergham.com",
+    "phone": "(514) 277-0890",
+    "location": { "type": "Point", "coordinates": [-73.625936, 45.54647] }
+  },
+  {
+    "name": "Chiyoko",
+    "category": "Kosher",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "7:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2113 Rue Saint-Louis" }],
+        "city": "Saint-Laurent, QC H4L 1P1"
+      }
+    ],
+    "url": "http://chiyokosushi.com",
+    "phone": "(514) 804-0581",
+    "location": { "type": "Point", "coordinates": [-73.681449, 45.501491] }
+  },
+  {
+    "name": "Qing Hua",
+    "category": "Dumplings",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1675 Boulevard de Maisonneuve O" }],
+        "city": "Montreal, QC H3H 1J6"
+      }
+    ],
+    "url": "http://qinghuadumpling.com",
+    "phone": "(438) 288-5366",
+    "location": { "type": "Point", "coordinates": [-73.580467, 45.494861] }
   },
   {
     "name": "Station Shawarma",
@@ -1882,54 +2000,6 @@
     "url": "http://shawarmastationmontreal.com",
     "phone": "(514) 845-8700",
     "location": { "type": "Point", "coordinates": [-73.570194, 45.517853] }
-  },
-  {
-    "name": "Centrale Bergham",
-    "category": "Burgers",
-    "hours": [
-      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
-      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:30 am - 12:00 am" },
-      { "days": "Sat", "time": "12:00 pm - 12:00 am" },
-      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
-      { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "8093 Rue Saint-Hubert" }],
-        "city": "Montreal, QC H2R 2P4"
-      }
-    ],
-    "url": "http://bergham.com",
-    "phone": "(514) 277-0890",
-    "location": { "type": "Point", "coordinates": [-73.625936, 45.54647] }
-  },
-  {
-    "name": "Allons Burger",
-    "category": "Fast Food",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
-      { "days": "Sun", "time": "11:00 am - 1:00 am" },
-      { "days": "Crusty Crust" },
-      { "days": "Chuck M." }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1205 Boulevard Curé-Labelle" }],
-        "city": "Laval, QC H7V 2V8"
-      }
-    ],
-    "url": "http://allonsburger.com",
-    "phone": "(450) 934-3433",
-    "location": { "type": "Point", "coordinates": [-73.752972, 45.54594] }
   },
   {
     "name": "Bombay Mahal",
@@ -1965,6 +2035,7 @@
       { "days": "Fri", "time": "11:00 am - 6:00 pm" },
       { "days": "Sat", "time": "10:00 am - 7:00 pm" },
       { "days": "Sun", "time": "10:00 am - 7:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" }
     ],
     "address": [
@@ -1976,6 +2047,30 @@
     "url": "http://festindebabette.com",
     "phone": "(514) 849-0214",
     "location": { "type": "Point", "coordinates": [-73.57638, 45.521231] }
+  },
+  {
+    "name": "Universel",
+    "category": "Steakhouses",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "7:00 am - 11:00 pm" },
+      { "days": "Crusty Crust" },
+      { "days": "Bar MajesThé" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "359 Rue Sainte-Catherine O" }],
+        "city": "Montreal, QC H3B 1A4"
+      }
+    ],
+    "url": "http://stecatherine.resto-universel.c…",
+    "phone": "(514) 844-7136",
+    "location": { "type": "Point", "coordinates": [-73.567358, 45.506137] }
   },
   {
     "name": "Pizza Show",
@@ -2002,25 +2097,28 @@
     "location": { "type": "Point", "coordinates": [-73.620321, 45.495699] }
   },
   {
-    "name": "Chez Benny Express",
-    "category": "Kosher",
+    "name": "Allons Burger",
+    "category": "Fast Food",
     "hours": [
-      { "days": "Mon", "time": "11:30 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:30 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:30 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:30 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:30 am - 4:30 pm" },
-      { "days": "Sat", "time": "Closed" },
-      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Crusty Crust" },
+      { "days": "Chuck M." }
     ],
     "address": [
       {
-        "street": [{ "name": "2159 Rue Saint-Louis" }],
-        "city": "Saint-Laurent, QC H4M 1P1"
+        "street": [{ "name": "1205 Boulevard Curé-Labelle" }],
+        "city": "Laval, QC H7V 2V8"
       }
     ],
-    "location": { "type": "Point", "coordinates": [-73.681792, 45.501012] }
+    "url": "http://allonsburger.com",
+    "phone": "(450) 934-3433",
+    "location": { "type": "Point", "coordinates": [-73.752972, 45.54594] }
   },
   {
     "name": "Léché Desserts",
@@ -2055,9 +2153,9 @@
       { "days": "Fri", "time": "10:00 am - 9:00 pm" },
       { "days": "Sat", "time": "10:00 am - 5:00 pm" },
       { "days": "Sun", "time": "10:00 am - 5:00 pm" },
+      { "days": "Mont Everest Masala" },
       { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Bar MajesThé" }
     ],
     "address": [
       {
@@ -2065,6 +2163,7 @@
         "city": "Montreal, QC H3S 2B2"
       }
     ],
+    "phone": "(514) 789-2244",
     "location": { "type": "Point", "coordinates": [-73.637675, 45.502681] }
   },
   {
@@ -2109,6 +2208,7 @@
         "city": "Montreal, QC H3W 1X4"
       }
     ],
+    "phone": "(514) 344-0508",
     "location": { "type": "Point", "coordinates": [-73.627486, 45.48591] }
   },
   {
@@ -2190,8 +2290,7 @@
       { "days": "Thu", "time": "11:00 am - 10:00 pm" },
       { "days": "Fri", "time": "11:00 am - 10:00 pm" },
       { "days": "Sat", "time": "11:00 am - 10:30 pm" },
-      { "days": "Sun", "time": "4:00 am - 10:00 pm" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Sun", "time": "4:00 am - 10:00 pm" }
     ],
     "address": [
       {
@@ -2228,6 +2327,51 @@
     "location": { "type": "Point", "coordinates": [-73.668295, 45.493129] }
   },
   {
+    "name": "Rôtisserie St-Hubert",
+    "category": "Chicken Shop",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Crusty Crust" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "10520 Rue Lajeunesse" }],
+        "city": "Montreal, QC H3L 2E6"
+      }
+    ],
+    "url": "http://st-hubert.com/index.fr.html",
+    "phone": "(514) 385-5555",
+    "location": { "type": "Point", "coordinates": [-73.665233, 45.554253] }
+  },
+  {
+    "name": "Chez Benny Express",
+    "category": "Kosher",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 4:30 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2159 Rue Saint-Louis" }],
+        "city": "Saint-Laurent, QC H4M 1P1"
+      }
+    ],
+    "phone": "(514) 507-2020",
+    "location": { "type": "Point", "coordinates": [-73.681792, 45.501012] }
+  },
+  {
     "name": "Marché Bismillah Bazar",
     "category": "Grocery",
     "hours": [
@@ -2245,7 +2389,74 @@
         "city": "Montreal, QC H3W 2S9"
       }
     ],
+    "phone": "(514) 731-0909",
     "location": { "type": "Point", "coordinates": [-73.640281, 45.49566] }
+  },
+  {
+    "name": "Shawarma Plus",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1500 Avenue Atwater" }],
+        "city": "Montreal, QC H3Z 1X5"
+      }
+    ],
+    "phone": "(514) 932-3950",
+    "location": { "type": "Point", "coordinates": [-73.586253, 45.48923] }
+  },
+  {
+    "name": "Somaya",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:30 am - 1:00 am" },
+      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4451 Boulevard Saint-Laurent" }],
+        "city": "Montreal, QC H2W 1Z8"
+      }
+    ],
+    "phone": "(438) 375-7300",
+    "location": { "type": "Point", "coordinates": [-73.585662, 45.519906] }
+  },
+  {
+    "name": "Mont Everest Masala",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "6:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1999 Avenue du Mont-Royal E" }],
+        "city": "Montreal, QC H2H 1J5"
+      }
+    ],
+    "url": "http://monteverestmasala.com",
+    "phone": "(514) 521-6999",
+    "location": { "type": "Point", "coordinates": [-73.573191, 45.534558] }
   },
   {
     "name": "Basha - Sherbrooke",
@@ -2257,7 +2468,8 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "11:00 am - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 11:00 pm" }
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
@@ -2281,8 +2493,9 @@
       { "days": "Sat", "time": "11:30 am - 11:00 pm" },
       { "days": "Sun", "time": "11:30 am - 10:00 pm" },
       { "days": "Crusty Crust" },
-      { "days": "Bar MajesThé" },
-      { "days": "Grace Y." }
+      { "days": "Mont Everest Masala" },
+      { "days": "Grace Y." },
+      { "days": "Bar MajesThé" }
     ],
     "address": [
       {
@@ -2327,6 +2540,7 @@
       { "days": "Fri", "time": "10:30 am - 11:00 pm" },
       { "days": "Sat", "time": "10:30 am - 11:00 pm" },
       { "days": "Sun", "time": "10:30 am - 11:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" },
       { "days": "Billy A." }
     ],
@@ -2350,7 +2564,8 @@
       { "days": "Thu", "time": "11:00 am - 11:00 pm" },
       { "days": "Fri", "time": "2:00 pm - 11:00 pm" },
       { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "12:00 pm - 10:00 pm" }
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Crusty Crust" }
     ],
     "address": [
       {
@@ -2363,137 +2578,26 @@
     "location": { "type": "Point", "coordinates": [-73.625076, 45.437784] }
   },
   {
-    "name": "Rôtisserie St-Hubert",
-    "category": "Chicken Shop",
+    "name": "Marché Sahara",
+    "category": "Imported Food",
     "hours": [
-      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+      { "days": "Mon", "time": "10:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:30 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:30 pm" },
+      { "days": "Sat", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" }
     ],
     "address": [
       {
-        "street": [{ "name": "10520 Rue Lajeunesse" }],
-        "city": "Montreal, QC H3L 2E6"
+        "street": [{ "name": "134 Boulevard Taschereau" }],
+        "city": "La Prairie, QC J5R 1S8"
       }
     ],
-    "url": "http://st-hubert.com/index.fr.html",
-    "phone": "(514) 385-5555",
-    "location": { "type": "Point", "coordinates": [-73.665233, 45.554253] }
-  },
-  {
-    "name": "Basha - Drummond",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "9:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "9:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "9:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "9:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "9:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "9:00 am - 11:00 pm" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1202 Rue Sainte-Catherine O" }],
-        "city": "Montreal, QC H3B 1K1"
-      }
-    ],
-    "url": "http://basharestaurant.com",
-    "phone": "(514) 393-3930",
-    "location": { "type": "Point", "coordinates": [-73.574055, 45.498678] }
-  },
-  {
-    "name": "Somaya",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "10:30 am - 11:00 pm" },
-      { "days": "Tue", "time": "10:30 am - 11:00 pm" },
-      { "days": "Wed", "time": "10:30 am - 11:00 pm" },
-      { "days": "Thu", "time": "10:30 am - 11:00 pm" },
-      { "days": "Fri", "time": "10:30 am - 1:00 am" },
-      { "days": "Sat", "time": "12:00 pm - 1:00 am" },
-      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "4451 Boulevard Saint-Laurent" }],
-        "city": "Montreal, QC H2W 1Z8"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.585662, 45.519906] }
-  },
-  {
-    "name": "Restaurant Shish-Kebab",
-    "category": "Lebanese",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "9394 Boulevard de l'Acadie" }],
-        "city": "Montreal, QC H4N 3H1"
-      }
-    ],
-    "url": "http://restaurantshishkebab.com",
-    "phone": "(514) 858-6222",
-    "location": { "type": "Point", "coordinates": [-73.658515, 45.533408] }
-  },
-  {
-    "name": "Shawarma Plus",
-    "category": "Halal",
-    "hours": [
-      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
-      { "days": "Tue", "time": "10:00 am - 7:00 pm" },
-      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
-      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
-      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
-      { "days": "Sat", "time": "10:00 am - 6:00 pm" },
-      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "1500 Avenue Atwater" }],
-        "city": "Montreal, QC H3Z 1X5"
-      }
-    ],
-    "location": { "type": "Point", "coordinates": [-73.586253, 45.48923] }
-  },
-  {
-    "name": "Centrale Bergham",
-    "category": "Burgers",
-    "hours": [
-      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
-      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
-      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
-      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
-      { "days": "Fri", "time": "2:00 pm - 12:00 am" },
-      { "days": "Sat", "time": "11:00 am - 2:00 am" },
-      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
-      { "days": "Crusty Crust" },
-      { "days": "Mont Everest Masala" }
-    ],
-    "address": [
-      {
-        "street": [{ "name": "5626 Boulevard Henri-Bourassa E" }],
-        "city": "Montreal, QC H1G 6H5"
-      }
-    ],
-    "url": "http://centralebergham.com",
-    "phone": "(514) 439-8115",
-    "location": { "type": "Point", "coordinates": [-73.621493, 45.605752] }
+    "url": "http://marche-sahara.business.site",
+    "phone": "(514) 962-2869",
+    "location": { "type": "Point", "coordinates": [-73.487825, 45.418745] }
   },
   {
     "name": "Centrale Bergham",
@@ -2529,6 +2633,7 @@
       { "days": "Fri", "time": "9:00 am - 12:00 am" },
       { "days": "Sat", "time": "10:00 am - 12:00 am" },
       { "days": "Sun", "time": "10:00 am - 12:00 am" },
+      { "days": "Bar MajesThé" },
       { "days": "Karim M." }
     ],
     "address": [
@@ -2542,26 +2647,73 @@
     "location": { "type": "Point", "coordinates": [-73.582554, 45.524006] }
   },
   {
-    "name": "Marché Sahara",
-    "category": "Imported Food",
+    "name": "Restaurant Shish-Kebab",
+    "category": "Lebanese",
     "hours": [
-      { "days": "Mon", "time": "10:00 am - 8:00 pm" },
-      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
-      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
-      { "days": "Thu", "time": "10:00 am - 8:30 pm" },
-      { "days": "Fri", "time": "10:00 am - 8:30 pm" },
-      { "days": "Sat", "time": "10:00 am - 7:00 pm" },
-      { "days": "Sun", "time": "10:00 am - 6:00 pm" }
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {
-        "street": [{ "name": "134 Boulevard Taschereau" }],
-        "city": "La Prairie, QC J5R 1S8"
+        "street": [{ "name": "9394 Boulevard de l'Acadie" }],
+        "city": "Montreal, QC H4N 3H1"
       }
     ],
-    "url": "http://marche-sahara.business.site",
-    "phone": "(514) 962-2869",
-    "location": { "type": "Point", "coordinates": [-73.487825, 45.418745] }
+    "url": "http://restaurantshishkebab.com",
+    "phone": "(514) 858-6222",
+    "location": { "type": "Point", "coordinates": [-73.658515, 45.533408] }
+  },
+  {
+    "name": "Centrale Bergham",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "2:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5626 Boulevard Henri-Bourassa E" }],
+        "city": "Montreal, QC H1G 6H5"
+      }
+    ],
+    "url": "http://centralebergham.com",
+    "phone": "(514) 439-8115",
+    "location": { "type": "Point", "coordinates": [-73.621493, 45.605752] }
+  },
+  {
+    "name": "Basha - Drummond",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 11:00 pm" },
+      { "days": "Mont Everest Masala" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1202 Rue Sainte-Catherine O" }],
+        "city": "Montreal, QC H3B 1K1"
+      }
+    ],
+    "url": "http://basharestaurant.com",
+    "phone": "(514) 393-3930",
+    "location": { "type": "Point", "coordinates": [-73.574055, 45.498678] }
   },
   {
     "name": "Adonis",
@@ -2596,6 +2748,7 @@
       { "days": "Fri", "time": "11:00 am - 5:00 am" },
       { "days": "Sat", "time": "11:00 am - 5:00 am" },
       { "days": "Sun", "time": "11:00 am - 3:00 am" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" }
     ],
     "address": [
@@ -2604,6 +2757,7 @@
         "city": "Montreal, QC H2X 1X4"
       }
     ],
+    "phone": "(514) 287-9400",
     "location": { "type": "Point", "coordinates": [-73.570653, 45.510274] }
   },
   {
@@ -2664,6 +2818,7 @@
       { "days": "Fri", "time": "11:00 am - 4:00 pm" },
       { "days": "Sat", "time": "11:00 am - 4:00 pm" },
       { "days": "Sun", "time": "11:00 am - 4:00 pm" },
+      { "days": "Crusty Crust" },
       { "days": "Bar MajesThé" },
       { "days": "Kamranur R." }
     ],
@@ -2673,6 +2828,7 @@
         "city": "Montreal, QC H2X 3W2"
       }
     ],
+    "phone": "(514) 845-8787",
     "location": { "type": "Point", "coordinates": [-73.566482, 45.511591] }
   },
   {
@@ -2739,6 +2895,7 @@
         "city": "Montreal, QC H3K 1J9"
       }
     ],
+    "phone": "(514) 933-0514",
     "location": { "type": "Point", "coordinates": [-73.569239, 45.47865] }
   },
   {
@@ -2760,6 +2917,7 @@
         "city": "Montreal, QC H2B 3C3"
       }
     ],
+    "phone": "(514) 382-0801",
     "location": { "type": "Point", "coordinates": [-73.653168, 45.579098] }
   },
   {
@@ -2803,6 +2961,7 @@
         "city": "Montreal, QC H4R 0B7"
       }
     ],
+    "phone": "(514) 747-2121",
     "location": { "type": "Point", "coordinates": [-73.69635, 45.515723] }
   },
   {
@@ -2824,6 +2983,7 @@
         "city": "Montreal, QC H3N 1H2"
       }
     ],
+    "phone": "(514) 277-7024",
     "location": { "type": "Point", "coordinates": [-73.63721, 45.528457] }
   },
   {
@@ -2836,8 +2996,7 @@
       { "days": "Thu", "time": "12:00 pm - 9:00 pm" },
       { "days": "Fri", "time": "Closed" },
       { "days": "Sat", "time": "Closed" },
-      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
-      { "days": "Mont Everest Masala" }
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" }
     ],
     "address": [
       {
@@ -2867,7 +3026,53 @@
         "city": "Laval, QC H7N 5T1"
       }
     ],
+    "phone": "(450) 668-0793",
     "location": { "type": "Point", "coordinates": [-73.70206, 45.566287] }
+  },
+  {
+    "name": "Bar MajesThé",
+    "category": "Taiwanese",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:30 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:30 pm - 10:00 pm" },
+      { "days": "Playground" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2077 Boulevard Robert-Bourassa" }],
+        "city": "Montreal, QC H3A 2M3"
+      }
+    ],
+    "url": "http://lemajesthe.ca",
+    "phone": "(514) 543-5505",
+    "location": { "type": "Point", "coordinates": [-73.572777, 45.504759] }
+  },
+  {
+    "name": "Mont Everest Masala",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "6:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1999 Avenue du Mont-Royal E" }],
+        "city": "Montreal, QC H2H 1J5"
+      }
+    ],
+    "url": "http://monteverestmasala.com",
+    "phone": "(514) 521-6999",
+    "location": { "type": "Point", "coordinates": [-73.573191, 45.534558] }
   },
   {
     "name": "Marché LOLO",
@@ -2887,6 +3092,7 @@
         "city": "Laval, QC H7V 2V3"
       }
     ],
+    "phone": "(450) 973-3222",
     "location": { "type": "Point", "coordinates": [-73.74724, 45.539545] }
   },
   {
@@ -2908,6 +3114,7 @@
         "city": "Laval, QC H7V 2V3"
       }
     ],
+    "phone": "(450) 688-8900",
     "location": { "type": "Point", "coordinates": [-73.746979, 45.539048] }
   },
   {
@@ -2921,8 +3128,8 @@
       { "days": "Fri", "time": "8:30 am - 7:00 pm" },
       { "days": "Sat", "time": "Closed" },
       { "days": "Sun", "time": "10:00 am - 7:30 pm" },
-      { "days": "Bar MajesThé" },
-      { "days": "Crusty Crust" }
+      { "days": "Crusty Crust" },
+      { "days": "Mont Everest Masala" }
     ],
     "address": [
       {

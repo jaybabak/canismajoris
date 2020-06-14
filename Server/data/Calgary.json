@@ -1,0 +1,5059 @@
+{
+ "restaurants": [
+  {
+   "name": "Fatima Karahi Corner",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 11:00 pm"
+    }
+   ],
+   "latitude": "51.098932",
+   "longitude": "-113.962374",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "55 Castleridge Boulevard NE.",
+       "unit": "Unit 76"
+      }
+     ],
+     "city": "Calgary, AB T3J 3J8"
+    }
+   ],
+   "phone_number": "(403) 280-0009",
+   "website": "http://fatimakarahicorner.com"
+  },
+  {
+   "name": "Chillies",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "51.038219",
+   "longitude": "-113.961830",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5020C 17 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A"
+    }
+   ],
+   "phone_number": "(403) 454-7200",
+   "website": "http://Chilliescalgary.com"
+  },
+  {
+   "name": "Koyla The Charcoal",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "Closed"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Delish Dining"
+    }
+   ],
+   "latitude": "51.152988",
+   "longitude": "-114.206130",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "12 Royal Vista Way NW"
+      }
+     ],
+     "city": "Calgary, AB T3R 0K4"
+    }
+   ],
+   "phone_number": "(403) 452-9168",
+   "website": "http://koyla.ca"
+  },
+  {
+   "name": "Garden of Italy",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.072140",
+   "longitude": "-113.999835",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2763 Sunridge Way NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7K7"
+    }
+   ],
+   "phone_number": "(403) 454-5643",
+   "website": "http://gardenofitaly.com"
+  },
+  {
+   "name": "Little Spice",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Muhammad S."
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Panda Express"
+    }
+   ],
+   "latitude": "50.968128",
+   "longitude": "-114.073171",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "9669 Macleod Trail SW"
+      }
+     ],
+     "city": "Calgary, AB T2J 0P6"
+    }
+   ],
+   "phone_number": "(403) 455-1559",
+   "website": "http://littlespice.ca"
+  },
+  {
+   "name": "Chillies",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "51.038219",
+   "longitude": "-113.961830",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5020C 17 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A"
+    }
+   ],
+   "phone_number": "(403) 454-7200",
+   "website": "http://Chilliescalgary.com"
+  },
+  {
+   "name": "Fairmont Grill",
+   "category": "Mediterranean",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "8:00 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "8:00 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "8:00 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "8:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "8:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "8:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 12:00 am"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.037626",
+   "longitude": "-114.071954",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "505-17 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2S 0A8"
+    }
+   ],
+   "phone_number": "(403) 283-0309"
+  },
+  {
+   "name": "Tang Dynasty Restaurant",
+   "category": "Noodles",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.050488",
+   "longitude": "-114.061912",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "112 3 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2G 0B6"
+    }
+   ],
+   "phone_number": "(403) 457-9777"
+  },
+  {
+   "name": "Pho Daddy",
+   "category": "Vietnamese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "Closed"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.040291",
+   "longitude": "-114.071218",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1304 4th Street SW"
+      }
+     ],
+     "city": "Calgary, AB T2R 0X8"
+    }
+   ]
+  },
+  {
+   "name": "Indonesian Kitchen",
+   "category": "Asian Fusion",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "Closed"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.037480",
+   "longitude": "-113.977575",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3917 17th Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 0S5"
+    }
+   ],
+   "phone_number": "(403) 272-7234"
+  },
+  {
+   "name": "Papito’s Chicken",
+   "category": "Portuguese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.042112",
+   "longitude": "-114.086268",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1040 12 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2R 0J6"
+    }
+   ],
+   "phone_number": "(403) 475-6664"
+  },
+  {
+   "name": "The Village Flatbread",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Mucho Burrito"
+    }
+   ],
+   "latitude": "51.037660",
+   "longitude": "-114.118501",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2511 17 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T3E 7V3"
+    }
+   ],
+   "phone_number": "(403) 888-1200",
+   "website": "http://myvillageyyc.com"
+  },
+  {
+   "name": "Atlas Specialty Supermarket & Persian Cuisine",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 7:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Khezri Family K."
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.045439",
+   "longitude": "-114.084195",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1000 9 Ave SW"
+      }
+     ],
+     "city": "Calgary, AB T2P 2Y6"
+    }
+   ],
+   "phone_number": "(403) 230-0990"
+  },
+  {
+   "name": "Jimmy’s A & A Deli",
+   "category": "Donairs",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Brekkie Cafe"
+    }
+   ],
+   "latitude": "51.070290",
+   "longitude": "-114.092490",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1401 20th Aveune NW"
+      }
+     ],
+     "city": "Calgary, AB T2M 1G6"
+    }
+   ],
+   "phone_number": "(403) 289-1400"
+  },
+  {
+   "name": "Damas Cafe",
+   "category": "Kebab",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 6:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 5:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.098413",
+   "longitude": "-114.143763",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5111 Northland Drive NW"
+      }
+     ],
+     "city": "Calgary, AB T2L 2J8"
+    }
+   ],
+   "phone_number": "(403) 453-5563",
+   "website": "http://damascafe.ca"
+  },
+  {
+   "name": "King of Shawarma",
+   "category": "Falafel",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 2:30 am"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 2:30 am"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 2:30 am"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 4:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 2:30 am"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.042492",
+   "longitude": "-114.093646",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1132 13th Street SW"
+      }
+     ],
+     "city": "Calgary, AB T3C 3S8"
+    }
+   ],
+   "phone_number": "(403) 453-6745"
+  },
+  {
+   "name": "Royal Kabab Express",
+   "category": "Middle Eastern",
+   "hours": [
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.051893",
+   "longitude": "-114.094146",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "B-20 14 St NW"
+      }
+     ],
+     "city": "Calgary, AB T2N 1Z4"
+    }
+   ],
+   "phone_number": "(403) 270-4323"
+  },
+  {
+   "name": "Chicken on the Way",
+   "category": "Fish & Chips",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.084968",
+   "longitude": "-113.956993",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5401 Temple Drive NE",
+       "unit": "Unit 114"
+      }
+     ],
+     "city": "Calgary, AB T1Y 3R7"
+    }
+   ],
+   "phone_number": "(403) 453-5557",
+   "website": "http://chickenonthewaycalgary.ca"
+  },
+  {
+   "name": "Kolachi BBQ & Grill",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.060178",
+   "longitude": "-113.981030",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "133-920 36 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T2A 6L8"
+    }
+   ],
+   "phone_number": "(403) 764-4114",
+   "website": "http://kolachibbq.ca"
+  },
+  {
+   "name": "Shawarma Knight",
+   "category": "Middle Eastern",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.038868",
+   "longitude": "-114.094453",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1512 14 St SW"
+      }
+     ],
+     "city": "Calgary, AB T3C 1C9"
+    }
+   ],
+   "phone_number": "(403) 244-3999",
+   "website": "http://shawarmaknight.com"
+  },
+  {
+   "name": "Fritou",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 2:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "4:00 pm - 2:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.043309",
+   "longitude": "-114.065790",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1st Street SW"
+      }
+     ],
+     "city": "Calgary, AB T2R 0T8"
+    }
+   ],
+   "phone_number": "(403) 455-5404"
+  },
+  {
+   "name": "Mirchi Restaurant",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 9:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 pm - 10:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "1:00 pm - 10:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "3:00 pm - 8:30 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.041742",
+   "longitude": "-114.080513",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "101 - 825 12th Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2R 0J2"
+    }
+   ],
+   "phone_number": "(403) 245-3663"
+  },
+  {
+   "name": "Anatolia Turkish Food",
+   "category": "Fast Food",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 8:45 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:45 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 8:45 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 9:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.045305",
+   "longitude": "-114.058327",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "237 8th Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2G 5C3"
+    }
+   ],
+   "phone_number": "(403) 616-2238",
+   "website": "http://anatoliaturkishfood.ca"
+  },
+  {
+   "name": "Seniore’s Pizza",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 2:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.127020",
+   "longitude": "-114.055887",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "176 Bedford Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3K 2M9"
+    }
+   ],
+   "phone_number": "(403) 516-2220",
+   "website": "http://seniorespizza.ca"
+  },
+  {
+   "name": "Popeyes Louisiana Chicken",
+   "category": "Chicken Wings",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Tue",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Wed",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Thu",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Fri",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Sat",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Sun",
+     "time": "Open 24 hours"
+    },
+    {
+     "days": "Buffalo Wild Wings"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.178126",
+   "longitude": "-114.109092",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2060 Symons Valley Parkway NW"
+      }
+     ],
+     "city": "Calgary, AB T3P 0M9"
+    }
+   ],
+   "phone_number": "(587) 357-3755",
+   "website": "http://popeyeschicken.ca"
+  },
+  {
+   "name": "Babylon Qithara",
+   "category": "Kebab",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "haleem A."
+    }
+   ],
+   "latitude": "51.075445",
+   "longitude": "-113.991273",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "311 2555 32 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7J6"
+    }
+   ],
+   "phone_number": "(403) 219-2121"
+  },
+  {
+   "name": "Royal India Cuisine",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Pal C."
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "1 free Indian Chai Tea"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.049698",
+   "longitude": "-114.064316",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "150-112 4 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2P 0H3"
+    }
+   ],
+   "phone_number": "(403) 263-1400",
+   "website": "http://royalindia-calgary.com"
+  },
+  {
+   "name": "Urban St. Donair",
+   "category": "Poutineries",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.087902",
+   "longitude": "-114.072360",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4 4105 4 ST NW"
+      }
+     ],
+     "city": "Calgary, AB T2K 1A3"
+    }
+   ],
+   "phone_number": "(403) 452-8540"
+  },
+  {
+   "name": "Khana Khazana",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "5:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "5:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "4:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "4:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "50.923929",
+   "longitude": "-114.072859",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "14343 MacLeod Trail"
+      }
+     ],
+     "city": "Calgary, AB T2Y 1M7"
+    }
+   ],
+   "phone_number": "(403) 255-1666"
+  },
+  {
+   "name": "House of Kabob",
+   "category": "Mediterranean",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 10:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.062115",
+   "longitude": "-114.055863",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1115 Edmonton Trail NE"
+      }
+     ],
+     "city": "Calgary, AB T2E 3K3"
+    }
+   ],
+   "phone_number": "(403) 277-7151",
+   "website": "http://houseofkabob.ca"
+  },
+  {
+   "name": "Flipp’n Burgers",
+   "category": "Burgers",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.055176",
+   "longitude": "-114.085751",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "330 10 Street NW"
+      }
+     ],
+     "city": "Calgary, AB T2N 1V8"
+    }
+   ],
+   "phone_number": "(403) 474-9365",
+   "website": "http://flippnburgers.ca"
+  },
+  {
+   "name": "Little Lebanon",
+   "category": "Lebanese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 8:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Hussein R."
+    }
+   ],
+   "latitude": "51.037443",
+   "longitude": "-114.137928",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3515 17 Aveune SW"
+      }
+     ],
+     "city": "Calgary, AB T3E 0B6"
+    }
+   ],
+   "phone_number": "(403) 217-0500",
+   "website": "http://littlelebanonpita.com"
+  },
+  {
+   "name": "Geez",
+   "category": "Ethiopian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:30 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "9:30 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "9:30 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "9:30 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "9:30 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "9:30 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 3:00 am"
+    }
+   ],
+   "latitude": "51.037689",
+   "longitude": "-114.090568",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "101-1235 17 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2T 0C2"
+    }
+   ],
+   "phone_number": "(403) 452-5367"
+  },
+  {
+   "name": "Delish Dining",
+   "category": "African",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "Closed"
+    },
+    {
+     "days": "Wed",
+     "time": "3:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Geez"
+    }
+   ],
+   "latitude": "51.037354",
+   "longitude": "-113.956720",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5315 17 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 0W2"
+    }
+   ],
+   "phone_number": "(587) 470-1997",
+   "website": "http://delishdining.ca"
+  },
+  {
+   "name": "Brekkie Cafe",
+   "category": "Breakfast & Brunch",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "7:00 am - 3:00 pm"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.060520",
+   "longitude": "-114.209302",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "125-20 Westpark Link SW"
+      }
+     ],
+     "city": "Calgary, AB T3H 0V5"
+    }
+   ],
+   "phone_number": "(403) 452-9005",
+   "website": "http://brekkie.ca"
+  },
+  {
+   "name": "Taketomi Village Hakka & Chinese Cuisine",
+   "category": "Hakka",
+   "latitude": "51.061760",
+   "longitude": "-113.980889",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "126-920 36 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T2A 6L8"
+    }
+   ],
+   "phone_number": "(403) 207-8608"
+  },
+  {
+   "name": "Fritou Chicken",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "12:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "50.936935",
+   "longitude": "-114.080591",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3-1110 Canterbury Drive SW"
+      }
+     ],
+     "city": "Calgary, AB T2W 3P5"
+    }
+   ],
+   "phone_number": "(403) 777-1010"
+  },
+  {
+   "name": "California Thai",
+   "category": "Thai",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 8:30 pm"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.156239",
+   "longitude": "-114.158201",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "11658 Sarcee Trail NW"
+      }
+     ],
+     "city": "Calgary, AB T3R 0A1"
+    }
+   ],
+   "phone_number": "(403) 767-9188"
+  },
+  {
+   "name": "Saffron Fine Indian Takeout",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:30 am - 8:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "3:00 pm - 8:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.099873",
+   "longitude": "-114.139629",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "136-3604 52 Avenue NW"
+      }
+     ],
+     "city": "Calgary, AB T2L 1V9"
+    }
+   ],
+   "phone_number": "(403) 441-7700",
+   "website": "http://saffrontakeout.ca"
+  },
+  {
+   "name": "Ramadan Catering & Take Out Restaurant",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:30 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 11:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Murtaza S."
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.097847",
+   "longitude": "-113.962876",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5075 Falconridge Boulevard NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 4L8"
+    }
+   ],
+   "phone_number": "(403) 984-3550",
+   "website": "http://Www.ramadancatering.com"
+  },
+  {
+   "name": "Pizza Panorama",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:30 am - 10:30 pm"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.168057",
+   "longitude": "-114.089241",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1110 Panatella Boulevard"
+      }
+     ],
+     "city": "Calgary, AB T3K 0H3"
+    }
+   ],
+   "phone_number": "(403) 265-9111",
+   "website": "http://pizzapanorama.ca/index.html"
+  },
+  {
+   "name": "Pita Basket",
+   "category": "Lebanese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 5:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "Closed"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Bilal B."
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "1 free dessert and coffee"
+    }
+   ],
+   "latitude": "51.048705",
+   "longitude": "-114.076162",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "503 6th Street SW"
+      }
+     ],
+     "city": "Calgary, AB T2P 1X4"
+    }
+   ],
+   "phone_number": "(403) 263-4411",
+   "website": "http://pitabasket.com"
+  },
+  {
+   "name": "Fritou Chicken and Pizza",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Buffalo Wild Wings"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.124541",
+   "longitude": "-113.947871",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "216 Saddletowne Circle NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 0C9"
+    }
+   ],
+   "phone_number": "(403) 450-5880",
+   "website": "http://fritouchickenpizza.com/index.p…"
+  },
+  {
+   "name": "Lucky Supermarket",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 9:00 pm"
+    }
+   ],
+   "latitude": "51.067942",
+   "longitude": "-113.988709",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3333 Sunridge Way NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7H5"
+    }
+   ],
+   "phone_number": "(403) 717-0770",
+   "website": "http://luckysupermarketcalgary.ca"
+  },
+  {
+   "name": "Raja Foods",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "3:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "3:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "3:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "3:00 pm - 11:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "3:00 pm - 11:45 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "3:00 pm - 11:45 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "3:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Imran K."
+    },
+    {
+     "days": "15% off Food Dine-in order"
+    }
+   ],
+   "latitude": "51.059820",
+   "longitude": "-113.974613",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5-4100 Marlborough Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T2A 2Z5"
+    }
+   ],
+   "phone_number": "(403) 273-9687",
+   "website": "http://rajafoods.ca"
+  },
+  {
+   "name": "D Spot Dessert Cafe",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "1:00 pm - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "1:00 pm - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "1:00 pm - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "1:00 pm - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "1:00 pm - 2:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "1:00 pm - 2:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 12:00 am"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Forever Cakes"
+    }
+   ],
+   "latitude": "51.037565",
+   "longitude": "-114.083794",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "933 17th Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2T 5R6"
+    }
+   ],
+   "phone_number": "(403) 284-4649",
+   "website": "http://dspotdessert.com"
+  },
+  {
+   "name": "Calgary Shawarma",
+   "category": "Lebanese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.046007",
+   "longitude": "-114.080915",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "855 8th Avenue SW",
+       "unit": "Unit 102"
+      }
+     ],
+     "city": "Calgary, AB T2P 1H4"
+    }
+   ],
+   "phone_number": "(403) 264-5885"
+  },
+  {
+   "name": "Pita Basket - Sunridge",
+   "category": "Lebanese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 8:00 pm"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Bilal S."
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "50% off 2nd wrap w/purchase of wrap"
+    }
+   ],
+   "latitude": "51.068744",
+   "longitude": "-113.992569",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3221 Sunridge Way NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7M4"
+    }
+   ],
+   "phone_number": "(403) 219-2747",
+   "website": "http://pitabasket.ca"
+  },
+  {
+   "name": "Alberta Halal Meat & Grocery",
+   "category": "International Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 5:30 pm"
+    },
+    {
+     "days": "Hassan alfaraj H."
+    }
+   ],
+   "latitude": "51.051775",
+   "longitude": "-113.978932",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3745 Memorial Drive SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 6V4"
+    }
+   ],
+   "phone_number": "(403) 272-6328"
+  },
+  {
+   "name": "Diner Deluxe",
+   "category": "Breakfast & Brunch",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:30 am - 3:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:30 am - 3:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:30 am - 3:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "7:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "7:30 am - 3:00 pm"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.058566",
+   "longitude": "-114.054029",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "804 Edmonton Trl NE"
+      }
+     ],
+     "city": "Calgary, AB T2E 3J6"
+    }
+   ],
+   "phone_number": "(403) 276-5499",
+   "website": "http://dinerdeluxe.com"
+  },
+  {
+   "name": "Mezban",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Panda Express"
+    }
+   ],
+   "latitude": "51.107466",
+   "longitude": "-113.974302",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "310-3770 Westwinds Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 5H3"
+    }
+   ],
+   "phone_number": "(403) 457-2535",
+   "website": "http://mezban-halalrestaurant.busines…"
+  },
+  {
+   "name": "Yum Yum BBQ & Chicken",
+   "category": "Barbeque",
+   "hours": [
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.075270",
+   "longitude": "-114.167384",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5111 Bowness Road NW"
+      }
+     ],
+     "city": "Calgary, AB T3B 4M9"
+    }
+   ],
+   "phone_number": "(403) 286-0610"
+  },
+  {
+   "name": "Mary Brown’s Famous Chicken & Taters",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:30 am - 8:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Buffalo Wild Wings"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.161171",
+   "longitude": "-114.063391",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "223-130 Country Village Road NE"
+      }
+     ],
+     "city": "Calgary, AB T3K 6B8"
+    }
+   ],
+   "phone_number": "(403) 567-1888",
+   "website": "http://marybrowns.com"
+  },
+  {
+   "name": "Asian Halal Meat & Food",
+   "category": "Meat Shops",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 7:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 7:00 pm"
+    }
+   ],
+   "latitude": "51.107641",
+   "longitude": "-113.969282",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "55 Westwinds Cresent NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 3J8"
+    }
+   ],
+   "phone_number": "(403) 450-7189",
+   "website": "http://asianhalalmeat.ca"
+  },
+  {
+   "name": "Great Canadian Pizza and Chicken",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "50.923872",
+   "longitude": "-113.932024",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "151 Copperpond Boulevard SE"
+      }
+     ],
+     "city": "Calgary, AB T2Z 0Z7"
+    }
+   ],
+   "phone_number": "(403) 460-6496"
+  },
+  {
+   "name": "Donair Choices Cafe",
+   "category": "Cafes",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "8:30 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "8:30 am - 7:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "8:30 am - 7:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "8:30 am - 8:45 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "8:30 am - 8:45 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 6:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 5:00 pm"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Mucho Burrito"
+    },
+    {
+     "days": "Brekkie Cafe"
+    }
+   ],
+   "latitude": "51.127103",
+   "longitude": "-114.073336",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "8120 Beddington Blvd Nw"
+      }
+     ],
+     "city": "Calgary, AB T3K 2A8"
+    }
+   ],
+   "phone_number": "(587) 538-7301"
+  },
+  {
+   "name": "Varsity Pizza and Subs",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.093563",
+   "longitude": "-114.154340",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4624 Varsity Dr NW"
+      }
+     ],
+     "city": "Calgary, AB T3A 2L9"
+    }
+   ],
+   "phone_number": "(403) 288-7928",
+   "website": "http://varsitypizza.ca"
+  },
+  {
+   "name": "Biryani Inn",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "51.128983",
+   "longitude": "-113.926240",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "112-20 saddlestone drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3J"
+    }
+   ],
+   "phone_number": "(587) 889-1405",
+   "website": "http://biryani-inn-ltd.business.site"
+  },
+  {
+   "name": "O/A California Thai",
+   "category": "Thai",
+   "hours": [
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Wami Ootoya"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.125802",
+   "longitude": "-114.198255",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "20 Crowfoot Crescent NW",
+       "unit": "Unit 410"
+      }
+     ],
+     "city": "Calgary, AB T3G 2P6"
+    }
+   ],
+   "phone_number": "(403) 374-9188"
+  },
+  {
+   "name": "Hage’s Mideast Foods & Halal Meats",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "Closed"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 9:00 pm"
+    }
+   ],
+   "latitude": "51.064217",
+   "longitude": "-113.955796",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1440 52 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T2A 4T8"
+    }
+   ],
+   "phone_number": "(403) 235-5269"
+  },
+  {
+   "name": "Madina Halal Meat",
+   "category": "Butcher",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 8:30 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "Closed"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 8:30 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 8:30 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 8:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 8:30 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    }
+   ],
+   "latitude": "51.100649",
+   "longitude": "-113.967462",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4656 Westwinds Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 3Z5"
+    }
+   ],
+   "phone_number": "(403) 280-5089"
+  },
+  {
+   "name": "Canadian Pizza Unlimited",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 3:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.123280",
+   "longitude": "-114.197647",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1829 Ranchlands Boulevard",
+       "unit": "Unit 147"
+      }
+     ],
+     "city": "Calgary, AB T3G 2A7"
+    }
+   ],
+   "phone_number": "(403) 239-2528",
+   "website": "http://canadianpizzaunlimited.co"
+  },
+  {
+   "name": "Uptown Pizza",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.049445",
+   "longitude": "-114.072121",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "511 4th Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2P 0J7"
+    }
+   ],
+   "phone_number": "(403) 457-0037"
+  },
+  {
+   "name": "Fritou Chicken and Pizza Forest Lawn",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Parul P."
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.037602",
+   "longitude": "-113.980421",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3719 17 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 0S1"
+    }
+   ],
+   "phone_number": "(587) 356-0700",
+   "website": "http://fritouchicken-pizzaforestlawn.…"
+  },
+  {
+   "name": "Jerusalem Shawarma - Shawnessy",
+   "category": "Mediterranean",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Brekkie Cafe"
+    }
+   ],
+   "latitude": "50.907419",
+   "longitude": "-114.065549",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "317-16061 Macleod Trail SE"
+      }
+     ],
+     "city": "Calgary, AB T2Y 3S5"
+    }
+   ],
+   "phone_number": "(403) 453-0300",
+   "website": "http://jerusalem-shawarma.ca"
+  },
+  {
+   "name": "Fatima Karahi Corner",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "1:00 pm - 11:00 pm"
+    }
+   ],
+   "latitude": "51.098932",
+   "longitude": "-113.962374",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "55 Castleridge Boulevard NE.",
+       "unit": "Unit 76"
+      }
+     ],
+     "city": "Calgary, AB T3J 3J8"
+    }
+   ],
+   "phone_number": "(403) 280-0009",
+   "website": "http://fatimakarahicorner.com"
+  },
+  {
+   "name": "Chillies",
+   "category": "Pakistani",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "51.038219",
+   "longitude": "-113.961830",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5020C 17 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A"
+    }
+   ],
+   "phone_number": "(403) 454-7200",
+   "website": "http://Chilliescalgary.com"
+  },
+  {
+   "name": "Basha Foods",
+   "category": "Butcher",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:00 am - 9:00 pm"
+    }
+   ],
+   "latitude": "51.072791",
+   "longitude": "-113.999538",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2717 Sunridge Way NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7K7"
+    }
+   ],
+   "phone_number": "(403) 280-6797",
+   "website": "http://bashafoods.ca"
+  },
+  {
+   "name": "Kalamata Grocery Store",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "8:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "8:00 am - 11:00 pm"
+    }
+   ],
+   "latitude": "51.039426",
+   "longitude": "-114.089283",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1421 11 Street SW"
+      }
+     ],
+     "city": "Calgary, AB T2R 1G7"
+    }
+   ],
+   "phone_number": "(403) 244-0220"
+  },
+  {
+   "name": "Boardwalk Fries & Burgers",
+   "category": "Burgers",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.059991",
+   "longitude": "-114.211637",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "873 85 Street SW",
+       "unit": "Unit 1005"
+      }
+     ],
+     "city": "Calgary, AB T3H 0J5"
+    }
+   ],
+   "phone_number": "(587) 356-6668",
+   "website": "http://boardwalkfries.com"
+  },
+  {
+   "name": "Alnoor Halal Meat & Grocery",
+   "category": "Meat Shops",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "12:30 pm - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:30 am - 9:00 pm"
+    }
+   ],
+   "latitude": "51.097847",
+   "longitude": "-113.962876",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5075 Falconridge Boulevard NE"
+      }
+     ],
+     "city": "Calgary, AB T3K 6K9"
+    }
+   ],
+   "phone_number": "(403) 293-0888"
+  },
+  {
+   "name": "Pita Basket",
+   "category": "Lebanese",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Chef Ro S."
+    }
+   ],
+   "latitude": "51.268889",
+   "longitude": "-113.993953",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "109-30 Market Boulevard SE"
+      }
+     ],
+     "city": "Airdrie, AB T4B 2A2"
+    }
+   ],
+   "phone_number": "(587) 254-0880",
+   "website": "http://pitabasket.com"
+  },
+  {
+   "name": "Indian Aroma",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 7:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:30 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:30 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:30 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:30 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:30 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 7:00 pm"
+    }
+   ],
+   "latitude": "51.120744",
+   "longitude": "-114.180234",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "7750 Ranchview Drive NW"
+      }
+     ],
+     "city": "Calgary, AB T3G 1Y9"
+    }
+   ],
+   "phone_number": "(403) 547-8879"
+  },
+  {
+   "name": "Salam Grocery and Halal Meat",
+   "category": "Imported Food",
+   "latitude": "51.060092",
+   "longitude": "-114.054147",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "908 Edmonton Trl NE"
+      }
+     ],
+     "city": "Calgary, AB T2E 3K1"
+    }
+   ],
+   "phone_number": "(403) 230-1111"
+  },
+  {
+   "name": "Mughals Restaurent",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    }
+   ],
+   "latitude": "51.084378",
+   "longitude": "-114.012586",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3601 19 St NE"
+      }
+     ],
+     "city": "Calgary, AB T2E"
+    }
+   ],
+   "phone_number": "(403) 717-0844"
+  },
+  {
+   "name": "Friendz Dine",
+   "category": "Breakfast & Brunch",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "7:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "7:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "7:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "7:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "7:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.029361",
+   "longitude": "-114.030045",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2808 Ogden Road SE",
+       "unit": "Unit 8"
+      }
+     ],
+     "city": "Calgary, AB T2G 4R7"
+    }
+   ],
+   "phone_number": "(587) 719-9229",
+   "website": "http://friendzdine.com"
+  },
+  {
+   "name": "Amir Halal Meats & Grocery",
+   "category": "Grocery",
+   "latitude": "51.049884",
+   "longitude": "-113.993094",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "255 28 Street SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 5K4"
+    }
+   ],
+   "phone_number": "(403) 569-1557"
+  },
+  {
+   "name": "Cedars Deli",
+   "category": "Mediterranean",
+   "hours": [
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Sushi Toki"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    }
+   ],
+   "latitude": "51.164867",
+   "longitude": "-114.073223",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "16 Panatella Boulevard"
+      }
+     ],
+     "city": "Calgary, AB T3K 6C2"
+    }
+   ],
+   "phone_number": "(403) 474-7407",
+   "website": "http://cedarsdeli.com"
+  },
+  {
+   "name": "Jubba Express Foods",
+   "category": "Grocery",
+   "latitude": "51.038175",
+   "longitude": "-113.963920",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4908 17 Ave SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 0V4"
+    }
+   ],
+   "phone_number": "(403) 244-1909"
+  },
+  {
+   "name": "Pizza Boys Shawarma",
+   "category": "Chicken Wings",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 4:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 1:00 am"
+    },
+    {
+     "days": "Buffalo Wild Wings"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Chucks H."
+    },
+    {
+     "days": "Brekkie Cafe"
+    }
+   ],
+   "latitude": "51.037714",
+   "longitude": "-114.071899",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "503 17 Avenue SW"
+      }
+     ],
+     "city": "Calgary, AB T2S 0A9"
+    }
+   ],
+   "phone_number": "(403) 457-5557",
+   "website": "http://pizzaboysshawarma.com"
+  },
+  {
+   "name": "Thumbs Up Foods",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 3:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 3:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 3:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 6:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 2:30 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "Closed"
+    },
+    {
+     "days": "Sun",
+     "time": "Closed"
+    },
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Chillies"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Delish Dining"
+    }
+   ],
+   "latitude": "51.106746",
+   "longitude": "-113.970783",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "335-7 Westwinds Crescent NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 5H2"
+    }
+   ],
+   "phone_number": "(403) 250-9558",
+   "website": "http://thumbsupfoods.com"
+  },
+  {
+   "name": "Shawarma Palace",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 11:00 pm"
+    },
+    {
+     "days": "Fatima Karahi Corner"
+    },
+    {
+     "days": "Mucho Burrito"
+    }
+   ],
+   "latitude": "51.271603",
+   "longitude": "-113.992573",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "960 Yankee Valley Blvd SE",
+       "unit": "Unit 114"
+      }
+     ],
+     "city": "Airdrie, AB T4A 2E4"
+    }
+   ],
+   "phone_number": "(403) 980-0228",
+   "website": "http://shawarma-palace.com"
+  },
+  {
+   "name": "Gandour Halal Meats",
+   "category": "Meat Shops",
+   "latitude": "51.038883",
+   "longitude": "-114.141722",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1619 37 Street SW"
+      }
+     ],
+     "city": "Calgary, AB T3C 1S7"
+    }
+   ],
+   "phone_number": "(403) 240-2331"
+  },
+  {
+   "name": "Adam Halal Meats",
+   "category": "Meat Shops",
+   "latitude": "51.030806",
+   "longitude": "-113.981117",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2650 36 Street SE",
+       "unit": "Unit 10"
+      }
+     ],
+     "city": "Calgary, AB T2B 0Y3"
+    }
+   ],
+   "phone_number": "(403) 273-3370"
+  },
+  {
+   "name": "Fritou Chicken Skyview",
+   "category": "Chicken Wings",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 10:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    },
+    {
+     "days": "Buffalo Wild Wings"
+    },
+    {
+     "days": "Panda Express"
+    },
+    {
+     "days": "Obanhmi"
+    }
+   ],
+   "latitude": "51.164877",
+   "longitude": "-113.967613",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "55 Skyview Ranchway NE"
+      }
+     ],
+     "city": "Calgary, AB T3N"
+    }
+   ],
+   "phone_number": "(403) 290-0444"
+  },
+  {
+   "name": "Western Style Chicken & Pizza",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "3:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "3:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "3:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "3:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "3:00 pm - 12:00 am"
+    },
+    {
+     "days": "Sat",
+     "time": "3:00 pm - 12:00 am"
+    },
+    {
+     "days": "Sun",
+     "time": "3:00 pm - 9:00 pm"
+    },
+    {
+     "days": "Brekkie Cafe"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.045184",
+   "longitude": "-113.956647",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "1-5320 8 Ave SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 3P5"
+    }
+   ],
+   "phone_number": "(403) 273-1895",
+   "website": "http://westernstyle.ca"
+  },
+  {
+   "name": "Bangla Bazaar",
+   "category": "Grocery",
+   "latitude": "51.100296",
+   "longitude": "-113.964158",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4851 Westwinds Dr NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 4L4"
+    }
+   ],
+   "phone_number": "(403) 590-6625"
+  },
+  {
+   "name": "Ralia Halal Meat & Foods Store",
+   "category": "Meat Shops",
+   "latitude": "51.060092",
+   "longitude": "-114.054147",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "908 Edmonton Trl NE"
+      }
+     ],
+     "city": "Calgary, AB T2E 3K1"
+    }
+   ],
+   "phone_number": "(403) 230-1312"
+  },
+  {
+   "name": "Bengal Grocery and Halal Meat",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "9:30 am - 9:00 pm"
+    },
+    {
+     "days": "jinath juth I."
+    }
+   ],
+   "latitude": "51.097083",
+   "longitude": "-113.962835",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "722-5075 Falconridge Boulevard"
+      }
+     ],
+     "city": "Calgary, AB T3J 3K9"
+    }
+   ],
+   "phone_number": "(403) 798-2339",
+   "website": "http://bengalgrocery.ca"
+  },
+  {
+   "name": "Mann Bros Meat Shop",
+   "category": "Grocery",
+   "latitude": "51.097436",
+   "longitude": "-113.961335",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5075 Falconridge Blvd NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 3K9"
+    }
+   ],
+   "phone_number": "(403) 568-6997"
+  },
+  {
+   "name": "Shawarma Knight",
+   "category": "Halal",
+   "hours": [
+    {
+     "days": "Geez"
+    },
+    {
+     "days": "Delish Dining"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "51.037950",
+   "longitude": "-114.076385",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "634A 17 Ave SW"
+      }
+     ],
+     "city": "Calgary, AB T2S 0B4"
+    }
+   ],
+   "phone_number": "(403) 229-4060"
+  },
+  {
+   "name": "Shalimar Cuisine",
+   "category": "Indian",
+   "hours": [
+    {
+     "days": "Fatima Karahi Corner"
+    }
+   ],
+   "latitude": "51.272092",
+   "longitude": "-114.016982",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2002 Luxstone Boulevad SW"
+      }
+     ],
+     "city": "Airdrie, AB T4B 2W6"
+    }
+   ],
+   "phone_number": "(403) 948-1012"
+  },
+  {
+   "name": "Vattan Grocery & Halal Meat",
+   "category": "Grocery",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "10:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "10:00 am - 9:00 pm"
+    }
+   ],
+   "latitude": "51.052658",
+   "longitude": "-113.957777",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5269 Memorial Drive SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 4V1"
+    }
+   ],
+   "phone_number": "(403) 248-9244"
+  },
+  {
+   "name": "Shapla Grocery & Halal Meat",
+   "category": "Meat Shops",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:00 am - 8:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "11:00 am - 9:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "11:00 am - 8:00 pm"
+    }
+   ],
+   "latitude": "51.107095",
+   "longitude": "-113.974699",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "324-3770 Westwinds Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 5H3"
+    }
+   ],
+   "phone_number": "(403) 452-2133"
+  },
+  {
+   "name": "Lahore Foods & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.091872",
+   "longitude": "-113.959223",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4525 52 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7M3"
+    }
+   ],
+   "phone_number": "(403) 590-7736"
+  },
+  {
+   "name": "Sunrise Spices & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.003791",
+   "longitude": "-113.968751",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4655 54 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2C 2L9"
+    }
+   ],
+   "phone_number": "(403) 293-7733"
+  },
+  {
+   "name": "Wattan Grocery & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.003791",
+   "longitude": "-113.968751",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4655 54 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2C 2L9"
+    }
+   ],
+   "phone_number": "(403) 293-0909"
+  },
+  {
+   "name": "Calypso’s Taverna",
+   "category": "Greek",
+   "hours": [
+    {
+     "days": "Mon",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Tue",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Wed",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Thu",
+     "time": "11:30 am - 10:00 pm"
+    },
+    {
+     "days": "Fri",
+     "time": "11:30 am - 11:00 pm"
+    },
+    {
+     "days": "Sat",
+     "time": "12:00 pm - 11:00 pm"
+    },
+    {
+     "days": "Sun",
+     "time": "12:00 pm - 10:00 pm"
+    }
+   ],
+   "latitude": "51.070816",
+   "longitude": "-114.063080",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "2101 Centre Street NW"
+      }
+     ],
+     "city": "Calgary, AB T2E 2T2"
+    }
+   ],
+   "phone_number": "(403) 250-5533",
+   "website": "http://calypsostaverna.com"
+  },
+  {
+   "name": "Canadian Pizza Unlimited",
+   "category": "Pizza",
+   "hours": [
+    {
+     "days": "Calypso’s Taverna"
+    },
+    {
+     "days": "Atlas Pizza & Sports Bar"
+    },
+    {
+     "days": "Obanhmi"
+    },
+    {
+     "days": "Minas Brazilian Steakhouse"
+    }
+   ],
+   "latitude": "50.880784",
+   "longitude": "-113.977493",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "356 Cranston Road SE"
+      }
+     ],
+     "city": "Calgary, AB T3M 0S9"
+    }
+   ],
+   "website": "http://canadianpizzaunlimited.ca"
+  },
+  {
+   "name": "Sunrise Spices & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.101134",
+   "longitude": "-113.965337",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "4818 Westwinds Drive NE"
+      }
+     ],
+     "city": "Calgary, AB T3J 3Z5"
+    }
+   ],
+   "phone_number": "(403) 590-3544"
+  },
+  {
+   "name": "Sunrise Spices & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.045502",
+   "longitude": "-113.957536",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "5320 8 Avenue SE"
+      }
+     ],
+     "city": "Calgary, AB T2A 3P5"
+    }
+   ],
+   "phone_number": "(403) 248-3101"
+  },
+  {
+   "name": "A1 Produce & Grocery & Halal Meat",
+   "category": "Grocery",
+   "latitude": "51.088395",
+   "longitude": "-113.986627",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "3930 32 Street NE"
+      }
+     ],
+     "city": "Calgary, AB T1Y 7L9"
+    }
+   ],
+   "phone_number": "(403) 264-7006"
+  },
+  {
+   "name": "Paradise Grocery & Halal Meat - Temp. CLOSED",
+   "category": "Butcher",
+   "latitude": "51.098932",
+   "longitude": "-113.962374",
+   "address": [
+    {
+     "street": [
+      {
+       "name": "55 Castleridge Boulevard NE",
+       "unit": "Unit 156"
+      }
+     ],
+     "city": "Calgary, AB T3J 3J8"
+    }
+   ],
+   "phone_number": "(403) 455-2221",
+   "website": "http://pghalalmeat.com"
+  }
+ ]
+}

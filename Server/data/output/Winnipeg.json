@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Purple Noodle Bar",
+    "category": "Asian Fusion",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "667 Stafford Street" }],
+        "city": "Winnipeg, MB R3M 2L9"
+      }
+    ],
+    "url": "http://purplenoodlebar.com",
+    "phone": "(204) 500-0264",
+    "location": { "type": "Point", "coordinates": [-97.154194, 49.856814] }
+  },
+  {
+    "name": "Altanour Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "587 Norte Dame Avenue" }],
+        "city": "Winnipeg, MB R3B 1S6"
+      }
+    ],
+    "url": "http://Altanourrestaurant.ca",
+    "phone": "(204) 414-1887",
+    "location": { "type": "Point", "coordinates": [-97.155607, 49.900432] }
+  },
+  {
+    "name": "Les Saj Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 7:30 pm" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1038 St James Street" }],
+        "city": "Winnipeg, MB R3H 0K5"
+      }
+    ],
+    "url": "http://les-saj.ca",
+    "phone": "(204) 219-8939",
+    "location": { "type": "Point", "coordinates": [-97.201008, 49.895323] }
+  },
+  {
+    "name": "Baraka Pita Bakery & Mediteranean Deli",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 6:00 pm" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1783 Main Street" }],
+        "city": "Winnipeg, MB R2V 1Z9"
+      }
+    ],
+    "phone": "(204) 334-2004",
+    "location": { "type": "Point", "coordinates": [-97.116823, 49.93707] }
+  },
+  {
+    "name": "Clay Oven East Indian & Hakka Restaurant",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1 Portage Avenue E" }],
+        "city": "Winnipeg, MB R3B 3N3"
+      }
+    ],
+    "url": "http://clayoven.ca",
+    "phone": "(204) 982-7426",
+    "location": { "type": "Point", "coordinates": [-97.134115, 49.894054] }
+  },
+  {
+    "name": "Yafa Cafe",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Rana A." },
+      { "days": "1 free Manakeesh" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1785 Portage Ave" }],
+        "city": "Winnipeg, MB R3J 0E8"
+      }
+    ],
+    "url": "http://yafacafe.com",
+    "phone": "(204) 221-1636",
+    "location": { "type": "Point", "coordinates": [-97.21209, 49.879006] }
+  },
+  {
+    "name": "Best Pizza & Donair",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Wasabi Sabi" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1469 Pembina Highway" }],
+        "city": "Winnipeg, MB R3T 5C2"
+      }
+    ],
+    "url": "http://bestpizzadonair.com",
+    "phone": "(204) 275-0444",
+    "location": { "type": "Point", "coordinates": [-97.150666, 49.836068] }
+  },
+  {
+    "name": "Halal Meats & Specialty Foods",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 7:00 pm" },
+      { "days": "Tue", "time": "9:30 am - 7:00 pm" },
+      { "days": "Wed", "time": "9:30 am - 7:00 pm" },
+      { "days": "Thu", "time": "9:30 am - 7:00 pm" },
+      { "days": "Fri", "time": "9:30 am - 7:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 6:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "206 Maryland Street" }],
+        "city": "Winnipeg, MB R3G 1L5"
+      }
+    ],
+    "phone": "(204) 774-8095",
+    "location": { "type": "Point", "coordinates": [-97.160899, 49.884933] }
+  },
+  {
+    "name": "Cho Ichi Ramen",
+    "category": "Ramen",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wasabi Sabi" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1151 Pembina Highway" }],
+        "city": "Winnipeg, MB R3T 2A3"
+      }
+    ],
+    "phone": "(204) 615-8832",
+    "location": { "type": "Point", "coordinates": [-97.153563, 49.846574] }
+  },
+  {
+    "name": "Shawarma Time Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 6:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "616 Ellice Ave" }],
+        "city": "Winnipeg, MB R3G 0A3"
+      }
+    ],
+    "url": "http://shawarmatime.ca",
+    "phone": "(204) 774-2109",
+    "location": { "type": "Point", "coordinates": [-97.159984, 49.892868] }
+  },
+  {
+    "name": "Mr Calzone",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:30 am" },
+      { "days": "Tue", "time": "11:00 am - 12:30 am" },
+      { "days": "Wed", "time": "11:00 am - 12:30 am" },
+      { "days": "Thu", "time": "11:00 am - 12:30 am" },
+      { "days": "Fri", "time": "11:00 am - 2:00 am" },
+      { "days": "Sat", "time": "11:00 am - 2:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:30 am" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1254 Pembina Highway" }],
+        "city": "Winnipeg, MB R3T 2B1"
+      }
+    ],
+    "url": "http://mrcalzone.ca",
+    "phone": "(204) 452-4203",
+    "location": { "type": "Point", "coordinates": [-97.153025, 49.843132] }
+  },
+  {
+    "name": "City Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:30 pm" },
+      { "days": "Fri", "time": "10:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "749 Ellice Avenue" }],
+        "city": "Winnipeg, MB R3G 0B5"
+      }
+    ],
+    "url": "http://winnipegcitypizza.com",
+    "phone": "(204) 779-3408",
+    "location": { "type": "Point", "coordinates": [-97.165769, 49.893253] }
+  },
+  {
+    "name": "Super Taste Pizza",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Purple Noodle Bar" },
+      { "days": "Rafid H." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "789 Ellice Avenue" }],
+        "city": "Winnipeg, MB R3G 0B7"
+      }
+    ],
+    "phone": "(204) 775-5555",
+    "location": { "type": "Point", "coordinates": [-97.167438, 49.89331] }
+  },
+  {
+    "name": "Barbeque Hut",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "435 Notre Dame Avenue" }],
+        "city": "Winnipeg, MB R3B 1R4"
+      }
+    ],
+    "url": "http://barbequehut.ca",
+    "phone": "(204) 221-4144",
+    "location": { "type": "Point", "coordinates": [-97.14982, 49.898695] }
+  },
+  {
+    "name": "Club House Pizza",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 3:00 am" },
+      { "days": "Tue", "time": "11:00 am - 3:00 am" },
+      { "days": "Wed", "time": "11:00 am - 3:00 am" },
+      { "days": "Thu", "time": "11:00 am - 3:00 am" },
+      { "days": "Fri", "time": "11:00 am - 3:00 am" },
+      { "days": "Sat", "time": "11:00 am - 3:00 am" },
+      { "days": "Sun", "time": "11:00 am - 1:00 am" },
+      { "days": "Purple Noodle Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "535 Osborne Street" }],
+        "city": "Winnipeg, MB R3L 2B2"
+      }
+    ],
+    "url": "http://clubhousepizza.ca",
+    "phone": "(204) 284-1212",
+    "location": { "type": "Point", "coordinates": [-97.134872, 49.865276] }
+  },
+  {
+    "name": "Pita Pit",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wasabi On Broadway" },
+      { "days": "Purple Noodle Bar" },
+      { "days": "Carson D." },
+      { "days": "CA$2 off Your Next Pita!" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2360 Main Street" }],
+        "city": "Winnipeg, MB R2V 4H7"
+      }
+    ],
+    "url": "http://pitapit.ca/location/#/en/winni…",
+    "phone": "(204) 334-7482",
+    "location": { "type": "Point", "coordinates": [-97.100835, 49.954279] }
+  },
+  {
+    "name": "Dino’s Grocery Mart",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 8:00 pm" },
+      { "days": "Tue", "time": "9:30 am - 8:00 pm" },
+      { "days": "Wed", "time": "9:30 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 8:00 pm" },
+      { "days": "Fri", "time": "9:30 am - 8:00 pm" },
+      { "days": "Sat", "time": "9:30 am - 8:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 5:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "84 Isabel Street" }],
+        "city": "Winnipeg, MB R3A 1E9"
+      }
+    ],
+    "url": "http://dinosgrocerymart.com",
+    "phone": "(204) 942-1526",
+    "location": { "type": "Point", "coordinates": [-97.150913, 49.900772] }
+  },
+  {
+    "name": "Everyday Grocery",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 5:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2995 Pembina Highway" }],
+        "city": "Winnipeg, MB R3T 2H5"
+      }
+    ],
+    "phone": "(204) 415-5979",
+    "location": { "type": "Point", "coordinates": [-97.15772, 49.784468] }
+  },
+  {
+    "name": "Red Swan Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "20% off Regular Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "620 Dakota Street", "unit": "Unit 4" }],
+        "city": "Winnipeg, MB R2M 3K1"
+      }
+    ],
+    "url": "http://redswanpizza.ca",
+    "phone": "(204) 306-8888",
+    "location": { "type": "Point", "coordinates": [-97.111879, 49.835251] }
+  }
+]

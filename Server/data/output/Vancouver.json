@@ -1,0 +1,2894 @@
+[
+  {
+    "name": "Moltaqa Moroccan Restaurant",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:15 pm" },
+      { "days": "CA$5 for Fresh Squeezed Juice" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "51 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "phone": "(604) 696-4055",
+    "location": { "type": "Point", "coordinates": [-123.106412, 49.282002] }
+  },
+  {
+    "name": "Urban Tadka",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Hon’s Wun-Tun House" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1370 E Georgia St" }],
+        "city": "Vancouver, BC V5L 2A8"
+      }
+    ],
+    "url": "http://urbantadkayvr.com",
+    "phone": "(778) 838-5500",
+    "location": { "type": "Point", "coordinates": [-123.07558, 49.278305] }
+  },
+  {
+    "name": "Karakoram",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 3:00 am" },
+      { "days": "Tue", "time": "5:00 pm - 3:00 am" },
+      { "days": "Wed", "time": "5:00 pm - 3:00 am" },
+      { "days": "Thu", "time": "5:00 pm - 3:00 am" },
+      { "days": "Fri", "time": "5:00 pm - 3:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 3:00 am" },
+      { "days": "Sun", "time": "5:00 pm - 3:00 am" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Udupi Palace" },
+      { "days": "Qasim M." },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Urban Tadka" },
+      { "days": "10% off your First Dine-in Order" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Beeryani Indian Bistro & Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6990 Victoria Drive" }],
+        "city": "Vancouver, BC V5P 3Y8"
+      }
+    ],
+    "url": "http://karakoramrestaurant.com",
+    "phone": "(604) 737-1000",
+    "location": { "type": "Point", "coordinates": [-123.065514, 49.220487] }
+  },
+  {
+    "name": "Beijiang Restaurant",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:30 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "No 9 Restaurant" },
+      { "days": "PHO Pink Lotus Cafe" },
+      { "days": "LE BL CAFÉ" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3281 Kingsway" }],
+        "city": "Vancouver, BC V5R 5K4"
+      }
+    ],
+    "url": "http://northxinjiang.business.site",
+    "phone": "(604) 428-5885",
+    "location": { "type": "Point", "coordinates": [-123.036112, 49.234477] }
+  },
+  {
+    "name": "Balila",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 5:00 pm" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "One More Szechuan Chinese Cuisine​" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Gingeri Chinese Cuisine" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "983 Helmcken St" }],
+        "city": "Vancouver, BC V6Z 2S5"
+      }
+    ],
+    "phone": "(604) 620-2103",
+    "location": { "type": "Point", "coordinates": [-123.126865, 49.279829] }
+  },
+  {
+    "name": "Nuba in Gastown",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "10:30 am - 10:30 pm" },
+      { "days": "Sun", "time": "10:30 am - 9:30 pm" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Verre." },
+      { "days": "Victor B." },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "Showcase Restaurant & Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "207 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1H7"
+      }
+    ],
+    "url": "http://nuba.ca",
+    "phone": "(604) 688-1655",
+    "location": { "type": "Point", "coordinates": [-123.109646, 49.282724] }
+  },
+  {
+    "name": "Tandoori Oven",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Anjum A." },
+      { "days": "Dharma Garden" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Golden Samosa Bakery" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6452 Main Street" }],
+        "city": "Vancouver, BC V5W 2V4"
+      }
+    ],
+    "url": "http://tandooriovenrestaurant.com",
+    "phone": "(604) 565-3355",
+    "location": { "type": "Point", "coordinates": [-123.101371, 49.226163] }
+  },
+  {
+    "name": "Dewan-E-Khass",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Khan A." },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5750 Fraser Street" }],
+        "city": "Vancouver, BC V5W 2Z5"
+      }
+    ],
+    "url": "http://dewanekhass.com",
+    "phone": "(604) 327-4800",
+    "location": { "type": "Point", "coordinates": [-123.090479, 49.232344] }
+  },
+  {
+    "name": "Mr Shawarma",
+    "category": "Food Trucks",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "Beehive Restaurant" },
+      { "days": "Dharma Garden" },
+      { "days": "Urban Tadka" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "655 Burrard St" }],
+        "city": "Vancouver, BC V6E 1B2"
+      }
+    ],
+    "phone": "(604) 569-1644",
+    "location": { "type": "Point", "coordinates": [-123.120768, 49.28531] }
+  },
+  {
+    "name": "Moltaqa Moroccan Restaurant",
+    "category": "Moroccan",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:15 pm" },
+      { "days": "CA$5 for Fresh Squeezed Juice" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "51 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "phone": "(604) 696-4055",
+    "location": { "type": "Point", "coordinates": [-123.106412, 49.282002] }
+  },
+  {
+    "name": "Silkway Halal Cuisine",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Urban Tadka" },
+      { "days": "Udupi Palace" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Pink Elephant Thai" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8188 Saba Road" }],
+        "city": "Richmond, BC V6Y 4B2"
+      }
+    ],
+    "phone": "(604) 278-6788",
+    "location": { "type": "Point", "coordinates": [-123.134616, 49.168714] }
+  },
+  {
+    "name": "Lamajoun",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 6:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 6:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 6:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 6:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 6:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Urban Tadka" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Verre." },
+      { "days": "One More Szechuan Chinese Cuisine​" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Ragazzi Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "128-11782 River Road" }],
+        "city": "Richmond, BC V6X 1Z7"
+      }
+    ],
+    "url": "http://lamajoun.com",
+    "phone": "(778) 896-4200",
+    "location": { "type": "Point", "coordinates": [-123.095208, 49.196713] }
+  },
+  {
+    "name": "Donair Dude Granville",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 3:00 am" },
+      { "days": "Tue", "time": "10:30 am - 3:00 am" },
+      { "days": "Wed", "time": "10:30 am - 3:00 am" },
+      { "days": "Thu", "time": "10:30 am - 3:00 am" },
+      { "days": "Fri", "time": "10:30 am - 5:00 am" },
+      { "days": "Sat", "time": "10:30 am - 5:00 am" },
+      { "days": "Sun", "time": "10:30 am - 3:00 am" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Frankie’s Italian Kitchen" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1145 Granville Street" }],
+        "city": "Vancouver, BC V6Z 1M1"
+      }
+    ],
+    "url": "http://donairdude.com",
+    "phone": "(604) 428-6699",
+    "location": { "type": "Point", "coordinates": [-123.125319, 49.277737] }
+  },
+  {
+    "name": "Tamam: Fine Palestinian Cuisine",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "5:00 pm - 9:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 9:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Udupi Palace" },
+      { "days": "Urban Tadka" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2616 E Hastings Street" }],
+        "city": "Vancouver, BC V5K 1Z6"
+      }
+    ],
+    "url": "http://tamam.ca",
+    "phone": "(604) 620-7078",
+    "location": { "type": "Point", "coordinates": [-123.051462, 49.281027] }
+  },
+  {
+    "name": "Donair Town Robson",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Showcase Restaurant & Bar" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "West Oak Restaurant" },
+      { "days": "Urban Tadka" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1793 Robson Street" }],
+        "city": "Vancouver, BC V6G 1C8"
+      }
+    ],
+    "phone": "(604) 569-1124",
+    "location": { "type": "Point", "coordinates": [-123.135349, 49.291435] }
+  },
+  {
+    "name": "Zaatar W Zeit",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 8:30 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:30 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:30 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:30 pm" },
+      { "days": "Sat", "time": "10:00 am - 8:30 pm" },
+      { "days": "Sun", "time": "10:00 am - 8:30 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Dharma Garden" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "531 Granville Street" }],
+        "city": "Vancouver, BC V6C 1X6"
+      }
+    ],
+    "url": "http://zaatarwzeit.com/CA/home",
+    "phone": "(604) 336-9348",
+    "location": { "type": "Point", "coordinates": [-123.115583, 49.284376] }
+  },
+  {
+    "name": "Crispy",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:30 pm" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Frankie’s Italian Kitchen" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Beehive Restaurant" },
+      { "days": "Freshslice Pizza" },
+      { "days": "West Oak Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "950 Marine Drive" }],
+        "city": "North Vancouver, BC V7P 1M6"
+      }
+    ],
+    "phone": "(778) 340-3142",
+    "location": { "type": "Point", "coordinates": [-123.099251, 49.322921] }
+  },
+  {
+    "name": "Beijiang Restaurant",
+    "category": "Chinese",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "No 9 Restaurant" },
+      { "days": "Hon’s Wun-Tun House" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Gain Wah Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8111 Leslie Road" }],
+        "city": "Richmond, BC V6X 1E4"
+      }
+    ],
+    "url": "http://beijiangrestaurant.ca",
+    "phone": "(778) 297-4988",
+    "location": { "type": "Point", "coordinates": [-123.134603, 49.179936] }
+  },
+  {
+    "name": "Baghdad Cafe",
+    "category": "Turkish",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Urban Tadka" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Dharma Garden" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "548 Seymour Street" }],
+        "city": "Vancouver, BC V6B 3K3"
+      }
+    ],
+    "phone": "(604) 428-2525",
+    "location": { "type": "Point", "coordinates": [-123.114432, 49.283465] }
+  },
+  {
+    "name": "Daddy’s Grill",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 6:00 pm" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Cilantro and Jalapeño" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Frankie’s Italian Kitchen" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Bogart’s Bar and Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4020 No 5 Road" }],
+        "city": "Richmond, BC V6X 2V1"
+      }
+    ],
+    "phone": "(604) 207-9091",
+    "location": { "type": "Point", "coordinates": [-123.091404, 49.184268] }
+  },
+  {
+    "name": "Jasmine Halal Meats & Mediterranean Produce",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 6:00 pm" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Larry’s Market" },
+      { "days": "Udupi Palace" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4323 Main Street" }],
+        "city": "Vancouver, BC V5V 3R1"
+      }
+    ],
+    "url": "http://jasmineretailfoodscom.weebly.c…",
+    "phone": "(604) 879-5518",
+    "location": { "type": "Point", "coordinates": [-123.101496, 49.24699] }
+  },
+  {
+    "name": "Sofra Mediterranean Kitchen",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 8:30 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Dharma Garden" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2277 W 41st Ave" }],
+        "city": "Vancouver, BC V6M 2A3"
+      }
+    ],
+    "url": "http://sofrakitchen.ca",
+    "phone": "(604) 558-3287",
+    "location": { "type": "Point", "coordinates": [-123.159136, 49.234804] }
+  },
+  {
+    "name": "Balila",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Sun Chicken" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Waleed S." },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Ash Street Bistro" },
+      { "days": "25% off Your first visit" },
+      { "days": "Frankie’s Italian Kitchen" },
+      { "days": "Freshslice Pizza" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "47 West Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "url": "http://balilahummus.com",
+    "phone": "(604) 620-0332",
+    "location": { "type": "Point", "coordinates": [-123.106204, 49.282022] }
+  },
+  {
+    "name": "Anatolia Express",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Dharma Garden" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Urban Tadka" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1055 Canada Place", "unit": "Unit 40" }],
+        "city": "Vancouver, BC V6C 0C3"
+      }
+    ],
+    "url": "http://anatoliaexpress.ca",
+    "phone": "(604) 647-7550",
+    "location": { "type": "Point", "coordinates": [-123.114606, 49.289502] }
+  },
+  {
+    "name": "Nuba in Yaletown",
+    "category": "Vegetarian",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 9:00 pm" },
+      { "days": "Gingeri Chinese Cuisine" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Eat Cafe" },
+      { "days": "Sun Chicken" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Dharma Garden" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "508 Davie Street" }],
+        "city": "Vancouver, BC V6B 5B6"
+      }
+    ],
+    "url": "http://nuba.ca",
+    "phone": "(604) 661-4129",
+    "location": { "type": "Point", "coordinates": [-123.124367, 49.275849] }
+  },
+  {
+    "name": "Jambo Grill",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Udupi Palace" },
+      { "days": "Nash M." },
+      { "days": "Urban Tadka" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "1 free Masala Chai with purchase" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3219 Kingsway" }],
+        "city": "Vancouver, BC V5R 5K3"
+      }
+    ],
+    "url": "http://jambogrill.ca",
+    "phone": "(604) 433-5060",
+    "location": { "type": "Point", "coordinates": [-123.037159, 49.234945] }
+  },
+  {
+    "name": "Curry Fusion",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Dharma Garden" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Pink Elephant Thai" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "542 Robson Street" }],
+        "city": "Vancouver, BC V6B 2B7"
+      }
+    ],
+    "phone": "(604) 428-3600",
+    "location": { "type": "Point", "coordinates": [-123.118428, 49.280443] }
+  },
+  {
+    "name": "Cazba",
+    "category": "Persian/Iranian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1103 Davie Street" }],
+        "city": "Vancouver, BC V6E 1N1"
+      }
+    ],
+    "url": "http://cazbarestaurant.com",
+    "phone": "(604) 428-4747",
+    "location": { "type": "Point", "coordinates": [-123.1311, 49.280678] }
+  },
+  {
+    "name": "Anatolia’s Gate Restaurant",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Diamond Sweets & Restaurant" },
+      { "days": "Afghan Kitchen South Surrey" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Sundance Seafoods" },
+      { "days": "Festal Paleo Cafe" },
+      { "days": "Steve’s Poké Bar" }
+    ],
+    "address": [
+      { "street": [{ "name": "7084 Kingsway" }], "city": "Burnaby, BC V5E 1E7" }
+    ],
+    "url": "http://anatoliasgate.ca",
+    "phone": "(604) 525-2519",
+    "location": { "type": "Point", "coordinates": [-122.958166, 49.218168] }
+  },
+  {
+    "name": "Paramount Fine Foods",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sopra Sotto" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Cilantro and Jalapeño" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "560 Robson Street" }],
+        "city": "Vancouver, BC V6B 2B7"
+      }
+    ],
+    "url": "http://paramountfinefoodsbc.com",
+    "phone": "(604) 699-9323",
+    "location": { "type": "Point", "coordinates": [-123.118611, 49.280361] }
+  },
+  {
+    "name": "Beeryani Indian Bistro & Bar",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:30 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1184 Denman Street", "unit": "Unit 202" }],
+        "city": "Vancouver, BC V6G 2M9"
+      }
+    ],
+    "url": "http://beer-yani.com",
+    "phone": "(604) 609-9999",
+    "location": { "type": "Point", "coordinates": [-123.14123, 49.287271] }
+  },
+  {
+    "name": "Moltaqa Moroccan Restaurant",
+    "category": "Moroccan",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:15 pm" },
+      { "days": "CA$5 for Fresh Squeezed Juice" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "51 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "phone": "(604) 696-4055",
+    "location": { "type": "Point", "coordinates": [-123.106412, 49.282002] }
+  },
+  {
+    "name": "The Fish Man",
+    "category": "Chinese",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 12:00 am" },
+      { "days": "Tue", "time": "5:00 pm - 12:00 am" },
+      { "days": "Wed", "time": "5:00 pm - 12:00 am" },
+      { "days": "Thu", "time": "5:00 pm - 12:00 am" },
+      { "days": "Fri", "time": "5:00 pm - 1:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "5:00 pm - 12:00 am" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1170-8391 Alexandra Road" }],
+        "city": "Richmond, BC V6X 1C3"
+      }
+    ],
+    "url": "http://thefishman.ca",
+    "phone": "(604) 284-5393",
+    "location": { "type": "Point", "coordinates": [-123.129814, 49.178446] }
+  },
+  {
+    "name": "Afghan Chopan Restaurant",
+    "category": "Afghan",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Urban Tadka" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8260 Westminster Hwy" }],
+        "city": "Richmond, BC V6Y 2B8"
+      }
+    ],
+    "url": "http://afghanchopan.com",
+    "phone": "(604) 278-6555",
+    "location": { "type": "Point", "coordinates": [-123.13633, 49.165485] }
+  },
+  {
+    "name": "House of Dosas",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 3:00 am" },
+      { "days": "Tue", "time": "8:00 am - 3:00 am" },
+      { "days": "Wed", "time": "8:00 am - 3:00 am" },
+      { "days": "Thu", "time": "8:00 am - 3:00 am" },
+      { "days": "Fri", "time": "8:00 am - 3:00 am" },
+      { "days": "Sat", "time": "8:00 am - 3:00 am" },
+      { "days": "Sun", "time": "8:00 am - 3:00 am" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Gain Wah Restaurant" },
+      { "days": "The Fish Man" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1391 Kingsway" }],
+        "city": "Vancouver, BC V5V 3E3"
+      }
+    ],
+    "url": "http://houseofdosas-bc.com",
+    "phone": "(604) 875-1283",
+    "location": { "type": "Point", "coordinates": [-123.076325, 49.250466] }
+  },
+  {
+    "name": "Al-Watan Tandoori",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 9:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 9:00 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Urban Tadka" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Dharma Garden" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "Shine Valley Lamb Soup" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "6084 Fraser Street" }],
+        "city": "Vancouver, BC V5W 2Z7"
+      }
+    ],
+    "url": "http://alwatantandoori.com",
+    "phone": "(604) 324-6378",
+    "location": { "type": "Point", "coordinates": [-123.090345, 49.229339] }
+  },
+  {
+    "name": "Wild Thyme",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Wed", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 9:30 pm" },
+      { "days": "Afghan Kitchen South Surrey" },
+      { "days": "Dharma Garden" },
+      { "days": "Marwan K." },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Diamond Sweets Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "705 12th Street" }],
+        "city": "New Westminster, BC V3M 4J7"
+      }
+    ],
+    "phone": "(604) 276-8010",
+    "location": { "type": "Point", "coordinates": [-122.932278, 49.209186] }
+  },
+  {
+    "name": "Los Amigos Taqueria",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 11:00 pm" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Showcase Restaurant & Bar" },
+      { "days": "Adriana O." },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "West Oak Restaurant" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Cilantro and Jalapeño" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1118 Davie Street" }],
+        "city": "Vancouver, BC V6E 1N1"
+      }
+    ],
+    "phone": "(604) 559-0220",
+    "location": { "type": "Point", "coordinates": [-123.131916, 49.28058] }
+  },
+  {
+    "name": "Banana Leaf",
+    "category": "Singaporean",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:30 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Xiang Yuan Qiao" },
+      { "days": "Andy F." },
+      { "days": "One More Szechuan Chinese Cuisine​" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Sushi Bar Shu" },
+      { "days": "The Fish Man" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "820 W Broadway" }],
+        "city": "Vancouver, BC V5Z 1J8"
+      }
+    ],
+    "url": "http://bananaleaf-vancouver.com",
+    "phone": "(604) 731-6333",
+    "location": { "type": "Point", "coordinates": [-123.122484, 49.26312] }
+  },
+  {
+    "name": "BeetBox",
+    "category": "Vegan",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1074 Davie Street" }],
+        "city": "Vancouver, BC V6E 1M3"
+      }
+    ],
+    "url": "http://beetboxveg.com",
+    "location": { "type": "Point", "coordinates": [-123.130975, 49.280076] }
+  },
+  {
+    "name": "Superbaba Food Truck",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 2:45 pm" },
+      { "days": "Tue", "time": "11:00 am - 2:45 pm" },
+      { "days": "Wed", "time": "11:00 am - 2:45 pm" },
+      { "days": "Thu", "time": "11:00 am - 2:45 pm" },
+      { "days": "Fri", "time": "11:00 am - 2:45 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "Cilantro and Jalapeño" },
+      { "days": "Abdallah E." },
+      { "days": "Ash Street Bistro" },
+      { "days": "Savary Island Pie Company" },
+      { "days": "Dae Bak Bon Ga" },
+      { "days": "Sun Chicken" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "555 Burrard St" }],
+        "city": "Vancouver, BC V7X 1M8"
+      }
+    ],
+    "url": "http://eatsuperbaba.com",
+    "phone": "(604) 788-1478",
+    "location": { "type": "Point", "coordinates": [-123.118461, 49.2862] }
+  },
+  {
+    "name": "Spicy 6",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Urban Tadka" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Dharma Garden" },
+      { "days": "Pink Elephant Thai" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1116 Robson Street" }],
+        "city": "Vancouver, BC V6E 1B2"
+      }
+    ],
+    "phone": "(604) 336-7999",
+    "location": { "type": "Point", "coordinates": [-123.125714, 49.284819] }
+  },
+  {
+    "name": "Lupo",
+    "category": "Italian",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Verre." },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "Beehive Restaurant" },
+      { "days": "Showcase Restaurant & Bar" },
+      { "days": "Shizen Ya" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "869 Hamilton Street" }],
+        "city": "Vancouver, BC V6B 2R7"
+      }
+    ],
+    "url": "http://luporestaurant.ca",
+    "phone": "(604) 569-2535",
+    "location": { "type": "Point", "coordinates": [-123.117349, 49.278193] }
+  },
+  {
+    "name": "Indian Wok",
+    "category": "Chinese",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sat", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Sun", "time": "5:00 pm - 10:00 pm" },
+      { "days": "Diamond Sweets & Restaurant" },
+      { "days": "Steve’s Poké Bar" },
+      { "days": "Sundance Seafoods" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "PHO Pink Lotus Cafe" },
+      { "days": "Once Upon A Bite" }
+    ],
+    "address": [
+      { "street": [{ "name": "5212 Kingsway" }], "city": "Burnaby, BC V5H 2G1" }
+    ],
+    "url": "http://indianwok.ca",
+    "phone": "(604) 428-2673",
+    "location": { "type": "Point", "coordinates": [-122.988467, 49.224841] }
+  },
+  {
+    "name": "Indian Bayleaf",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:30 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:30 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:30 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:30 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:30 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "HaiDiLao Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4890 Victoria Drive" }],
+        "city": "Vancouver, BC V5N 4P5"
+      }
+    ],
+    "url": "http://indianbayleaf.ca",
+    "phone": "(604) 428-8700",
+    "location": { "type": "Point", "coordinates": [-123.06535, 49.240184] }
+  },
+  {
+    "name": "Nuba - Mount Pleasant",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:30 am - 9:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Victor B." },
+      { "days": "Verre." },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Festal Paleo Cafe" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "146 E 3rd Avenue" }],
+        "city": "Vancouver, BC V5T 1C8"
+      }
+    ],
+    "url": "http://nuba.ca",
+    "phone": "(604) 568-6727",
+    "location": { "type": "Point", "coordinates": [-123.101707, 49.267967] }
+  },
+  {
+    "name": "Romer’s Burger Bar",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" },
+      { "days": "Beehive Restaurant" },
+      { "days": "One20 Public House" },
+      { "days": "Eat Cafe" },
+      { "days": "Verre." },
+      { "days": "Shizen Ya" },
+      { "days": "The Wild Fig Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1873 W 4th Avenue" }],
+        "city": "Vancouver, BC V6J 1M4"
+      }
+    ],
+    "url": "http://romersburgerbar.com",
+    "phone": "(604) 732-9545",
+    "location": { "type": "Point", "coordinates": [-123.147509, 49.26807] }
+  },
+  {
+    "name": "My BBQ Hut",
+    "category": "Barbeque",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 12:15 pm" },
+      { "days": "Thu", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 9:00 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Sun Chicken" },
+      { "days": "The Fish Man" },
+      { "days": "Beehive Restaurant" },
+      { "days": "No 9 Restaurant" },
+      { "days": "West Oak Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1678 Commercial Drive" }],
+        "city": "Vancouver, BC V5L 3Y4"
+      }
+    ],
+    "url": "http://mybbqhut.com",
+    "phone": "(604) 568-2699",
+    "location": { "type": "Point", "coordinates": [-123.069462, 49.269889] }
+  },
+  {
+    "name": "Babylon Café",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Urban Tadka" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Sun Chicken" },
+      { "days": "Ash Street Bistro" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1156 Denman St" }],
+        "city": "Vancouver, BC V6G 2M9"
+      }
+    ],
+    "phone": "(604) 568-7010",
+    "location": { "type": "Point", "coordinates": [-123.141018, 49.287678] }
+  },
+  {
+    "name": "Einstein Wrap House",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 1:00 am" },
+      { "days": "Sat", "time": "11:00 am - 1:00 am" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Eat Cafe" },
+      { "days": "Sopra Sotto" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Frankie’s Italian Kitchen" },
+      { "days": "Shizen Ya" },
+      { "days": "Cioffi’s Meat Market & Deli" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "516 Abbott Street" }],
+        "city": "Vancouver, BC V6B 6C1"
+      }
+    ],
+    "phone": "(604) 558-2733",
+    "location": { "type": "Point", "coordinates": [-123.107395, 49.280572] }
+  },
+  {
+    "name": "Richmond Night Market",
+    "category": "Food Stands",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "Closed" },
+      { "days": "Fri", "time": "7:00 pm - 12:00 am" },
+      { "days": "Sat", "time": "7:00 pm - 12:00 am" },
+      { "days": "Sun", "time": "7:00 pm - 11:00 pm" },
+      { "days": "Once Upon A Bite" },
+      { "days": "The Fish Man" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Dae Bak Bon Ga" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "West Oak Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8351 River Road" }],
+        "city": "Richmond, BC V6X 1Y4"
+      }
+    ],
+    "url": "http://richmondnightmarket.com",
+    "phone": "(604) 244-8448",
+    "location": { "type": "Point", "coordinates": [-123.13372, 49.192654] }
+  },
+  {
+    "name": "Gather",
+    "category": "Food Court",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "7:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "7:00 am - 9:00 pm" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "One More Szechuan Chinese Cuisine​" },
+      { "days": "Xiang Yuan Qiao" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Once Upon A Bite" },
+      { "days": "No 9 Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1935 Lower Mall" }],
+        "city": "Vancouver, BC V6T 1X1"
+      }
+    ],
+    "url": "http://food.ubc.ca/place/gather",
+    "phone": "(604) 822-2622",
+    "location": { "type": "Point", "coordinates": [-123.258621, 49.264624] }
+  },
+  {
+    "name": "Best Falafel",
+    "category": "Falafel",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 12:00 am" },
+      { "days": "Thu", "time": "11:00 am - 12:00 am" },
+      { "days": "Fri", "time": "11:00 am - 12:00 am" },
+      { "days": "Sat", "time": "11:00 am - 12:00 am" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Dharma Garden" },
+      { "days": "Udupi Palace" },
+      { "days": "hisham W." },
+      { "days": "Ash Street Bistro" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2013 Commercial Drive" }],
+        "city": "Vancouver, BC V5N 4B1"
+      }
+    ],
+    "url": "http://bestfalafel.ca",
+    "phone": "(604) 251-9444",
+    "location": { "type": "Point", "coordinates": [-123.069898, 49.266581] }
+  },
+  {
+    "name": "Tandoori Palace",
+    "category": "Pakistani",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 11:00 pm" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Udupi Palace" },
+      { "days": "Gain Wah Restaurant" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Dharma Garden" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1439 Commercial Drive" }],
+        "city": "Vancouver, BC V5L 3X8"
+      }
+    ],
+    "url": "http://tandoori-palace.ca",
+    "phone": "(604) 254-8452",
+    "location": { "type": "Point", "coordinates": [-123.069983, 49.271629] }
+  },
+  {
+    "name": "Nooru Mahal",
+    "category": "Singaporean",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Thu", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Dharma Garden" },
+      { "days": "Xiang Yuan Qiao" },
+      { "days": "Hon’s Wun-Tun House" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "No 9 Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4354 Fraser Street" }],
+        "city": "Vancouver, BC V5V 4G3"
+      }
+    ],
+    "url": "http://noorumahal.ca",
+    "phone": "(604) 873-9263",
+    "location": { "type": "Point", "coordinates": [-123.08996, 49.24603] }
+  },
+  {
+    "name": "Al Basha",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 9:00 pm" },
+      { "days": "Tiffin Box by Silk" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Ash Street Bistro" },
+      { "days": "Pink Elephant Thai" },
+      { "days": "Dharma Garden" },
+      { "days": "Pizza Factory" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1937 Cornwall Avenue" }],
+        "city": "Vancouver, BC V6J 1C8"
+      }
+    ],
+    "url": "http://albasharestaurant.ca",
+    "phone": "(604) 336-2110",
+    "location": { "type": "Point", "coordinates": [-123.148527, 49.272611] }
+  },
+  {
+    "name": "Main Kabab Hut",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "12:00 pm - 10:00 pm" },
+      { "days": "Udupi Palace" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "West Oak Restaurant" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Frankie’s Italian Kitchen" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "215 E 49th Avenue" }],
+        "city": "Vancouver, BC V5W 2V4"
+      }
+    ],
+    "url": "http://vancouverindianfood.ca",
+    "phone": "(604) 322-8715",
+    "location": { "type": "Point", "coordinates": [-123.101232, 49.225753] }
+  },
+  {
+    "name": "Best Burrito",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 8:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Sun Chicken" },
+      { "days": "Cilantro and Jalapeño" },
+      { "days": "The Wild Fig Restaurant" },
+      { "days": "Beehive Restaurant" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Festal Paleo Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "15 W Broadway" }],
+        "city": "Vancouver, BC V5Y 1P1"
+      }
+    ],
+    "url": "http://bestburritocanada.com",
+    "phone": "(604) 879-2378",
+    "location": { "type": "Point", "coordinates": [-123.10538, 49.263173] }
+  },
+  {
+    "name": "Agra Tandoori Express",
+    "category": "Buffets",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Dharma Garden" },
+      { "days": "Ba Fang Yan Chinese Cuisine" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Shine Valley Lamb Soup" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2138 Western Parkway" }],
+        "city": "Vancouver, BC V6T 1V6"
+      }
+    ],
+    "url": "http://agratandooriexpress.ca",
+    "phone": "(604) 225-2255",
+    "location": { "type": "Point", "coordinates": [-123.243429, 49.266038] }
+  },
+  {
+    "name": "One More Szechuan Chinese Cuisine​",
+    "category": "Asian Fusion",
+    "hours": [
+      { "days": "Mon", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Tue", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Wed", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Thu", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Fri", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Sat", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Sun", "time": "3:00 pm - 8:00 pm" },
+      { "days": "Once Upon A Bite" },
+      { "days": "Hon’s Wun-Tun House" },
+      { "days": "Shizen Ya" },
+      { "days": "Shine Valley Lamb Soup" },
+      { "days": "Gingeri Chinese Cuisine" },
+      { "days": "Ba Fang Yan Chinese Cuisine" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1262 Marine Drive" }],
+        "city": "North Vancouver, BC V7P 1T2"
+      }
+    ],
+    "url": "http://onemoreszechuan.ca",
+    "phone": "(604) 929-3000",
+    "location": { "type": "Point", "coordinates": [-123.109655, 49.324876] }
+  },
+  {
+    "name": "The Fish Man",
+    "category": "Barbeque",
+    "hours": [
+      { "days": "Mon", "time": "5:00 pm - 12:00 am" },
+      { "days": "Tue", "time": "5:00 pm - 12:00 am" },
+      { "days": "Wed", "time": "5:00 pm - 12:00 am" },
+      { "days": "Thu", "time": "5:00 pm - 12:00 am" },
+      { "days": "Fri", "time": "5:00 pm - 1:00 am" },
+      { "days": "Sat", "time": "5:00 pm - 1:00 am" },
+      { "days": "Sun", "time": "5:00 pm - 12:00 am" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1170-8391 Alexandra Road" }],
+        "city": "Richmond, BC V6X 1C3"
+      }
+    ],
+    "url": "http://thefishman.ca",
+    "phone": "(604) 284-5393",
+    "location": { "type": "Point", "coordinates": [-123.129814, 49.178446] }
+  },
+  {
+    "name": "Savary Island Pie Company",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "6:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "6:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "6:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "6:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "6:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "6:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "6:00 am - 7:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1533 Marine Drive" }],
+        "city": "West Vancouver, BC V7V 1H9"
+      }
+    ],
+    "url": "http://savaryislandpiecompany.com",
+    "phone": "(604) 926-4021",
+    "location": { "type": "Point", "coordinates": [-123.157488, 49.328662] }
+  },
+  {
+    "name": "Cafe FortyOne",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Tue", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Wed", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Thu", "time": "12:00 pm - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 3:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "Les Faux Bourgeois" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Yamila C." },
+      { "days": "Ash Street Bistro" },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Milltown Bar & Grill" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5750 Oak Street" }],
+        "city": "Vancouver, BC V6M 2V9"
+      }
+    ],
+    "url": "http://cafefortyone.ca",
+    "phone": "(604) 563-4141",
+    "location": { "type": "Point", "coordinates": [-123.127615, 49.233466] }
+  },
+  {
+    "name": "Uncle Fatih’s Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:30 am - 2:00 am" },
+      { "days": "Tue", "time": "10:30 am - 2:00 am" },
+      { "days": "Wed", "time": "10:30 am - 2:00 am" },
+      { "days": "Thu", "time": "10:30 am - 2:00 am" },
+      { "days": "Fri", "time": "10:30 am - 3:00 am" },
+      { "days": "Sat", "time": "10:30 am - 3:00 am" },
+      { "days": "Sun", "time": "10:30 am - 1:00 am" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Sopra Sotto" },
+      { "days": "Pizza Factory" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Savary Island Pie Company" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1685 Broadway E" }],
+        "city": "Vancouver, BC V5N 1V9"
+      }
+    ],
+    "phone": "(604) 707-0744",
+    "location": { "type": "Point", "coordinates": [-123.070132, 49.262487] }
+  },
+  {
+    "name": "Showcase Restaurant & Bar",
+    "category": "Bars",
+    "hours": [
+      { "days": "Mon", "time": "6:30 am - 12:00 am" },
+      { "days": "Tue", "time": "6:30 am - 12:00 am" },
+      { "days": "Wed", "time": "6:30 am - 12:00 am" },
+      { "days": "Thu", "time": "6:30 am - 12:00 am" },
+      { "days": "Fri", "time": "6:30 am - 1:00 am" },
+      { "days": "Sat", "time": "6:30 am - 1:00 am" },
+      { "days": "Sun", "time": "6:30 am - 12:00 am" },
+      { "days": "Verre." },
+      { "days": "Milltown Bar & Grill" },
+      { "days": "One20 Public House" },
+      { "days": "Uma Sushi" },
+      { "days": "C Market Coffee" },
+      { "days": "Sushi Bar Shu" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1122 West Hastings Street" }],
+        "city": "Vancouver, BC V6E 4R5"
+      }
+    ],
+    "url": "http://showcaserestaurant.com",
+    "phone": "(604) 639-4040",
+    "location": { "type": "Point", "coordinates": [-123.120442, 49.287882] }
+  },
+  {
+    "name": "Yaas Grill House",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2077 Lonsdale Avenue" }],
+        "city": "North Vancouver, BC V7M 2N7"
+      }
+    ],
+    "url": "http://yaas.ca",
+    "phone": "(604) 990-0020",
+    "location": { "type": "Point", "coordinates": [-123.072502, 49.328102] }
+  },
+  {
+    "name": "Döner Stop",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 12:00 am" },
+      { "days": "Tue", "time": "11:00 am - 12:00 am" },
+      { "days": "Wed", "time": "11:00 am - 2:00 am" },
+      { "days": "Thu", "time": "11:00 am - 2:00 am" },
+      { "days": "Fri", "time": "11:00 am - 4:00 am" },
+      { "days": "Sat", "time": "11:00 am - 4:00 am" },
+      { "days": "Sun", "time": "11:00 am - 12:00 am" },
+      { "days": "Nicli Antica Pizzeria" },
+      { "days": "The Fish Man" },
+      { "days": "Kubi D." },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "No 9 Restaurant" },
+      { "days": "Osaka Teppanyaki Steak & Seafood House" },
+      { "days": "Showcase Restaurant & Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "980 Granville Street" }],
+        "city": "Vancouver, BC V6Z"
+      }
+    ],
+    "url": "http://donerstop.ca",
+    "phone": "(604) 563-8185",
+    "location": { "type": "Point", "coordinates": [-123.122326, 49.279391] }
+  },
+  {
+    "name": "Nuba in Kitsilano",
+    "category": "Lebanese",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:30 am - 9:00 pm" },
+      { "days": "Verre." },
+      { "days": "Savary Island Pie Company" },
+      { "days": "Victor B." },
+      { "days": "Gingeri Chinese Cuisine" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "1 free fresh juice" },
+      { "days": "Beehive Restaurant" },
+      { "days": "Festal Paleo Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "3116 West Broadway" }],
+        "city": "Vancouver, BC V6K 2G9"
+      }
+    ],
+    "url": "http://nuba.ca",
+    "phone": "(604) 336-1797",
+    "location": { "type": "Point", "coordinates": [-123.174223, 49.264214] }
+  },
+  {
+    "name": "Al-Salam Halal Meat",
+    "category": "Meat Shops",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 7:00 pm" },
+      { "days": "PricePro" },
+      { "days": "Afghan Kitchen South Surrey" },
+      { "days": "East West Market" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Udupi Palace" },
+      { "days": "Burrard Liquor Store" }
+    ],
+    "address": [
+      { "street": [{ "name": "6953 Kingsway" }], "city": "Burnaby, BC V5E 1E5" }
+    ],
+    "location": { "type": "Point", "coordinates": [-122.96002, 49.218588] }
+  },
+  {
+    "name": "The Naam",
+    "category": "Mexican",
+    "hours": [
+      { "days": "Mon", "time": "Open 24 hours" },
+      { "days": "Tue", "time": "Open 24 hours" },
+      { "days": "Wed", "time": "Open 24 hours" },
+      { "days": "Thu", "time": "Open 24 hours" },
+      { "days": "Fri", "time": "Open 24 hours" },
+      { "days": "Sat", "time": "Open 24 hours" },
+      { "days": "Sun", "time": "Open 24 hours" },
+      { "days": "Eat Cafe" },
+      { "days": "Cilantro and Jalapeño" },
+      { "days": "Jessica S." },
+      { "days": "Pink Elephant Thai" },
+      { "days": "No 9 Restaurant" },
+      { "days": "Shizen Ya" },
+      { "days": "Cioffi’s Meat Market & Deli" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2724 W 4th Avenue" }],
+        "city": "Vancouver, BC V6K 1R1"
+      }
+    ],
+    "url": "http://thenaam.com",
+    "phone": "(604) 738-7151",
+    "location": { "type": "Point", "coordinates": [-123.167062, 49.268346] }
+  },
+  {
+    "name": "Donair King Restaurant",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 1:30 am" },
+      { "days": "Tue", "time": "11:30 am - 4:00 am" },
+      { "days": "Wed", "time": "11:30 am - 3:30 am" },
+      { "days": "Thu", "time": "11:30 am - 1:30 am" },
+      { "days": "Fri", "time": "11:30 am - 4:00 am" },
+      { "days": "Sat", "time": "11:30 am - 4:00 am" },
+      { "days": "Sun", "time": "11:30 am - 1:30 am" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Ash Street Bistro" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1028 Davie Street" }],
+        "city": "Vancouver, BC V6E 1M3"
+      }
+    ],
+    "phone": "(604) 685-8723",
+    "location": { "type": "Point", "coordinates": [-123.129989, 49.279455] }
+  },
+  {
+    "name": "O’Tray Noodle",
+    "category": "Food Court",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 3:00 pm" },
+      { "days": "Tue", "time": "8:30 am - 3:00 pm" },
+      { "days": "Wed", "time": "Closed" },
+      { "days": "Thu", "time": "8:30 am - 3:00 pm" },
+      { "days": "Fri", "time": "8:30 am - 3:00 pm" },
+      { "days": "Sat", "time": "8:30 am - 3:00 pm" },
+      { "days": "Sun", "time": "8:30 am - 3:00 pm" },
+      { "days": "John 3:16 Malaysian Delights" },
+      { "days": "The Fish Man" },
+      { "days": "Ba Fang Yan Chinese Cuisine" },
+      { "days": "LE BL CAFÉ" },
+      { "days": "Hon’s Wun-Tun House" },
+      { "days": "Shine Valley Lamb Soup" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "2285-8181 Cambie Road" }],
+        "city": "Richmond, BC V6X 3X9"
+      }
+    ],
+    "phone": "(778) 829-7519",
+    "location": { "type": "Point", "coordinates": [-123.133901, 49.185025] }
+  },
+  {
+    "name": "Stepho’s",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 11:30 pm" },
+      { "days": "Tue", "time": "11:30 am - 11:30 pm" },
+      { "days": "Wed", "time": "11:30 am - 11:30 pm" },
+      { "days": "Thu", "time": "11:30 am - 11:30 pm" },
+      { "days": "Fri", "time": "11:30 am - 11:30 pm" },
+      { "days": "Sat", "time": "11:30 am - 11:30 pm" },
+      { "days": "Sun", "time": "11:30 am - 11:30 pm" },
+      { "days": "Verre." },
+      { "days": "Gingeri Chinese Cuisine" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "Festal Paleo Cafe" },
+      { "days": "The Wild Fig Restaurant" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1359 Robson Street" }],
+        "city": "Vancouver, BC V6E 1C6"
+      }
+    ],
+    "phone": "(604) 685-9977",
+    "location": { "type": "Point", "coordinates": [-123.129254, 49.287752] }
+  },
+  {
+    "name": "Al Basha Restaurant",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Showcase Restaurant & Bar" },
+      { "days": "Captain’s Nook" },
+      { "days": "The Wild Fig Restaurant" },
+      { "days": "Sopra Sotto" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Cactus Club Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "137-9040 Blundell Road" }],
+        "city": "Richmond, BC V6Y 1K4"
+      }
+    ],
+    "url": "http://albasharestaurant.ca",
+    "phone": "(604) 447-4770",
+    "location": { "type": "Point", "coordinates": [-123.124449, 49.155089] }
+  },
+  {
+    "name": "Haida Sandwich",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tang Vietnamese Restaurant & Bar" },
+      { "days": "Verre." },
+      { "days": "Nima P." },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Sopra Sotto" },
+      { "days": "10% off your first visit" },
+      { "days": "No 9 Restaurant" },
+      { "days": "Ash Street Bistro" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "121 15th Street East" }],
+        "city": "North Vancouver, BC V7L 2P7"
+      }
+    ],
+    "url": "http://haidasandwich.ca",
+    "phone": "(604) 971-6021",
+    "location": { "type": "Point", "coordinates": [-123.071199, 49.321793] }
+  },
+  {
+    "name": "Stong’s Markets",
+    "category": "Florists",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 9:00 pm" },
+      { "days": "East West Market" },
+      { "days": "Larry’s Market" },
+      { "days": "Karen’s Dreamy Bakeshop" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4221 Dunbar Street" }],
+        "city": "Vancouver, BC V6S 2G6"
+      }
+    ],
+    "url": "http://stongs.com",
+    "phone": "(604) 266-1401",
+    "location": { "type": "Point", "coordinates": [-123.185229, 49.248737] }
+  },
+  {
+    "name": "Zeitoon Restaurant",
+    "category": "Middle Eastern",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:30 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:30 pm" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Reza and Bahram V." }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1795 Pendrell Street" }],
+        "city": "Vancouver, BC V6G 1T2"
+      }
+    ],
+    "url": "http://zeitoonrestaurant.ca",
+    "phone": "(604) 899-0700",
+    "location": { "type": "Point", "coordinates": [-123.140457, 49.287943] }
+  },
+  {
+    "name": "Abdul BBQ & Shawarma",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Verre." },
+      { "days": "Captain’s Nook" },
+      { "days": "Udupi Palace" },
+      { "days": "Sundance Seafoods" },
+      { "days": "Eat Cafe" },
+      { "days": "Festal Paleo Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1691-4500 Kingsway" }],
+        "city": "Burnaby, BC V5H 4V2"
+      }
+    ],
+    "url": "http://abdulsbbq.com",
+    "phone": "(604) 431-9498",
+    "location": { "type": "Point", "coordinates": [-123.004175, 49.229667] }
+  },
+  {
+    "name": "Falafel King",
+    "category": "Falafel",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 10:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "516 Robson Street" }],
+        "city": "Vancouver, BC V6B 2B7"
+      }
+    ],
+    "phone": "(778) 379-2121",
+    "location": { "type": "Point", "coordinates": [-123.118212, 49.280149] }
+  },
+  {
+    "name": "Maple Grill Restaurant & Catering",
+    "category": "Kosher",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 11:00 pm" },
+      { "days": "Tue", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "Closed" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Urban Tadka" },
+      { "days": "Savary Island Pie Company" },
+      { "days": "Eat Cafe" },
+      { "days": "Ash Street Bistro" },
+      { "days": "The Press Room" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1967 W Broadway" }],
+        "city": "Vancouver, BC V6J 1Z3"
+      }
+    ],
+    "url": "http://maplegrill.com",
+    "phone": "(604) 568-4885",
+    "location": { "type": "Point", "coordinates": [-123.149657, 49.263944] }
+  },
+  {
+    "name": "East West Market",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 8:00 pm" },
+      { "days": "Tue", "time": "9:30 am - 8:00 pm" },
+      { "days": "Wed", "time": "9:30 am - 8:00 pm" },
+      { "days": "Thu", "time": "9:30 am - 8:00 pm" },
+      { "days": "Fri", "time": "9:30 am - 8:00 pm" },
+      { "days": "Sat", "time": "9:30 am - 8:00 pm" },
+      { "days": "Sun", "time": "9:30 am - 7:00 pm" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "4169 Main Street" }],
+        "city": "Vancouver, BC V5V 3P6"
+      }
+    ],
+    "url": "http://eastwestmarket.ca",
+    "phone": "(604) 564-6888",
+    "location": { "type": "Point", "coordinates": [-123.10153, 49.248273] }
+  },
+  {
+    "name": "New India Buffet",
+    "category": "Buffets",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Xiang Yuan Qiao" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Sushi & Roll" },
+      { "days": "Gain Wah Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "901 W Broadway" }],
+        "city": "Vancouver, BC V5Z 4M3"
+      }
+    ],
+    "url": "http://newindiabuffet.com",
+    "phone": "(604) 874-5800",
+    "location": { "type": "Point", "coordinates": [-123.124468, 49.263479] }
+  },
+  {
+    "name": "Cazba",
+    "category": "Persian/Iranian",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sahand Bakery & Kebab Hut" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "132 W 16th Street" }],
+        "city": "North Vancouver, BC V7M 1T4"
+      }
+    ],
+    "phone": "(604) 980-7373",
+    "location": { "type": "Point", "coordinates": [-123.074009, 49.323291] }
+  },
+  {
+    "name": "Romano’s Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 4:00 am" },
+      { "days": "Tue", "time": "10:00 am - 4:00 am" },
+      { "days": "Wed", "time": "10:00 am - 4:00 am" },
+      { "days": "Thu", "time": "10:00 am - 4:00 am" },
+      { "days": "Fri", "time": "10:00 am - 4:00 am" },
+      { "days": "Sat", "time": "10:00 am - 4:00 am" },
+      { "days": "Sun", "time": "10:00 am - 4:00 am" },
+      { "days": "Freshslice Pizza" },
+      { "days": "Pizza Factory" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Nicli Antica Pizzeria" },
+      { "days": "Sopra Sotto" },
+      { "days": "Frankie’s Italian Kitchen" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "995 Granville Street" }],
+        "city": "Vancouver, BC V6Z 1L3"
+      }
+    ],
+    "url": "http://romanospizza.ca",
+    "phone": "(604) 568-5470",
+    "location": { "type": "Point", "coordinates": [-123.122811, 49.27963] }
+  },
+  {
+    "name": "Nava Creative Kosher Cuisine",
+    "category": "Caterers",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "9:30 am - 4:00 pm" },
+      { "days": "Vancouver Private Dining" },
+      { "days": "Captain’s Nook" },
+      { "days": "Susy S." },
+      { "days": "Fresh in your Fridge" },
+      { "days": "Milltown Bar & Grill" },
+      { "days": "Dharma Garden" },
+      { "days": "Eat Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "950 41st Avenue W" }],
+        "city": "Vancouver, BC V5Z 2N7"
+      }
+    ],
+    "url": "http://navacreative.com",
+    "phone": "(604) 676-7632",
+    "location": { "type": "Point", "coordinates": [-123.125965, 49.233506] }
+  },
+  {
+    "name": "Cayenne Bistro & Grill",
+    "category": "African",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 8:00 pm" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "11:30 am - 8:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 8:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 8:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Diamond Sweets & Restaurant" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Golden Samosa Bakery" },
+      { "days": "Afghan Kitchen South Surrey" },
+      { "days": "Udupi Palace" }
+    ],
+    "address": [
+      { "street": [{ "name": "7677 6th St" }], "city": "Burnaby, BC V3N 3M7" }
+    ],
+    "url": "http://cayennebistro.com",
+    "phone": "(604) 553-7866",
+    "location": { "type": "Point", "coordinates": [-122.930976, 49.221421] }
+  },
+  {
+    "name": "A&B Market Halal Meat and Grocery Shop",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 7:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 7:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 7:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 7:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sat", "time": "10:00 am - 7:00 pm" },
+      { "days": "Sun", "time": "10:00 am - 7:00 pm" },
+      { "days": "Larry’s Market" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Burrard Liquor Store" },
+      { "days": "Tiffin Box by Silk" },
+      { "days": "Brilliant Star Bakery" },
+      { "days": "Vaah Tiffin Service" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1420 E 57 Avenue" }],
+        "city": "Vancouver, BC V5P 2A9"
+      }
+    ],
+    "phone": "(604) 568-9940",
+    "location": { "type": "Point", "coordinates": [-123.076677, 49.218066] }
+  },
+  {
+    "name": "Sabra Kosher Bakery & Restaurant",
+    "category": "Kosher",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 2:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Eat Cafe" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Captain’s Nook" },
+      { "days": "Dharma Garden" },
+      { "days": "The Press Room" }
+    ],
+    "address": [
+      { "street": [{ "name": "3844 Oak St" }], "city": "Vancouver, BC V6H 2M5" }
+    ],
+    "phone": "(604) 733-4912",
+    "location": { "type": "Point", "coordinates": [-123.127292, 49.251323] }
+  },
+  {
+    "name": "Omnitsky Kosher",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 4:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Ash Street Bistro" },
+      { "days": "Captain’s Nook" },
+      { "days": "Eppy R." },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Urban Tadka" },
+      { "days": "The Press Room" },
+      { "days": "Moltaqa Moroccan Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5775 Oak Street" }],
+        "city": "Vancouver, BC V6M 2V7"
+      }
+    ],
+    "url": "http://omnitskykosher.com",
+    "phone": "(604) 321-1818",
+    "location": { "type": "Point", "coordinates": [-123.128579, 49.233302] }
+  },
+  {
+    "name": "Moltaqa Moroccan Restaurant",
+    "category": "Moroccan",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:15 pm" },
+      { "days": "CA$5 for Fresh Squeezed Juice" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "51 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "phone": "(604) 696-4055",
+    "location": { "type": "Point", "coordinates": [-123.106412, 49.282002] }
+  },
+  {
+    "name": "Moltaqa Moroccan Restaurant",
+    "category": "Mediterranean",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "Closed" },
+      { "days": "Wed", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Thu", "time": "5:00 pm - 9:15 pm" },
+      { "days": "Fri", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sat", "time": "5:00 pm - 11:15 pm" },
+      { "days": "Sun", "time": "5:00 pm - 9:15 pm" },
+      { "days": "CA$5 for Fresh Squeezed Juice" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "51 W Hastings Street" }],
+        "city": "Vancouver, BC V6B 1G4"
+      }
+    ],
+    "phone": "(604) 696-4055",
+    "location": { "type": "Point", "coordinates": [-123.106412, 49.282002] }
+  },
+  {
+    "name": "Shizen Ya",
+    "category": "Bars",
+    "hours": [
+      { "days": "Mon", "time": "11:30 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:30 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:30 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:30 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:30 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:30 am - 9:00 pm" },
+      { "days": "Lougheed Village Bar & Grill" },
+      { "days": "One20 Public House" },
+      { "days": "Sushi & Roll" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "One More Szechuan Chinese Cuisine​" },
+      { "days": "West Oak Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "965 Hornby Street" }],
+        "city": "Vancouver, BC V6Z 1V3"
+      }
+    ],
+    "url": "http://shizenya.ca",
+    "phone": "(604) 568-0013",
+    "location": { "type": "Point", "coordinates": [-123.124628, 49.280884] }
+  },
+  {
+    "name": "Chicago Subs",
+    "category": "Donairs",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 5:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 5:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 5:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 5:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 5:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 4:00 pm" },
+      { "days": "Sun", "time": "Closed" },
+      { "days": "Boba Boy" },
+      { "days": "Eat Cafe" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "No 9 Restaurant" },
+      { "days": "The Press Room" },
+      { "days": "Festal Paleo Cafe" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "12560 Bridgeport Road" }],
+        "city": "Richmond, BC V6V 2N5"
+      }
+    ],
+    "phone": "(604) 244-1125",
+    "location": { "type": "Point", "coordinates": [-123.084316, 49.191753] }
+  },
+  {
+    "name": "Capilano Market",
+    "category": "Imported Food",
+    "hours": [
+      { "days": "Mon", "time": "8:30 am - 9:00 pm" },
+      { "days": "Tue", "time": "8:30 am - 9:00 pm" },
+      { "days": "Wed", "time": "8:30 am - 9:00 pm" },
+      { "days": "Thu", "time": "8:30 am - 9:00 pm" },
+      { "days": "Fri", "time": "8:30 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:30 am - 8:30 pm" },
+      { "days": "Candyland" },
+      { "days": "East West Market" },
+      { "days": "Rosie R." },
+      { "days": "Larry’s Market" },
+      { "days": "Sakuraya Japanese Supermarket" },
+      { "days": "Karen’s Dreamy Bakeshop" },
+      { "days": "Cioffi’s Meat Market & Deli" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1847 Capilano Road" }],
+        "city": "North Vancouver, BC V7P 3B5"
+      }
+    ],
+    "phone": "(604) 971-5999",
+    "location": { "type": "Point", "coordinates": [-123.120176, 49.326623] }
+  },
+  {
+    "name": "Greens Organic + Natural Market",
+    "category": "Delis",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 10:00 pm" },
+      { "days": "Larry’s Market" },
+      { "days": "Ash Street Bistro" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "East West Market" },
+      { "days": "Sun Chicken" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1978 W Broadway" }],
+        "city": "Vancouver, BC V6J 1Z2"
+      }
+    ],
+    "url": "http://greensmarket.ca",
+    "phone": "(604) 568-3079",
+    "location": { "type": "Point", "coordinates": [-123.149878, 49.263575] }
+  },
+  {
+    "name": "Chettinad Dosa Palace",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:30 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Urban Tadka" },
+      { "days": "Diamond Sweets & Restaurant" },
+      { "days": "Diamond Sweets Restaurant" },
+      { "days": "Beeryani Indian Bistro & Bar" },
+      { "days": "Udupi Palace" },
+      { "days": "HaiDiLao Hot Pot" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5081 Canada Way" }],
+        "city": "Burnaby, BC V5E 3N1"
+      }
+    ],
+    "url": "http://chettinaddosapalace.ca",
+    "phone": "(604) 544-1561",
+    "location": { "type": "Point", "coordinates": [-122.963653, 49.239281] }
+  },
+  {
+    "name": "Freshslice Pizza",
+    "category": "Pizza",
+    "hours": [
+      { "days": "Mon", "time": "10:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "10:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 12:00 am" },
+      { "days": "Sat", "time": "10:00 am - 12:00 am" },
+      { "days": "Sun", "time": "10:00 am - 11:00 pm" },
+      { "days": "Pizza Factory" },
+      { "days": "Ragazzi Pizza" },
+      { "days": "Sun Chicken" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Cactus Club Cafe" },
+      { "days": "Showcase Restaurant & Bar" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "5128 Joyce St" }],
+        "city": "Vancouver, BC V5R 6B8"
+      }
+    ],
+    "url": "http://freshslice.com",
+    "phone": "(604) 568-4003",
+    "location": { "type": "Point", "coordinates": [-123.031989, 49.237895] }
+  },
+  {
+    "name": "The Point",
+    "category": "Burgers",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 10:00 pm" },
+      { "days": "Milltown Bar & Grill" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "Cilantro and Jalapeño" },
+      { "days": "Sun Chicken" },
+      { "days": "Savary Island Pie Company" },
+      { "days": "West Oak Restaurant" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "University of British Columbia" }],
+        "city": "2205 Lower Mall, Building 4"
+      }
+    ],
+    "url": "http://food.ubc.ca/the-point",
+    "phone": "(604) 822-9503",
+    "location": { "type": "Point", "coordinates": [-123.255257, 49.261814] }
+  },
+  {
+    "name": "Haida Catering",
+    "category": "Halal",
+    "hours": [
+      { "days": "Mon", "time": "11:00 am - 11:00 pm" },
+      { "days": "Tue", "time": "11:00 am - 11:00 pm" },
+      { "days": "Wed", "time": "11:00 am - 11:00 pm" },
+      { "days": "Thu", "time": "11:00 am - 11:00 pm" },
+      { "days": "Fri", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sat", "time": "11:00 am - 11:00 pm" },
+      { "days": "Sun", "time": "11:00 am - 11:00 pm" },
+      { "days": "Vancouver Private Dining" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "Urban Tadka" },
+      { "days": "Moltaqa Moroccan Restaurant" },
+      { "days": "Dharma Garden" },
+      { "days": "Sahand Bakery & Kebab Hut" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "121 15th St E" }],
+        "city": "North Vancouver, BC V7L 2P7"
+      }
+    ],
+    "url": "http://haidacatering.ca/catering-nort…",
+    "phone": "(604) 971-6021",
+    "location": { "type": "Point", "coordinates": [-123.071284, 49.321869] }
+  },
+  {
+    "name": "Vaades",
+    "category": "Indian",
+    "hours": [
+      { "days": "Mon", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Tue", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Wed", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Thu", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Fri", "time": "4:00 pm - 11:00 pm" },
+      { "days": "Sat", "time": "4:00 pm - 11:00 pm" },
+      { "days": "Sun", "time": "4:00 pm - 10:00 pm" },
+      { "days": "Gain Wah Restaurant" },
+      { "days": "No 9 Restaurant" },
+      { "days": "HaiDiLao Hot Pot" },
+      { "days": "Ba Fang Yan Chinese Cuisine" },
+      { "days": "Hon’s Wun-Tun House" },
+      { "days": "One More Szechuan Chinese Cuisine​" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "149 W 3rd Street" }],
+        "city": "North Vancouver, BC V7M 1E7"
+      }
+    ],
+    "phone": "(604) 973-0123",
+    "location": { "type": "Point", "coordinates": [-123.079034, 49.31393] }
+  },
+  {
+    "name": "Whole Foods Market",
+    "category": "Juice Bars & Smoothies",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "East West Market" },
+      { "days": "Vaah Tiffin Service" },
+      { "days": "Boba Boy" },
+      { "days": "Burrard Liquor Store" },
+      { "days": "Adonia Tea House" },
+      { "days": "Tiffin Box by Silk" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "925 Main Street" }],
+        "city": "West Vancouver, BC V7T 2Z3"
+      }
+    ],
+    "url": "http://wholefoodsmarket.com",
+    "phone": "(604) 678-0500",
+    "location": { "type": "Point", "coordinates": [-123.14304, 49.325936] }
+  },
+  {
+    "name": "Nesters Market",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "7:00 am - 10:00 pm" },
+      { "days": "Tue", "time": "7:00 am - 10:00 pm" },
+      { "days": "Wed", "time": "7:00 am - 10:00 pm" },
+      { "days": "Thu", "time": "7:00 am - 10:00 pm" },
+      { "days": "Fri", "time": "7:00 am - 10:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 10:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 10:00 pm" },
+      { "days": "East West Market" },
+      { "days": "Larry’s Market" },
+      { "days": "Burrard Liquor Store" },
+      { "days": "Karen’s Dreamy Bakeshop" },
+      { "days": "Brilliant Star Bakery" },
+      { "days": "Sakuraya Japanese Supermarket" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "990 Seymour Street" }],
+        "city": "Vancouver, BC V6B 3L9"
+      }
+    ],
+    "url": "http://nestersmarket.com",
+    "phone": "(604) 682-3071",
+    "location": { "type": "Point", "coordinates": [-123.121736, 49.278674] }
+  },
+  {
+    "name": "Vanak Market and Deli",
+    "category": "Delis",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:30 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:30 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:30 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:30 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:30 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:30 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:30 pm" },
+      { "days": "Vaah Tiffin Service" },
+      { "days": "Tiffin Box by Silk" },
+      { "days": "Larry’s Market" },
+      { "days": "Nicli Antica Pizzeria" },
+      { "days": "Fresh in your Fridge" },
+      { "days": "Benny’s Bagels" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1860 Lonsdale Avenue" }],
+        "city": "North Vancouver, BC V7M 2J9"
+      }
+    ],
+    "phone": "(604) 770-2121",
+    "location": { "type": "Point", "coordinates": [-123.072195, 49.326174] }
+  },
+  {
+    "name": "Alfie’s No Frills",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "East West Market" },
+      { "days": "Larry’s Market" },
+      { "days": "Brilliant Star Bakery" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Sakuraya Japanese Supermarket" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1680 W 4th Avenue" }],
+        "city": "Vancouver, BC V6J 1L6"
+      }
+    ],
+    "url": "http://nofrills.ca",
+    "phone": "(604) 739-7672",
+    "location": { "type": "Point", "coordinates": [-123.14315, 49.267891] }
+  },
+  {
+    "name": "Kolbeh Deli & Restaurant",
+    "category": "Sandwiches",
+    "hours": [
+      { "days": "Mon", "time": "Closed" },
+      { "days": "Tue", "time": "10:00 am - 8:00 pm" },
+      { "days": "Wed", "time": "10:00 am - 8:00 pm" },
+      { "days": "Thu", "time": "10:00 am - 8:00 pm" },
+      { "days": "Fri", "time": "10:00 am - 8:00 pm" },
+      { "days": "Sat", "time": "8:00 am - 8:00 pm" },
+      { "days": "Sun", "time": "8:00 am - 6:00 pm" },
+      { "days": "Ash Street Bistro" },
+      { "days": "Bogart’s Bar and Restaurant" },
+      { "days": "Cioffi’s Meat Market & Deli" },
+      { "days": "Showcase Restaurant & Bar" },
+      { "days": "Shizen Ya" },
+      { "days": "The Press Room" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "731 Lonsdale Ave" }],
+        "city": "North Vancouver, BC V7M 2G9"
+      }
+    ],
+    "phone": "(604) 990-0062",
+    "location": { "type": "Point", "coordinates": [-123.073142, 49.317578] }
+  },
+  {
+    "name": "iKosherbake",
+    "category": "Bakeries",
+    "hours": [
+      { "days": "Mon", "time": "8:00 am - 6:00 pm" },
+      { "days": "Tue", "time": "8:00 am - 6:00 pm" },
+      { "days": "Wed", "time": "8:00 am - 6:00 pm" },
+      { "days": "Thu", "time": "8:00 am - 6:00 pm" },
+      { "days": "Fri", "time": "8:00 am - 12:00 pm" },
+      { "days": "Sat", "time": "Closed" },
+      { "days": "Sun", "time": "10:00 am - 4:00 pm" },
+      { "days": "Nana’s Bakery" },
+      { "days": "Something Sweet" },
+      { "days": "Ella and Marat D." },
+      { "days": "Candyland" },
+      { "days": "Karen’s Dreamy Bakeshop" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "8591 Blundell Road" }],
+        "city": "Richmond, BC V6Y 1K2"
+      }
+    ],
+    "url": "http://ikosherbake.com",
+    "phone": "(778) 838-6903",
+    "location": { "type": "Point", "coordinates": [-123.128803, 49.155841] }
+  },
+  {
+    "name": "Sahota’s No Frills",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:00 am - 9:00 pm" },
+      { "days": "Tue", "time": "9:00 am - 9:00 pm" },
+      { "days": "Wed", "time": "9:00 am - 9:00 pm" },
+      { "days": "Thu", "time": "9:00 am - 9:00 pm" },
+      { "days": "Fri", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sat", "time": "9:00 am - 9:00 pm" },
+      { "days": "Sun", "time": "9:00 am - 9:00 pm" },
+      { "days": "East West Market" },
+      { "days": "Brilliant Star Bakery" },
+      { "days": "Larry’s Market" },
+      { "days": "Cioffi’s Meat Market & Deli" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "1460 E Hastings Street" }],
+        "city": "Vancouver, BC V5L 1S3"
+      }
+    ],
+    "url": "http://shopnofrills.ca",
+    "phone": "(604) 253-3349",
+    "location": { "type": "Point", "coordinates": [-123.074401, 49.281039] }
+  },
+  {
+    "name": "Mostafa Supermarket - Halal Meat",
+    "category": "Grocery",
+    "hours": [
+      { "days": "Mon", "time": "9:30 am - 8:30 pm" },
+      { "days": "Tue", "time": "9:30 am - 8:30 pm" },
+      { "days": "Wed", "time": "9:30 am - 8:30 pm" },
+      { "days": "Thu", "time": "9:30 am - 8:30 pm" },
+      { "days": "Fri", "time": "9:30 am - 8:30 pm" },
+      { "days": "Sat", "time": "9:30 am - 8:30 pm" },
+      { "days": "Sun", "time": "9:30 am - 8:30 pm" },
+      { "days": "PricePro" },
+      { "days": "Vaah Tiffin Service" },
+      { "days": "Larry’s Market" },
+      { "days": "East West Market" }
+    ],
+    "address": [
+      {
+        "street": [{ "name": "7421 Edmonds Street" }],
+        "city": "Burnaby, BC V3N 1B1"
+      }
+    ],
+    "phone": "(604) 521-7977",
+    "location": { "type": "Point", "coordinates": [-122.948182, 49.220472] }
+  }
+]
