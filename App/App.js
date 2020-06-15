@@ -37,6 +37,8 @@ import Login from "./src/components/Forms/Login/Login";
 import styles from "./styles.js";
 // Utility manager
 import loginManager from "./src/services/loginManager";
+// Services manager
+import serviceContainer from "./src/services/serviceContainer";
 // Location services.
 navigator.geolocation = require("@react-native-community/geolocation");
 
@@ -82,23 +84,35 @@ class App extends Component {
     // Check if user is already logged in to the app.
     this.authenticate();
 
-    // OPT-IN BETA RELEASE SIGN UP
-    Alert.alert(
-      "Operating in Ottawa Only",
-      "The service is currently only available to Ottawa and surrounding areas, however, you can opt-in to be notified when we begin to operate in your city!",
-      [
-        {
-          text: "Continue",
-          onPress: () => console.log("Canceled"),
-        },
-        {
-          text: "Opt-in ",
-          onPress: () => this.props.navigation.navigate("OptIn"),
-          style: "destructive",
-        },
-      ],
-      { cancelable: true }
+    // Ensure that the user is only shown mailing list popup once.
+    const displayedMailingListToUser = await serviceContainer.getStorageData(
+      "mailingList"
     );
+
+    if (!displayedMailingListToUser) {
+      await serviceContainer.setStorageData(
+        "mailingList", // Key.
+        "@!///#%^" // Value (true)
+      );
+
+      // Mailing list sign up.
+      Alert.alert(
+        "Subscribe to Mailing List",
+        "Be the first to know about special promotions, product information and updates from Jyze!",
+        [
+          {
+            text: "Cancel",
+            onPress: () => console.log("Canceled"),
+            style: "destructive",
+          },
+          {
+            text: "Subscribe",
+            onPress: () => this.props.navigation.navigate("OptIn"),
+          },
+        ],
+        { cancelable: true }
+      );
+    }
   }
 
   async authenticate() {
@@ -215,7 +229,7 @@ class App extends Component {
   async onLogout() {
     Alert.alert(
       "Are you sure?",
-      "Would like to logout?",
+      'Clicking "Yes" will log you out',
       [
         {
           text: "No",

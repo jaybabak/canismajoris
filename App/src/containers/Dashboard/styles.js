@@ -129,6 +129,19 @@ const styles = StyleSheet.create({
     color: "red",
     fontSize: 36,
   },
+  ad: {
+    marginTop: 30,
+    marginBottom: 30,
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    // backgroundColor: '#E2E2E2',
+    textAlign: "center",
+  },
+  adUnit: {
+    width: 700,
+    height: 50,
+  },
 });
 
 export default styles;

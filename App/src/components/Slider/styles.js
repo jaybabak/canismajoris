@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
   },
   marginBottom: {
-    marginBottom: 20,
+    marginBottom: 10,
   },
 });
 

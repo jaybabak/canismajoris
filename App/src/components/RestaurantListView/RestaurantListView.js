@@ -47,14 +47,14 @@ class RestaurantListView extends React.PureComponent {
 
     // Return all the rstaurants found nearby sorted by distance.
     return (
-      <List>
+      <List style={{ backgroundColor: "white" }}>
         {this.state.restaurants.map((restaurant, index) => {
           return (
             <ListItem
               avatar
               key={index}
               onPress={() => this.props.goToDetailsPage(restaurant._id)}
-              // style={{ backgroundColor: "white" }}
+              style={{ backgroundColor: "white" }}
               style={styles.listItem}
             >
               <Left style={styles.distanceContainer}>

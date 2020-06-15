@@ -73,8 +73,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   near: {
-    color: "black",
-    // width: 80
+    color: "#454545",
+    fontWeight: "400",
+    fontStyle: "italic",
+    // width: 60,
   },
   far: {
     color: "blue",
@@ -123,10 +125,17 @@ const styles = StyleSheet.create({
     color: "#fa2500",
     fontWeight: "600",
     textAlign: "center",
-    width: 30,
+    width: 60,
   },
   distanceContainer: {
-    // backgroundColor: "white",
+    marginTop: 12,
+    paddingTop: 4,
+    paddingBottom: 4,
+    borderColor: "red",
+    borderWidth: 1,
+    borderRadius: 25,
+    // height: 30,
+    backgroundColor: "white",
   },
   logo: {
     // flex: 1,
@@ -165,9 +174,9 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     paddingTop: 150,
   },
-  listItem: {
-    backgroundColor: "white",
-  },
+  // listItem: {
+  //   backgroundColor: "white",
+  // },
 });
 
 export default styles;

@@ -1,4 +1,5 @@
 import { Linking, Platform, Alert } from "react-native";
+import AsyncStorage from "@react-native-community/async-storage";
 
 /**
  * Makes the call
@@ -74,5 +75,35 @@ const openUrl = async function (url) {
   });
 };
 
+const getStorageData = async function (key) {
+  try {
+    const value = await AsyncStorage.getItem(key);
+    if (value !== null) {
+      return value;
+    } else {
+      return null;
+    }
+  } catch (e) {
+    console.log(e);
+    return null;
+  }
+};
+
+const setStorageData = async function (key, storeValue) {
+  try {
+    const value = await AsyncStorage.setItem(key, storeValue);
+    if (value !== null) {
+      return value;
+    } else {
+      return null;
+    }
+  } catch (e) {
+    console.log(e);
+    return null;
+  }
+};
+
 module.exports.makeCall = makeCall;
 module.exports.openUrl = openUrl;
+module.exports.getStorageData = getStorageData;
+module.exports.setStorageData = setStorageData;

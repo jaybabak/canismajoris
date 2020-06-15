@@ -201,8 +201,8 @@ const loginUser = async function (email, password, that) {
   //If form has issues or not successful, notify the user with alert message
   if (!form.success) {
     Alert.alert(
-      "Cannot leave blank",
-      "Must enter a valid email/password",
+      "Oops!",
+      "Must enter a valid email and password",
       [
         {
           text: "Cancel",
