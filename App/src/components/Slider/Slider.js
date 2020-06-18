@@ -78,7 +78,7 @@ class Slider extends Component {
           height: 15,
           borderRadius: 15,
           marginHorizontal: 8,
-          backgroundColor: "black",
+          backgroundColor: "#FF1B15",
         }}
         inactiveDotStyle={
           {

@@ -612,7 +612,7 @@
 			baseConfigurationReference = 3FD92F64A8AC29470403FA49 /* Pods-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 24;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = FQ8J54HD9C;
 				ENABLE_BITCODE = NO;
@@ -622,7 +622,7 @@
 				);
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 3.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -639,7 +639,7 @@
 			baseConfigurationReference = 22113148A0E2F51415B199F1 /* Pods-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 24;
 				DEVELOPMENT_TEAM = FQ8J54HD9C;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -648,7 +648,7 @@
 				);
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 3.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

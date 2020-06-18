@@ -61,6 +61,7 @@ class Details extends React.PureComponent {
     this.getRestaurantDetails();
 
     const currentUser = this.props.navigation.getParam("user");
+    const distanceField = this.props.navigation.getParam("user");
 
     this.setState({ user: currentUser });
   }
@@ -294,7 +295,7 @@ class Details extends React.PureComponent {
               <Slider {...this.state.restaurant} />
               {/* Start Slider/Carousel */}
 
-              {/* Ads */}
+              {/* Ads @TODO -> REFACTOR into its own component*/}
               {this.state.displayAd ? (
                 <View style={styles.ad}>
                   <AdMobBanner

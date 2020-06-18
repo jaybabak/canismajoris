@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   container: {
-    padding: 10,
+    padding: 15,
   },
   buttonSubmitCloseBtn: {
     marginTop: 10,
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     height: 200,
   },
   ad: {
-    marginTop: 10,
+    marginTop: 40,
     marginBottom: 40,
     flex: 1,
     justifyContent: "center",

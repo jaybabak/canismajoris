@@ -49,22 +49,24 @@ class RestaurantListView extends React.PureComponent {
     return (
       <List style={{ backgroundColor: "white" }}>
         {this.state.restaurants.map((restaurant, index) => {
+          // Roud th decimal.
+          const theTotalDistance =
+            (Math.round((restaurant.dist.calculated / 1000) * 10) / 10).toFixed(
+              1
+            ) + " KM";
+          // Return the reastaurant.
           return (
             <ListItem
               avatar
               key={index}
-              onPress={() => this.props.goToDetailsPage(restaurant._id)}
+              onPress={() =>
+                this.props.goToDetailsPage(restaurant._id, theTotalDistance)
+              }
               style={{ backgroundColor: "white" }}
               style={styles.listItem}
             >
               <Left style={styles.distanceContainer}>
-                <Text style={styles.distanceField}>
-                  {(
-                    Math.round((restaurant.dist.calculated / 1000) * 10) / 10
-                  ).toFixed(1)}{" "}
-                  KM
-                </Text>
-                {/* <Text style={styles.distanceField}>KM</Text> */}
+                <Text style={styles.distanceField}>{theTotalDistance}</Text>
               </Left>
               <Body>
                 <Text>{restaurant.name}</Text>

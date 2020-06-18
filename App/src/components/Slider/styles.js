@@ -4,6 +4,7 @@ const { width: screenWidth } = Dimensions.get("window");
 const styles = StyleSheet.create({
   item: {
     width: screenWidth - 30,
+    // width: screenWidth - 30,
     height: screenWidth,
   },
   imageContainer: {

@@ -179,6 +179,7 @@ class Dashboard extends React.Component {
   }
 
   goToDetailsPage(theRestaurantId) {
+    // console.log(this.state)
     this.props.navigation.navigate("Details", {
       rid: theRestaurantId,
       user: this.state.user,
@@ -264,7 +265,7 @@ class Dashboard extends React.Component {
 
         {this.state.loadedRestaurants ? (
           <Content>
-            {/* Ads */}
+            {/* Ads @TODO -> REFACTOR into its own component */}
             {this.state.displayAd ? (
               <View style={styles.ad}>
                 <AdMobBanner

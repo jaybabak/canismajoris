@@ -64,7 +64,7 @@ class Login extends Component {
           danger
           onPress={this.props.login}
         >
-          <Text style={styles.whiteText}>LOGIN</Text>
+          <Text style={styles.whiteText}>Login</Text>
         </Button>
         <Button
           onPress={this.props.navigateToRegisterScreen}
@@ -73,7 +73,7 @@ class Login extends Component {
           // bordered
           dark
         >
-          <Text style={styles.whiteText}>SIGN-UP A FOR NEW ACCOUNT</Text>
+          <Text style={styles.whiteText}>Sign-up for a new account</Text>
         </Button>
         <Button
           onPress={() => this.props.navigateToDashboard(true)} // true is for isGuest param
