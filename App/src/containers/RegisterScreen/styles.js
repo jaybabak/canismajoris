@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     // borderColor: 'red'
   },
   btnAction: {
-    backgroundColor: "red",
+    backgroundColor: "#E61E25",
     color: "white",
   },
   btnActionText: {
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   buttonSubmitBtn: {
     marginTop: 10,
-    backgroundColor: "red",
+    backgroundColor: "#E61E25",
     color: "white",
   },
   iconQuestion: {
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   defaulText: {
-    marginTop: 10,
+    marginTop: 5,
     marginBottom: 10,
     color: "grey",
     fontSize: 14,

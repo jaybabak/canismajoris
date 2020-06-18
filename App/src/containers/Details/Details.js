@@ -19,6 +19,7 @@ import {
   Badge,
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
+import { AdMobBanner } from "react-native-admob";
 import MapDetails from "../../components/MapDetails/MapDetails";
 import BusinessHours from "../../components/BusinessHours/BusinessHours";
 import Slider from "../../components/Slider/Slider";
@@ -44,6 +45,7 @@ class Details extends React.PureComponent {
       user: null,
       restaurant: null,
       error: false,
+      displayAd: true,
     };
 
     this.goBack = this.goBack.bind(this);
@@ -52,6 +54,7 @@ class Details extends React.PureComponent {
     this.getDirectionsOpenMapsApp = this.getDirectionsOpenMapsApp.bind(this);
     this.makeCall = this.makeCall.bind(this);
     this.openWebsite = this.openWebsite.bind(this);
+    this.hideAd = this.hideAd.bind(this);
   }
 
   componentDidMount() {
@@ -127,6 +130,15 @@ class Details extends React.PureComponent {
     this.props.navigation.goBack();
   }
 
+  hideAd(error) {
+    // Console error
+    console.log(error);
+    // Disable the ad unit
+    this.setState({
+      displayAd: false,
+    });
+  }
+
   getDirectionsOpenMapsApp() {
     // Set d for car or w for walk -> none for user's default preference
     const transportPlan = "d";
@@ -182,6 +194,7 @@ class Details extends React.PureComponent {
         <Content
           // style={{ paddingTop: 10 }}
           scrollIndicatorInsets={{ right: 1 }}
+          // style={{ backgroundColor: "#E61E25" }}
         >
           <MapDetails
             lat={this.state.restaurant.location.coordinates[1]}
@@ -191,7 +204,8 @@ class Details extends React.PureComponent {
             userLong={this.state.user.location.coordinates[0]}
           />
 
-          <View style={styles.view}>
+          <View style={{ backgroundColor: "white" }}>
+            {/* <View style={styles.view}> */}
             <View style={styles.container}>
               <View
                 style={{
@@ -279,6 +293,21 @@ class Details extends React.PureComponent {
               <H3 style={styles.subTitle}>Photos</H3>
               <Slider {...this.state.restaurant} />
               {/* Start Slider/Carousel */}
+
+              {/* Ads */}
+              {this.state.displayAd ? (
+                <View style={styles.ad}>
+                  <AdMobBanner
+                    style={styles.adUnit}
+                    adSize="mediumRectangle"
+                    adUnitID="ca-app-pub-9030422041041163/4912970310"
+                    // adUnitID="ca-app-pub-3940256099942544/2934735716" // Test ad.
+                    // testDevices={[AdMobBanner.simulatorId]}
+                    onAdFailedToLoad={(error) => this.hideAd(error)}
+                  />
+                </View>
+              ) : null}
+              {/* End Ads */}
 
               {/* Start Reviews */}
               <H3 style={styles.subTitle}>Reviews</H3>

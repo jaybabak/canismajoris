@@ -61,15 +61,15 @@ const styles = StyleSheet.create({
   introText: {
     color: "black",
     marginTop: 20,
-    marginBottom: 20,
-    fontSize: 26,
+    marginBottom: 1,
+    fontSize: 22,
   },
   buttonSubmit: {
     marginTop: 10,
     color: "white",
+    backgroundColor: "#E61E25",
   },
   buttonRegister: {
-    backgroundColor: "red",
     marginTop: 10,
     color: "blue",
   },
@@ -85,9 +85,12 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   skip: {
-    backgroundColor: "#fafafa",
+    // backgroundColor: "#fafafa",
     marginTop: 10,
     borderColor: "#e3e3e3",
+    textAlign: "right",
+    alignSelf: "flex-end",
+    paddingRight: 40,
   },
   skipText: {
     color: "red",

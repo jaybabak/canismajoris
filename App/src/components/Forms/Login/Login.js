@@ -12,7 +12,7 @@ import { Button, Input, Item, Thumbnail } from "native-base";
 import serviceContainer from "../../../services/serviceContainer";
 import styles from "./styles.js";
 // Welcome background image -> PNG assets.
-const splashImage = require("../../../../assets/images/splash_6.png");
+const splashImage = require("../../../../assets/images/splash_16.png");
 
 class Login extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class Login extends Component {
     return (
       <View style={styles.containerBody}>
         <Thumbnail style={styles.thumbnail} square large source={splashImage} />
-        <Text style={styles.introText}>Sign-in or register now!</Text>
+        <Text style={styles.introText}>Sign-in</Text>
         <Item
           style={styles.formField}
           error={this.props.errors.email ? true : false}
@@ -43,7 +43,7 @@ class Login extends Component {
             style={styles.placeholder}
             autoCapitalize="none"
             value={this.props.email}
-            placeholder="user@example.com"
+            placeholder="email@example.com"
             onChangeText={this.props.changeUsername}
           />
         </Item>
@@ -61,26 +61,26 @@ class Login extends Component {
         <Button
           style={styles.buttonSubmit}
           block
-          dark
+          danger
           onPress={this.props.login}
         >
-          <Text style={styles.whiteText}>Login</Text>
+          <Text style={styles.whiteText}>LOGIN</Text>
         </Button>
         <Button
           onPress={this.props.navigateToRegisterScreen}
           style={styles.buttonRegister}
           block
-          bordered
-          danger
+          // bordered
+          dark
         >
-          <Text style={styles.whiteText}>Sign-up with a new account!</Text>
+          <Text style={styles.whiteText}>SIGN-UP A FOR NEW ACCOUNT</Text>
         </Button>
         <Button
           onPress={() => this.props.navigateToDashboard(true)} // true is for isGuest param
           style={styles.skip}
           block
-          bordered
-          light
+          // bordered
+          transparent
         >
           <Text style={styles.skipText}>Skip</Text>
         </Button>
@@ -97,7 +97,7 @@ class Login extends Component {
               color: "#AEAEAE",
             }}
           >
-            Need support? Send an email to contact@jyze.net
+            Need support or have feedback? Send us an email.
           </Text>
         </Button>
 

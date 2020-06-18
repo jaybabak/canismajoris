@@ -15,6 +15,7 @@ import {
   Thumbnail,
 } from "native-base";
 import { OpenMapDirections } from "react-native-navigation-directions";
+import { AdMobBanner } from "react-native-admob";
 import apiConsumer from "../../services/apiConsumer";
 import RestaurantListView from "../../components/RestaurantListView/RestaurantListView";
 import MapOverview from "../../components/MapOverview/MapOverview";
@@ -38,6 +39,7 @@ class Dashboard extends React.Component {
       loadedRestaurants: false,
       mapMode: false,
       user: null,
+      displayAd: true,
     };
 
     this.goBack = this.goBack.bind(this);
@@ -48,6 +50,7 @@ class Dashboard extends React.Component {
       this
     );
     this.getDirectionsOpenMapsApp = this.getDirectionsOpenMapsApp.bind(this);
+    this.hideAd = this.hideAd.bind(this);
   }
 
   componentDidMount() {
@@ -210,6 +213,15 @@ class Dashboard extends React.Component {
     });
   }
 
+  hideAd(error) {
+    // Console error
+    console.log(error);
+    // Disable the ad unit
+    this.setState({
+      displayAd: false,
+    });
+  }
+
   render() {
     if (this.state.isReady !== true) {
       return <Spinner style={styles.spinner} color="red" />;
@@ -252,6 +264,20 @@ class Dashboard extends React.Component {
 
         {this.state.loadedRestaurants ? (
           <Content>
+            {/* Ads */}
+            {this.state.displayAd ? (
+              <View style={styles.ad}>
+                <AdMobBanner
+                  style={styles.adUnit}
+                  adSize="banner"
+                  adUnitID="ca-app-pub-9030422041041163/3969539834"
+                  // adUnitID="ca-app-pub-3940256099942544/2934735716" // Test ad.
+                  // testDevices={[AdMobBanner.simulatorId]}
+                  onAdFailedToLoad={(error) => this.hideAd(error)}
+                />
+              </View>
+            ) : null}
+            {/* End Ads */}
             <RestaurantListView
               loadedRestaurants={this.state.loadedRestaurants}
               restaurants={this.state.restaurants}

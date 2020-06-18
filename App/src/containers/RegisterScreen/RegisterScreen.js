@@ -76,8 +76,8 @@ class RegisterScreen extends React.Component {
 
       //alert message for user if errors with form
       Alert.alert(
-        "Please check credentials!",
-        "Review the registration form.",
+        "Incomplete Form",
+        "Review the registration form before proceeding",
         [
           {
             text: "Cancel",
@@ -274,7 +274,7 @@ class RegisterScreen extends React.Component {
                   placeholder={
                     this.state.mobileNumber
                       ? this.state.mobileNumber
-                      : "Mobile Number (optional)"
+                      : "Mobile number (optional)"
                   }
                   onChangeText={(value) =>
                     this.changeField("mobileNumber", value)
