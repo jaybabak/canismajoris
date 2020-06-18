@@ -1,3 +1,10 @@
+// App monitering
+require('dotenv').config()
+require('spm-agent-nodejs')
+// require stMonitor agent
+const { stMonitor } = require('sematext-agent-express')
+// Start monitoring metrics
+stMonitor.start()
 // Express server imports.
 const config = require("./config");
 const express = require("express");
@@ -19,6 +26,32 @@ app.use(bodyParser.json());
 // Rate limite exceeder -> prevents brute force attacks
 app.use(rateLimiterRedisMiddleware);
 
+// App monitering and logging.
+const winston = require('winston')
+const morgan = require('morgan')
+const json = require('morgan-json')
+const format = json({
+ method: ':method',
+ url: ':url',
+ status: ':status',
+ contentLength: ':res[content-length]',
+ responseTime: ':response-time'
+})
+const Logsene = require('winston-logsene')
+const logger = winston.createLogger({
+ transports: [new Logsene({
+   token: process.env.LOGS_TOKEN, // token
+   level: 'info',
+   type: 'api_logs',
+   url: 'https://logsene-receiver.sematext.com/_bulk'
+ })]
+})
+const httpLogger = morgan(format, {
+ stream: {
+   write: (message) => logger.info('HTTP LOG', JSON.parse(message))
+ }
+})
+app.use(httpLogger)
 // Mongoose and database configuration.
 const mongoose = require("mongoose");
 // Make Mongoose use `findOneAndUpdate()`. warning deprecation notice removal.
@@ -67,7 +100,7 @@ app.get("/terms-and-conditions", function (req, res) {
 });
 // Static serving asset page/directory.
 app.get("/static/jyze/one", function (req, res) {
-  res.sendFile(__dirname + "/pages/static/jyze_1.MP4");
+  res.sendFile(__dirname + "/pages/static/jyzevideo.MP4");
 });
 
 // Running http version of server
