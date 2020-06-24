@@ -1,5 +1,5 @@
 {
-  "dbUri": "mongodb+srv://root:root@canis-majoris-iybxu.mongodb.net/test?retryWrites=true&w=majority",
+  "dbUri": "mongodb+srv://root:root@canis-majoris-iybxu.mongodb.net/?retryWrites=true&w=majority",
   "secret": "blackandyellow",
   "port": "8000",
   "redis_port": "6379",
