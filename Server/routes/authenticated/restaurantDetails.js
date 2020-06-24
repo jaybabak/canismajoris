@@ -9,12 +9,12 @@ const redis_port = config.redis_port || 6379;
 const redis_client = redis.createClient(redis_port);
 
 module.exports = async function restaurantDetails(req, res) {
-  const results = await getRestaurantById(req.params.id);
-
   // See if request has been cached already.
   redis_client.get(req.params.id, async (err, data) => {
     // Response object that is sent back to client.
     var combinedRestaurantDataFromYelp = {};
+    // Contains reastaurant information to send back.
+    var results = {};
 
     // If error then send response with error.
     if (err) {
@@ -24,9 +24,8 @@ module.exports = async function restaurantDetails(req, res) {
 
     // Send CACHED response.
     if (data != null) {
-      // console.log("Cached Request");
       // Add additional data to the existing results object for restaurants.
-      results.extra = JSON.parse(data);
+      results = JSON.parse(data);
 
       // Proceed to send CACHED response.
       return res.json({
@@ -38,10 +37,12 @@ module.exports = async function restaurantDetails(req, res) {
       });
     }
 
+    // Cache the mongodb results in Redis as well.
+    results = await getRestaurantById(req.params.id);
+
     // If Not CACHED proceed to make request and get additional data, then
     if (results.toObject().hasOwnProperty("phone")) {
       const yelp = await getYelpData(results.phone);
-      // console.log("Not Cached Request");
 
       // if initial response does not have any response data.
       if (yelp.data.businesses.length > 0) {
@@ -62,19 +63,19 @@ module.exports = async function restaurantDetails(req, res) {
         };
       }
 
+      // Append the combine yelp data into the "extra" property and cache it all.
+      results.extra = combinedRestaurantDataFromYelp;
+
       // Set # of days to expire cache after.
       var days = 120;
       // Save to Redis cache.
       redis_client.set(
         results.id,
-        JSON.stringify(combinedRestaurantDataFromYelp),
+        JSON.stringify(results),
         "EX",
         days * 24 * 60 * 60 * 1000
       );
     }
-
-    // Add additional data to the existing results object for restaurants.
-    results.extra = combinedRestaurantDataFromYelp;
 
     // Proceed to send NON-CACHED response.
     return res.json({
