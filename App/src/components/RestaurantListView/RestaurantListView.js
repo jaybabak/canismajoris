@@ -17,6 +17,7 @@ class RestaurantListView extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = { ...props };
+    console.log(props);
   }
 
   componentDidMount() {

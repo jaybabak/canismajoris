@@ -51,7 +51,7 @@ class OptIn extends React.Component {
 
   async openWebsite() {
     // website URL on YELP
-    var privacyPolicy = "https://jyze.net/privacy-policy";
+    var privacyPolicy = "http://localhost:8000/privacy-policy";
     // Make call to provide parameter as phonumber to makeCall service.
     await serviceContainer.openUrl(privacyPolicy);
   }

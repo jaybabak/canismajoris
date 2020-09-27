@@ -1,0 +1,84 @@
+PRIORITIES
+------------
+
+TESTING ON LIVE APP TEST FLIGHT
+
+Gesture issue when sliding back
+- https://github.com/software-mansion/react-native-gesture-handler/issues/320#issuecomment-447534290
+
+Oversized icons for maps (all)
+- Update css
+
+
+
+
+
+@Updated TODO
+-- App
+-- -- Integrate Yelp reviews
+-- -- Integrate Photos
+-- -- Update the Details page to show distance as well
+-- -- Verification email
+
+-- Update scraper
+-- -- Get phone number for restaurant as well
+-- -- Website e.g popeyes.com
+
+
+
+@TODO
+
+-- Update dashboard image instead of profile icon to somdthing more exciting and with more height! 
+-- -- Welcoming image!
+
+
+==================================================
+-- Updated prioroties
+-- -- Integrate upload/add photos
+-- -- Add reviews functionality
+-- -- Update scraper to get phone number and website (ParseHub)
+-- -- Integrate "Skip" without authenticated functionality
+-- -- Email verification
+-- -- Password reset/edit
+-- -- Single sign-on fb authenticate -> Versio 2
+
+
+Version 2
+
+Add facebook sign in SSO
+
+
+
+API KEY
+4ffbf1f99f5e17dadc8db354c369ed8756da6c6ecdadafcddf288e1ee218d327
+
+
+YELP INTEGRATION & YELP DEVELOPER API
+
+3 Api calls needed to retrieve all day
+
+Either use match end point or phone
+
+https://api.yelp.com/v3/businesses/matches?name=shawarma%20palace%0A&address1=464%20Rideau%20Street&city=Ottawa&state=ON&country=CA
+
+https://api.yelp.com/v3/businesses/search/phone?phone=+16137899533 (might be easier)
+
+
+REVIEWS:
+
+https://api.yelp.com/v3/businesses/{id}/reviews
+
+// Shawarma palace
+https://api.yelp.com/v3/businesses/HkGcLoxiTSRTmblJwlFd5g/reviews
+
+
+
+Distance sort:
+Sort by bicycle
+Walking distance
+Car
+Within a few blocks
+
+
+
+

@@ -295,7 +295,7 @@ class Details extends React.PureComponent {
               <Slider {...this.state.restaurant} />
               {/* Start Slider/Carousel */}
 
-              {/* Ads @TODO -> REFACTOR into its own component*/}
+              {/* Ads @TODO -> REFACTOR into its own component */}
               {this.state.displayAd ? (
                 <View style={styles.ad}>
                   <AdMobBanner
