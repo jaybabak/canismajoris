@@ -94,6 +94,7 @@ class Dashboard extends React.Component {
             },
           };
 
+          
           this.setState({
             isReady: true,
             restaurants: restaurants.data.results.restaurants,

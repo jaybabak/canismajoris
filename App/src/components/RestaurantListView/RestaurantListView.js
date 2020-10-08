@@ -7,7 +7,7 @@
  */
 
 import React from "react";
-import { Left, Body, Right, Text, List, ListItem } from "native-base";
+import { Container, Header, Content, Card, CardItem, Thumbnail, Left, Body, Button, Right, Text, List, ListItem, Icon } from "native-base";
 import { View, Image } from "react-native";
 import styles from "./styles.js";
 // Splash image -> Jyze.
@@ -57,32 +57,76 @@ class RestaurantListView extends React.PureComponent {
             ) + " KM";
           // Return the reastaurant.
           return (
-            <ListItem
-              avatar
-              key={index}
-              onPress={() =>
-                this.props.goToDetailsPage(restaurant._id, theTotalDistance)
-              }
-              style={{ backgroundColor: "white" }}
-              style={styles.listItem}
-            >
-              <Left style={styles.distanceContainer}>
-                <Text style={styles.distanceField}>{theTotalDistance}</Text>
+            // <ListItem
+            //   avatar
+            //   key={index}
+            //   onPress={() =>
+            //     this.props.goToDetailsPage(restaurant._id, theTotalDistance)
+            //   }
+            //   style={{ backgroundColor: "white" }}
+            //   style={styles.listItem}
+            // >
+            //   <Left style={styles.distanceContainer}>
+            //     <Text style={styles.distanceField}>{theTotalDistance}</Text>
+            //   </Left>
+            //   <Body>
+            //     <Text>{restaurant.name}</Text>
+                // {/* <Text note>{restaurant.address[0].name}</Text>
+                // <Text note>{restaurant.address[1].name}</Text> */}
+                // {restaurant.address.map((value, index) => (
+                //   <Text key={index} note>{`${value.street[0].name}, ${
+                //     value.city.split(",", 1)[0]
+                //   }`}</Text>
+                // ))}
+            //   </Body>
+            //   <Right>
+            //     <NearOrFar category={restaurant.category} />
+            //   </Right>
+            // </ListItem>
+            <Card>
+            <CardItem>
+              <Left>
+                {/* <Thumbnail source={image} /> */}
+                <Body>
+                  <Text>{restaurant.name} </Text>
+                  <NearOrFar category={restaurant.category} /> 
+                </Body>
               </Left>
-              <Body>
-                <Text>{restaurant.name}</Text>
-                {/* <Text note>{restaurant.address[0].name}</Text>
-                <Text note>{restaurant.address[1].name}</Text> */}
-                {restaurant.address.map((value, index) => (
+              <Right>
+                <View style={styles.distanceContainer}>
+                  <Text style={styles.distanceField}>{theTotalDistance}</Text>
+                </View>
+              </Right>
+            </CardItem>
+            <CardItem cardBody>
+              <Image source={image} style={{height: 200, width: null, flex: 1}}/>
+            </CardItem>
+            <CardItem>
+              <Left>
+                <Button transparent 
+                  onPress={() =>
+                    this.props.goToDetailsPage(restaurant._id, theTotalDistance)
+                  }
+                >
+                  <Icon active name="pin" />
+                  {restaurant.address.map((value, index) => (
                   <Text key={index} note>{`${value.street[0].name}, ${
                     value.city.split(",", 1)[0]
                   }`}</Text>
                 ))}
-              </Body>
+                </Button>
+              </Left>
+              {/* <Body>
+                <Button transparent>
+                  <Icon active name="chatbubbles" />
+                  <Text>4 Comments</Text>
+                </Button>
+              </Body> */}
               <Right>
-                <NearOrFar category={restaurant.category} />
+                <Text>Rating: 4.5</Text>
               </Right>
-            </ListItem>
+            </CardItem>
+          </Card>
           );
         })}
       </List>

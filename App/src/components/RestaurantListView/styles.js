@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     width: 60,
   },
   distanceContainer: {
-    marginTop: 12,
+    marginTop: 5,
     paddingTop: 4,
     paddingBottom: 4,
     borderColor: "red",

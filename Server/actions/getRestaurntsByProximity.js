@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Restaurants = mongoose.model("Restaurant");
+const getCachedAndNonCachedResults = require("./getCachedAndNonCachedResults");
 
 /* Parameters
  *   long = users longitude
@@ -21,6 +22,15 @@ module.exports = async function getByLatLong(long, lat) {
   results.lat = lat;
   results.long = long;
   results.restaurants = restaurantsSortedByDistanceGeoNear;
+
+  console.log(results);
+  
+  // for(var j=0; j<=results.restaurants.length; j++){
+  //   var x = getCachedAndNonCachedResults(results.restaurants[j]._id.toString());
+  //   console.log(x);
+
+  // }
+
 
   // Return results.
   return results;
