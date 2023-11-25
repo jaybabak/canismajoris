@@ -31,10 +31,10 @@
     "morgan-json": "^1.1.0",
     "rate-limiter-flexible": "^2.1.7",
     "redis": "^3.0.2",
-    "sematext-agent-express": "^2.0.1",
+    "sematext-agent-express": "^2.1.6",
     "shelljs": "^0.8.3",
     "socket.io": "^2.3.0",
-    "spm-agent-nodejs": "^4.0.2",
+    "spm-agent-nodejs": "^4.2.4",
     "validator": "^11.1.0",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.8"
