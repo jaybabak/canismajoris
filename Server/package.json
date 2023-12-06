@@ -33,8 +33,8 @@
     "redis": "^3.0.2",
     "sematext-agent-express": "^2.0.1",
     "shelljs": "^0.8.3",
-    "socket.io": "^2.3.0",
-    "spm-agent-nodejs": "^4.0.2",
+    "socket.io": "^3.0.5",
+    "spm-agent-nodejs": "^4.0.3",
     "validator": "^11.1.0",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.8"
