@@ -34,7 +34,7 @@
     "sematext-agent-express": "^2.0.1",
     "shelljs": "^0.8.3",
     "socket.io": "^2.3.0",
-    "spm-agent-nodejs": "^4.0.2",
+    "spm-agent-nodejs": "^4.2.4",
     "validator": "^11.1.0",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.8"
