@@ -35,7 +35,7 @@
     "shelljs": "^0.8.3",
     "socket.io": "^2.3.0",
     "spm-agent-nodejs": "^4.0.2",
-    "validator": "^11.1.0",
+    "validator": "^13.15.22",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.8"
   }
